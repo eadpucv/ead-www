@@ -2,6 +2,6 @@
   "name": "giornata",
   "version": "0.0.1",
   "dependencies": {
-    "ego": "git@github.com:eadpucv/ego.git"
+    "ego": "git@github.com:eadpucv/pyxis.git"
   }
 }
