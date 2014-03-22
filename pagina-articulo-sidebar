@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.css" 
     media="screen" />
 
-  <title>Página de artículo - Historia - e[ad]</title>
+  <title>Página de artículo - Escuela - Campus - e[ad]</title>
 
   <link rel="stylesheet" href="css/pyxis.css"> 
 
@@ -41,7 +41,7 @@
 </div>
 
   <div class='fila margen-superior'> <!-- breadcrumbs -->
-    <div class='col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-1 col-xs-20 col-xs-offset-1 ver'>Home / Escuela / Admisión</div>
+    <div class='col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-1 col-xs-20 col-xs-offset-1 ver'>Home / Escuela / Campus</div>
   </div>
 
     <div class='fila margen-superior-s '>
@@ -51,7 +51,8 @@
     </div>
     
     <div class='container ancho-maximo margen-superior ver'>  <!-- Contenido-->
-      <div class='col-md-10 col-md-offset-6 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior parrafo-articulo-ead ver'>Párrafo artículo</div>
+      <div class='col-md-3 col-md-offset-2 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior parrafo-articulo-ead ver'>Menú de navegaciòn fixed</div>
+      <div class='col-md-10 col-md-offset-1 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior parrafo-articulo-ead ver'>Párrafo artículo</div>
       <div class='col-md-5 col-md-offset-1 col-sm-14 col-sm-offset-5 col-xs-18 col-xs-offset-3 caja-aside-articulo-ead ver'>Enlaces relevantes</div>
 
         <div class='col-md-24 col-sm-24 margen-superior'> <!-- footer -->
