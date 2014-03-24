@@ -102,14 +102,15 @@ input[type='week'],
 input[type='number'],
 input[type='email'],
 input[type='url'],
+input[type='search'],
 input[type='tel'],
 input[type='color'],
 .uneditable-input, {
   display: inline-block;
   width: 100%;
-  padding: @padding-sm @padding-sm;
+  padding: @padding-md 3*@padding-md;
   margin-bottom: @margen-sm;
-  font-size: @cuerpo / 1.2;
+  font-size: @cuerpo;
   line-height: @interlinea;
   color: @gris;
 }
@@ -317,16 +318,3 @@ form{
 }
 
 
-
-// Búsqueda EAD
-
-input[type='search'] {
-    padding: 0;
-    margin: 0;
-    border-radius: @radio;
-    display: inline-block;
-    font-size: @cuerpo;
-    line-height: @interlinea;
-    color: @gris;
-
-}
