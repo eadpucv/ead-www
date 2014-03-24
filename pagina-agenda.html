@@ -13,6 +13,9 @@
 
   <link rel="stylesheet" href="css/pyxis.css"> 
 
+  <script src="js/jquery.js"></script>
+  <script src="js/dropdown.js"></script>
+
   <link rel='icon' type='image/x-icon' href='img/favicon-pyxis.ico' />
   <link rel='apple-touch-icon-precomposed' sizes='114x114' href='img/favicon-114.png'>
   <link rel='apple-touch-icon-precomposed' sizes='72x72' href='img/favicon-72.png'>
@@ -23,18 +26,102 @@
   <div class='pag-ead'>
 
 <!-- Página de Artículo -->
-<div class='container ancho-maximo ver'><!-- Header -->
+<div class='container ancho-maximo fondo-blanco'><!-- Header -->
 
   <div class='fila'> <!-- Header -->
-    <div class='col-md-19 col-sm-19 oculto-xs ver menu-rapido-ead'>Menú rápido</div>
+    <div class='col-md-19 col-sm-19 oculto-xs menu-rapido-ead fondo-pizarra-claro'>
+      <div class='col-md-2 col-md-offset-7'>
+        <p class='blanco enlace-rapido-ead'>Calendario</p>
+      </div> 
+      <div class='col-md-3 col-md-offset-0'>
+        <p class='blanco enlace-rapido-ead'>Wiki Casiopea</p>
+      </div>
+      <div class='col-md-3 col-md-offset-0'>
+        <p class='blanco enlace-rapido-ead'>Bolsa de trabajo</p>
+      </div>
+      <div class='col-md-1 col-md-offset-0'>
+        <p class='blanco enlace-rapido-ead'>Biblioteca</p>
+      </div>
+      <div class='col-md-6 col-md-offset-1'>
+        <p class='blanco enlace-rapido-ead'>Archivo Histórico José Vial Armstrong</p>
+      </div>
+    </div>
     <div class='col-md-5 oculto-xs menu-rapido-ead ver'>log in</div>
 
-    <div class='col-md-22 col-md-offset-1'>
+    <div class='col-md-22 col-md-offset-1 margen-superior-xs'>
       <div class='oculto-lg oculto-md oculto-sm col-xs-4 menu-nav-ead ver'>menu movil (icono)</div>
-      <div class='col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-1 col-xs-10 col-xs-offset-3 menu-nav-ead ver'>Logo</div>
-      <div class='col-md-14 col-md-offset-0 oculto-sm oculto-xs menu-nav-ead ver'>menu</div>
-      <div class='col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-8 oculto-xs menu-nav-ead ver'>buscador</div>
-      <div class='oculto-lg oculto-md oculto-sm col-xs-4 col-xs-offset-3 menu-nav-ead ver'>buscador movil</div>
+      <div class='col-md-5 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-14 col-xs-offset-1 ver'>
+        <p class='logo-ead rojo-claro grande'>e[ad]</p>
+        <p class='logo-ead chico altas'>Escuela de Arquitectura y Diseño</p>
+        <p class='logo-ead chico'>Pontificia Universidad Católica de Valparaíso</p>
+      </div>
+
+      <div class='col-md-16 col-md-offset-0 oculto-sm oculto-xs ver'>
+          <ul class="nav nav-pills">
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Escuela<b class="caret"></b></a>
+              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Historia</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Amereida</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Campus</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Cuerpo académico</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Autoridades</a></li>
+                <li class="divider" role="presentation"></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Noticias</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Calendario</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Prensa</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
+              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Arquitectura</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño gráfico</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño de objetos</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster náutico y marítimo</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster ciudad y territorio</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Admisión<b class="caret"></b></a>
+              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Ingreso especial</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Estudiantes internacionales</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Becas</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Estudiantes<b class="caret"></b></a>
+              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Cuerpo coordinador</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Estudia en el extranjero</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Asuntos estudiantiles</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Servicios</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Bolsa de trabajo</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Ex-alumnos</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Extensión<b class="caret"></b></a>
+              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Investigación</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Wiki Casiopea</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Amereida<b class="caret"></b></a>
+              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Taller de Amereida</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Ciudad Abierta</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Travesías</a></li>
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Biblioteca Constel</a></li>
+              </ul>
+            </li>
+      </div>
+      <div class='col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-7 oculto-xs menu-nav-ead ver'>buscador</div>
+      <div class='oculto-lg oculto-md oculto-sm col-xs-4 col-xs-offset-1 menu-nav-ead ver'>buscador movil</div>
       <div class='oculto-lg oculto-md col-md-offset-0 col-sm-22 col-sm-offset-1 oculto-xs menu-nav-ead ver'>menu tablet</div>
     </div>
   </div>
@@ -54,14 +141,62 @@
 </div>
     
     <div class='container ancho-maximo margen-superior ver'>  <!-- Contenido-->
-      <div class='col-md-10 col-md-offset-6 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior parrafo-articulo-ead ver'>Párrafo artículo</div>
-      <div class='col-md-5 col-md-offset-1 col-sm-14 col-sm-offset-5 col-xs-18 col-xs-offset-3 caja-aside-articulo-ead ver'>Enlaces relevantes</div>
-
-        <div class='col-md-24 col-sm-24 margen-superior'> <!-- footer -->
-          <div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-1 footer-ead ver'>Footer</div>
+      <div class='col-md-10 col-md-offset-6 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior parrafo-articulo-ead ver'>Párrafo artículo
         </div>
-
+      <div class='col-md-5 col-md-offset-1 col-sm-14 col-sm-offset-5 col-xs-18 col-xs-offset-3 caja-aside-articulo-ead ver'>Enlaces relevantes</div>
     </div>
+  </div>
+
+<!-- Sección comentarios -->
+
+<div class='fila margen-superior'> <!-- Lista de comentarios -->
+  <div class='col-md-11 col-md-offset-6 col-sm-12 col-sm-offset-2 col-xs-20 col-xs-offset-2 ver'> Comentarios de esta noticia<!--contenedor de comentarios-->
+
+    <div class='fila margen-superior-s margen-inferior-s ver'> <!-- comentario 1 -->
+      <div class='col-md-22 col-md-offset-1 col-sm-24 col-xs-24 caja-comentario-ead'>
+        <div class='col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-24 col-xs-offset-0m margen-superior-s'><!-- foto usuario y nombre de usuario-->
+          <div class='col-md-22 col-md-offset-1 col-sm-24 col-sm-offset-0 oculto-xs fondo-blanco margen-inferior-s foto-usuario-comentario-ead'></div>
+          <div class='col-md-24 col-sm-22 col-sm-offset-1 oculto-xs '>username 1</div>
+
+          <div class='oculto-lg oculto-md oculto-sm col-xs-24 fondo-blanco margen-inferior-s margen-superior-s centrado foto-usuario-comentario-ead'></div><!-- xs -->
+          <div class='oculto-lg oculto-md oculto-sm col-xs-24 centrado'>username 1</div> <!-- xs -->
+
+        </div>
+        <div class='col-md-17 col-md-offset-1 col-sm-16 col-sm-offset-1 col-xs-22 col-xs-offset-1 ver margen-superior-s'><!-- datos de comentario -->
+            datos de publicación (Fecha)
+          </div>
+          <div class='col-md-17 col-md-offset-1 col-sm-16 col-sm-offset-1 col-xs-22 col-xs-offset-1 comentario-ead margen-superior-s margen-inferior-s ver'><!-- comentario -->
+            Comentario
+          </div>
+      </div>
+    </div> <!-- fin comentario 1 -->
+
+  </div>
+</div>
+
+
+<div class='fila margen-superior'> <!-- Hacer un comentario -->
+  <div class='col-md-6 col-md-offset-11 col-sm-12 col-sm-offset-2 col-xs-20 col-xs-offset-2 ver'>
+    <div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-1'>    <!-- Formulario Vertical Pequeño -->
+      <form class='sm'>
+        <legend>Deja un comentario en esta noticia</legend>    
+        <div class='col-md-24 margen-inferior-s ver'>
+          Estás registrado como: (nombre de usuario)
+        </div>
+        <div class='grupo'>
+          <label>Mensaje</label>
+            <textarea></textarea>
+        </div>
+        <input type='submit' class='btn btn-sm derecha' value='Enviar'>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- fin Sección comentarios -->
+
+  <div class='col-md-24 col-sm-24 margen-superior'> <!-- footer -->
+    <div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-1 footer-ead ver'>Footer</div>
   </div>
 
 <!-- fin Pagina Artículo -->
