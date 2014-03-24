@@ -3307,12 +3307,17 @@ td.visible-print {
 Contenedores y reglas generales
 
 */
+
+/*
+
 * {
   -webkit-transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -o-transition: 0.2s ease all;
   transition: 0.2s ease all;
 }
+
+*/
 .pag {
   margin: 0 auto;
   background-color: #f7f7f7;
