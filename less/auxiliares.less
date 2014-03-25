@@ -76,24 +76,37 @@ margin: @margen-code;
 
 // Márgenes de ajuste
 .margen-superior{margin-top: @cuadratin}
+.margen-superior-lg {margin-top: @cuadratin * 3}
+.margen-superior-md {margin-top: @cuadratin * 2}
 .margen-superior-s{margin-top: @cuadratin / 2}
+.margen-superior-xs{margin-top: @cuadratin / 4}
 .margen-superior-negativo{margin-top: -@cuadratin}
 .margen-inferior{margin-bottom: @cuadratin}
 .margen-inferior-s{margin-bottom: @cuadratin / 2}
+.margen-inferior-xs{margin-bottom: @cuadratin / 4}
 .margen-inferior-negativo{margin-bottom: -@cuadratin}
 .interno{margin-left: 0} // para no acumular márgenes (@cuadratin) en columnas anidadas.
 
 .margen-vertical{.margen-superior; .margen-inferior}
 .centrada, .centrado{
         text-align: center;
-        margin: 0 auto
+        margin: 0 auto;
+}
+
+.texto-centrado{
+    text-align: center;
 }
 
 .derecha{
-        float: right;
-        margin-right: 0;
-        .cf;
+    float: right;
+    margin-right: 0;
+    .cf;
 }
+
+//márgenes laterales
+
+.margen-derecho{margin-right: @cuadratin}
+.margen-izquierdo{margin-left: @cuadratin}
 
 // Negros y grises
 .negro{color: @negro}

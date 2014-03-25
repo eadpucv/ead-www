@@ -39,8 +39,8 @@
   }
 
   Carousel.DEFAULTS = {
-    interval: 5000
-  , pause: 'hover'
+    interval: 7000
+  , pause: 'none'
   , wrap: true
   }
 

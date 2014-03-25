@@ -20,9 +20,9 @@
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 @sans:							'Source Sans Pro', sans-serif;
-@texto-continuo:				'Signika', serif;
+@texto-continuo:				'Merriweather', serif;
 @serif:							'Playfair Display', serif;
-@italica:						'Neuton', serif;
+@italica:						'Merriweather', serif;
 @mono:							'Lucida Console', monospace;
 @tipografia:					@sans;
 @tipografia-titulos: 			'Source Sans Pro';
@@ -73,6 +73,11 @@
 @brand-primary:         		#428bca;
 @component-active-color:    	#fff;
 @component-active-bg:       	@brand-primary;
+
+// Especiales
+
+@transparente:      			rgba(63, 68, 65, 0.6);
+
 
 
 // Opuestos 
@@ -137,7 +142,8 @@
 //== Navs
 //
 //##
-@nav-link-padding:                          10px 15px;
+
+@nav-link-padding:                          @cuadratin-tercio / 3 @cuadratin / 3 @cuadratin-tercio / 3 @cuadratin-tercio / 6 ;
 @nav-link-hover-bg:                         @gris-claro;
 @nav-disabled-link-color:                   @gris;
 @nav-disabled-link-hover-color:             @gris;
@@ -215,13 +221,13 @@
 @zindex-dropdown:          1000;
 @caret-width-base:          4px;
 @caret-width-large:         5px;
-@dropdown-bg:                    #fff;
+@dropdown-bg:                    @blanco;
 @dropdown-border:                rgba(0,0,0,.15);
 @dropdown-fallback-border:       #ccc;
 @dropdown-divider-bg:            #e5e5e5;
 @dropdown-link-color:            @gris-oscuro;
-@dropdown-link-hover-color:      @negro;
-@dropdown-link-hover-bg:         #f5f5f5;
+@dropdown-link-hover-color:      @pizarra;
+@dropdown-link-hover-bg:         @gris;
 @dropdown-link-active-color:     @component-active-color;
 @dropdown-link-active-bg:        @component-active-bg;
 @dropdown-link-disabled-color:   @gris-claro;

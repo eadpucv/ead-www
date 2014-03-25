@@ -36,7 +36,7 @@ a{
 
 //Tamaños tipográficos
 p {
-    margin-bottom: @interlinea;
+    margin-bottom: @cuerpo;
     line-height: @interlinea;
     color: fade(@negro, 80%);
     font-family: @texto-continuo;
@@ -68,10 +68,32 @@ p {
     }
     
     &.mediano {
-        font-size: @cuerpo -2;
+      font-size: @cuerpo -2;
       font-weight: 300;
-    line-height: 120%;
-    padding: 0;
+      line-height: 120%;
+      padding: 0;
+    }
+
+    &.breadcrumbs {
+      font-family: @tipografia-referencias;
+      font-size: @cuerpo * .85
+    }
+
+    &.mes-evento {
+      padding: 0;
+      margin: 0;
+      font-family: @sans;
+      font-size: @cuerpo;
+      color: @rojo-claro;
+      letter-spacing: @cuerpo * 1;
+    }
+
+    &.datos-publicacion {
+      font-family: @sans;
+      font-size: @cuerpo;
+      color: @gris;
+      margin: 0;
+      padding: 0;
     }
     
 }
@@ -130,7 +152,8 @@ em, i{
   font-family: @italica;
   font-style: italic;
   &.grande{
-    letter-spacing: -.1ex;
+    letter-spacing: 0;
+    line-height: @cuerpo * 2.5;
     font-weight: 100;
   }
 }
@@ -171,10 +194,8 @@ div.poema{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: @tipografia-titulos;
-  font-weight: 600;
   color: @gris-oscuro;
-  margin: 0 0 @interlinea 0;
-  vertical-align: bottom;
+  margin: 0 0 @cuerpo 0;
   
   &.filete{
     border-bottom: 1px solid @color-borde;
@@ -184,6 +205,31 @@ h1, h2, h3, h4, h5, h6 {
   &.gigante{
     line-height: 100%;
   }
+
+  &.titulo-articulo {
+    font-family: @sans;
+    font-weight: 200;
+    font-size: @cuerpo * 3;      
+    line-height: @cuerpo * 2;
+    margin: 0;
+    padding: 0;
+    }
+
+    &.subtitulo-articulo {
+    font-family: @sans;
+    font-size: @cuerpo * 2;
+    line-height: @cuerpo * 2;
+    margin: 0;
+    padding: 0;
+    }
+
+    &.fecha-evento {
+      font-family: @sans;
+      font-size: @cuerpo * 6;
+      color: @rojo-claro;
+      margin-top: 0;
+      padding: 0;
+    }
 }
 
 h1 {font-size: 28px;}
@@ -398,4 +444,18 @@ pre {
 @media (min-width: @screen-lg){
 }
 
+// Estilos especiales
 
+.logo-ead {
+  font-family: @sans;
+  margin: 0;
+  padding: 0;
+}
+
+.enlace-rapido-ead {
+  font-family: @sans;
+  font-size:@cuerpo *.75;
+  line-height: @interlinea * .95;
+  font-weight: 300;
+  margin: 0;
+}

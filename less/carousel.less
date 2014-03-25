@@ -16,13 +16,22 @@
   > .item {
     display: none;
     position: relative;
-    .transition(.6s ease-in-out left);
+    .transition(.5s ease-in-out left);
 
     // Account for jankitude on images
     > img,
     > a > img {
-      &:extend(.img-responsive);
+      //&:extend(.img-responsive);
       line-height: 1;
+      width: 100%;
+      overflow: hidden;
+
+      &.excedente-vertical {
+      line-height: 1;
+      width: 140%;
+      overflow: hidden;
+    }
+
     }
   }
 
@@ -80,12 +89,12 @@
 
   // Set gradients for backgrounds
   &.left {
-    #gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
+    #gradient > .horizontal(@rojo; @oliva);
   }
   &.right {
     left: auto;
     right: 0;
-    #gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));
+    #gradient > .horizontal(@rojo; @oliva);
   }
 
   // Hover/focus state
