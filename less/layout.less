@@ -1,3 +1,7 @@
+//------------------------------- IMPORTANTE: ESTE LESS ESTÁ HECHO PARA REUNIR TODAS (O LA MAYORÍAS DE LAS CLASES Y VARIABLES QUE SE EDITEN BAJO LAS MAQUETAS, PARA LUEGO PASARLAS ORDENADAMENTE A PYXIS)
+//----- Además se hacen modificaciones en Carousel.less, Navs.less, Dropdowns.less, variables.less, auxiliares.less,
+
+
 // Clases de Bloques por medida de altura
 
 .menu-rapido-ead {
@@ -126,7 +130,7 @@
 .pag-ead {
     //.container();
     margin: 0 auto;
-    background-color: darken(@blanco, 3%);
+    background-color: @blanco;
     width: 100%;
 }
 
@@ -213,4 +217,35 @@
     height: @cuadratin * 10;
 }
 
-@transparente:      rgba(63, 68, 65, 0.6);
+
+// Estilos especiales
+
+.logo-ead {
+  font-family: @sans;
+  margin: 0;
+  padding: 0;
+  font-size: @cuerpo * .95;
+  line-height: @cuerpo;
+}
+
+.logo-ead-fixed {
+  font-family: @sans;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+.enlace-rapido-ead {
+  font-family: @sans;
+  font-size:@cuerpo *.75;
+  line-height: @interlinea * .95;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+// Auxiliares
+
+.centrado-vertical {
+    margin-top: @cuadratin / 2
+}
