@@ -36,7 +36,7 @@ a{
 
 //Tamaños tipográficos
 p {
-    margin-bottom: @interlinea;
+    margin-bottom: @cuerpo;
     line-height: @interlinea;
     color: fade(@negro, 80%);
     font-family: @texto-continuo;
@@ -68,10 +68,54 @@ p {
     }
     
     &.mediano {
-        font-size: @cuerpo -2;
+      font-size: @cuerpo -2;
       font-weight: 300;
-    line-height: 120%;
-    padding: 0;
+      line-height: 120%;
+      padding: 0;
+    }
+
+    &.breadcrumbs {
+      font-family: @tipografia-referencias;
+      font-size: @cuerpo * .85
+    }
+
+    &.fecha-evento {
+      font-family: @sans;
+      font-size: @cuerpo * 6;
+      color: @rojo-claro;
+      margin: 0;
+      padding: 0;
+    }
+
+    &.mes-evento {
+      font-family: @sans;
+      font-size: @cuerpo;
+      color: @rojo-claro;
+      letter-spacing: @cuerpo * 1;
+    }
+
+    &.titulo-articulo {
+      font-family: @sans;
+      font-size: @cuerpo * 3;
+      line-height: @cuerpo * 2;
+      margin: 0;
+      padding: 0;
+    }
+
+    &.subtitulo-articulo {
+      font-family: @sans;
+      font-size: @cuerpo * 2;
+      line-height: @cuerpo * 2;
+      margin: 0;
+      padding: 0;
+    }
+
+    &.datos-publicacion {
+      font-family: @sans;
+      font-size: @cuerpo;
+      color: @gris;
+      margin: 0;
+      padding: 0;
     }
     
 }
