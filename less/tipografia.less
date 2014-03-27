@@ -92,14 +92,27 @@ p {
 .fecha-evento {
   font-family: @sans;
   padding: 0;
-  margin: @margen-lg * 2 0 0 0;
-  font-size: @cuerpo * 7;
+  margin: @margen-lg * 2 @margen-lg 0 0;
+  font-size: @cuerpo * 8;
+  color: @rojo-claro;
 
+  &.xs {
+    font-size: @cuerpo * 6
   }
+}
 
 .mes-evento {
   font-family: @sans;
+  padding: 0;
+  margin: @margen-lg * 2.3 @margen-lg 0 0;
+  font-size: @cuerpo * 1.5;
+  color: @rojo-claro;
+  letter-spacing: @cuerpo * 2.2;
+
+  &.xs {
+    letter-spacing: @cuerpo * 1.3;
   }
+}
 
 
 
