@@ -279,7 +279,46 @@
   }
 }
 
+.lista-footer {
+    color: @gris;
+    list-style: none;
+    float: left;
+    font-size: @cuerpo * .8;
+    padding: 0 auto;
+    margin: 0 auto;
 
+    a {
+        text-decoration: none;
+        &:hover {
+        color: @blanco;
+        cursor: pointer;
+        }
+    }
+
+    &.chica {
+        font-size: @cuerpo * .75;
+        padding-left: ;
+    }
+}
+
+.datos-contacto {
+
+    &.footer {
+        color: @blanco;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.sitio-relacionado {
+    color: @gris;
+
+    &:hover {
+        color: @rojo-claro;
+        cursor: pointer;
+        text-decoration: none;
+        }
+}
 
 .enlace-rapido-ead {
   font-family: @sans;
@@ -312,4 +351,18 @@
 .bloque {
     display: inline-block;
     position: relative;
+}
+
+.borde-izquierdo {
+    border-left: 1px solid @gris-oscuro;
+}
+
+.borde-derecho {
+    border-right: 1px solid @gris-oscuro;
+}
+
+.menu-footer {
+    padding: 0 @cuadratin-tercio;
+    margin: 0;
+    border-left: 1px solid @gris;
 }
