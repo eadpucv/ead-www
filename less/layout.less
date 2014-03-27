@@ -68,18 +68,13 @@
 }
 
 .caja-noticia-ead {
-    min-height: @cuadratin * 8;
-    border-bottom: 1px @gris solid;
-    border-top: 1px @gris solid;
-    margin-bottom: @cuadratin;
+    min-height: @cuadratin * 9;
+
 }
 
 .foto-noticia-ead {
     min-height: @cuadratin * 8; 
-    img {
-        overflow: hidden;
-        min-width: 100%;
-    }
+    overflow: hidden;
 }
 
 .texto-noticia-ead {
@@ -127,19 +122,19 @@
 }
 
 .navegacion-articulo-ead {
-    min-height: @cuadratin * 20
+    min-height: @cuadratin * 20;
 }
 
 .navegacion-articulo-ead-xs {
-    height: @cuadratin * 2
+    height: @cuadratin * 2;
 }
 
 .caja-resultado-ead {
-    min-height: @cuadratin * 6
+    min-height: @cuadratin * 4;
 }
 
 .caja-filtro-ead {
-    min-height: @cuadratin * 10
+    min-height: @cuadratin * 10;
 }
 
 .pag-ead {
@@ -226,8 +221,13 @@
 
 .excedente-vertical-lg {
     overflow: hidden;
-    width: 100%;
-    position: absolute;
+    width: 120%;
+}
+
+.excedente-foto-noticia {
+    overflow: hidden;
+    width: auto;
+    height: @cuadratin * 9;
 }
 
 .altura-maxima-lg {
@@ -351,6 +351,7 @@
 .bloque {
     display: inline-block;
     position: relative;
+<<<<<<< HEAD
 }
 
 .borde-izquierdo {
@@ -365,4 +366,31 @@
     padding: 0 @cuadratin-tercio;
     margin: 0;
     border-left: 1px solid @gris;
+=======
+
+
+.borde-inferior {
+    border-bottom: 1px solid @rojo-claro;
+}
+
+// Paddings
+
+.relleno-derecho {
+    padding-right: @cuadratin * 2;
+}
+
+.relleno-izquierdo {
+    padding-left: @cuadratin * 2;
+}
+
+.relleno-superior {
+    padding-left: @cuadratin * 2;
+}
+
+.relleno-inferior {
+    padding-left: @cuadratin * 2;
+}
+
+
+>>>>>>> Juan-Antonio
 }
