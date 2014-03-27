@@ -81,7 +81,7 @@ p {
 
     &.datos-publicacion {
       font-family: @sans;
-      font-size: @cuerpo;
+      font-size: @cuerpo / 1.3;
       color: @gris;
       margin: 0;
       padding: 0;
@@ -92,19 +92,22 @@ p {
 .fecha-evento {
   font-family: @sans;
   padding: 0;
-  margin: @margen-lg * 2 @margen-lg 0 0;
-  font-size: @cuerpo * 8;
+  margin: @margen-lg * 2.5 @margen-lg 0 0;
+  font-size: @cuerpo * 9.5;
+  letter-spacing: -@cuadratin-tercio;
+
   color: @rojo-claro;
 
   &.xs {
-    font-size: @cuerpo * 6
+    font-size: @cuerpo * 7;
+    margin-top: @margen-lg * 2;
   }
 }
 
 .mes-evento {
   font-family: @sans;
   padding: 0;
-  margin: @margen-lg * 2.3 @margen-lg 0 0;
+  margin: @margen-lg * 2.6 @margen-lg 0 0;
   font-size: @cuerpo * 1.5;
   color: @rojo-claro;
   letter-spacing: @cuerpo * 2.2;
@@ -228,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   &.titulo-articulo {
     font-family: @sans;
     font-weight: 200;
-    font-size: @cuerpo * 2.4;      
+    font-size: 3vmax;      
     line-height: @cuerpo * 2.6;
     margin: 0;
     padding: 0;
@@ -236,8 +239,8 @@ h1, h2, h3, h4, h5, h6 {
 
     &.subtitulo-articulo {
     font-family: @sans;
-    font-size: @cuerpo * 1.5;
-    line-height: @cuerpo * 2;
+    font-size: 2vmax;
+    line-height: @cuerpo * 3;
     margin: 0;
     padding: 0;
     }
