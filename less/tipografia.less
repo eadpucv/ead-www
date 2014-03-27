@@ -9,7 +9,7 @@
   
 body{
   font-size: @cuerpo;
-  background-color: darken(@blanco, 3%);
+  background-color: @gris-blanco;
   // #gradient > .striped(lighten(@gris-claro, 15%), -45deg);
   // background-size: 10px 10px;
   // background-repeat: repeat;
@@ -79,15 +79,6 @@ p {
       font-size: @cuerpo * .85
     }
 
-    &.mes-evento {
-      padding: 0;
-      margin: 0;
-      font-family: @sans;
-      font-size: @cuerpo;
-      color: @rojo-claro;
-      letter-spacing: @cuerpo * 1;
-    }
-
     &.datos-publicacion {
       font-family: @sans;
       font-size: @cuerpo;
@@ -97,6 +88,34 @@ p {
     }
     
 }
+
+.fecha-evento {
+  font-family: @sans;
+  padding: 0;
+  margin: @margen-lg * 2 @margen-lg 0 0;
+  font-size: @cuerpo * 8;
+  color: @rojo-claro;
+
+  &.xs {
+    font-size: @cuerpo * 6
+  }
+}
+
+.mes-evento {
+  font-family: @sans;
+  padding: 0;
+  margin: @margen-lg * 2.3 @margen-lg 0 0;
+  font-size: @cuerpo * 1.5;
+  color: @rojo-claro;
+  letter-spacing: @cuerpo * 2.2;
+
+  &.xs {
+    letter-spacing: @cuerpo * 1.3;
+  }
+}
+
+
+
 
 .antetitulos{
     font-family: @tipografia-titulos;
@@ -209,26 +228,18 @@ h1, h2, h3, h4, h5, h6 {
   &.titulo-articulo {
     font-family: @sans;
     font-weight: 200;
-    font-size: @cuerpo * 3;      
-    line-height: @cuerpo * 2;
+    font-size: @cuerpo * 2.4;      
+    line-height: @cuerpo * 2.6;
     margin: 0;
     padding: 0;
     }
 
     &.subtitulo-articulo {
     font-family: @sans;
-    font-size: @cuerpo * 2;
+    font-size: @cuerpo * 1.5;
     line-height: @cuerpo * 2;
     margin: 0;
     padding: 0;
-    }
-
-    &.fecha-evento {
-      font-family: @sans;
-      font-size: @cuerpo * 6;
-      color: @rojo-claro;
-      margin-top: 0;
-      padding: 0;
     }
 }
 

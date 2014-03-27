@@ -15,7 +15,7 @@
 
 .imagenes-destacadas-ead-lg {
     min-height: @cuadratin * 24;
-    position: relative;
+    //position: relative;
 }
 
 .imagenes-destacadas-ead {
@@ -30,9 +30,9 @@
 
 .imagenes-destacadas-descripcion-ead {
     min-height: @cuadratin * 24;
-    position: absolute;
     bottom: 0;
     background-color: @transparente;
+    position: absolute;
 }
 
 .imagenes-destacadas-descripcion-ead-sm {
@@ -145,8 +145,17 @@
 .pag-ead {
     //.container();
     margin: 0 auto;
-    background-color: @blanco;
     width: 100%;
+}
+
+.wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.wrap-dropdown {
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 // Tratado de imágenes
@@ -218,6 +227,7 @@
 .excedente-vertical-lg {
     overflow: hidden;
     width: 100%;
+    position: absolute;
 }
 
 .altura-maxima-lg {
@@ -243,11 +253,14 @@
   line-height: @cuerpo;
 }
 
-.logo-ead-fixed {
+.logo-ead-marca {
   font-family: @sans;
   margin: 0;
   padding: 0;
   position: fixed;
+  &.xs {
+    position: relative;
+  }
 }
 
 .enlace-rapido-ead {
@@ -258,6 +271,18 @@
   margin: 0;
 }
 
+.datos-contacto {
+    font-family: @sans;
+    font-size: @cuerpo * .9;
+    color: @pizarra;
+}
+
+.enlace-aside {
+    font-size: @cuerpo * .85;
+    list-style: none;
+    padding: 0;
+    margin: @margen-md 0;
+}
 
 // Auxiliares
 
