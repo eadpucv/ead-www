@@ -319,7 +319,8 @@
 }
 
 .sitio-relacionado {
-    color: @gris;
+    
+    color: @gris-claro;
 
     &:hover {
         color: @rojo-claro;
@@ -351,9 +352,9 @@
 
 // Auxiliares
 
-.fondo {
-    position: relative;
-    bottom: 0;
+.contenedor-fondo {
+    top: @cuadratin * 2;
+
 }
 
 .bloque {
@@ -372,8 +373,7 @@
 .menu-footer {
     padding: 0 @cuadratin-tercio;
     margin: 0;
-    border-left: 1px solid @gris;
-
+}
 
 .borde-inferior {
     border-bottom: 1px solid @rojo-claro;
@@ -397,4 +397,3 @@
     padding-left: @cuadratin * 2;
 }
 
-}
