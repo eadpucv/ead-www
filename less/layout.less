@@ -296,8 +296,16 @@
     }
 
     &.chica {
-        font-size: @cuerpo * .75;
-        padding-left: ;
+        font-size: @cuerpo * .6;
+        padding: @padding-lg * 2 0 0 0;
+
+        a {
+            color: @gris-oscuro;
+
+            &:hover{
+                color:@blanco;
+            }
+        }
     }
 }
 
@@ -351,7 +359,6 @@
 .bloque {
     display: inline-block;
     position: relative;
-<<<<<<< HEAD
 }
 
 .borde-izquierdo {
@@ -366,7 +373,6 @@
     padding: 0 @cuadratin-tercio;
     margin: 0;
     border-left: 1px solid @gris;
-=======
 
 
 .borde-inferior {
@@ -391,6 +397,4 @@
     padding-left: @cuadratin * 2;
 }
 
-
->>>>>>> Juan-Antonio
 }
