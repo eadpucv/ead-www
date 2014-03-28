@@ -69,12 +69,22 @@
 
 .caja-noticia-ead {
     min-height: @cuadratin * 9;
+    position: relative;
+
+    &:hover {
+        background-color: @gris-claro;
+        .estampilla {
+            background-color: @gris-oscuro;
+            position: absolute;
+        }
+    }
 
 }
 
 .foto-noticia-ead {
     min-height: @cuadratin * 8; 
     overflow: hidden;
+
 }
 
 .texto-noticia-ead {
@@ -395,6 +405,12 @@
 
 .relleno-inferior {
     padding-left: @cuadratin * 2;
+}
+
+//Bajar Div
+.estampilla {
+    bottom: 0;
+ 
 }
 
 }
