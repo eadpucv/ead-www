@@ -9,11 +9,8 @@ title: Giornata Maquetas
   <li><a href="pags/home">Home</a></li>
   <li><a href="pags/historia">pagina-historia</a></li>
   <li><a href="pags/articulo-agenda">pagina-articulo-agenda</a></li>
-<<<<<<< HEAD
-  <li><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></li>
-=======
+   <li><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></li>
   <li><a href="pagina-resultado-busqueda.html">pagina-resultado-busqueda</a></li>
->>>>>>> jekyll
   <li><a href="pags/portada-noticias">portada-noticias</a></li>
 </nav>
 <nav style='margin: 100px'>

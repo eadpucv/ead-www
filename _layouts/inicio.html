@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body lang='ES_es'>
+
+	    <div class='pag-ead'>
+	    	{% include cabecera.html %}
+	    	{% include nav.html %}
+
+	    	<div class='fila'>
+				{{ content }}
+			</div>
+	    </div>
+	    
+	    {% include footer.html%}
+	</body>
+</html>

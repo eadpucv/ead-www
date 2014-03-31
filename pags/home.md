@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: inicio
 title: Giornata Maquetas
 ---
 
@@ -17,12 +17,12 @@ title: Giornata Maquetas
 <!-- fin datos de carousel-lg -->
 <div class="carousel-inner">
 <div class="item altura-maxima-lg">
-    	<img class='excedente-vertical-lg' alt="First slide" src="img/noticias.jpg">
+    	<img class='excedente-vertical-lg' alt="First slide" src="{{ site.baseurl }}/img/noticias.jpg">
       <!-- descripción-carousel-lg -->
-		  <div class='wrap fondo-damasco-opuesto'> 
+		  <div class='wrap fondo-damasco-claro'> 
 		    <div class='fila'>
-          <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
-            <h3 class='rojo-claro margen-izquierdo grande margen-superior-md'>Noticias</h3>
+          <div class='col-lg-5 col-lg-offset-15 margen-derecho oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+            <h3 class='beige-claro col-lg-offset-14 margen-izquierdo grande margen-superior-md'>Noticias</h3>
             <div class='fila'>
               <div class='col-md-21'>
                 <p class='margen-izquierdo grande blanco'>"En el marco de la exposición Desvíos de la Deriva. Experiencias, Travesías y Morfologías, organizada por el Museo Nacional Centro de Arte Reina Sofía, en la ciudad de Madrid, España"</p>
@@ -34,11 +34,11 @@ title: Giornata Maquetas
       </div>  <!-- fin de wrap carousel -->
   </div>  <!-- fin de item -->
   <div class="item active altura-maxima-lg">
-    <img class='excedente-vertical-lg' alt="Second slide" src="img/torneo.jpg">
+    <img class='excedente-vertical-lg' alt="Second slide" src="{{ site.baseurl }}/img/torneo.jpg">
     <!-- descripción-carousel-lg -->
-    <div class='wrap fondo-damasco-opuesto'>
-      <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
-        <h3 class='rojo-claro margen-izquierdo grande margen-superior-md'>Agenda</h3>
+    <div class='wrap fondo-damasco-claro'>
+      <div class='col-lg-5 col-lg-offset-15 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+        <h3 class='beige-claro margen-izquierdo grande margen-superior-md'>Agenda</h3>
         <div class='fila'>
           <div class='col-md-21'>
           <p class='margen-izquierdo blanco grande'>"No vamos a llegar a ninguna conclusión. Vamos a mostrar, a exponer los naipes del juego, porque en lo abierto se comprende o se muestra mejor lo que no tiene fin."</p>
@@ -49,11 +49,11 @@ title: Giornata Maquetas
     </div> <!-- fin de wrap carousel -->
   </div> <!-- fin de item -->
   <div class="item altura-maxima-lg">
-    <img class='excedente-vertical-lg' alt="Third slide" src="img/alberto.jpg">
+    <img class='excedente-vertical-lg' alt="Third slide" src="{{ site.baseurl }}/img/alberto.jpg">
     <!-- descripción-lg -->
-    <div class='wrap fondo-damasco-opuesto'>
-      <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
-        <h3 class='rojo-claro margen-izquierdo grande margen-superior-md'>Historia</h3>
+    <div class='wrap fondo-damasco-c'>
+      <div class='col-lg-5 col-lg-offset-15 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+        <h3 class='beige-claro margen-izquierdo grande margen-superior-md'>Historia</h3>
         <div class='fila'>
           <div class='col-md-21'>
             <p class='margen-izquierdo blanco grande '>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
@@ -77,7 +77,7 @@ title: Giornata Maquetas
     </ol>
     <div class="carousel-inner">
       <div class="item altura-maxima">
-        <img class='excedente-vertical' alt="First slide" src="img/noticias.jpg">
+        <img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/noticias.jpg">
         <!-- descripción-carousel-md & sm -->
         <div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
           <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'> 
@@ -92,7 +92,7 @@ title: Giornata Maquetas
         </div>  <!-- fin  de imagenes-destacadas-descrpcion-ead-sm -->
       </div>  <!-- fin de item -->          
       <div class="item active altura-maxima">
-        <img class='excedente-vertical' alt="Second slide" src="img/torneo.jpg">
+        <img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/torneo.jpg">
         <!-- descripción-carousel-md & sm -->
         <div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
           <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'>  
@@ -107,7 +107,7 @@ title: Giornata Maquetas
         </div>  <!-- fin  de imagenes-destacadas-descrpcion-ead-sm -->           
       </div>  <!-- fin de item -->
       <div class="item altura-maxima">
-        <img class='excedente-vertical' alt="Third slide" src="img/alberto.jpg">
+        <img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/alberto.jpg">
         <!-- descripción-carousel-md & sm -->
         <div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
           <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'> 
@@ -136,7 +136,7 @@ title: Giornata Maquetas
     <div class="carousel-inner">
     <!-- descripción-carousel-xs -->
     <div class="item altura-maxima-xs">
-      <img class='excedente-vertical-xs' alt="First slide" src="img/noticias.jpg">
+      <img class='excedente-vertical-xs' alt="First slide" src="{{ site.baseurl }}/img/noticias.jpg">
       <div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
         <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
           <h3 class='rojo-claro'>Noticias</h3>
@@ -151,7 +151,7 @@ title: Giornata Maquetas
     </div>
     <!-- descripción-carousel-xs -->
     <div class="item active altura-maxima-xs">
-      <img class='excedente-vertical-xs' alt="Second slide" src="img/torneo.jpg">
+      <img class='excedente-vertical-xs' alt="Second slide" src="{{ site.baseurl }}/img/torneo.jpg">
         <div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
           <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
             <h3 class='rojo-claro'>Agenda</h3>
@@ -166,7 +166,7 @@ title: Giornata Maquetas
     </div>
     <!-- descripción-carousel-xs -->
     <div class="item altura-maxima-xs">
-      <img class='excedente-vertical-xs' alt="Third slide" src="img/travesia3.jpg">
+      <img class='excedente-vertical-xs' alt="Third slide" src="{{ site.baseurl }}/img/travesia3.jpg">
     <div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
         <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
           <h3 class='rojo-claro'>Historia</h3>
@@ -200,7 +200,7 @@ title: Giornata Maquetas
           <p>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de marzo.</p>
         </div>
         <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
-          <h4 class='rojo'>Último período de Matrícula en Línea – 1er semestre 2014</h4>
+          <a href='/pags/articulo-agenda'><h4 class='rojo'>Último período de Matrícula en Línea – 1er semestre 2014</h4></a>
           <p>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl</p>
         </div>
         <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
@@ -223,11 +223,11 @@ title: Giornata Maquetas
 
 <!--  noticia 1 -->
       <div class='fila'>
-        <div class='col-lg-24 col-md-24 col-sm-23 caja-noticia-ead fondo-gris-blanco'>
-          <div class='col-lg-9 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 foto-noticia-ead'>
-            <img class='excedente-foto-noticia' src='img/travesia3.jpg'>
+        <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 caja-noticia-ead fondo-gris-blanco'>
+          <div class='col-lg-9 col-lg-offset-0 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 foto-noticia-ead'>
+            <img class='excedente-foto-noticia' src='{{ site.baseurl }}/img/travesia3.jpg'>
           </div>
-        <div class='col-lg-12 col-md-10 col-sm-20 col-xs-18 texto-noticia-ead margen-izquierdo'>
+        <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-0 texto-noticia-ead'>
           <h1 class='rojo fina margen-superior-s'>Nueva noticia</h1>
           <p class='datos-publicacion'>Publicado por <a>e[ad]</a> • 6 de octubre, 2012 • <a>Categoría; noticias</a>
           </p>
@@ -241,11 +241,11 @@ title: Giornata Maquetas
 
 <!-- noticia 2 -->
       <div class='fila'>
-        <div class='col-md-24 col-sm-23 caja-noticia-ead ver'>
-          <div class='col-lg-9 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 foto-noticia-ead'>
-            <img class='excedente-foto-noticia' src='img/mantoaero2.jpg'>
+        <div class='col-lg-24 col-md-24 col-sm-20 caja-noticia-ead fondo-gris-blanco'>
+          <div class='col-lg-9 col-lg-offset-0 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 foto-noticia-ead'>
+            <img class='excedente-foto-noticia' src='{{ site.baseurl }}/img/mantoaero2.jpg'>
           </div>
-          <div class='col-lg-12 col-md-10 col-sm-20 col-xs-18 texto-noticia-ead margen-izquierdo ver'>
+          <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1  col-xs-22 col-xs-offset-0 texto-noticia-ead'>
             <h1 class='rojo fina margen-superior-s'>Nueva noticia</h1>
             <p class='datos-publicacion'>Publicado por <a>e[ad]</a> • 6 de octubre, 2012 • <a>Categoría; noticias</a></p>
             <p>Métodos constructivos de estructuras leves a partir de los principios de biomímesis (emulando las estructuras que crea la naturaleza), fueron presentados recientemente por José Luiz Mendes Ripper, Profesor Emérito de la PUC-Rio de Janeiro [...]</p>
@@ -258,11 +258,11 @@ title: Giornata Maquetas
 
 <!-- noticia 3 -->   
       <div class='fila'>
-        <div class='col-md-24 col-sm-23 caja-noticia-ead ver'>
-          <div class='col-lg-9 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 foto-noticia-ead'>
-            <img class='excedente-foto-noticia' src='img/manto.jpg'>
+        <div class='col-md-24 col-md-24 col-sm-20 caja-noticia-ead fondo-gris-blanco'>
+          <div class='col-lg-9 col-lg-offset-0 col-md-18 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 foto-noticia-ead'>
+            <img class='excedente-foto-noticia' src='{{ site.baseurl }}/img/manto.jpg'>
           </div>
-          <div class='col-lg-12 col-md-10 col-sm-20 col-xs-18 texto-noticia-ead margen-izquierdo'>
+          <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1  col-xs-22 col-xs-offset-0 texto-noticia-ead'>
             <h1 class='rojo fina margen-superior-s'>Nueva noticia</h1>
             <p class='datos-publicacion'>Publicado por <a>e[ad]</a> • 6 de octubre, 2012 • <a>Categoría; noticias</a></p>
             <p>Métodos constructivos de estructuras leves a partir de los principios de biomímesis (emulando las estructuras que crea la naturaleza), fueron presentados recientemente por José Luiz Mendes Ripper, Profesor Emérito de la PUC-Rio de Janeiro [...]</p>
@@ -276,11 +276,11 @@ title: Giornata Maquetas
 <!-- FIN DE NOTICIAS -->
 
 <!-- ASIDE XS  -->
-    <div class='oculto-lg oculto-md col-sm-8 col-xs-22 col-xs-offset-1 margen-superior'>
+    <div class='oculto-lg oculto-md col-sm-8 col-sm-offset-0 col-xs-22 col-xs-offset-1 margen-superior'>
       <h2 class='gris'>ENLACES</h2>
       <hr>
-    <div class='col-lg-24 col-lg-offset-0 ver'><!-- aside -->
-      <div class='fila'> <!-- agenda -->
+    <div class='col-lg-24 col-lg-offset-0 col-md-24 col-sm-24 col-sm-offset-0 col-xs-22 col-xs-offset-1 ver'><!-- aside -->
+      <div class='fila'> <!-- Aside -->
         <h5 class='rojo-claro fino centrado'>Más artículos de agenda</h5>
         <div class='col-lg-22 col-lg-offset-1 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 margen-superior-xs'>
           <ul class='enlace-aside'>
