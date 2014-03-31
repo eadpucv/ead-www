@@ -1,0 +1,416 @@
+//------------------------------- IMPORTANTE: ESTE LESS ESTÁ HECHO PARA REUNIR TODAS (O LA MAYORÍAS DE LAS CLASES Y VARIABLES QUE SE EDITEN BAJO LAS MAQUETAS, PARA LUEGO PASARLAS ORDENADAMENTE A PYXIS)
+//----- Además se hacen modificaciones en Carousel.less, Navs.less, Dropdowns.less, variables.less, auxiliares.less,
+
+
+// Clases de Bloques por medida de altura
+
+.menu-rapido-ead {
+    min-height: @cuadratin * 1; 
+}
+
+.menu-nav-ead {
+    min-height: @cuadratin * 2;
+    vertical-align: middle;
+}
+
+.imagenes-destacadas-ead-lg {
+    min-height: @cuadratin * 24;
+    //position: relative;
+}
+
+.imagenes-destacadas-ead {
+    min-height: @cuadratin * 20;
+    position: relative;
+}
+
+.imagenes-destacadas-ead-xs {
+    min-height: @cuadratin * 10;
+    position: relative;
+}
+
+.imagenes-destacadas-descripcion-ead {
+    min-height: @cuadratin * 24;
+    bottom: 0;
+    background-color: @transparente;
+    position: absolute;
+}
+
+.imagenes-destacadas-descripcion-ead-sm {
+    max-height: @cuadratin * 10;
+    position: absolute;
+    bottom: 0;
+    background-color: @transparente;
+
+}
+
+.imagenes-historia-ead {
+    height: @cuadratin * 28;
+}
+
+.imagenes-historia-ead-xs {
+    height: @cuadratin * 20
+}
+
+.parrafo-articulo-ead {
+    min-height: @cuadratin * 20;
+}
+
+.caja-aside-articulo-ead {
+    min-height: @cuadratin * 10
+}
+
+.articulo-agenda-ead {
+    min-height: @cuadratin * 4;
+}
+
+.articulo-agenda-ead-sm {
+    min-height: @cuadratin * 6;
+}
+
+.caja-noticia-ead {
+    min-height: @cuadratin * 9;
+    position: relative;
+
+    &:hover {
+        background-color: @gris-claro;
+        .estampilla {
+            background-color: @gris-oscuro;
+            position: absolute;
+        }
+    }
+
+}
+
+.foto-noticia-ead {
+    min-height: @cuadratin * 8; 
+    overflow: hidden;
+
+}
+
+.texto-noticia-ead {
+    min-height: @cuadratin * 8;
+}
+
+.articulo-aside-ead {
+    min-height: @cuadratin * 2;
+}
+
+.footer-ead {
+	min-height: @cuadratin * 6;
+}
+
+.titulos-ead {
+    min-height: @cuadratin * 1.5;
+}
+
+.subtitulos-ead {
+    min-height: @cuadratin;
+}
+
+.imagenes-publicacion-ead {
+    min-height: @cuadratin * 18;
+}
+
+.caja-perfil-publicacion-ead {
+    min-height: @cuadratin * 15;
+}
+
+.parrafo-noticia-publicacion-ead {
+    min-height: @cuadratin * 20;
+}
+
+.caja-aside-publicacion-ead {
+    min-height: @cuadratin * 18;
+}
+
+.caja-perfil-publicacion-sm-ead {
+    min-height: @cuadratin * 6;
+}
+
+.imagenes-publicacion-xs-ead {
+    min-height: @cuadratin * 10;
+}
+
+.navegacion-articulo-ead {
+    min-height: @cuadratin * 20;
+}
+
+.navegacion-articulo-ead-xs {
+    height: @cuadratin * 2;
+}
+
+.caja-resultado-ead {
+    min-height: @cuadratin * 4;
+}
+
+.caja-filtro-ead {
+    min-height: @cuadratin * 10;
+}
+
+.pag-ead {
+    //.container();
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.wrap-dropdown {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+// Tratado de imágenes
+
+.pruebaimagen{
+    width: 400px;
+}
+
+.anchototal {
+    width: 100%;
+}
+
+.excedente-vertical {
+    width: 200%;
+    overflow: hidden;
+}
+
+.excedente-horizontal {
+    height: 100%;
+    overflow: hidden;
+}
+
+.fecha-noticia {
+    min-height: @cuadratin * 3;
+    min-width: @cuadratin * 2;
+}
+
+.calendario-agenda-ead {
+    min-height: @cuadratin * 10;
+    min-width: @cuadratin * 8;
+}
+
+.caja-articulo-agenda-ead {
+    min-height: @cuadratin * 8;
+}
+
+.lista-articulos-agenda-ead {
+    min-height: @cuadratin * 20;
+}
+
+.caja-noticia-portada-ead {
+    min-height: @cuadratin * 10;
+}
+
+.caja-comentario-ead {
+    min-height: @cuadratin * 4
+}
+
+.foto-usuario-comentario-ead {
+    height: @cuadratin * 3;
+    min-width: @cuadratin * 3;
+    max-width: @cuadratin * 3
+}
+
+.comentario-ead {
+    min-height: @cuadratin * 3
+}
+
+.excedente-vertical-xs {
+    overflow: hidden;
+    width: 180%;
+}
+
+.excedente-vertical {
+    overflow: hidden;
+    width: 150%;
+}
+
+.excedente-vertical-lg {
+    overflow: hidden;
+    width: 120%;
+}
+
+.excedente-foto-noticia {
+    overflow: hidden;
+    width: auto;
+    height: @cuadratin * 9;
+}
+
+.altura-maxima-lg {
+    height: @cuadratin * 24;
+}
+
+.altura-maxima {
+    height: @cuadratin * 20;
+}
+
+.altura-maxima-xs {
+    height: @cuadratin * 10;
+}
+
+
+// Estilos especiales
+
+.logo-ead {
+  font-family: @sans;
+  margin: 0;
+  padding: 0;
+  font-size: @cuerpo * .95;
+  line-height: @cuerpo;
+  &.footer {
+    color: @gris-oscuro;
+    font-size: @cuerpo * 1.2;
+    line-height: @cuerpo * 1.3;
+    text-align: left;
+  }
+
+  &.contacto {
+    color: @gris;
+    font-size: @cuerpo * 1;
+    line-height: @cuerpo * 1.2;
+  }
+}
+
+.logo-ead-marca {
+  font-family: @sans;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  &.xs {
+    position: relative;
+  }
+
+  &.footer {
+    font-size: @cuerpo * 2;
+    position: relative;
+    text-align: left;
+  }
+}
+
+.lista-footer {
+    color: @gris;
+    list-style: none;
+    float: left;
+    font-size: @cuerpo * .8;
+    padding: 0 auto;
+    margin: 0 auto;
+
+    a {
+        text-decoration: none;
+        &:hover {
+        color: @blanco;
+        cursor: pointer;
+        }
+    }
+
+    &.chica {
+        font-size: @cuerpo * .6;
+        padding: @padding-lg 0 0 0;
+
+        a {
+            color: @gris-oscuro;
+
+            &:hover{
+                color:@blanco;
+            }
+        }
+    }
+}
+
+.datos-contacto {
+
+    &.footer {
+        color: @blanco;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.sitio-relacionado {
+    
+    color: @gris-claro;
+
+    &:hover {
+        color: @rojo-claro;
+        cursor: pointer;
+        text-decoration: none;
+        }
+}
+
+.enlace-rapido-ead {
+  font-family: @sans;
+  font-size:@cuerpo *.75;
+  line-height: @interlinea * .95;
+  font-weight: 300;
+  margin: 0;
+}
+
+.datos-contacto {
+    font-family: @sans;
+    font-size: @cuerpo * .9;
+    color: @pizarra;
+}
+
+.enlace-aside {
+    font-size: @cuerpo * .85;
+    list-style: none;
+    padding: 0;
+    margin: @margen-md 0;
+}
+
+// Auxiliares
+
+.contenedor-fondo {
+    top: @cuadratin * 2;
+
+}
+
+.bloque {
+    display: inline-block;
+    position: relative;
+}
+
+.borde-izquierdo {
+    border-left: 1px solid @gris-oscuro;
+}
+
+.borde-derecho {
+    border-right: 1px solid @gris-oscuro;
+}
+
+.menu-footer {
+    padding: 0 @cuadratin-tercio;
+    margin: 0;
+}
+
+.borde-inferior {
+    border-bottom: 1px solid @rojo-claro;
+}
+
+// Paddings
+
+.relleno-derecho {
+    padding-right: @cuadratin * 2;
+}
+
+.relleno-izquierdo {
+    padding-left: @cuadratin * 2;
+}
+
+.relleno-superior {
+    padding-left: @cuadratin * 2;
+}
+
+.relleno-inferior {
+    padding-left: @cuadratin * 2;
+}
+
+//Bajar Div
+.estampilla {
+    bottom: 0;
+ 
+}
