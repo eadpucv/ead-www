@@ -10,7 +10,7 @@ a.btn{
     margin-top: 0;
     cursor: pointer;
     white-space: nowrap;
-    font-size: @cuerpo * .9;
+    font-size: @cuerpo-nav * .9;
     color: @blanco;
     text-align: center;
     background-color: @pizarra;
@@ -29,14 +29,14 @@ a.btn{
     }
 
     &.btn-xs{
-        font-size: @cuerpo * .6;
+        font-size: @cuerpo-nav * .6;
         text-transform: uppercase;
         font-weight: normal;
         padding: @padding-sm*.7  2*@padding-sm;
     }
     
     &.btn-sm{
-        font-size: @cuerpo * .8;
+        font-size: @cuerpo-nav * .8;
         text-transform: uppercase;
         font-weight: normal;
         padding: @padding-sm  4*@padding-sm;
@@ -44,12 +44,12 @@ a.btn{
 
     &.btn-md{
         font-weight: 300;
-        font-size: @cuerpo * 1;
+        font-size: @cuerpo-nav * 1;
         padding: @padding-md 2*@padding-md;
     }
 
     &.btn-lg{
-        font-size: @cuerpo * 1.5;
+        font-size: @cuerpo-nav * 1.5;
         letter-spacing: .05ex;
         font-weight: 200;
         padding: @padding-lg 1.8*@padding-lg;
@@ -92,7 +92,7 @@ a.btn{
         text-align: center;
         background-color: @transparente;
         vertical-align: middle;
-        font-size: @cuerpo * .8;
+        font-size: @cuerpo-nav * .8;
         text-transform: uppercase;
         font-weight: normal;
         padding: @padding-sm * 2 @padding-md;
@@ -334,8 +334,6 @@ form{
   text-align: center;
 }
 
-
-
 // Búsqueda EAD
 
 input[type='search'] {
@@ -345,7 +343,7 @@ input[type='search'] {
     border-radius: @radio;
     border:1px solid @gris;
     display: inline-block;
-    font-size: @cuerpo;
+    font-size: @cuerpo-nav;
     line-height: @interlinea;
     color: @gris-oscuro;
 }

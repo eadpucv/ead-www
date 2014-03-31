@@ -30,9 +30,10 @@
     > a {
       position: relative;
       display: block;
-      padding: 0 @padding-lg;
+      padding: 0 @padding-md;
       color: @pizarra;
       font-weight: 400;
+      font-size: @cuerpo-nav;
       border-left:1px solid @gris;
       &:hover,
       &:focus {
@@ -47,7 +48,7 @@
 
       &:hover,
       &:focus {
-        color: @nav-disabled-link-hover-color;
+        color: none;
         text-decoration: none;
         background-color: transparent;
         cursor: not-allowed;
