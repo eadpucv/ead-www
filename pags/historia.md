@@ -117,7 +117,7 @@ title: Giornata Maquetas - Página de artículo - Historia
   <h2 class=''>Historia y fundación</h2>
   <h1 class='grande rojo'>Escuela de Arquitectura y Diseño</h1>
   <h4>Pontificia Universidad Católica de Valparaíso</h4>
-  <p>
+  <p class='margen-superior'>
     En 1952, un grupo de arquitectos y artistas (Alberto Cruz, Godofredo Iommi, Fabio Cruz P, Miguel Eyquem, José Vial, Arturo Baeza, Francisco Méndez, Jaime Bellalta y Claudio Girola (que llegó al poco tiempo) se incorporan a la Escuela de Arquitectura de la Universidad Católica de Valparaíso, fundando, simultáneamente, el Instituto de Arquitectura que sirve y alimenta a la Escuela.
   </p>
 

@@ -9,7 +9,7 @@ title: Giornata Maquetas - Portada de Agenda
   </div>
 </div> <!-- fin breadcrumbs -->
 <!--inicio calendario del mes -->
-<div class='col-lg-4 xcol-lg-offset-3 col-md-4 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-14 col-xs-offset-4 calendario-agenda-ead margen-inferior ver'>
+<div class='col-lg-4 xcol-lg-offset-3 col-md-4 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-14 col-xs-offset-4 calendario-agenda-ead margen-inferior'>
 	<div class="em-calendar-wrapper" id="em-calendar-196">
 		<table class="em-calendar">
 			<thead>
@@ -140,9 +140,9 @@ title: Giornata Maquetas - Portada de Agenda
 </div> <!-- fin calendario del mes -->
 <!-- inicio eventos del mes -->
 <div class='col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-14 col-sm-offset-0 col-xs-18 col-xs-offset-2 lista-articulos-agenda-ead'>
-  <div class='col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead ver'>Artículo 1</div>
-  <div class='col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead ver'>Artículo 2</div>
-  <div class='col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead ver'>Artículo 3</div>
+  <div class='col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead ver'>Evento 1</div>
+  <div class='col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead ver'>Evento 2</div>
+  <div class='col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead ver'>Evento 3</div>
 </div> <!-- fin eventos del mes -->
 
 
