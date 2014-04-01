@@ -160,8 +160,7 @@
 
 .wrap-dropdown {
     max-width: 980px;
-    float: left;
-    border:1px solid black;
+    margin: 0 auto;
 }
 
 // Tratado de imágenes
@@ -260,8 +259,13 @@
   font-family: @sans;
   margin: 0;
   padding: 0;
-  font-size: @cuerpo-nav * .95;
+  font-size: @cuerpo-nav * .7;
   line-height: @cuerpo-nav;
+
+  &.altas {
+    font-size: @cuerpo-nav * .8;
+    line-height: @cuerpo-nav;
+  }
   &.footer {
     color: @gris-oscuro;
     font-size: @cuerpo-nav * 1.2;
