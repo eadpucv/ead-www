@@ -4,13 +4,15 @@
 	<body lang='ES_es'>
 
 	    <div class='pag-ead'>
-	    	{% include cabecera.html %}
-	    	{% include nav.html %}
+	    	<div class='fila fondo-blanco'>
+		    	{% include cabecera.html %}
+		    	{% include nav.html %}
+	    	</div>
 
 				<!-- contenido -->
 				<div class='col-lg-24'>
 					<div class='wrap'>
-						<div class='fila margen-superior'>
+						<div class='fila'>
 					        {{ content }}
 					        {% include aside.html %}
 					    </div>

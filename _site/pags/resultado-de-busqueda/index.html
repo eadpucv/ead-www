@@ -17,47 +17,56 @@
 	<body lang='ES_es'>
 
 	    <div class='pag-ead'>
-	    	<header>
-     <div class='fila'> <!-- Inicio Menu Navegación -->
+	    	<div class='fila fondo-blanco'>
+		    	     <div class='fila'> <!-- Inicio Menu Navegación -->
        <div class='col-lg-24 oculto-xs fondo-negro menu-rapido-ead'>
          <div class='wrap'>
            <div class='fila'>
              <div class='col-lg-1 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1'>
                <a href='/pags/home'><p class='logo-ead-marca rojo-claro grande'>e[ad]</p></a>
              </div>
-             <div class='col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-6 col-sm-1 col-sm-offset-7 col-xs-1 col-xs-offset-4 margen-superior-xs'>
+             <div class='col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-6 col-sm-1 col-sm-offset-4 col-xs-1 col-xs-offset-4 margen-superior-xs'>
                <a href='/pags/portada-noticias'><p class='blanco enlace-rapido-ead'>Noticias</p></a>
              </div> 
-             <div class='col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-1 col-xs-1 col-xs-offset-3 margen-superior-xs'>
+             <div class='col-lg-2 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-1 col-xs-1 col-xs-offset-3 margen-superior-xs'>
                <a href='/pags/portada-agenda'><p class='blanco enlace-rapido-ead'>Agenda</p></a>
              </div>
-             <div class='col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 oculto-xs margen-superior-xs'>
+             <div class='col-lg-2 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 oculto-xs margen-superior-xs'>
                <a href='http://www.ead.pucv.cl/estudiantes/bolsa-de-trabajo/'><p class='blanco enlace-rapido-ead'>Bolsa de trabajo</p></a>
              </div>
-             <div class='col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-0 col-sm-1 col-sm-offset-0 oculto-xs margen-superior-xs'>
+             <div class='col-lg-2 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-1 col-sm-offset-0 oculto-xs margen-superior-xs'>
                <a href='http://www.ead.pucv.cl/estudiantes/'><p class='blanco enlace-rapido-ead'>"Estudiantes"</p></a>
              </div>
-             <div class='col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-3 col-xs-7 col-xs-offset-5 rojo'> <!-- Usuario -->
-               <ul class="nav nav-pills">
+             <div class='col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-4 col-xs-7 col-xs-offset-5'> <!-- Usuario -->
+               <ul class="nav user nav-pills">
                  <li class="dropdown">
-                   <a href="#" data-toggle="dropdown" role="button" id="primer-dropdown" class="dropdown-toggle">Usuario<b class="caret"></b></a>
+                   <a href="#" data-toggle="dropdown" role="button" id="primer-dropdown" class="dropdown-toggle">Usuario  <span class="ico-perfil ico-sm"></span><b class="caret"></b></a>
                    <ul aria-labelledby="drop4" role="menu" class="dropdown-menu user" id="menu1">
-                     <li role="presentation"><a href="http://wiki.ead.pucv.cl/index.php/Casiopea" tabindex="-1" role="menuitem"><img src='http://wiki.ead.pucv.cl/casiopea-header.png'></a></li>
+                     <li role="presentation"><a href="http://wiki.ead.pucv.cl/index.php/Casiopea" tabindex="-1" role="menuitem">Casiopea</a></li>
                      <li role="presentation"><a href="http://travesias.ead.pucv.cl/" tabindex="-1" role="menuitem">Archivo Histórico JVA</a></li>
                      <li role="presentation"><a href="http://biblioteca.ucv.cl/" tabindex="-1" role="menuitem">Biblioteca</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Travesías <img src='http://travesias.ead.pucv.cl/wp-content/themes/geodesicas/img/travesias.png'></a></li>
+                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Travesías</a></li>
                      <li class="divider" role="presentation"></li>
-                     <li role="presentation"><a href="http://personas.ead.pucv.cl/" tabindex="-1" role="menuitem">Editar perfil</a></li>
+                     <li role="presentation"><a href="http://personas.ead.pucv.cl/" tabindex="-1" role="menuitem">Editar tu perfil <span class="blanco ico-lapiz ico-sm"></span></a></li>
                    </ul>
                  </li>
                </ul>
              </div> <!-- fin usuario -->
+            <div class='col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-7 col-xs-offset-5'> <!-- Búsqueda -->
+               <ul class="nav busqueda nav-pills">
+                 <li class="dropdown">
+                   <a href="#" data-toggle="dropdown" role="button" id="primer-dropdown" class="dropdown-toggle">buscar <span class="blanco ico-lupa ico-sm"></span><b class="caret"></b></a>
+                   <ul aria-labelledby="drop4" role="menu" class="dropdown-menu busqueda" id="menu1">
+                     <li role="presentation"><input type='search' placeholder='búsqueda'/><input type='submit' class='btn btn-busqueda derecha' value='ir' /></li>
+                   </ul>
+                 </li>
+               </ul>
+             </div> <!-- fin búsqueda -->
            </div> <!-- fin fila -->
          </div> <!-- fin wrap -->
        </div> <!-- fin col24 negro -->
      </div> <!-- Fin Menú navegación -->
-</header>
-	    	 <div class='wrap'>
+		    	 <div class='wrap'>
    <div class='fila'>
      <div class='oculto-lg oculto-md oculto-sm col-xs-3 fondo-damasco-opuesto'> <!-- menu xs -->
        <ul class="nav nav-pills">
@@ -84,12 +93,12 @@
      <div class='oculto-lg oculto-md oculto-sm col-xs-1 col-xs-offset-1 margen-superior-xs'>
        <a href='home.html'><p class='logo-ead-marca xs rojo-claro grande'>e[ad]</p></a>
      </div><!-- fin menu xs -->
-     <div class='col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-14 col-xs-offset-2 margen-superior-s'>
+     <div class='col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-14 col-xs-offset-2 margen-superior'>
        <p class='logo-ead altas'>Escuela de Arquitectura y Diseño</p>
        <p class='logo-ead'>Pontificia Universidad Católica de Valparaíso</p>
      </div>
      <div class='wrap-dropdown'>
-           <div class='col-lg-19 col-lg-offset-0 col-md-18 col-md-offset-0 col-sm-22 col-sm-offset-1 oculto-xs margen-inferior margen-superior-s '>
+           <div class='col-lg-19 col-lg-offset-0 col-md-18 col-md-offset-0 col-sm-22 col-sm-offset-1 oculto-xs margen-inferior margen-superior '>
              <div class='col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0'>
                <ul class="nav nav-pills">
                  <li class="dropdown">
@@ -114,15 +123,15 @@
                    <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
                    <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Arquitectura</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño gráfico</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño de objetos</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster náutico y marítimo</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster ciudad y territorio</a></li>
+                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
+                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
+                     <li class="divider" role="presentation"></li>
+                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
                    </ul>
                  </li>
                </ul>
              </div>
-             <div class='col-lg-3 col-lg-offset-0 col-md-3 col-sm-4 col-sm-offset-0'>
+             <div class='col-lg-4 col-lg-offset-0 col-md-3 col-sm-4 col-sm-offset-0'>
                <ul class="nav nav-pills">
                  <li class="dropdown">
                    <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Admisión<b class="caret"></b></a>
@@ -144,6 +153,7 @@
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Asuntos estudiantiles</a></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Servicios</a></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Bolsa de trabajo</a></li>
+                     <li class="divider" role="presentation"></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Ex-alumnos</a></li>
                    </ul>
                  </li>
@@ -179,6 +189,7 @@
          </div> <!-- fin wrap-dropdown -->
    </div> <!-- fin fila -->
  </div> <!-- fin wrap -->
+	    	</div>
 
 	    	<div class='fila'>
 				<div class='col-lg-24'>
