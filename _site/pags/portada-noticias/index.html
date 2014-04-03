@@ -13,6 +13,8 @@
   <script src="/js/carousel.js"></script>
   <script src="/js/transition.js"></script>
   <script src="/js/dropdown.js"></script>
+  <script src="/js/smooth-scroll.js"></script>
+  <script src="/js/affix.js"></script>
 </head>
 	<body lang='ES_es'>
 
@@ -123,7 +125,7 @@
                    <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
                    <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Arquitectura</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
+                     <li role="presentation"><a href="/pags/articulo-carrera-grafico" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
                      <li class="divider" role="presentation"></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
@@ -335,6 +337,16 @@
     </div> <!-- fin wrap -->
   </div> <!-- fin col24 -->
 </div> <!-- fin fila footer --> 
+<script>
+    smoothScroll.init();
+</script>
+        <script>
+            
+
+            $( "#link_ejemplo_affix" ).click(function() {
+              $( "#navbar" ).toggle();
+            });
+        </script>  
 </footer>
 	</body>
 </html>

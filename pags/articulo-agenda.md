@@ -1,5 +1,5 @@
 ---
-layout: articulo
+layout: articulo-fecha
 title: Giornata Maquetas - Página de Artículo - Agenda
 ---
 

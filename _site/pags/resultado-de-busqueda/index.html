@@ -13,6 +13,8 @@
   <script src="/js/carousel.js"></script>
   <script src="/js/transition.js"></script>
   <script src="/js/dropdown.js"></script>
+  <script src="/js/smooth-scroll.js"></script>
+  <script src="/js/affix.js"></script>
 </head>
 	<body lang='ES_es'>
 
@@ -123,7 +125,7 @@
                    <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
                    <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Arquitectura</a></li>
-                     <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
+                     <li role="presentation"><a href="/pags/articulo-carrera-grafico" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
                      <li class="divider" role="presentation"></li>
                      <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
@@ -195,13 +197,14 @@
 				<div class='col-lg-24'>
     <div class='wrap'>
         <div class='fila margen-inferior'>
-            <div class='col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'>
-            </div>
+        <div class='col-lg-5 col-lg-offset-6 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'> <!-- breadcrumbs -->
+          <p class='gris breadcrumbs'>Home / Resultado de búsqueda</p>
         </div>
+      </div>
 <div class='fila'>
     
     <!-- Filtro resultados de búsqueda-->
-    <div class='col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-10 col-sm-offset-7 col-xs-12 col-xs-offset-7 caja-filtro-ead margen-inferior ver'>Filtro de contenidos
+    <div class='col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-2 col-sm-10 col-sm-offset-7 col-xs-12 col-xs-offset-7 caja-filtro-ead margen-inferior ver'>Filtro de contenidos
         <ul>
             <li><a>Noticias</a></li>
             <li><a>Agenda</a></li>
@@ -217,7 +220,7 @@
     <!--! Fin de filtro resultados de búsqueda -->
 
     <!-- Título resultados de busqueda-->
-    <div class='col-md-13 col-md-offset-1 col-sm-20 col-sm-offset-2 col-xs-22 col-xs-offset-1 margen-inferior parrafo-articulo-ead ver'>
+    <div class='col-md-13 col-md-offset-1 col-sm-20 col-sm-offset-2 col-xs-22 col-xs-offset-1 margen-inferior parrafo-articulo-ead'>
         <p class='sans grande margen-inferior'>Resultados de búsqueda</p>
     <!-- Resultados de búsqueda -->
     <div class='fila margen-superior-s'>
@@ -387,6 +390,16 @@
     </div> <!-- fin wrap -->
   </div> <!-- fin col24 -->
 </div> <!-- fin fila footer --> 
+<script>
+    smoothScroll.init();
+</script>
+        <script>
+            
+
+            $( "#link_ejemplo_affix" ).click(function() {
+              $( "#navbar" ).toggle();
+            });
+        </script>  
 </footer>
 	</body>
 </html>

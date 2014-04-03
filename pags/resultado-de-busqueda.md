@@ -7,13 +7,14 @@ title: Giornata Maquetas - Página resultado de búsqueda
 <div class='col-lg-24'>
 	<div class='wrap'>
     	<div class='fila margen-inferior'>
-         	<div class='col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'>
-            </div>
+        <div class='col-lg-5 col-lg-offset-6 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'> <!-- breadcrumbs -->
+          <p class='gris breadcrumbs'>Home / Resultado de búsqueda</p>
         </div>
+      </div>
 <div class='fila'>
     
 	<!-- Filtro resultados de búsqueda-->
-	<div class='col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-10 col-sm-offset-7 col-xs-12 col-xs-offset-7 caja-filtro-ead margen-inferior ver'>Filtro de contenidos
+	<div class='col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-2 col-sm-10 col-sm-offset-7 col-xs-12 col-xs-offset-7 caja-filtro-ead margen-inferior ver'>Filtro de contenidos
   		<ul>
          	<li><a>Noticias</a></li>
          	<li><a>Agenda</a></li>
@@ -29,7 +30,7 @@ title: Giornata Maquetas - Página resultado de búsqueda
     <!--! Fin de filtro resultados de búsqueda -->
 
     <!-- Título resultados de busqueda-->
-    <div class='col-md-13 col-md-offset-1 col-sm-20 col-sm-offset-2 col-xs-22 col-xs-offset-1 margen-inferior parrafo-articulo-ead ver'>
+    <div class='col-md-13 col-md-offset-1 col-sm-20 col-sm-offset-2 col-xs-22 col-xs-offset-1 margen-inferior parrafo-articulo-ead'>
     	<p class='sans grande margen-inferior'>Resultados de búsqueda</p>
    	<!-- Resultados de búsqueda -->
     <div class='fila margen-superior-s'>

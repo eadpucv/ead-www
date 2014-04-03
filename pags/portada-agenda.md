@@ -4,7 +4,7 @@ title: Giornata Maquetas - Portada de Agenda
 ---
 
 <div class='fila'>
-  <div class='col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'> <!-- breadcrumbs -->
+  <div class='col-lg-5 col-lg-offset-6 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'> <!-- breadcrumbs -->
     <p class='gris breadcrumbs'>Home / Escuela / Calendario</p>
   </div>
 </div> <!-- fin breadcrumbs -->
