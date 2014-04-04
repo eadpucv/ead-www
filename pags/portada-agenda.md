@@ -5,7 +5,7 @@ title: Giornata Maquetas - Portada de Agenda
 
 <div class='fila'>
   <div class='col-lg-5 col-lg-offset-6 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-21 col-xs-offset-1'> <!-- breadcrumbs -->
-    <p class='gris breadcrumbs'>Home / Escuela / Calendario</p>
+    <p class='pizarra-oscuro breadcrumbs'><a href='{{ site.baseurl }}/pags/home'>Home</a> / <a href='#'>Escuela</a> / Calendario</p>
   </div>
 </div> <!-- fin breadcrumbs -->
 
@@ -13,7 +13,7 @@ title: Giornata Maquetas - Portada de Agenda
   <div class='col-lg-17 col-lg-offset-6 col-md-12 col-md-offset-7 col-sm-10 col-sm-offset-8 col-xs-18 col-xs-offset-1'>
     <h1 class='titulo-articulo rojo-claro'>Calendario de eventos</h1>
     <div class='col-md-24 col-md-offset-0  col-sm-24 col-sm-offset-0 col-xs-22 col-xs-offset-0 margen-superior-xs'> <!-- subtítulo -->
-      <h2 class='subtitulo-articulo gris-claro'>primer trimestre 2014</h2>
+      <h2 class='subtitulo-articulo gris-oscuro'>primer trimestre 2014</h2>
     </div>
   </div>
 </div> <!-- fin descripcion y trimestre -->
@@ -21,7 +21,7 @@ title: Giornata Maquetas - Portada de Agenda
 <!--inicio calendario del mes -->
 <div class='col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-7 col-sm-offset-1 col-xs-8 col-xs-offset-8 margen-inferior calendario-agenda-ead'>
 	<div class="em-calendar-wrapper" id="em-calendar-196">
-		<table class="em-calendar">
+		<table class="em-calendar fondo-blanco">
 			<thead>
 				<tr>
 					<td><a rel="nofollow" href="?ajaxCalendar=1&amp;mo=2&amp;yr=2014&amp;limit=3" class="em-calnav em-calnav-prev">&lt;&lt;</a></td>

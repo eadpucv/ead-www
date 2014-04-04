@@ -3,21 +3,17 @@ layout: articulo
 title: Giornata Maquetas - Página de Artículo - Carrera - Diseño Gráfico
 ---
 
-<div id="navbar" div data-spy="affix" data-offset-top="200" data-offset-bottom="200" style="background-color:white; display:none;"> 
-  <h2> Este es un ejemplo de Affix </h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in pretium lacus. Phasellus venenatis mollis tincidunt. Quisque semper adipiscing lorem, vel dictum elit molestie sed. Nullam luctus lorem mauris, quis fringilla sapien accumsan vitae. Sed et sem vestibulum eros interdum euismod id non dolor. In hendrerit risus ipsum, sit amet ultrices elit interdum tempor. Sed hendrerit augue metus, et ultricies odio viverra ut. Morbi vehicula justo dui, sagittis dignissim turpis posuere quis. Nam ullamcorper accumsan vestibulum.
-  </div>
 
-
-
-<div class='col-lg-4 col-lg-offset-1 ver'>
-    <div class='col-lg-20 col-lg-offset-1 ver'>
+<div  class='col-lg-4 col-lg-offset-1'>
+    
+    <div data-spy="affix" data-offset-top="100">
       <ol>
         <li><a data-scroll href='#perfil'>Perfil de Egreso</a></li>
         <li><a data-scroll href='#programa'>Programa de Estudio</a></li>
       </ol>
     </div>
 </div>
+
 <div class='col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-4 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior'>
   <h1 class='rojo-claro'><a id='perfil'>Perfil de egresado</a></h1>
   <p>El egresado de la Escuela de Arquitectura y Diseño de la Pontificia Universidad Católica de Valparaíso posee las competencias valóricas, disciplinares y profesionales que le permiten ejercer el Diseño Gráfico a partir de una visión poética del mundo, colocándolo de esta manera en el origen del oficio y proyectándolo creativamente en todos los campos de su desempeño.</p>
@@ -251,7 +247,4 @@ title: Giornata Maquetas - Página de Artículo - Carrera - Diseño Gráfico
       </div>
     </div> <!-- fin cuarto año -->
     <hr>
-        <h4>Ejemplo</h4>
-        <a id="link_ejemplo_affix" data-original-title="Mostrar el Affix, Lo puedes ocultar con el mismo boton">Mostrar/Ocultar el Affix</a>
-        <br /><br /><hr>
 </div> <!-- fin col contenido --> 
