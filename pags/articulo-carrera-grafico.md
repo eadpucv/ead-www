@@ -247,9 +247,4 @@ title: Giornata Maquetas - Página de Artículo - Carrera - Diseño Gráfico
       </div>
     </div> <!-- fin cuarto año -->
     <hr>
-        <h4>Ejemplo</h4>
-        <a id="link_ejemplo_affix" data-original-title="Mostrar el Affix, Lo puedes ocultar con el mismo boton">Mostrar/Ocultar el Affix</a>
-        <br /><br /><hr>
-        
-
 </div> <!-- fin col contenido --> 

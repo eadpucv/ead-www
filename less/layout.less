@@ -75,7 +75,6 @@
 .foto-noticia-ead {
     min-height: @cuadratin * 8; 
     overflow: hidden;
-
 }
 
 .texto-noticia-ead {
@@ -334,7 +333,6 @@
   font-family: @sans;
   margin: 0;
   padding: 0;
-  position: fixed;
   &.xs {
     position: relative;
   }
@@ -410,11 +408,30 @@
     color: @pizarra;
 }
 
-.enlace-aside {
+.enlaces-aside {
     font-size: @cuerpo-nav * .85;
     list-style: none;
     padding: 0;
     margin: @margen-md 0;
+
+    li:before {
+        font-family: 'eadiconos';
+        content: '\e618';
+        margin:0 @cuadratin-tercio 0 -@cuadratin-tercio * 2;
+        color: @rojo-claro;
+    }
+
+    li {
+        line-height: @interlinea-nav *.9;
+        margin-bottom: @cuerpo-nav;
+
+        a {
+            &:hover {
+                color: @pizarra-oscuro;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 // Auxiliares
