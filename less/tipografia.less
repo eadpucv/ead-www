@@ -75,7 +75,17 @@ p {
 
     &.breadcrumbs {
       font-family: @tipografia-referencias;
-      font-size: @cuerpo-nav * .85
+      font-size: @cuerpo-nav * .85;
+
+      &.fondo-oscuro {
+        a {
+          color: @blanco;
+
+          &:hover {
+            color: @rojo-claro;
+          }
+        }
+      }
     }
 
     &.datos-publicacion {
@@ -302,9 +312,9 @@ dl {
 // Regla horizontal
 
 hr {
-  margin: 20px 0 19px;
+  margin: @cuadratin / 2 0;
   border: 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid @gris-claro;
 }
 
 

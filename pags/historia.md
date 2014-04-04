@@ -113,7 +113,7 @@ title: Giornata Maquetas - Página de artículo - Historia
   </div>
 </div> <!-- fin carousel md & sm -->
 
-<div class='col-lg-10 col-lg-offset-7 col-md-14 col-md-offset-5 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior margen-superior fondo-blanco'>
+<div class='col-lg-10 col-lg-offset-7 col-md-14 col-md-offset-5 col-sm-18 col-sm-offset-3 col-xs-20 col-xs-offset-2 margen-inferior margen-superior'>
   <h2 class=''>Historia y fundación</h2>
   <h1 class='grande rojo'>Escuela de Arquitectura y Diseño</h1>
   <h4>Pontificia Universidad Católica de Valparaíso</h4>

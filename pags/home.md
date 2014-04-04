@@ -25,7 +25,7 @@ title: Giornata Maquetas
             <h3 class='beige-claro grueso col-lg-offset-14 margen-izquierdo grande margen-superior-md'>Noticias</h3>
             <div class='fila'>
               <div class='col-md-21'>
-                <p class='margen-izquierdo grande blanco'>"la Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
+                <p class='margen-izquierdo grande blanco'>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
                 <span class='blanco derecha'>Dra. Carol Edwards</span>
               </div>
             </div>
@@ -196,8 +196,7 @@ title: Giornata Maquetas
             <div class='col-lg-24 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h4>
-                <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -208,8 +207,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Pruebas de matemáticas</h4>
-                <p>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -220,8 +218,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Último período de Matrícula en Línea – 1er semestre 2014</h4>
-                <p>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl, debes tener los cursos preinscritos [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl, debes tener los cursos preinscritos [...] <span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -232,8 +229,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Retiro de agendas 2014</h4>
-                <p>Todos los alumnos de curso superior matriculados, pueden retirar agendas 2014 en secretaría de docencia [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Todos los alumnos de curso superior matriculados, pueden retirar agendas 2014 en secretaría de docencia [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -244,8 +240,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Clases de El hombre y los juegos</h4>
-                <p>Lunes 10 de marzo, a las 17:20 horas, se inicia el curso de El Hombre y los Juegos, Profesor Carlos Navarrete, en Gimnasio, Sausalito [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Lunes 10 de marzo, a las 17:20 horas, se inicia el curso de El Hombre y los Juegos, Profesor Carlos Navarrete, en Gimnasio, Sausalito [...]<span class='derecha ico-cruz ico-lg'></span></p>>
               </div>
             </div>
           </a>
@@ -256,8 +251,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos de adobe</h4>
-                <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de construcción comunitaria [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de construcción comunitaria [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -270,7 +264,7 @@ title: Giornata Maquetas
 
 <!--  noticia 1 -->
       <div class='fila'>
-        <a href='#'>
+        <a class='previsualizacion' href='#'>
           <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 col-xs-20 col-xs-offset-2 caja-noticia-ead'>
             <div class='fila'>
               <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0 margen-superior-s foto-noticia-ead'>
@@ -289,7 +283,7 @@ title: Giornata Maquetas
       <hr>  
 <!--  noticia 2 -->
       <div class='fila'>
-        <a href='#'>
+        <a class='previsualizacion' href='#'>
           <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 col-xs-20 col-xs-offset-2 caja-noticia-ead'>
             <div class='fila'>
               <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0 margen-superior-s foto-noticia-ead'>
@@ -308,7 +302,7 @@ title: Giornata Maquetas
       <hr>
 <!--  noticia 3 -->
       <div class='fila'>
-        <a href='#'>
+        <a class='previsualizacion' href='#'>
           <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 col-xs-20 col-xs-offset-2 caja-noticia-ead'>
             <div class='fila'>
               <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0 margen-superior-s foto-noticia-ead'>
@@ -327,7 +321,7 @@ title: Giornata Maquetas
       <hr>
 <!--  noticia 4 -->
       <div class='fila'>
-        <a href='#'>
+        <a class='previsualizacion' href='#'>
           <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 col-xs-20 col-xs-offset-2 caja-noticia-ead'>
             <div class='fila'>
               <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0 margen-superior-s foto-noticia-ead'>
@@ -354,8 +348,7 @@ title: Giornata Maquetas
             <div class='col-lg-24 col-lg-offset-1 col-md-22 col-xs-18 col-xs-offset-3 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h4>
-                <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -366,8 +359,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 col-xs-18 col-xs-offset-3 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Pruebas de matemáticas</h4>
-                <p>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -378,8 +370,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 col-xs-18 col-xs-offset-3 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Último período de Matrícula en Línea – 1er semestre 2014</h4>
-                <p>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl, debes tener los cursos preinscritos [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl, debes tener los cursos preinscritos [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -390,8 +381,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 col-xs-18 col-xs-offset-3 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Retiro de agendas 2014</h4>
-                <p>Todos los alumnos de curso superior matriculados, pueden retirar agendas 2014 en secretaría de docencia [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Todos los alumnos de curso superior matriculados, pueden retirar agendas 2014 en secretaría de docencia [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -402,8 +392,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 col-xs-18 col-xs-offset-3  caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Clases de El hombre y los juegos</h4>
-                <p>Lunes 10 de marzo, a las 17:20 horas, se inicia el curso de El Hombre y los Juegos, Profesor Carlos Navarrete, en Gimnasio, Sausalito [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Lunes 10 de marzo, a las 17:20 horas, se inicia el curso de El Hombre y los Juegos, Profesor Carlos Navarrete, en Gimnasio, Sausalito [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -414,8 +403,7 @@ title: Giornata Maquetas
             <div class='col-lg-22 col-lg-offset-1 col-md-22 col-xs-18 col-xs-offset-3 caja-articulo-agenda-ead'>
               <div class='col-lg-22'>
                 <h4 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos de adobe</h4>
-                <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de construcción comunitaria [...]</p>
-                <span class='derecha ico-cruz ico-lg'></span>
+                <p class='evento-pre'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de construcción comunitaria [...]<span class='derecha ico-cruz ico-lg'></span></p>
               </div>
             </div>
           </a>
@@ -424,13 +412,13 @@ title: Giornata Maquetas
 
 
 <!-- ASIDE XS  -->
-    <div class='oculto-lg oculto-md col-sm-8 col-sm-offset-1 col-xs-20 col-xs-offset-2 margen-superior'>
+    <div class='oculto-lg oculto-md col-sm-7 col-sm-offset-1 col-xs-20 col-xs-offset-2 margen-superior'>
         <h2 class='pizarra-oscuro'>ENLACES <span class='ico-enlace ico-md'></span></h2>
         <hr>
         <div class='col-lg-24 col-md-24 col-sm-24 col-xs-18 col-xs-offset-4'><!-- aside -->
           <div class='fila'> <!-- agenda -->
             <h6 class='gris-oscuro fino'>Más artículos de agenda</h6>
-            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-1 '>
               <ul class='enlaces-aside'>
                 <li><a href='#'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</a></li>
                 <li><a href='#'>Retiro de agendas 2014.</a></li>
@@ -442,7 +430,7 @@ title: Giornata Maquetas
           <hr>
           <div class='fila margen-superior'> <!-- info de docencia -->
             <h6 class='gris-oscuro fino'>Más artículos de Información de Docencia</h6>
-            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 margen-superior-xs'>
+            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-1 margen-superior-xs'>
               <ul class='enlaces-aside'>
                 <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
                 <li><a href='#'>Al término del 3º trimestre 2013, se recuerda a los alumnos lo siguiente:</a></li>
@@ -454,7 +442,7 @@ title: Giornata Maquetas
           <hr>
           <div class='fila margen-superior'> <!-- Redes sociales -->
             <h6 class='gris-oscuro fino'>eadpucv en twitter</h6>
-            <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1 margen-superior-xs'>
+            <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-1 margen-superior-xs'>
               <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
@@ -517,4 +505,3 @@ title: Giornata Maquetas
     </div>  <!-- fin ASIDE LG -->
 </div>  <!-- fin fila contenido -->
 </div>  <!-- fin de wrap -->
-</div>  <!-- Inicio contenido de Home -->
