@@ -16,7 +16,7 @@
   > .item {
     display: none;
     position: relative;
-    .transition(.5s ease-in-out left);
+    .transition(.6s ease-in-out left);
 
     // Account for jankitude on images
     > img,
@@ -30,8 +30,7 @@
       line-height: 1;
       width: 140%;
       overflow: hidden;
-    }
-
+      }
     }
   }
 
@@ -238,4 +237,31 @@
   .carousel-indicators {
     bottom: 20px;
   }
+}
+
+
+// Responsive
+
+// ----------
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+}
+
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+}
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
 }
