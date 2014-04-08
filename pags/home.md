@@ -2,69 +2,115 @@
 layout: inicio
 title: Giornata Maquetas
 ---
-
 <!-- CAROUSEL LG -->
 <!-- imagenes-destacadas-ead -->
-<div class='col-lg-24 imagenes-destacadas-ead ver'>
+<div class='col-lg-24 col-md-24 imagenes-destacadas-ead ver'>
 <!-- datos de carousel-lg -->
-<div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
-            <!-- Indicadores de carousel lg -->
-            <ol class="carousel-indicators">
-              <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
-              <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
-              <li data-slide-to="2" data-target="#carousel-example-generic"></li>
-            </ol> 
-<!-- fin datos de carousel-lg -->
-<div class="carousel-inner">
-<div class="item altura-maxima">
-    	<img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/noticia-destacada.jpg">
-      <!-- descripción-carousel-lg -->
-		  <div class='wrap fondo-damasco-claro'> 
-		    <div class='fila'>
-          <div class='col-lg-5 col-lg-offset-14 margen-derecho oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
-            <h3 class='beige-claro grueso col-lg-offset-14 margen-izquierdo grande margen-superior-md'>Noticias</h3>
+  <div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
+    <!-- Indicadores de carousel lg -->
+    <ol class="carousel-indicators">
+      <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li>
+      <li data-slide-to="1" data-target="#carousel-example-generic"></li>
+      <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+      <li data-slide-to="3" data-target="#carousel-example-generic"></li>
+      <li data-slide-to="4" data-target="#carousel-example-generic"></li>
+    </ol> 
+    <!-- fin datos de carousel-lg -->
+    <div class="carousel-inner">
+      <div class="item active altura-maxima">
+        <img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/noticia-destacada.jpg" title="Noticia Destacada">
+        <!-- descripción-carousel-lg -->
+        <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
+          <p class='blanco centrado'>El miércoles 26 de marzo, la e[ad] tuvo el privilegio de recibir en la Ciudad Abierta a la Dra. Carol Edwards</p>
+        </div>
+		      <div class='wrap-carousel'> 
+    		    <div class='fila'>
+              <div class='col-lg-5 col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead'> 
+                <h4 class='beige-claro grueso col-lg-offset-14 margen-izquierdo margen-superior-md'>Noticias</h4>
+                <div class='fila'>
+                  <div class='col-md-21'>
+                    <p class='margen-izquierdo'>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
+                    <span class='blanco derecha'>Dra. Carol Edwards</span>
+                  </div>
+                </div>
+              </div>  <!-- fin de col imágenes-destacadas-descripcion-ead --> 
+            </div>  <!-- fin de fila-->      
+          </div>  <!-- fin de wrap carousel -->
+      </div>  <!-- fin de item -->
+      <div class="item altura-maxima">
+        <img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/agenda-destacada.jpg">
+          <!-- descripción-carousel-lg -->
+        <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
+          <p class='blanco centrado'>e[ad] Recibe a Más de un Centenar de Estudiantes Secundarios, 29 Agosto 2013</p>
+        </div>
+        <div class='wrap-carousel'>
+          <div class='col-lg-5 col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+            <h4 class='beige-claro margen-izquierdo margen-superior-md'>Día Abierto 2013</h4>
             <div class='fila'>
               <div class='col-md-21'>
-                <p class='margen-izquierdo grande blanco'>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
-                <span class='blanco derecha'>Dra. Carol Edwards</span>
+              <p class='margen-izquierdo'>“Presentamos la escuela en su propio lenguaje, en el lenguaje de cada uno de los oficios; en el lenguaje de la forma. Cada uno hace una interpretación de lo que ve y construye un cuerpo que luego es parte de una exposición colectiva y pública”</p>
+              <span class='blanco derecha'>Juan Carlos Jeldes</span>
+              </div>  
+            </div>  <!-- fin de fila -->
+          </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
+        </div> <!-- fin de wrap carousel -->
+      </div> <!-- fin de item -->
+      <div class="item altura-maxima">
+        <img class='excedente-vertical' alt="Fourth slide" src="{{ site.baseurl }}/img/travesia-portada.jpg">
+        <!-- descripción-lg -->
+        <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
+          <p class='blanco centrado'>Travesía de la Piedra - Curimahuida, Coquimbo, Chile, 1986</p>
+        </div>
+        <div class='wrap-carousel'>
+          <div class='col-lg-5 col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+            <h4 class='beige-claro margen-izquierdo margen-superior-md'>Travesía</h4>
+            <div class='fila'>
+              <div class='col-md-21'>
+                <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+                <span class='blanco derecha'>Alberto Cruz</span>
               </div>
-            </div>
-          </div>  <!-- fin de col imágenes-destacadas-descripcion-ead --> 
-        </div>  <!-- fin de fila-->      
-      </div>  <!-- fin de wrap carousel -->
-  </div>  <!-- fin de item -->
-  <div class="item active altura-maxima">
-    <img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/agenda-destacada.jpg">
-    <!-- descripción-carousel-lg -->
-    <div class='wrap fondo-damasco-claro'>
-      <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
-        <h3 class='beige-claro margen-izquierdo grande margen-superior-md'>Día Abierto 2013</h3>
-        <div class='fila'>
-          <div class='col-md-21'>
-          <p class='margen-izquierdo blanco grande'>“Presentamos la escuela en su propio lenguaje, en el lenguaje de cada uno de los oficios; en el lenguaje de la forma. Cada uno hace una interpretación de lo que ve y construye un cuerpo que luego es parte de una exposición colectiva y pública”</p>
-          <span class='blanco derecha'>Juan Carlos Jeldes</span>
-          </div>  
-        </div>  <!-- fin de fila -->
-      </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
-    </div> <!-- fin de wrap carousel -->
-  </div> <!-- fin de item -->
-  <div class="item altura-maxima">
-    <img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/alberto.jpg">
-    <!-- descripción-lg -->
-    <div class='wrap fondo-damasco-c'>
-      <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
-        <h3 class='beige-claro margen-izquierdo grande margen-superior-md'>Historia</h3>
-        <div class='fila'>
-          <div class='col-md-21'>
-            <p class='margen-izquierdo blanco grande'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
-            <span class='blanco derecha'>Alberto Cruz</span>
-          </div>
-        </div>  
-      </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
-    </div>  <!-- fin de wrap carousel --> 
-  </div>  <!-- fin de item -->
-</div>  <!-- fin Carousel inner -->
-</div>  <!-- fin Carousel -->
+            </div>  
+          </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
+        </div>  <!-- fin de wrap carousel --> 
+      </div>  <!-- fin de item -->
+      <div class="item altura-maxima">
+        <img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/historia.jpg">
+        <!-- descripción-lg -->
+        <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
+          <p class='blanco centrado'>Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>
+        </div>
+        <div class='wrap-carousel'>
+          <div class='col-lg-5 col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+            <h4 class='beige-claro margen-izquierdo margen-superior-md'>Historia</h4>
+            <div class='fila'>
+              <div class='col-md-21'>
+                <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+                <span class='blanco derecha'>Alberto Cruz</span>
+              </div>
+            </div>  
+          </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
+        </div>  <!-- fin de wrap carousel --> 
+      </div>  <!-- fin de item -->
+      <div class="item altura-maxima">
+        <img class='excedente-vertical' alt="Fourth slide" src="{{ site.baseurl }}/img/croquis.jpg">
+        <!-- descripción-lg -->
+        <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
+          <p class='blanco centrado'>Observación realizada por el profesor David Jolly</p>
+        </div>
+        <div class='wrap-carousel'>
+          <div class='col-lg-5 col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+            <h4 class='beige-claro margen-izquierdo margen-superior-md'>Observación</h4>
+            <div class='fila'>
+              <div class='col-md-21'>
+                <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+                <span class='blanco derecha'>Alberto Cruz</span>
+              </div>
+            </div>  
+          </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
+        </div>  <!-- fin de wrap carousel --> 
+      </div>  <!-- fin de item -->
+    </div>  <!-- fin Carousel inner -->
+  </div>  <!-- fin Carousel -->
 </div>  <!-- fin de imàgenes-destacadas-ead -->
 
 <!-- CONTENIDO DE LA HOME -->                                   

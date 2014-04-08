@@ -246,6 +246,21 @@
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
+  .carousel-inner {
+  > .item {
+    .transition(.6s ease-in-out left);
+    > img,
+    > a > img {
+      //&:extend(.img-responsive);
+
+      &.excedente-vertical {
+      line-height: 1;
+      width: 175%;
+      overflow: hidden;
+      }
+    }
+  }
+}
 }
 
 
@@ -258,10 +273,43 @@
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+.carousel-inner {
+  > .item {
+    .transition(.6s ease-in-out left);
+    > img,
+    > a > img {
+      //&:extend(.img-responsive);
+
+      &.excedente-vertical {
+      line-height: 1;
+      width: 140%;
+      overflow: hidden;
+      }
+    }
+  }
+}
+
 }
 
 // Large screen / wide desktop
 
 @media (min-width: @screen-lg){
+
+
+.carousel-inner {
+  > .item {
+    .transition(.6s ease-in-out left);
+    > img,
+    > a > img {
+      //&:extend(.img-responsive);
+
+      &.excedente-vertical {
+      line-height: 1;
+      width: 100%;
+      overflow: hidden;
+      }
+    }
+  }
+}
 
 }
