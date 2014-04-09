@@ -28,7 +28,7 @@ title: Giornata Maquetas
               <div class='col-lg-5 col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead'> 
                 <h4 class='beige-claro grueso col-lg-offset-14 margen-izquierdo margen-superior-md'>Noticias</h4>
                 <div class='fila'>
-                  <div class='col-md-21'>
+                  <div class='col-md-21 col-sm-22 col-xs-10'>
                     <p class='margen-izquierdo'>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
                     <span class='blanco derecha'>Dra. Carol Edwards</span>
                   </div>
