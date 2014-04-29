@@ -5,7 +5,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 
 <!-- CAROUSEL LG -->
 <!-- imagenes-destacadas-ead -->
-<div class='col-lg-24 col-md-24 imagenes-destacadas-ead ver'>
+<div class='col-lg-24 col-md-24 imagenes-destacadas-ead'>
 <!-- datos de carousel-lg -->
   <div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
     <!-- Indicadores de carousel lg -->
@@ -116,112 +116,146 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 
 <div class='wrap'>
 	<div class='fila'> <!-- sección actualidad --> 
-    
-		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'> <!-- eventos -->
-      <h3 class='negro altas nombre-seccion'>Eventos <i class="icn icn-calendario"></i></h3>
-		  <a href='#'><div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev evento alto-xs'> <!-- evento 1 -->
-        <h5 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h5>
-        <div class='fila'>
-          <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
-            <p class='numero'>24</p>
-            <p>abr</p>
-          </div>
-          <div class='col-lg-19 col-md-19 col-sm-19'>
-            <p class='prev-texto'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]</p>
-          </div>
-        </div>
-      </div></a><!-- fin evento 1 -->
-      <a href='#'><div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 2 -->
-        <h5 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos de adobe</h5>
-        <div class='fila'>
-          <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
-            <p class='numero'>18</p>
-            <p>abr</p>
-          </div>
-          <div class='col-lg-19 col-md-19 col-sm-19'>
-            <p class='prev-texto'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de construcción [...]</p>
-          </div>
-        </div>
-      </div> </a> <!-- fin evento 2 -->
-      <a href='#'><div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 3 -->
-        <h5 class='rojo'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h5>
-        <div class='fila'>
-          <div class='fecha-evento col-lg-5 col-md-5 col-xs-4'>
-            <p class='numero'>15</p>
-            <p>abr</p>
-          </div>
-          <div class='col-lg-19 col-md-19'>
-            <p class='prev-texto'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el seminario [...]</p>
-          </div>
-        </div>
-      </div></a><!-- fin evento 3 -->
+		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24 margen-inferior'> <!-- eventos -->
+      <a href='#'><h5 class='negro altas nombre-seccion'>Eventos <i class="icn icn-calendario"></i></h5></a>
+        <a href='#'>
+          <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs xs'> <!-- evento 1 -->
+            <div class='fila lectura-prev xs'>
+              <div class='titulo-prev'>
+                <a href='#'><h6 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6></a>
+              </div>
+              <div class='fila'>
+                <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
+                  <p class='numero'>24</p>
+                  <p>abr</p>
+                </div>
+                <div class='col-lg-18 col-md-19 col-sm-19'>
+                  <p class='prev-texto xs'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de [...]</p>
+                </div>
+              </div>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+              </div>
+            </div>
+          </div> 
+        </a><!-- fin evento  1 -->
+        <a href='#'>
+          <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs xs'> <!-- evento  2 -->
+            <div class='fila lectura-prev xs'>
+              <div class='titulo-prev'>
+                <a href='#'><h6 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos</h6></a>
+              </div>
+              <div class='fila'>
+                <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
+                  <p class='numero'>18</p>
+                  <p>abr</p>
+                </div>
+                <div class='col-lg-18 col-md-19 col-sm-19'>
+                  <p class='prev-texto xs'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de [...]</p>
+                </div>
+              </div>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+              </div>
+            </div>
+          </div> 
+        </a><!-- fin evento  2 -->
+        <a href='#'>
+          <div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-xs xs'> <!-- evento 3 -->
+            <div class='fila lectura-prev xs'>
+              <div class='titulo-prev'>
+                <a href='#'><h6 class='rojo'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6></a>
+              </div>
+              <div class='fila'>
+                <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
+                  <p class='numero'>15</p>
+                  <p>abr</p>
+                </div>
+                <div class='col-lg-18 col-md-19 col-sm-19'>
+                  <p class='prev-texto xs'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el [...]</p>
+                </div>
+              </div>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+              </div>
+            </div>
+          </div> 
+        </a><!-- fin evento  3 -->
 		</div>
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>   <!-- info de docencia -->
-      <h3 class='negro altas nombre-seccion'>Información de Docencia <i class="icn icn-engranaje icn-spin"></i></h3>
+      <a href='#'><h5 class='negro altas nombre-seccion'>Información de Docencia <i class="icn icn-asterisco"></i></h5></a>
       <div class='col-lg-21 col-lg-offset-3 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 alto-xs'>
         <ul class='enlaces-aside'>
           <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
           <li><a href='#'>Al término del 3º trimestre 2013, se recuerda a los alumnos lo siguiente:</a></li>
           <li><a href='#'>Asignación de Profesores para Título 1</a></li>
-          <li><a href='#'>Para finalizar el 2º trim. correctamente e iniciar el 3º trim. 2013, recuerda:</a></li>
         </ul>
       </div>
 		</div>
 	</div>
 	<div class='fila'>
 		<div class='col-lg-18 col-md-18 col-sm-16'>
-			<h3 class='negro altas nombre-seccion'>Noticias <i class="icn icn-calendario"></i></h3>
+			<a href='#'><h5 class='negro altas nombre-seccion'>Noticias <i class="icn icn-noticias"></i></h5></a>
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 1 -->
         <div class='fila'>
           <div class='col-lg-24 imagen-noticia-prev'>
-            <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2014/04/Sergio-Baeriswyl-web.jpg'>
+            <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
           </div>
         </div>
         <div class='fila lectura-prev sm'>
           <div class='titulo-prev'>
-            <a href='#'><h3 class='rojo'>Exposición de Sergio Baeriswyl en la e[ad]</h3></a>
+            <a href='#'><h6 class='rojo'>Exposición de Sergio Baeriswyl en la e[ad]</h6></a>
           </div>
           <p class='datos-publicacion'>Publicado el <a href='#'>24 de abril, 2014</a></p>
           <div class='fila'>
             <div class='col-lg-24 col-md-24 col-sm-24'>
-              <p class='prev-texto'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el contexto del incendio de Valparaíso, realizará una exposición respecto[...]</p>
+              <p class='prev-texto'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
             </div>
+          </div>
+          <div class='leer-mas'>
+            <i class="icn icn-mas"></i>
           </div>
         </div>
       </div><!-- fin noticia 1 -->
         <a href='#'><div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 2 -->
         <div class='fila'>
           <div class='col-lg-24 imagen-noticia-prev'>
-            <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2014/04/IMG_0144-605x340.jpg'>
+            <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
           </div>
         </div>
         <div class='fila lectura-prev sm'>
           <div class='titulo-prev'>
-            <a href='#'><h3 class='rojo'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h3></a>
+            <a href='#'><h6 class='rojo'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h6></a>
           </div>
           <p class='datos-publicacion'>Publicado el <a href='#'>23 de abril, 2014</a></p>
           <div class='fila'>
             <div class='col-lg-24 col-md-24 col-sm-24'>
-              <p class='prev-texto'>Este miércoles los estudiantes y profesores de la e[ad] sustituyeron la clase de Cultura del Cuerpo por subir al Cerro Merced, en Valparaíso, para continuar ayudando en la remoción de escombros, y dar [...]</p>
+              <p class='prev-texto'>Este miércoles los estudiantes y profesores de la e[ad] sustituyeron la clase de Cultura del Cuerpo por subir al Cerro Merced, en Valparaíso, para [...]</p>
             </div>
+          </div>
+          <div class='leer-mas'>
+            <i class="icn icn-mas"></i>
           </div>
         </div>
       </div></a><!-- fin noticia 2 -->
-        <a href='#'><div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 3 -->
+        <a href='#'><div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 3 -->
         <div class='fila'>
           <div class='col-lg-24 imagen-noticia-prev'>
-            <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2014/04/faenas-605x405.png'>
+            <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
           </div>
         </div>
         <div class='fila lectura-prev sm'>
           <div class='titulo-prev'>
-            <a href='#'><h3 class='rojo'>Estado de Faenas</h3></a>
+            <a href='#'><h6 class='rojo'>Estado de Faenas</h6></a>
           </div>
           <p class='datos-publicacion'>Publicado el <a href='#'>15 de abril, 2014</a></p>
           <div class='fila'>
             <div class='col-lg-24 col-md-24 col-sm-24'>
-              <p class='prev-texto'>Hemos creado un formulario para coordinar mejor las faenas y proceder de acuerdo a lo que aprendimos durante la jornada. Por favor, a todos los involucrados, les solicitamos completar la siguiente encuesta.[...]</p>
+              <p class='prev-texto'>Hemos creado un formulario para coordinar mejor las faenas y proceder de acuerdo a lo que aprendimos durante la jornada. Por favor, a todos los [...]</p>
             </div>
+          </div>
+          <div class='leer-mas'>
+            <i class="icn icn-mas"></i>
           </div>
         </div>
       </div></a><!-- fin noticia 3 -->
@@ -230,7 +264,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 			info docencia 2
 		</div>
 		<div class='col-lg-6 col-md-5 col-sm-8 col-xs-12'>
-      <h3 class='negro nombre-seccion'>@eadpucv <i class="icn icn-calendario"></i></h3>
+      <h5 class='negro nombre-seccion'>@eadpucv <i class="icn icn-twitter"></i></h5>
       <div class='col-lg-24 alto-sm'>
   			<a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -244,105 +278,119 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 		</div> <!-- fin contenido para el postulante -->
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'>
 			<div class='fila'>
-				<div class='col-lg-24 alto-md'>
-				  <h3 class='negro nombre-seccion'>Arquitectura <i class="icn icn-calendario"></i></h3>
-          <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev '> <!-- noticia 1 -->
-            <div class='col-lg-8 imagen-noticia-prev md'>
-              <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2014/03/DSC079751.jpg'>
-            </div>
-            <div class='col-lg-15 col-lg-offset-1'>
-            <div class='titulo-prev'>
-              <a href='#'><h1 class='rojo'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h1></a>
-            </div>
-            <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
-            <div class='fila'>
-              <div class='col-lg-24 col-md-24 col-sm-24'>
-                <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
+         <a href='#'> <!-- noticia destacada 1 -->
+  				<div class='col-lg-24 alto-md'>
+              <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev md'>
+                <div class='col-lg-8 imagen-noticia-prev'>
+                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
+                </div>
+                <div class='col-lg-16 lectura-prev md'>
+                  <h6 class='negro nombre-seccion'>Arquitectura <i class="icn icn-asterisco"></i></h6>
+                  <h2 class='rojo fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h2>
+                  <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
+                  <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
+                  <p class='categorias-publicacion'><a href='#'>[ Arquitectura ]</a> <a href='#'>[ Noticias ]</a></p>
+                </div>
               </div>
-              <p class='categorias-publicacion'><a href='#'>[ Arquitectura]</a> <a href='#'>[ Noticias ]</a></p>
-            </div>
-          </div>
-          </div><!-- fin noticia 1 -->
-				</div>
-				<div class='col-lg-24 alto-md'>
-					<h3 class='negro nombre-seccion'>Diseño Gráfico <i class="icn icn-calendario"></i></h3>
-          <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev '> <!-- noticia 2 -->
-            <div class='col-lg-8 imagen-noticia-prev md'>
-              <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2013/12/p5-605x441.png'>
-            </div>
-            <div class='col-lg-15 col-lg-offset-1'>
-            <div class='titulo-prev'>
-              <a href='#'><h1 class='rojo'>La Observación en Diseño</h1></a>
-            </div>
-            <p class='datos-publicacion'>Publicado el <a href='#'>12 de diciembre, 2013</a></p>
-            <div class='fila'>
-              <div class='col-lg-24 col-md-24 col-sm-24'>
-                <p class='prev-texto md'>La observación arquitectónica, amplimente difundida y practicada se ha consolidado como un modo creativo en el oficio. Para el caso del diseño se hace necesario otro espesor en el dibujo y en el modo de acceder a “la realidad” que nos exije la naturaleza de la obra que abordamos. ¿Cómo es [...]</p>
+  				</div>
+        </a> <!-- fin noticia destacada 1 -->
+         <a href='#'> <!-- noticia destacada 2 -->
+          <div class='col-lg-24 alto-md'>
+              <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev md'>
+                <div class='col-lg-8 imagen-noticia-prev'>
+                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
+                </div>
+                <div class='col-lg-16 lectura-prev md'>
+                  <h6 class='negro nombre-seccion'>Diseño gráfico <i class="icn icn-asterisco"></i></h6>
+                  <h2 class='rojo fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h2>
+                  <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
+                  <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
+                  <p class='categorias-publicacion'><a href='#'>[ Diseño Gráfico ]</a> <a href='#'>[ Noticias ]</a> <a href='#'>[ Seminario ]</a></p>
+                </div>
               </div>
-              <p class='categorias-publicacion'><a href='#'>[ Arquitectura]</a> <a href='#'>[ Noticias ]</a></p>
-            </div>
           </div>
-          </div><!-- fin noticia 2 -->
-				</div>
-				<div class='col-lg-24 alto-md'>
-					<h3 class='negro nombre-seccion'>Diseño Industrial <i class="icn icn-calendario"></i></h3>
-          <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev '> <!-- noticia 3 -->
-            <div class='col-lg-8 imagen-noticia-prev md'>
-              <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2014/03/MG_4539.jpg'>
-            </div>
-            <div class='col-lg-15 col-lg-offset-1'>
-            <div class='titulo-prev'>
-              <a href='#'><h1 class='rojo'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h1></a>
-            </div>
-            <p class='datos-publicacion'>Publicado el <a href='#'>25 de marzo, 2014</a></p>
-            <div class='fila'>
-              <div class='col-lg-24 col-md-24 col-sm-24'>
-                <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará [...]</p>
+        </a> <!-- fin noticia destacada 2 -->
+         <a href='#'> <!-- noticia destacada 3 -->
+          <div class='col-lg-24 alto-md'>
+              <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev md'>
+                <div class='col-lg-8 imagen-noticia-prev'>
+                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
+                </div>
+                <div class='col-lg-16 lectura-prev md'>
+                  <h6 class='negro nombre-seccion'>Diseño industrial <i class="icn icn-asterisco"></i></h6>
+                  <h2 class='rojo fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h2>
+                  <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
+                  <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
+                  <p class='categorias-publicacion'><a href='#'>[ Diseño Industrial ]</a> <a href='#'>[ Noticias ]</a></p>
+                </div>
               </div>
-              <p class='categorias-publicacion'><a href='#'>[ Arquitectura]</a> <a href='#'>[ Noticias ]</a></p>
+          </div>
+        </a> <!-- fin noticia destacada 3 -->
+				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24'>
+          <a href='#'> <!-- noticia categorizada 1 -->
+            <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'>
+              <h6 class='negro altas centrado'>magíster arquitectura y diseño</h6>
+              <div class='fila lectura-prev categorizada-sin-imagen sm'>
+                <div class='titulo-prev'>
+                  <a href='#'><h5 class='rojo'>Concursos de Innovación y Emprendimiento 2014</h5></a>
+                </div>
+                <p class='datos-publicacion'>Publicado el <a href='#'>23 de abril, 2014</a></p>
+                <div class='fila'>
+                  <div class='col-lg-24 col-md-24 col-sm-24'>
+                    <p class='prev-texto'>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos, funcionarios y alumnos del CFT UCEVALPO, para recibir financiamiento que les permita desarrollar sus proyectos e ideas innovadoras.[...]</p>
+                  </div>
+                </div>
+                <div class='leer-mas'>
+                  <i class="icn icn-mas"></i>
+                </div>
+              </div>
             </div>
-          </div>
-          </div><!-- fin noticia 3 -->
+          </a> <!-- fin noticia categorizada 1 -->
 				</div>
 				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 alto-sm'>
-					<h5 class='negro altas'>magíster arquitectura y diseño <i class="icn icn-calendario"></i></h5>
-      <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 1 -->
-        <div class='fila'>
-          <div class='col-lg-24 imagen-noticia-prev'>
-            <img class='excedente-imagen' src='http://www.ead.pucv.cl/wp-content/archivos/2014/04/Sergio-Baeriswyl-web.jpg'>
-          </div>
-        </div>
-        <div class='titulo-prev'>
-          <a href='#'><h5 class='rojo'>Despliegue del oficio: Exposición de Sergio Baeriswyl en la e[ad]</h5></a>
-        </div>
-        <p class='datos-publicacion'>Publicado el <a href='#'>24 de abril, 2014</a></p>
-        <div class='fila'>
-          <div class='col-lg-24 col-md-24 col-sm-24'>
-            <p class='prev-texto'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el contexto del incendio de Valparaíso, realizará una exposición respecto a urbanismo y situaciones de catástrofes en las ciudades chilenas. Viernes 25 de abril, 12:00.[...]</p>
-          </div>
-        </div>
-      </div><!-- fin noticia 1 -->
+					 <a href='#'> <!-- noticia categorizada 1 -->
+            <div class='col-lg-24 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev categorizada sm alto-sm'>
+                <h6 class='negro altas centrado'>taller de amereida</h6>
+              <div class='fila'>
+                <div class='col-lg-24 imagen-noticia-prev'>
+                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-1.jpg'>
+                </div>
+              </div>
+              <div class='fila lectura-prev sm'>
+                <div class='titulo-prev'>
+                  <a href='#'><h5 class='rojo'>Entrega Taller de Amereida Trim. I 2014</h5></a>
+                </div>
+                <p class='datos-publicacion'>Publicado el <a href='#'>23 de abril, 2014</a></p>
+                <div class='fila'>
+                  <div class='col-lg-24 col-md-24 col-sm-24'>
+                    <p class='prev-texto'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller; cada alumno elige una idea por clase y [...]</p>
+                  </div>
+                </div>
+                <div class='leer-mas'>
+                  <i class="icn icn-mas"></i>
+                </div>
+              </div>
+            </div>
+          </a> <!-- fin noticia categorizada 1 -->
 				</div>
 				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 alto-sm'>
-					taller de amereida
+					<h5 class='negro'>ediciones</h5>
 				</div>
 				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 alto-sm'>
-					ediciones e[ad]
+					<h5 class='negro'>archivo histórico</h5>
 				</div>
 				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 alto-sm'>
-					archivo histórico
+					<h5 class='negro'>investigación</h5>
 				</div>
 				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 alto-sm'>
-					investigación
-				</div>
-				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 alto-sm'>
-					bolsa de trabajo
+					<h5 class='negro'>bolsa de trabajo</h5>
 				</div>
 			</div> 
 		</div> <!-- fin contenido ead -->
 		<div class='oculto-lg oculto-md oculto-sm col-xs-24 alto-lg'>
-			elementos de interés al postulante
-		</div> <!-- fin contenido para el postulante -->
+			elementos de interés al postulante 2
+		</div> <!-- fin contenido para el postulante 2 -->
 	</div> <!-- fin sección contenido-->
 </div> <!-- fin wrap -->
+
 

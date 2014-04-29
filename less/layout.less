@@ -12,6 +12,8 @@
     margin: 0 auto;
     width: 100%;
     background-color: @gris-blanco;
+    background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
+
 }
 
 .wrap {
@@ -29,8 +31,8 @@
 
 .logo-ead {
   font-family: @sans;
-  color: @blanco;
-  margin: 0 0 0 @cuadratin;
+  color: @negro;
+  margin: 0;
   padding: 0;
   font-size: @cuerpo-nav * .7;
   line-height: @cuerpo-nav;
@@ -75,7 +77,7 @@
 // Tipografías contenido 
 
 .nombre-seccion {
-    margin-bottom: @cuadratin / 2;
+    margin:0 0 @cuadratin / 1.8 0;
 }
 
 .enlaces-aside {
@@ -84,13 +86,9 @@
     padding: 0;
     margin: 0;
 
-    h5 {
-        margin-bottom: @cuadratin;
-    }
-
     li:before {
-        font-family: 'eadiconos';
-        content: '\e618';
+        font-family: 'Stampa';
+        content: '\e601';
         margin:0 @cuadratin-tercio 0 -@cuadratin-tercio * 2;
         color: @rojo-claro;
     }
@@ -127,24 +125,85 @@
     padding: 0 @cuadratin / 2;
     border-right: 1px solid @gris-claro;
 
+    h6 {
+        margin:0;
+    }
+
     .lectura-prev {
         padding: 0 @cuadratin / 1.5 @cuadratin / 1.5;
-        background-color: @gris-claro;
+        position: relative;
+
+        &.xs {
+             padding-bottom: 0;
+        }
         
-        &.sm {
-            min-height: @cuadratin * 8;
+        &.sm, &.xs {
+            background-color: @gris-claro;
+                
+                &:hover {
+                background-color: @blanco;
+            }
+        }
+
+        &.md {
+            position: relative;
+            height: @cuadratin * 14;
+
+            h6, h2 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .nombre-seccion {
+                margin:@cuadratin-tercio 0;
+            }
+
+            .categorias-publicacion {
+                bottom: @cuadratin-tercio;
+                position: absolute;
+            }
+        }
+
+        &.categorizada-sin-imagen {
+            min-height: @cuadratin * 12;
+        }
+
+        &.categorizada {
+
+            .lectura-prev {
+                background-color: red;
+            }
+            
+            .imagen-noticia-prev {
+
+                height: @cuadratin * 3; 
+                padding: 0 @cuadratin 0 0;
+
+                .excedente-imagen {
+                    height: @cuadratin * 10;
+                }
+            }
         }
     }
 
     .titulo-prev {
         margin: @cuadratin-tercio 0 0;
         height: @cuadratin * 1.8;
+
+        &.md {
+
+            h1 {
+                margin: 0;
+                padding: 0;
+                font-weight: 200;
+            }
+        }
     }
 
     .prev-texto {
     font-size: @cuerpo-nav * .8;
     line-height: @interlinea-nav * .8;
-    margin-bottom: 0;
+    margin: 0;
     padding-bottom: 0;
 
         @media (max-width: @screen-sm-max) {
@@ -156,16 +215,16 @@
             margin: 0;
         }
 
+        &.xs {
+            margin-top: @cuadratin-tercio;
+        }
+
         &.md {
+            margin-top: @cuadratin;
             font-size: @cuerpo-nav * 1.2;
             line-height: @interlinea-nav * 1.4;
         }
     }
-
-    &.evento {
-        //background-color: @blanco;
-    }
-
 
     &.datos-publicacion {
         font-family: @sans;
@@ -202,15 +261,43 @@
             }
         }
     }
+
+    // Tamaños en de la caja
+
+    &.md {
+        background-color: @gris-claro;
+        margin: 0;
+        padding: 0;
+
+        .imagen-noticia-prev {
+            min-height: @cuadratin * 14; 
+            padding: 0 @cuadratin 0 0;
+                .excedente-imagen {
+                    height: @cuadratin * 14;
+                }
+        }
+
+        &:hover {
+            background-color: @blanco;
+        }
+    }
+
+    &.sm {
+    }
+
+    // Auxiliar de caja
+
+    .leer-mas {
+        position: absolute;
+        color: @rojo;
+        right: @cuadratin-tercio;
+        bottom: 0;
+    }
 }
 
 .imagen-noticia-prev {
     max-height: @cuadratin * 8; 
     overflow: hidden;
-
-    &.md {
-        max-height: @cuadratin * 10; 
-    }
 
     .excedente-imagen {
         overflow: hidden;
@@ -229,13 +316,14 @@
 }
 
 .alto-sm {
-    height: @cuadratin * 16;
+    height: @cuadratin * 13;
     margin-bottom: @cuadratin;
 }
 
 .alto-md {
-    height: @cuadratin * 16;
+    height: @cuadratin * 14;
     border-bottom:1px solid @gris-blanco;
+    margin-bottom: @cuadratin / 2;
 }
 
 
