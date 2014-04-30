@@ -282,7 +282,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	<div class='fila'> <!-- sección contenido-->
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs alto-lg'>
       <div class='caja-contenido-postulante'>
-        <h2>Admisión</h2>
+        <h5>Admisión</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Vías de ingreso</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>Becas y financiamiento</a></li>
@@ -290,7 +290,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </ul>
       </div>
       <div class='caja-contenido-postulante'>
-        <h2>Carreras y Posgrados</h2>
+        <h5>Carreras y Posgrados</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Arquitectura</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>Diseño Gráfico</a></li>
@@ -300,21 +300,21 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </ul>
       </div>
       <div class='caja-contenido-postulante'>
-        <h2>Campus</h2>
+        <h5>Campus</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Casa de estudio</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>Ciudad Abierta</a></li>
         </ul>
       </div>
       <div class='caja-contenido-postulante'>
-        <h2>Cuerpo Docente</h2>
+        <h5>Cuerpo Docente</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Profesores</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>Ayudantes</a></li>
         </ul>
       </div>
       <div class='caja-contenido-postulante'>
-        <h2>La Escuela y el oficio</h2>
+        <h5>La Escuela y el oficio</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Historia</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>La observación</a></li>

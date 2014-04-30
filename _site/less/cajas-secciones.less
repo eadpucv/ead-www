@@ -1,0 +1,258 @@
+// Cajas de contenido específico + tipografías + elementos
+
+.caja-publicacion-prev {
+    padding: 0 @cuadratin / 2;
+    border-right: 1px solid @gris-claro;
+    border-left: 1px solid @gris-claro;
+
+    h6 {
+        margin:0;
+    }
+
+    .lectura-prev {
+        padding: 0 @cuadratin / 1.5 @cuadratin / 1.5;
+        position: relative;
+
+        &.xs {
+             padding-bottom: 0;
+        }
+        
+        &.sm, &.xs {
+            background-color: @gris-claro;
+                
+                &:hover {
+                background-color: @blanco;
+            }
+        }
+
+        &.md {
+            height: @cuadratin * 14;
+            padding-left: @cuadratin;
+
+            h6, h2 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .nombre-seccion {
+                margin:@cuadratin-tercio 0;
+            }
+
+            .categorias-publicacion {
+                bottom: @cuadratin-tercio;
+                position: absolute;
+            }
+        }
+    }
+
+    .titulo-prev {
+        margin: @cuadratin-tercio 0 0;
+        height: @cuadratin * 1.8;
+
+        &.md {
+            h1 {
+                margin: 0;
+                padding: 0;
+                font-weight: 200;
+            }
+        }
+    }
+
+    .prev-texto {
+    font-size: @cuerpo-nav * .8;
+    line-height: @interlinea-nav * .8;
+    margin: 0;
+    padding-bottom: 0;
+
+        @media (max-width: @screen-sm-max) {
+          font-size: @cuerpo * .75
+        }
+
+        span {
+            padding: 0;
+            margin: 0;
+        }
+
+        &.xs {
+            margin-top: @cuadratin-tercio;
+        }
+
+        &.md {
+            margin-top: @cuadratin;
+            font-size: @cuerpo-nav * 1.2;
+            line-height: @interlinea-nav * 1.4;
+        }
+    }
+
+    &.datos-publicacion {
+        font-family: @sans;
+        font-size: @cuerpo-nav / 1.3;
+        color: @gris-oscuro;
+        margin: 0 0 0 30px;
+        padding: 0;
+    }
+
+    .categorias-publicacion {
+        font-family: @sans;
+        font-size: @cuerpo-nav;
+        color: @gris-oscuro;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fecha-evento {
+        font-family: @sans;
+        padding: 0;
+        color: @rojo-claro;
+        font-size: @cuerpo-nav * 1.3;
+        letter-spacing: 0;
+        margin: @cuadratin / 2 0;
+
+        p {
+            padding: 0;
+            margin: 0;
+            font-family: @sans;
+
+            &.numero {
+                font-size: @cuerpo-nav * 3;
+                line-height: @cuerpo-nav * 2;
+            }
+        }
+    }
+
+    // Ajustes según el tamaños de la caja
+
+    &.noticia-categorizada {
+        margin-left: @cuadratin / 2;
+        background-color: @gris-claro;
+
+            &:hover {
+            background-color: @blanco;
+        }
+
+        &.sm {
+
+        }
+
+        &.md {
+            padding: 0;
+                        
+            .imagen-noticia-prev {
+                min-height: @cuadratin * 14; 
+                overflow: hidden;
+                    .excedente-imagen {
+                        height: @cuadratin * 14;
+                        overflow: hidden;
+                    }
+            }
+        }
+    }
+
+    // Auxiliar de caja
+
+    .leer-mas {
+        position: absolute;
+        color: @rojo;
+        right: @cuadratin-tercio;
+        bottom: 0;
+    }
+
+    &.categoria {
+
+        .titulo-prev {
+            margin: @cuadratin-tercio 0 0;
+            height: auto;
+        }
+    }
+}
+
+.caja-contenido-postulante {
+    background-color: lighten(@gris-blanco, 40%);
+    border:1px solid @gris-claro;
+    margin: 0 @cuadratin / 2 @cuadratin / 2;
+
+    h5 {
+        margin: 0 @cuadratin-tercio;
+    }
+
+    ul {
+        margin: 0 0 @cuadratin-tercio;
+        padding: 0 0 @cuadratin @cuadratin;
+    }
+}
+
+.texto-noticia-categorizada {
+    position: relative;
+    height: @cuadratin * 13; 
+    background-color: @gris-claro;
+    padding: 0 @cuadratin / 2;
+
+    &:hover {
+        background-color: @blanco;
+    }
+
+    .fondo {
+        position: absolute;
+        bottom: @cuadratin;
+        padding: 0 @cuadratin / 2;
+    }
+}
+
+.enlaces-aside {
+    font-size: @cuerpo-nav * .85;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li:before {
+        font-family: 'Stampa';
+        content: '\e601';
+        margin:0 @cuadratin-tercio 0 -@cuadratin-tercio * 2;
+        color: @rojo-claro;
+    }
+
+    li {
+        line-height: @interlinea-nav *.9;
+        margin-bottom: @cuerpo-nav *.5;
+
+        a {
+            &:hover {
+                color: @pizarra-oscuro;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// auxiliares para bloques (maqueteo)
+
+.alto-xs {
+    height: @cuadratin * 5;
+    margin-bottom: @cuadratin / 2;
+}
+
+.alto-sm {
+    height: @cuadratin * 13;
+    margin-bottom: @cuadratin;
+    position: relative;
+
+    h6 {
+        margin: 0;
+    }
+
+    &.categoria {
+        height: @cuadratin * 14;
+    }
+}
+
+.alto-md {
+    height: @cuadratin * 14;
+    border-bottom:1px solid @gris-blanco;
+    margin-bottom: @cuadratin;
+}
+
+
+.alto-lg {
+    min-height: @cuadratin * 21;
+    border:1px solid @gris-blanco;
+}

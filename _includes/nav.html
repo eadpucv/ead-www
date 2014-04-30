@@ -1,34 +1,40 @@
-<div class='oculto-lg oculto-md oculto-sm col-xs-24'> <!-- menu xs -->
-  <div class='menu-pyxis-movil'> 
-    <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
+<div class='oculto-lg oculto-md col-sm-24 col-xs-24'> <!-- menú móvil -->
+<div class='menu-pyxis movil'> 
+   <!-- Collapse -->
+   <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
       <div class="panel-heading">
-      <div class='pag-movil blanco'>
-      <h4 class="panel-title">
-      <button class='btn-alerta margen-superior-s' data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-      Menú e[ad]
-      </button>
-      </h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse in">
-        <div class="panel-body fondo-gris-oscuro">
-          <div class='pag-movil blanco'>
-            <ul class='menu altas gruesa'>
-              <a href='tipografia.html'><li>Escuela</li></a>
-              <a href='grilla.html'><li>Carreras y Posgrados</li></a>
-              <a href='interaccion.html'><li>Admisión</li></a>
-              <a href='color.html'><li>Estudiantes</li></a>
-              <a href='iconografia.html'><li>Extensión</li></a>
-              <a href='versatilidad.html'><li>Amereida</li></a>
+        <div class='pag-movil'>
+          <h4 class="panel-title">
+            <div class='oculto-lg oculto-md col-sm-20 col-xs-20'>
+              <h5><span class='gruesa rojo-claro'>e[ad]</span></h5>
+            </div>
+            <button type="button" class="btn btn-danger derecha" data-toggle="collapse" data-target="#demo">
+              <i class="icn icn-mano-abajo icn-md"></i>
+            </button>
+            </div>
+          <div id="demo" class="collapse">
+          <div class="panel-body fondo-gris-oscuro">
+          <ul class='menu'>
+            <a href='{{ site.baseurl }}/pags/tipografia'><li>Tipografía</li></a>
+            <a href='{{ site.baseurl }}/pags/grilla'><li>Grilla</li></a>
+            <a href='{{ site.baseurl }}/pags/interaccion'><li>Interacción</li></a>
+            <a href='{{ site.baseurl }}/pags/color'><li>Color</li></a>
+            <a href='{{ site.baseurl }}/pags/iconografia'><li>Íconografía</li></a>
+            <a href='{{ site.baseurl }}/pags/versatilidad'><li>Versatilidad</li></a>
+            <a href='{{ site.baseurl }}/pags/layout'><li>Layout</li></a>
+            <a href='{{ site.baseurl }}/pags/javascript'><li>Javascript</li></a>
             </ul>
           </div>
-        </div>
-      </div>
-      </div>
-    </div>         
+          </div>
+          </h4>
     </div>
-  </div>
+  </div>         
 </div>
+</div>
+</div>
+</div>
+<!-- fin barra de menú móvil-->
 <div class='wrap'>
  <div class='fila'>
         <!-- fin barra de menú -->
@@ -39,7 +45,7 @@
       <p class='logo-ead altas'>Escuela de Arquitectura y Diseño</p>
       <p class='logo-ead'>Pontificia Universidad Católica de Valparaíso</p>
     </div>
-   <div class='col-lg-19 col-md-24 col-sm-24 col-sm-offset-0 oculto-xs cf margen-inferior margen-superior-s'>
+   <div class='col-lg-19 col-md-24 oculto-sm oculto-xs cf margen-inferior margen-superior-s'>
        <ul class="nav nav-pills">
          <li class="dropdown">
            <a href="#" data-toggle="dropdown" role="button" id="primer-dropdown" class="dropdown-toggle">Escuela<b class="caret"></b></a>
