@@ -330,7 +330,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen-noticia-prev'>
                   <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
                 </div>
-                <div class='col-lg-16 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
+                <div class='col-lg-14 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
                   <h6 class='negro nombre-seccion'>Arquitectura <i class="icn icn-asterisco icn-sm gris"></i></h6>
                   <h2 class='rojo fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h2>
                   <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
@@ -349,7 +349,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen-noticia-prev'>
                   <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
                 </div>
-                <div class='col-lg-16 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
+                <div class='col-lg-14 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
                   <h6 class='negro nombre-seccion'>Diseño gráfico <i class="icn icn-asterisco icn-sm gris"></i></h6>
                   <h2 class='rojo fino'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h2>
                   <p class='datos-publicacion'>Publicado el <a href='#'>24 de abril, 2014</a></p>
@@ -368,7 +368,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen-noticia-prev'>
                   <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
                 </div>
-                <div class='col-lg-16 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
+                <div class='col-lg-14 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
                   <h6 class='negro nombre-seccion'>Diseño industrial <i class="icn icn-asterisco icn-sm gris"></i></h6>
                   <h2 class='rojo fino'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h2>
                   <p class='datos-publicacion'>Publicado el <a href='#'>25 de abril, 2014</a></p>
