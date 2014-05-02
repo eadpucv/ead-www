@@ -15,7 +15,7 @@ title: Giornata Maquetas
 <nav style='margin: 100px'>
   <li><h4>Entradas</h4>
     <ul><a href="pags/articulo-carrera-grafico">pagina-articulo-carrera</a></ul>
-    <ul><a href="pags/portada-noticias">portada-noticias</a></ul>
+    <ul><a href="pags/portada_noticias">portada-noticias</a></ul>
   </li>
 </nav>
 <nav style='margin: 100px'>
