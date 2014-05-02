@@ -1,7 +1,7 @@
 // Ajuste de imágenes
 
 .imagen-noticia-categorizada {
-    max-height: @cuadratin * 13; 
+    max-height: @cuadratin * 11.4; 
     overflow: hidden;
     position: relative;
 
@@ -44,6 +44,15 @@
         position: center;
         width: auto;
         height: 100%;
+    }
+
+    &.sm {
+        .excedente-imagen {
+            overflow: hidden;
+            position: center;
+            width: 100%;
+            height: auto;
+        }
     }
 }
 

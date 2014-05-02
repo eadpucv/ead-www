@@ -125,13 +125,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               <h6 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6>
             </div>
             <div class='fila'>
-              <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
-                <p class='dia'>24</p>
-                <p class='mes'>abr</p>
+              <div class='fecha-evento'>
+                <div class='borde-izquierdo blanco'>
+                  <p class='dia'>24</p>
+                  <p class='mes'>abr</p>
+                </div>
               </div>
-              <div class='prev-texto col-lg-19 col-md-19 col-sm-19'>
-                <p class='xs'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de [...]</p>
-              </div>
+              <p class='prev-texto xs'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa [...]</p>
+            </div>
+            <div class='leer-mas'>
+              <i class="icn icn-mas"></i>
             </div>
           </div>
         </a>
@@ -143,12 +146,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               <h6 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos</h6>
             </div>
             <div class='fila'>
-              <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
-                <p class='dia'>18</p>
-                <p class='mes'>abr</p>
+              <div class='fecha-evento'>
+                <div class='borde-izquierdo blanco'>
+                  <p class='dia'>18</p>
+                  <p class='mes'>abr</p>
+                </div>
               </div>
-              <div class='prev-texto col-lg-18 col-md-19 col-sm-19'>
-                <p class='xs'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de [...]</p>
+              <div class='prev-texto'>
+                <p class='xs'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a [...]</p>
               </div>
             </div>
             <div class='leer-mas'>
@@ -164,12 +169,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               <h6 class='rojo'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6>
             </div>
             <div class='fila'>
-              <div class='fecha-evento col-lg-5 col-md-5 col-sm-5 col-xs-4'>
-                <p class='dia'>15</p>
-                <p class='mes'>abr</p>
+              <div class='fecha-evento'>
+                <div class='borde-izquierdo blanco'>
+                  <p class='dia'>15</p>
+                  <p class='mes'>abr</p>
+                </div>
               </div>
-              <div class='prev-texto col-lg-18 col-md-19 col-sm-19'>
-                <p class='xs'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el [...]</p>
+              <div class='prev-texto'>
+                <p class='xs'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a [...]</p>
               </div>
             </div>
             <div class='leer-mas'>
@@ -181,11 +188,13 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 		</div>
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>   <!-- info de docencia -->
       <a href='#'><h5 class='negro altas nombre-seccion'>Información de Docencia <i class="icn icn-asterisco icn-sm gris"></i></h5></a>
-      <div class='col-lg-24 col-md-22 col-sm-22 alto-xs'>
+      <div class='col-lg-23 col-lg-offset-1 col-md-22 col-sm-22 alto-xs'>
         <ul class='enlaces-aside'>
           <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
           <li><a href='#'>Al término del 3º trimestre 2013, se recuerda a los alumnos lo siguiente:</a></li>
           <li><a href='#'>Asignación de Profesores para Título 1</a></li>
+          <li><a href='#'>Inicio de clases cursos superiores – Primer Trimestre 2014</a></li>
+          <li><a href='#'>Inicio de clases cursos superiores – Primer Trimestre 2014</a></li>
         </ul>
       </div>
 		</div>
@@ -196,7 +205,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='col-lg-24 imagen-noticia-prev'>
+            <div class='imagen-noticia-prev sm'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
           </div>
@@ -206,9 +215,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             <div class='fila'>
-              <div class='col-lg-24 col-md-24 col-sm-24'>
-                <p class='prev-texto'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
-              </div>
+              <p class='prev-texto'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
@@ -219,7 +226,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 2 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='col-lg-24 imagen-noticia-prev'>
+            <div class='col-lg-24 imagen-noticia-prev sm'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
           </div>
@@ -242,7 +249,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 3 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='col-lg-24 imagen-noticia-prev'>
+            <div class='col-lg-24 imagen-noticia-prev sm'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
           </div>
@@ -283,8 +290,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	</div> <!-- fin sección actualidad -->
 	<hr>
 	<div class='fila'> <!-- sección contenido-->
-		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs alto-lg'>
-      <div class='caja-contenido-postulante'>
+		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>
+      <div class='caja-contenido-postulante alto-xs'>
         <h5>Admisión</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Vías de ingreso</a></li>
@@ -292,7 +299,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <li><a class='xs gris-oscuro semi-gruesa'>Aranceles</a></li>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
+      <div class='caja-contenido-postulante alto-xs'>
         <h5>Carreras y Posgrados</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Arquitectura</a></li>
@@ -302,21 +309,21 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <li><a class='xs gris-oscuro semi-gruesa'>Magíster Ciudad y Territorio</a></li>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
+      <div class='caja-contenido-postulante alto-xs'>
         <h5>Campus</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Casa de estudio</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>Ciudad Abierta</a></li>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
+      <div class='caja-contenido-postulante alto-xs'>
         <h5>Cuerpo Docente</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Profesores</a></li>
             <li><a class='xs gris-oscuro semi-gruesa'>Ayudantes</a></li>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
+      <div class='caja-contenido-postulante alto-xs'>
         <h5>La Escuela y el oficio</h5>
         <ul>
             <li><a class='xs gris-oscuro semi-gruesa'>Historia</a></li>
@@ -328,12 +335,12 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'>
 			<div class='fila'>
          <a href='#'> <!-- noticia categorizada 1 -->
-            <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 alto-md'>
+            <div class='alto-sm'>
               <div class='caja-publicacion-prev noticia-categorizada md cf'>
-                <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen-noticia-prev'>
+                <div class='imagen-noticia-prev'>
                   <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
                 </div>
-                <div class='col-lg-14 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
+                <div class='lectura-prev md'>
                   <h6 class='negro nombre-seccion'>Arquitectura <i class="icn icn-asterisco icn-sm gris"></i></h6>
                   <h2 class='rojo fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h2>
                   <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
