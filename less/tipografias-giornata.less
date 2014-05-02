@@ -47,19 +47,6 @@
   }
 }
 
-.fecha-evento {
-  padding: 0;
-  margin: @margen-lg * 2.5 @margen-lg 0 0;
-  font-size: @cuerpo-nav * 9.5;
-  letter-spacing: -@cuadratin-tercio;
-  color: @rojo-claro;
-
-  &.xs {
-    font-size: @cuerpo-nav * 7;
-    margin-top: @margen-lg * 2;
-  }
-}
-
 // Tipografías carousel
 
 // Descripción del carousel
@@ -86,32 +73,115 @@
     margin:0 0 @cuadratin / 1.8 0;
 }
 
-// Estilos de párrafo especiales (ESTOS ESTILOS SON DE LAS MAQUETAS PREVIAS, HAY QUE VER SI AÚN SE MANTIENEN O SE EDITAN)
+.breadcrumbs {
+    font-family: @tipografia-referencias;
+    font-size: @cuerpo-nav * .85;
 
-p {
-    &.breadcrumbs {
-        font-family: @tipografia-referencias;
-        font-size: @cuerpo-nav * .85;
-
-      &.fondo-oscuro {
+    &.fondo-oscuro {
         a {
-          color: @blanco;
+            color: @blanco;
 
-          &:hover {
-            color: @rojo-claro;
-          }
+            &:hover {
+                color: @rojo-claro;
+            }
         }
-      }
-    }
-
-    &.datos-publicacion {
-        font-family: @sans;
-        font-size: @cuerpo-nav / 1.3;
-        color: @gris-oscuro;
-        margin: 0;
-        padding: 0;
     }
 }
+
+.bloque-enlace {
+    display: inline-block;
+    background-color: @gris-claro;
+    margin: 0;
+    padding: 0; 
+
+    &:hover {
+        background-color: @blanco;
+            .transition(.3s ease all);
+    }
+}
+
+.prev-texto {
+    font-size: @cuerpo-nav * .8;
+    line-height: @interlinea-nav * .8;
+    margin: @cuadratin / 2 0 0 0;
+    padding-bottom: 0;
+
+    @media (max-width: @screen-sm-max) {
+        font-size: @cuerpo * .75
+    }
+
+    span {
+        padding: 0;
+        margin: 0;
+    }
+
+    .xs {
+        margin:0;
+        padding: 0 @cuadratin-tercio;
+    }
+
+    &.md {
+        margin-top: @cuadratin;
+        font-size: @cuerpo-nav;
+        line-height: @interlinea-nav * 1.4;
+    }
+}
+
+.datos-publicacion {
+    font-family: @sans;
+    font-size: @cuerpo-nav / 1.3;
+    color: @gris-oscuro;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias-publicacion {
+    font-family: @sans;
+    font-size: @cuerpo-nav;
+    color: @gris-oscuro;
+    margin: 0;
+    padding: 0;
+}
+
+.fecha-evento {
+    padding: @cuadratin-tercio / 3;
+    color: @blanco;
+    margin: @cuadratin / 2 0;
+    background-color: @naranja-claro;
+
+    &.xs {
+        font-size: @cuerpo-nav * 7;
+        margin-top: @margen-lg * 2;
+    }
+
+    &.lg {
+        padding: 0;
+        margin: @margen-lg * 2.5 @margen-lg 0 0;
+        font-size: @cuerpo-nav * 9.5;
+        letter-spacing: -@cuadratin-tercio;
+    }
+
+    .mes{
+        color:@blanco;
+        font-family: @sans;
+        padding: 0;
+        margin: 0;
+        letter-spacing: @cuerpo-nav / 2;
+        font-size: @cuerpo-nav * 1.3;
+    }
+
+    .dia {
+        font-family: @sans;
+        margin: 0;
+        padding: 0;
+        color:@blanco;
+        font-size: @cuerpo-nav * 3;    
+        line-height: @cuerpo-nav * 2;
+        letter-spacing: 0;
+        }
+}
+
+// Estilos de párrafo especiales (ESTOS ESTILOS SON DE LAS MAQUETAS PREVIAS, HAY QUE VER SI AÚN SE MANTIENEN O SE EDITAN)
 
 h1 {
       &.titulo-articulo {
@@ -364,22 +434,6 @@ h2 {
             margin-bottom: 0;
             padding-bottom: 0;
         }
-
-        .fecha-evento {
-            font-family: @sans;
-            padding: 0;
-            color: @rojo-claro;
-            font-size: @cuerpo-nav * 1;
-            letter-spacing: 0;
-            margin: @cuadratin / 2 0;
-
-            p {
-                &.numero {
-                    font-size: @cuerpo-nav * 2;
-                    line-height: @cuerpo-nav * 1;
-                }
-            }
-        } 
     }   
 }
 
@@ -389,7 +443,7 @@ h2 {
 
 
     .imagenes-destacadas-descripcion-ead {
-        height: @cuadratin * 19;
+        height: @cuadratin * 21.7;
         top: 0;
         background-color: @transparente;
         position: relative;
@@ -398,8 +452,8 @@ h2 {
         padding: @cuadratin;
 
         p {
-            font-size: @cuerpo * 1.1;
-            line-height: @interlinea * 1.1;
+            font-size: @cuerpo * 1.3;
+            line-height: @interlinea * 1.3;
             color: @blanco;
         }
 
