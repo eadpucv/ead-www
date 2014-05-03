@@ -23,12 +23,20 @@
         }
 
         &.md {
-            height: @cuadratin * 11.4;
             float: left;
-            padding-left: @cuadratin;
+            position: relative;
+            margin: 0;
+            width: 666px;
+            padding: 0 @cuadratin;
+            height: @cuadratin * 11.4;
 
-            h6, h2 {
+            h6 {
                 margin: 0;
+                padding: 0;
+            }
+
+            h4 {
+                margin: @cuadratin / 2 0 0 0;
                 padding: 0;
             }
 
@@ -37,7 +45,7 @@
             }
 
             .categorias-publicacion {
-                bottom: @cuadratin-tercio;
+                bottom: @cuadratin / 2;
                 position: absolute;
             }
         }
@@ -48,7 +56,12 @@
         margin: @cuadratin * .25 0;
 
         &.md {
-            h1 {
+            margin: @cuadratin *.25 0 0 0;
+            min-height: auto;
+            padding: 0;
+            position: relative;
+
+            h6 {
                 margin: 0;
                 padding: 0;
                 font-weight: 200;
@@ -58,41 +71,24 @@
 
     // Ajustes según el tamaños de la caja
 
-    &.noticia-categorizada {
+    &.categorizada {
         margin-left: @cuadratin / 2;
-        background-color: @gris-claro;
-        float: left;
-
-            &:hover {
-            background-color: @blanco;
-        }
-
-        &.sm {
-
-        }
-
-        &.md {
-            padding: 0;
+        padding: 0;
                         
-            .imagen-noticia-prev {
-                min-height: @cuadratin * 14; 
+        .imagen-noticia-prev {
+            height: @cuadratin * 11.4; 
+            overflow: hidden;
+            float: left;
+            position: relative;
+            
+            .excedente-imagen {
+                height: @cuadratin * 11.4;
                 overflow: hidden;
-                    .excedente-imagen {
-                        height: @cuadratin * 14;
-                        overflow: hidden;
-                    }
             }
         }
     }
 
     // Auxiliar de caja
-
-    .leer-mas {
-        position: absolute;
-        color: @rojo;
-        right: @cuadratin-tercio;
-        bottom: 0;
-    }
 
     &.categoria {
 
@@ -103,18 +99,24 @@
     }
 }
 
+.leer-mas {
+    position: absolute;
+    color: @rojo-opuesto;
+    right: @cuadratin-tercio;
+    bottom: 0;
+}
+
 .caja-contenido-postulante {
-    background-color: lighten(@gris-blanco, 40%);
     border:1px solid @gris-claro;
     margin: 0 @cuadratin / 2 @cuadratin / 2;
+    padding: @cuadratin / 2;
 
-    h5 {
-        margin: 0 @cuadratin-tercio;
-    }
+    h6 {
+        margin: 0 0 @cuadratin / 2;
 
-    ul {
-        margin: 0 0 @cuadratin-tercio;
-        padding: 0 0 @cuadratin @cuadratin;
+        &:hover {
+            color: @rojo-claro;
+        }
     }
 }
 
@@ -159,6 +161,30 @@
             }
         }
     }
+
+    &.postulante {
+        
+        ul {
+            margin: 0 0 @cuadratin-tercio;
+            padding: 0 0 @cuadratin @cuadratin;
+        }
+
+        li {
+            background-color: @gris-blanco;
+            padding: 5px @cuadratin;
+            margin: 0 0 @cuadratin / 2 0;
+            border:1px solid @gris-claro;
+
+            &:hover {
+                background-color: @rojo-claro;
+                .transition(.3s ease all);
+                
+                a {
+                    color: @blanco;
+                }
+            }
+        }
+    }
 }
 
 // auxiliares para bloques (maqueteo)
@@ -172,7 +198,7 @@
 .alto-sm {
     min-height: @cuadratin * 11.4;
     //background-color: red;
-    margin-bottom: @cuadratin;
+    margin-bottom: @cuadratin / 2;
     position: relative;
 
     h6 {

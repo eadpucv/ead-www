@@ -27,7 +27,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 		      <div class='wrap-carousel'> 
     		    <div class='fila'>
               <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-                <h4 class='beige-claro margen-superior-s'>Noticias</h4>
+                <h2 class='blanco margen-superior-s'>Noticias</h2>
                 <div class='fila'>
                   <div class='col-md-21 col-sm-22 col-xs-22'>
                     <p class='margen-izquierdo'>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
@@ -46,7 +46,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h4 class='beige-claro margen-superior-s'>Día Abierto 2013</h4>
+            <h2 class='blanco margen-superior-s'>Día Abierto 2013</h2>
             <div class='fila'>
               <div class='col-md-21 col-sm-22 col-xs-22'>
               <p class='margen-izquierdo'>“Presentamos la escuela en su propio lenguaje, en el lenguaje de cada uno de los oficios; en el lenguaje de la forma. Cada uno hace una interpretación de lo que ve y construye un cuerpo que luego es parte de una exposición colectiva y pública”</p>
@@ -64,7 +64,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h4 class='beige-claro margen-superior-s'>Travesía</h4>
+            <h2 class='blanco margen-superior-s'>Travesía</h2>
             <div class='fila'>
               <div class='col-md-21 col-sm-22 col-xs-22'>
                 <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
@@ -82,7 +82,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h4 class='beige-claro margen-superior-s'>Historia</h4>
+            <h2 class='blanco margen-superior-s'>Historia</h2>
             <div class='fila'>
               <div class='col-md-21 col-sm-22 col-xs-22'>
                 <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
@@ -100,7 +100,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h4 class='beige-claro margen-superior-s'>Observación</h4>
+            <h2 class='blanco margen-superior-s'>Observación</h2>
             <div class='fila'>
               <div class='col-md-21 col-sm-22 col-xs-22'>
                 <p class='margen-izquierdo'>"La Alcoba en la Ciudad Abierta. Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados)..."</p>
@@ -122,7 +122,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
             <div class='titulo-prev'>
-              <h6 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6>
+              <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6>
             </div>
             <div class='fila'>
               <div class='fecha-evento'>
@@ -143,7 +143,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
             <div class='titulo-prev'>
-              <h6 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos</h6>
+              <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6>
             </div>
             <div class='fila'>
               <div class='fecha-evento'>
@@ -166,7 +166,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
             <div class='titulo-prev'>
-              <h6 class='rojo'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6>
+              <h6 class='rojo-claro'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6>
             </div>
             <div class='fila'>
               <div class='fecha-evento'>
@@ -188,12 +188,11 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 		</div>
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>   <!-- info de docencia -->
       <a href='#'><h5 class='negro altas nombre-seccion'>Información de Docencia <i class="icn icn-asterisco icn-sm gris"></i></h5></a>
-      <div class='col-lg-23 col-lg-offset-1 col-md-22 col-sm-22 alto-xs'>
+      <div class='col-lg-24 col-md-22 col-sm-22 alto-xs relleno-md izquierdo'>
         <ul class='enlaces-aside'>
           <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
           <li><a href='#'>Al término del 3º trimestre 2013, se recuerda a los alumnos lo siguiente:</a></li>
           <li><a href='#'>Asignación de Profesores para Título 1</a></li>
-          <li><a href='#'>Inicio de clases cursos superiores – Primer Trimestre 2014</a></li>
           <li><a href='#'>Inicio de clases cursos superiores – Primer Trimestre 2014</a></li>
         </ul>
       </div>
@@ -211,7 +210,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+              <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
             </div>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             <div class='fila'>
@@ -226,19 +225,17 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 2 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='col-lg-24 imagen-noticia-prev sm'>
+            <div class='imagen-noticia-prev sm'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
           </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h6>
+              <h6 class='rojo-claro'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h6>
             </div>
             <p class='datos-publicacion'>Publicado el 23 de abril, 2014</p>
             <div class='fila'>
-              <div class='col-lg-24 col-md-24 col-sm-24'>
                 <p class='prev-texto'>Este miércoles los estudiantes y profesores de la e[ad] sustituyeron la clase de Cultura del Cuerpo por subir al Cerro Merced, en Valparaíso, para [...]</p>
-              </div>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
@@ -249,19 +246,17 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 3 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='col-lg-24 imagen-noticia-prev sm'>
+            <div class='imagen-noticia-prev sm'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
           </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo'>Estado de Faenas</h6>
+              <h6 class='rojo-claro'>Estado de Faenas</h6>
             </div>
             <p class='datos-publicacion'>Publicado el 15 de abril, 2014</p>
             <div class='fila'>
-              <div class='col-lg-24 col-md-24 col-sm-24'>
                 <p class='prev-texto'>Hemos creado un formulario para coordinar mejor las faenas y proceder de acuerdo a lo que aprendimos durante la jornada. Por favor, a todos los [...]</p>
-              </div>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
@@ -291,107 +286,109 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	<hr>
 	<div class='fila'> <!-- sección contenido-->
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>
+      <h6 class='negro altas nombre-seccion'>Futuros Alumnos <i class="icn icn-asterisco icn-sm gris"></i></h6>
       <div class='caja-contenido-postulante alto-xs'>
-        <h5>Admisión</h5>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Vías de ingreso</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Becas y financiamiento</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Aranceles</a></li>
+        <a href='#'><h6>Admisión</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Vías de ingreso</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Becas y financiamiento</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Aranceles</a></li>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
-        <h5>Carreras y Posgrados</h5>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Arquitectura</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Diseño Gráfico</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Diseño Industrial</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Magíster Náutico y marítimo</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Magíster Ciudad y Territorio</a></li>
+        <a href='#'><h6>Carreras y Posgrados</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Arquitectura</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Diseño Gráfico</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Diseño Industrial</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Magíster Náutico y marítimo</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Magíster Ciudad y Territorio</a></li>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
-        <h5>Campus</h5>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Casa de estudio</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Ciudad Abierta</a></li>
+        <a href='#'><h6>Campus</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Casa de estudio</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Ciudad Abierta</a></li>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
-        <h5>Cuerpo Docente</h5>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Profesores</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Ayudantes</a></li>
+        <a href='#'><h6>Cuerpo Docente</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Profesores</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Ayudantes</a></li>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
-        <h5>La Escuela y el oficio</h5>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Historia</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>La observación</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Amereida</a></li>
+        <a href='#'><h6>La Escuela y el oficio</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Historia</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>La observación</a></li>
+            <li><a href='#' class='s gris-oscuro semi-gruesa'>Amereida</a></li>
         </ul>
       </div>
 		</div> <!-- fin contenido para el postulante -->
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'>
+      <h6 class='negro altas nombre-seccion'>Noticias categorizadas<i class="icn icn-asterisco icn-sm gris"></i></h6>
 			<div class='fila'>
-         <a href='#'> <!-- noticia categorizada 1 -->
-            <div class='alto-sm'>
-              <div class='caja-publicacion-prev noticia-categorizada md cf'>
-                <div class='imagen-noticia-prev'>
-                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
-                </div>
-                <div class='lectura-prev md'>
-                  <h6 class='negro nombre-seccion'>Arquitectura <i class="icn icn-asterisco icn-sm gris"></i></h6>
-                  <h2 class='rojo fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h2>
-                  <p class='datos-publicacion'>Publicado el <a href='#'>11 de marzo, 2014</a></p>
-                  <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
-                  <p class='categorias-publicacion'><a href='#'>[ Arquitectura ]</a> <a href='#'>[ Noticias ]</a></p>
-                </div>
-                <div class='leer-mas'>
-                  <a href='#'><i class="icn icn-mas icn-lg"></i></a>
-                </div>
-              </div>
+      <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 1 -->
+        <a href='#' class='bloque-enlace'>
+            <div class='imagen-noticia-prev'>
+              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
             </div>
-          </a> <!-- fin noticia categorizada 1 -->
-          <a href='#'> <!-- noticia categorizada 2 -->
-            <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 alto-md'>
-              <div class='caja-publicacion-prev noticia-categorizada md cf'>
-                <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen-noticia-prev'>
-                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
-                </div>
-                <div class='col-lg-14 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
-                  <h6 class='negro nombre-seccion'>Diseño gráfico <i class="icn icn-asterisco icn-sm gris"></i></h6>
-                  <h2 class='rojo fino'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h2>
-                  <p class='datos-publicacion'>Publicado el <a href='#'>24 de abril, 2014</a></p>
-                  <p class='prev-texto md'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el seminario “De la hipótesis al Diseño: aproximaciones, casos y obras”, que se llevará a cabo el viernes 16 de mayo a las 15:00 horas, en la Sala Entrepiso. [...]</p>
-                  <p class='categorias-publicacion'><a href='#'>[ Diseño Gráfico ]</a> <a href='#'>[ Noticias ]</a> <a href='#'>[ Seminario ]</a></p>
-                </div>
-                <div class='leer-mas'>
-                  <a href='#'><i class="icn icn-mas icn-lg"></i></a>
-                </div>
-              </div>
+            <div class='lectura-prev md'>
+            <div class='titulo-prev md'>
+              <h6 class='gris-oscuro nombre-categoria'>arquitectura <i class="icn icn-asterisco icn-sm gris"></i></h6>
+              <h4 class='rojo-claro fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
             </div>
-          </a> <!-- fin noticia categorizada 2 -->
-          <a href='#'> <!-- noticia categorizada 3 -->
-            <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 alto-md'>
-              <div class='caja-publicacion-prev noticia-categorizada md cf'>
-                <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen-noticia-prev'>
-                  <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
-                </div>
-                <div class='col-lg-14 col-md-15 col-sm-12 col-xs-12 lectura-prev md'>
-                  <h6 class='negro nombre-seccion'>Diseño industrial <i class="icn icn-asterisco icn-sm gris"></i></h6>
-                  <h2 class='rojo fino'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h2>
-                  <p class='datos-publicacion'>Publicado el <a href='#'>25 de abril, 2014</a></p>
-                  <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio. [...]</p>
-                  <p class='categorias-publicacion'><a href='#'>[ Diseño Industrial ]</a> <a href='#'>[ Noticias ]</a></p>
-                </div>
-                <div class='leer-mas'>
-                  <a href='#'><i class="icn icn-mas icn-lg"></i></a>
-                </div>
-              </div>
+            <p class='datos-publicacion'>Publicado el 11 de marzo, 2014</p>
+            <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
+            <p class='categorias-publicacion'>[ Arquitectura ] [ Noticias ]</p>
+            <div class='leer-mas'>
+              <i class="icn icn-mas"></i>
             </div>
-          </a> <!-- fin noticia categorizada 3 -->
-         <!-- noticia categorizada 2 -->
+          </div>
+        </a>
+      </div><!-- fin noticia categorizada 1 -->
+      <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 2 -->
+        <a href='#' class='bloque-enlace'>
+            <div class='imagen-noticia-prev'>
+              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
+            </div>
+            <div class='lectura-prev md'>
+            <div class='titulo-prev md'>
+              <h6 class='gris-oscuro nombre-categoria'>diseño gráfico <i class="icn icn-asterisco icn-sm gris"></i></h6>
+              <h4 class='rojo-claro fino'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h4>
+            </div>
+            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+            <p class='prev-texto md'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el seminario “De la hipótesis al Diseño: aproximaciones, casos y obras”, que se llevará a cabo el viernes 16 de mayo a las 15:00 horas, en la Sala Entrepiso. [...]</p>
+            <p class='categorias-publicacion'>[ Diseño Gráfico ] [ Noticias ][ Seminario ]</p>
+            <div class='leer-mas'>
+              <i class="icn icn-mas"></i>
+            </div>
+          </div>
+        </a>
+      </div><!-- fin noticia categorizada 2 -->
+      <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 2 -->
+        <a href='#' class='bloque-enlace'>
+            <div class='imagen-noticia-prev'>
+              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
+            </div>
+            <div class='lectura-prev md'>
+            <div class='titulo-prev md'>
+              <h6 class='gris-oscuro nombre-categoria'>diseño industrial <i class="icn icn-asterisco icn-sm gris"></i></h6>
+              <h4 class='rojo-claro fino'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
+            </div>
+            <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
+            <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio. [...]</p>
+            <p class='categorias-publicacion'>[ Diseño Industrial ] [ Noticias ]</p>
+            <div class='leer-mas'>
+              <i class="icn icn-mas"></i>
+            </div>
+          </div>
+        </a>
+      </div><!-- fin noticia categorizada 2 -->
+
 				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 1 -->
           <a href='#'><h6 class='negro centrado altas'>magister arquitectura y diseño</h6></a>
           <a href='#'>

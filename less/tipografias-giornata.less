@@ -69,7 +69,7 @@
 
 // Tipografías contenido 
 
-.nombre-seccion {
+.nombre-categoria {
     margin:0 0 @cuadratin / 1.8 0;
 }
 
@@ -90,13 +90,15 @@
 
 .bloque-enlace {
     display: inline-block;
-    background-color: @gris-claro;
+    background-color: @blanco;
     margin: 0;
     padding: 0; 
+    border:1px solid @gris-blanco;
 
     &:hover {
-        background-color: @blanco;
-            .transition(.3s ease all);
+        background-color: @gris-blanco;
+        border:1px solid @gris-claro;
+        .transition(.3s ease all);
     }
 }
 
@@ -105,10 +107,6 @@
     line-height: @interlinea-nav * .8;
     margin: 0;
     padding-bottom: 0;
-
-    @media (max-width: @screen-sm-max) {
-        font-size: @cuerpo * .75
-    }
 
     span {
         padding: 0;
@@ -121,9 +119,10 @@
     }
 
     &.md {
-        margin-top: @cuadratin;
-        font-size: @cuerpo-nav;
-        line-height: @interlinea-nav * 1.4;
+        margin: @cuadratin 0;
+        padding: 0;
+        font-size: @cuerpo-nav * .9;
+        line-height: @interlinea-nav;
     }
 }
 
@@ -136,20 +135,20 @@
 
 .categorias-publicacion {
     font-family: @sans;
-    font-size: @cuerpo-nav;
+    font-size: @cuerpo-nav * .8;
     color: @gris-oscuro;
     margin: 0;
     padding: 0;
 }
 
 .fecha-evento {
-    padding: @cuadratin * .25;
+    padding: @cuadratin * .25 @cuadratin * .5;
     color: @blanco;
     float: left;
     height: @cuadratin * 2.5;
     width: @cuadratin * 2.5;
     margin: 0 @cuadratin * .5 0 0;
-    background-color: @pizarra;
+    background-color: @rojo-claro;
     box-shadow-left: 0 2px @blanco inset;
 
     &.xs {
@@ -183,6 +182,13 @@
         line-height: @cuerpo-nav * 2;
         letter-spacing: 0;
         }
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+    &.nombre-seccion {
+        margin: 0 0 @cuadratin / 2 0;
+    }
 }
 
 // Estilos de párrafo especiales (ESTOS ESTILOS SON DE LAS MAQUETAS PREVIAS, HAY QUE VER SI AÚN SE MANTIENEN O SE EDITAN)
