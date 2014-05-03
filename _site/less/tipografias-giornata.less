@@ -88,16 +88,16 @@
     }
 }
 
-.bloque-enlace {
-    display: inline-block;
-    background-color: @gris-claro;
-    margin: 0;
+.bloque-enlace { 
+    display: inline-block; 
+    background-color: @blanco; 
+    margin: 0; 
     padding: 0; 
-
-    &:hover {
-        background-color: @blanco;
-            .transition(.3s ease all);
-    }
+    border:1px solid @gris-blanco; 
+    &:hover { background-color: @gris-blanco; 
+        border:1px solid @gris-claro; 
+        .transition(.3s ease all); 
+    } 
 }
 
 .prev-texto {

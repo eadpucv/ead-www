@@ -88,12 +88,18 @@
 
   // Set gradients for backgrounds
   &.left {
-    #gradient > .horizontal(@rojo; @oliva);
+    top: 250px;
+    #gradient > .horizontal(@gris; @gris-oscuro);
+    width: @cuadratin * 2;
+    height: @cuadratin * 3; 
   }
   &.right {
+    top: 250px;
     left: auto;
     right: 0;
-    #gradient > .horizontal(@rojo; @oliva);
+    #gradient > .horizontal(@gris-oscuro; @gris);
+    width: @cuadratin * 2;
+    height: @cuadratin * 3;
   }
 
   // Hover/focus state
@@ -129,18 +135,28 @@
     height: 20px;
     margin-top: -10px;
     margin-left: -10px;
-    font-family: serif;
   }
 
   .icon-prev {
     &:before {
-      content: '\2039';// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+        font-family: 'Stampa';
+        content: "\e602";
     }
   }
   .icon-next {
     &:before {
-      content: '\203a';// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+        font-family: 'Stampa';
+        content: "\e601";
     }
+  }
+  .icn-nav-der,
+  .icn-nav-izq {
+      position: absolute;
+      top: 27px;
+      width: 40px;
+      height: 40px;
+      font-size: @cuerpo * 2.2;
+      right: 10px;
   }
 }
 
