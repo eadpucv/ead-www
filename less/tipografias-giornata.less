@@ -100,6 +100,10 @@
         border:1px solid @gris-claro;
         .transition(.3s ease all);
     }
+
+    &.sm {
+        height: @cuadratin * 14.25;
+    }
 }
 
 .titulo-prev {
@@ -132,12 +136,21 @@
     }
 
     &.sm {
-        margin: @cuadratin / 2 0;
+        margin:0;
         padding: 0;
-        font-size: @cuerpo-nav * .85;
-        line-height: @interlinea-nav;
+        font-size: @cuerpo * .8;
+        line-height: @interlinea * .9;
     }
 }
+
+.truncado {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 40px;
+    white-space: nowrap;
+    width: 40px;
+}
+
 
 .datos-publicacion {
     font-family: @sans;

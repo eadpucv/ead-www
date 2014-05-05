@@ -106,7 +106,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 
 <div class='wrap'>
 	<div class='fila'> <!-- sección actualidad --> 
-		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24 margen-inferior-s'> <!-- eventos -->
+		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24 margen-inferior'> <!-- eventos -->
       <a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-calendario icn-sm gris"></i> Eventos</h5></a>
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
@@ -181,18 +181,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 			<a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-noticias icn-sm gris"></i> Noticias </h5></a>
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
-          <div class='fila'>
-            <div class='imagen-noticia-prev sm'>
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
-          </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+              <h6 class='rojo-claro fino'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+              <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             </div>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             <div class='fila'>
-              <p class='prev-texto'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
+              <p class='prev-texto sm truncado'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
@@ -203,15 +201,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 2 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='imagen-noticia-prev sm'>
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
           </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo-claro'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h6>
+              <h6 class='rojo-claro fino'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h6>
+              <p class='datos-publicacion'>Publicado el 23 de abril, 2014</p>
             </div>
-            <p class='datos-publicacion'>Publicado el 23 de abril, 2014</p>
             <div class='fila'>
                 <p class='prev-texto'>Este miércoles los estudiantes y profesores de la e[ad] sustituyeron la clase de Cultura del Cuerpo por subir al Cerro Merced, en Valparaíso, para [...]</p>
             </div>
@@ -224,15 +222,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 3 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
-            <div class='imagen-noticia-prev sm'>
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
           </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo-claro'>Estado de Faenas</h6>
+              <h6 class='rojo-claro fino'>Estado de Faenas ludovico enaudi facisis totora orden lux miscelaneo inter gore prometeus</h6>
+              <p class='datos-publicacion'>Publicado el 15 de abril, 2014</p>
             </div>
-            <p class='datos-publicacion'>Publicado el 15 de abril, 2014</p>
             <div class='fila'>
                 <p class='prev-texto'>Hemos creado un formulario para coordinar mejor las faenas y proceder de acuerdo a lo que aprendimos durante la jornada. Por favor, a todos los [...]</p>
             </div>
@@ -309,10 +307,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'>
       <h6 class='negro altas nombre-seccion'>Noticias categorizadas<i class="icn icn-asterisco icn-sm gris"></i></h6>
 			<div class='fila'>
-        <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 1 -->
-          <a href='#' class='bloque-enlace'>
-            <div class='imagen-noticia-prev'>
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
+        <div class='caja-publicacion-prev por-oficio alto-sm'> <!-- noticia categorizada 1 -->
+          <a href='#' class='bloque-enlace sm'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
             </div>
             <div class='lectura-prev md'>
               <div class='titulo-prev md'>
@@ -328,10 +326,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div><!-- fin noticia categorizada 1 -->
-        <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 2 -->
-          <a href='#' class='bloque-enlace'>
-            <div class='imagen-noticia-prev'>
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
+        <div class='caja-publicacion-prev por-oficio alto-sm'> <!-- noticia categorizada 2 -->
+          <a href='#' class='bloque-enlace sm'>
+            <div class='prev-imagen md'>
+              <img src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
             </div>
             <div class='lectura-prev md'>
               <div class='titulo-prev md'>
@@ -347,10 +345,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div><!-- fin noticia categorizada 2 -->
-        <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 3 -->
-          <a href='#' class='bloque-enlace'>
-            <div class='imagen-noticia-prev'>
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
+        <div class='caja-publicacion-prev por-oficio alto-sm'> <!-- noticia categorizada 3 -->
+          <a href='#' class='bloque-enlace sm'>
+            <div class='prev-imagen md'>
+              <img src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
             </div>
             <div class='lectura-prev md'>
               <div class='titulo-prev md'>
@@ -366,9 +364,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div><!-- fin noticia categorizada 3 -->
-				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'> <!-- noticia de categoria 4  -->
+				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace'>
-            <div class='lectura-prev angosta'>
+            <div class='lectura-prev'>
               <div class='titulo-prev'>
                 <h6 class='gris-oscuro nombre-categoria'>magíster arquitectura y diseño <i class="icn icn-asterisco icn-sm gris"></i></h6>
                 <h5 class='rojo-claro fino'>Concursos de Innovación y Emprendimiento 2014</h5>
@@ -382,16 +380,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div> <!-- fin noticia de categoria 4 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'> <!-- noticia de categoria 5  -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace'>
-            <div class='lectura-prev angosta'>
+            <div class='lectura-prev'>
               <div class='titulo-prev'>
                 <h6 class='gris-oscuro nombre-categoria'>taller de amereida <i class="icn icn-asterisco icn-sm gris"></i></h6>
                 <h5 class='rojo-claro fino'>Entrega Taller de Amereida Trim. I 2014</h5>
                 <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
               </div>
-              <div class='imagen-noticia-prev angosta'>
-                <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-1.jpg'>
+              <div class='prev-imagen sm por-categoria'>
+                <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-categ-1.jpg'>
               </div>
               <p class='prev-texto sm'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller [...]</p>
               <p class='categorias-publicacion'>[ Taller de Amereida ] [ Noticias ]</p>
@@ -401,16 +399,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div> <!-- fin noticia de categoria 5 -->
-         <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 6 -->
+         <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'>  <!-- noticia de categoria 6 -->
           <a href='#' class='bloque-enlace'>
-            <div class='lectura-prev angosta'>
+            <div class='lectura-prev'>
               <div class='titulo-prev'>
                 <h6 class='gris-oscuro nombre-categoria'>ediciones e[ad] <i class="icn icn-asterisco icn-sm gris"></i></h6>
                 <h5 class='rojo-claro fino'>Embarcación Amereida y la Épica de Fundar el Mar Patagónico</h5>
                 <p class='datos-publicacion'>Publicado el 15 de abril, 2014</p>
               </div>
-              <div class='imagen-noticia-prev angosta'>
-                <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-2.png'>
+              <div class='prev-imagen sm por-categoria'>
+                <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-categ-2.png'>
               </div>
               <p class='prev-texto sm'>Ediciones e[ad], PUCV, Ediciones Universitarias de Valparaíso, ISBN: 956-17-0370-X, Formato: 21 x 33 cm [...]</p>
               <p class='categorias-publicacion'>[ Ediciones ] [ Noticias ] [ Publicación Digital ]</p>
@@ -420,16 +418,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div>  <!-- fin noticia de categoria 6 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 7 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'>  <!-- noticia de categoria 7 -->
           <a href='#' class='bloque-enlace'>
-            <div class='lectura-prev angosta'>
+            <div class='lectura-prev'>
               <div class='titulo-prev'>
                 <h6 class='gris-oscuro altas fino nombre-categoria'><i class="icn icn-archivo icn-sm gris"></i> archivo histórico JVA</h6>
                 <h5 class='rojo-claro fino'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
                 <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
               </div>
-              <div class='imagen-noticia-prev angosta'>
-                <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-3.png'>
+              <div class='prev-imagen sm por-categoria'>
+                <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-categ-3.png'>
               </div>
               <p class='prev-texto sm'>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los [...]</p>
               <p class='categorias-publicacion'>[ Archivo Histórico José Vial Armstrong ] [ Noticias ]</p>
@@ -439,9 +437,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div>  <!-- fin noticia de categoria 7 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 8 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'>  <!-- noticia de categoria 8 -->
           <a href='#' class='bloque-enlace'>
-            <div class='lectura-prev angosta'>
+            <div class='lectura-prev'>
               <div class='titulo-prev'>
                 <h6 class='gris-oscuro nombre-categoria'>investigación <i class="icn icn-asterisco icn-sm gris"></i></h6>
                 <h5 class='rojo-claro fino'>Poética Universitaria, las metáforas de Godofredo Iommi - Jaime Reyes</h5>
@@ -459,9 +457,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
           </a>
         </div>  <!-- fin noticia de categoria 8 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 9 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'>  <!-- noticia de categoria 9 -->
           <a href='#' class='bloque-enlace'>
-            <div class='lectura-prev angosta'>
+            <div class='lectura-prev'>
               <div class='titulo-prev'>
                 <h6 class='gris-oscuro altas fino nombre-categoria'><i class="icn icn-trabajo icn-sm gris"></i> bolsa de trabajo</h6>
                 <h5 class='rojo-claro fino'>Ayudantes de Biblioteca</h5>

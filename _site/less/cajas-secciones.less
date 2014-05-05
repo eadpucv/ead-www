@@ -1,15 +1,18 @@
 // Cajas de contenido específico + tipografías + elementos
 
 .caja-publicacion-prev {
-    padding: 0;
+    padding: 0 15px 0 0;
 
     h6 {
         margin:0;
+        line-height: 25px;
     }
 
     .titulo-prev {
-        min-height: @cuadratin * 1.5;
-        margin: @cuadratin * .25 0;
+        margin: 10px 0;
+
+        &.xs {
+        }
 
         &.md {
             margin: @cuadratin *.25 0 0 0;
@@ -27,20 +30,20 @@
 
     // Ajustes según el tamaños de la caja
 
-    &.categorizada {
-        margin-left: @cuadratin / 2;
+    &.por-oficio {
+        margin: 0;
         padding: 0;
-        border: none;
-                        
-        .imagen-noticia-prev {
-            height: @cuadratin * 11.4; 
-            overflow: hidden;
-            float: left;
-            position: relative;
-            
-            .excedente-imagen {
-                height: @cuadratin * 11.4;
-                overflow: hidden;
+    }
+
+    &.por-categoria {
+
+        .lectura-prev{
+            padding: 0 @cuadratin / 2;
+            display: block;
+            height: @cuadratin * 14.25;
+
+            h5 {
+                margin: @cuadratin / 2 0 0 0;
             }
         }
     }
@@ -59,15 +62,17 @@
     &.sm {
         padding: 0 @cuadratin / 2;
         display: block;
+        height: @cuadratin * 7.1;
     }
 
     &.md {
         float: left;
         position: relative;
         margin: 0;
-        width: 666px;
+        width: 68%;
         padding: 0 @cuadratin;
-        height: @cuadratin * 11.4;
+        height: 100%;
+        display: inline-block;
 
         h6 {
             margin: 0;
@@ -83,27 +88,13 @@
             margin:@cuadratin-tercio 0;
         }
     }
-
-    &.angosta {
-        padding: 0 @cuadratin / 2;
-        display: block;
-        height: @cuadratin * 16;
-
-        .titulo-prev {
-            height: @cuadratin * 5.5;
-        }
-
-        h5 {
-            margin: @cuadratin / 2 0 0 0;
-        }
-    }
 }
 
 .leer-mas {
     position: absolute;
     color: @rojo-opuesto;
-    right: @cuadratin-tercio;
-    bottom: 0;
+    bottom: 10px;
+    right: @cuadratin / 2;
 }
 
 .categorias-publicacion {
@@ -180,18 +171,22 @@
 
 // auxiliares para bloques (maqueteo)
 
+// el valor de alto-xs es la unidad
+
 .alto-xs {
     min-height: @cuadratin * 5.7;
-    //background-color: orange;
-    margin-bottom: @cuadratin / 2;
+    margin:0;
 }
 
+// el valor de alto-sm son 2 unidades + una mitad
+
 .alto-sm {
-    min-height: @cuadratin * 11.4;
-    //background-color: red;
+    min-height: @cuadratin * 14.25;
     margin-bottom: @cuadratin / 2;
     position: relative;
 }
+
+// el valor de alto-md son 3 unidades
 
 .alto-md {
     height: @cuadratin * 17.1;
@@ -199,9 +194,10 @@
     margin-bottom: @cuadratin;
 }
 
+// el valor de alto-lg son 4 unidades
 
 .alto-lg {
-    min-height: @cuadratin * 21;
+    min-height: @cuadratin * 22.8;
     border:1px solid @gris-blanco;
 }
 
