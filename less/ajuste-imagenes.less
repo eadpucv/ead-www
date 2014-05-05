@@ -27,7 +27,6 @@
     &.chica {
     position: relative;
     margin-bottom: @cuadratin * .25;
-    text-align: center;
 
         img{
         overflow: hidden;
@@ -36,6 +35,7 @@
 }
 
 .categoria {
+
     h2 {
         color: @rojo-opuesto;
     }
@@ -71,6 +71,7 @@
 .contenedor-trio-noticias {
     width: 100%;
     float: left;
+    clear: none;
 }
 
 // TRABAJO DE JUAN
@@ -281,7 +282,6 @@
 }
 
         &.chica {
-        text-align: center;
 
             img{
             overflow: hidden;
@@ -307,6 +307,21 @@
     margin: 0;
     }
 
+}
+
+.contenedor-trio-noticias {
+    width: 100%;
+    float: left;
+    clear: none;
+}
+
+.categoria {
+    float: left;
+    display: inline-block;
+
+    h2 {
+        color: @rojo-opuesto;
+    }
 }
 }
 
