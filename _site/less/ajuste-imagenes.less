@@ -1,8 +1,84 @@
 // Ajuste de imágenes
+    
+// TRABAJA DE JUAN 
+
+.ancho-maximo {
+    width: 100%;
+}
+
+.noticia {
+
+    &.grande {
+
+    .noticia-imagen {
+    position: relative;
+    overflow: hidden;
+    height: @cuadratin * 20;
+    border: 1px solid @gris-blanco;
+    background-color: @gris-blanco;
+
+        img{
+        height: auto;
+        width: 100%;
+        }
+    }
+}
+
+    &.chica {
+    position: relative;
+    margin-bottom: @cuadratin * .25;
+
+        img{
+        overflow: hidden;
+        }
+    }
+}
+
+.categoria {
+
+    h2 {
+        color: @rojo-opuesto;
+    }
+}
+
+.texto-noticia {
+    
+    //background-color: @gris-claro;
+    margin: 0;
+
+    h1, h3 {
+        margin: 0;
+        color: @rojo-claro;
+    }
+
+    &.grande {
+    padding-top: @cuerpo / 3;
+    min-height: @cuadratin * 6;
+    background-color: @gris-blanco
+    }
+
+    &.chico {
+    padding-top: @cuerpo / 6;
+    min-height: @cuadratin * 5;
+
+    p {
+        margin-top: @cuerpo;
+    }
+    }
+}
+
+
+.contenedor-trio-noticias {
+    width: 100%;
+    float: left;
+    clear: none;
+}
+
+// TRABAJO DE JUAN
 
 
 .imagen-noticia-prev {
-    height: @cuadratin * 5.7; 
+    height: @cuadratin * 5.7;
     overflow: hidden;
     max-width: 310px;
 
@@ -56,6 +132,42 @@
                 height: auto;
             }
     }
+
+    // Portada noticias
+
+    .noticia {
+
+        &.grande {
+        
+        .noticia-imagen {
+        position: relative;
+        overflow: hidden;
+        height: @cuadratin * 12;
+
+            img{
+            height: auto;
+            }
+        }
+}
+
+        &.chica {
+        text-align: center;
+
+            img{
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+}
+
+    .texto-noticia {
+
+    &.chico {
+    padding-top: @cuerpo / 6;
+    min-height: @cuadratin * 5;
+    }
+}
+
 }
 
 
@@ -70,7 +182,36 @@
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
     height: @cuadratin * 18;
+    background-color: @gris-oscuro;
     }
+
+        .noticia {
+
+        &.grande {
+        
+        .noticia-imagen {
+        position: relative;
+        overflow: hidden;
+        height: @cuadratin * 12;
+
+
+            img{
+            height: auto;
+            width: 150%;
+            }
+        }
+}
+
+        &.chica {
+        text-align: center;
+
+            img{
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+}
+
 }
 
 // Medium screen / desktop
@@ -98,7 +239,67 @@
             height: auto;
         }
     }
+    }
+
+        .noticia {
+
+        &.grande {
+        
+        .noticia-imagen {
+        position: relative;
+        overflow: hidden;
+        height: @cuadratin * 12;
+
+
+            img{
+            height: auto;
+            }
+        }
 }
+
+        &.chica {
+
+            img{
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+}
+
+.texto-noticia {
+    
+    //background-color: @gris-claro;
+    margin: 0;
+
+    h1, h3 {
+        margin: 0;
+        color: @rojo-claro;
+    }
+
+    &.grande {
+    padding-top: @cuerpo / 3;
+    min-height: @cuadratin * 6;
+    background-color: @gris-blanco;
+    margin: 0;
+    }
+
+}
+
+.contenedor-trio-noticias {
+    width: 100%;
+    float: left;
+    clear: none;
+}
+
+.categoria {
+    float: left;
+    display: inline-block;
+
+    h2 {
+        color: @rojo-opuesto;
+    }
+}
+
 
 // Large screen / wide desktop
 
@@ -108,6 +309,16 @@
     .imagenes-destacadas-ead {
         min-height: @cuadratin * 22.7;
     }
+
+    // Portada noticias
+
+    .contenedor-noticias-recientes {
+        min-height: @cuadratin * 25.7;
+
+        .altura-maxima {
+        height: @cuadratin * 25.7;
+    }
+}
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
