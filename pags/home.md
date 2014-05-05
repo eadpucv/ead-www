@@ -290,259 +290,259 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='caja-contenido-postulante alto-xs'>
         <a href='#'><h6>Admisión</h6></a>
         <ul class='enlaces-aside postulante'>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Vías de ingreso</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Becas y financiamiento</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Aranceles</a></li>
+            <a href='#' class='s semi-gruesa'><li>Vías de ingreso</li></a>
+            <a href='#' class='s semi-gruesa'><li>Becas y financiamiento</li></a>
+            <a href='#' class='s semi-gruesa'><li>Aranceles</li></a>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
         <a href='#'><h6>Carreras y Posgrados</h6></a>
         <ul class='enlaces-aside postulante'>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Arquitectura</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Diseño Gráfico</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Diseño Industrial</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Magíster Náutico y marítimo</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Magíster Ciudad y Territorio</a></li>
+            <a href='#' class='s semi-gruesa'><li>Arquitectura</li></a>
+            <a href='#' class='s semi-gruesa'><li>Diseño Gráfico</li></a>
+            <a href='#' class='s semi-gruesa'><li>Diseño Industrial</li></a>
+            <a href='#' class='s semi-gruesa'><li>Magíster Náutico y marítimo</li></a>
+            <a href='#' class='s semi-gruesa'><li>Magíster Ciudad y Territorio</li></a>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
         <a href='#'><h6>Campus</h6></a>
         <ul class='enlaces-aside postulante'>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Casa de estudio</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Ciudad Abierta</a></li>
+            <a href='#' class='s semi-gruesa'><li>Casa de estudio</li></a>
+            <a href='#' class='s semi-gruesa'><li>Ciudad Abierta</li></a>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
         <a href='#'><h6>Cuerpo Docente</h6></a>
         <ul class='enlaces-aside postulante'>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Profesores</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Ayudantes</a></li>
+            <a href='#' class='s semi-gruesa'><li>Profesores</li></a>
+            <a href='#' class='s semi-gruesa'><li>Ayudantes</li></a>
         </ul>
       </div>
       <div class='caja-contenido-postulante alto-xs'>
         <a href='#'><h6>La Escuela y el oficio</h6></a>
         <ul class='enlaces-aside postulante'>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Historia</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>La observación</a></li>
-            <li><a href='#' class='s gris-oscuro semi-gruesa'>Amereida</a></li>
+            <a href='#' class='s semi-gruesa'><li>Historia</li></a>
+            <a href='#' class='s semi-gruesa'><li>La observación</li></a>
+            <a href='#' class='s semi-gruesa'><li>Amereida</li></a>
         </ul>
       </div>
 		</div> <!-- fin contenido para el postulante -->
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'>
       <h6 class='negro altas nombre-seccion'>Noticias categorizadas<i class="icn icn-asterisco icn-sm gris"></i></h6>
 			<div class='fila'>
-      <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 1 -->
-        <a href='#' class='bloque-enlace'>
+        <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 1 -->
+          <a href='#' class='bloque-enlace'>
             <div class='imagen-noticia-prev'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
             </div>
             <div class='lectura-prev md'>
-            <div class='titulo-prev md'>
-              <h6 class='gris-oscuro nombre-categoria'>arquitectura <i class="icn icn-asterisco icn-sm gris"></i></h6>
-              <h4 class='rojo-claro fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
+              <div class='titulo-prev md'>
+                <h6 class='gris-oscuro nombre-categoria'>arquitectura <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h4 class='rojo-claro fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
+              </div>
+              <p class='datos-publicacion'>Publicado el 11 de marzo, 2014</p>
+              <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
+              <p class='categorias-publicacion'>[ Arquitectura ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+              </div>
             </div>
-            <p class='datos-publicacion'>Publicado el 11 de marzo, 2014</p>
-            <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. [...]</p>
-            <p class='categorias-publicacion'>[ Arquitectura ] [ Noticias ]</p>
-            <div class='leer-mas'>
-              <i class="icn icn-mas"></i>
-            </div>
-          </div>
-        </a>
-      </div><!-- fin noticia categorizada 1 -->
-      <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 2 -->
-        <a href='#' class='bloque-enlace'>
+          </a>
+        </div><!-- fin noticia categorizada 1 -->
+        <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 2 -->
+          <a href='#' class='bloque-enlace'>
             <div class='imagen-noticia-prev'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
             </div>
             <div class='lectura-prev md'>
-            <div class='titulo-prev md'>
-              <h6 class='gris-oscuro nombre-categoria'>diseño gráfico <i class="icn icn-asterisco icn-sm gris"></i></h6>
-              <h4 class='rojo-claro fino'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h4>
+              <div class='titulo-prev md'>
+                <h6 class='gris-oscuro nombre-categoria'>diseño gráfico <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h4 class='rojo-claro fino'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h4>
+              </div>
+              <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+              <p class='prev-texto md'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el seminario “De la hipótesis al Diseño: aproximaciones, casos y obras”, que se llevará a cabo el viernes 16 de mayo a las 15:00 horas, en la Sala Entrepiso. [...]</p>
+              <p class='categorias-publicacion'>[ Diseño Gráfico ] [ Noticias ][ Seminario ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+              </div>
             </div>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p class='prev-texto md'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el seminario “De la hipótesis al Diseño: aproximaciones, casos y obras”, que se llevará a cabo el viernes 16 de mayo a las 15:00 horas, en la Sala Entrepiso. [...]</p>
-            <p class='categorias-publicacion'>[ Diseño Gráfico ] [ Noticias ][ Seminario ]</p>
-            <div class='leer-mas'>
-              <i class="icn icn-mas"></i>
-            </div>
-          </div>
-        </a>
-      </div><!-- fin noticia categorizada 2 -->
-      <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 2 -->
-        <a href='#' class='bloque-enlace'>
+          </a>
+        </div><!-- fin noticia categorizada 2 -->
+        <div class='caja-publicacion-prev categorizada alto-sm'> <!-- noticia categorizada 3 -->
+          <a href='#' class='bloque-enlace'>
             <div class='imagen-noticia-prev'>
               <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
             </div>
             <div class='lectura-prev md'>
-            <div class='titulo-prev md'>
-              <h6 class='gris-oscuro nombre-categoria'>diseño industrial <i class="icn icn-asterisco icn-sm gris"></i></h6>
-              <h4 class='rojo-claro fino'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
+              <div class='titulo-prev md'>
+                <h6 class='gris-oscuro nombre-categoria'>diseño industrial <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h4 class='rojo-claro fino'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
+              </div>
+              <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
+              <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio. [...]</p>
+              <p class='categorias-publicacion'>[ Diseño Industrial ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+              </div>
             </div>
-            <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
-            <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio. [...]</p>
-            <p class='categorias-publicacion'>[ Diseño Industrial ] [ Noticias ]</p>
-            <div class='leer-mas'>
-              <i class="icn icn-mas"></i>
+          </a>
+        </div><!-- fin noticia categorizada 3 -->
+				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'> <!-- noticia de categoria 4  -->
+          <a href='#' class='bloque-enlace'>
+            <div class='lectura-prev angosta'>
+              <div class='titulo-prev'>
+                <h6 class='gris-oscuro nombre-categoria'>magíster arquitectura y diseño <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h5 class='rojo-claro fino'>Concursos de Innovación y Emprendimiento 2014</h5>
+                <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
+              </div>
+              <p class='prev-texto sm'>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen  pueden participar alumnos de pregrado y posgrado, académicos, funcionarios y alumnos del CFT UCEVALPO, para recibir financiamiento que les permita desarrollar sus proyectos e ideas innovadoras. [...]</p>
+              <p class='categorias-publicacion'>[ Magíster Arquitectura y Diseño ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+             </div>
             </div>
-          </div>
-        </a>
-      </div><!-- fin noticia categorizada 2 -->
+          </a>
+        </div> <!-- fin noticia de categoria 4 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'> <!-- noticia de categoria 5  -->
+          <a href='#' class='bloque-enlace'>
+            <div class='lectura-prev angosta'>
+              <div class='titulo-prev'>
+                <h6 class='gris-oscuro nombre-categoria'>taller de amereida <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h5 class='rojo-claro fino'>Entrega Taller de Amereida Trim. I 2014</h5>
+                <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
+              </div>
+              <div class='imagen-noticia-prev angosta'>
+                <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-1.jpg'>
+              </div>
+              <p class='prev-texto sm'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller [...]</p>
+              <p class='categorias-publicacion'>[ Taller de Amereida ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+             </div>
+            </div>
+          </a>
+        </div> <!-- fin noticia de categoria 5 -->
+         <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 6 -->
+          <a href='#' class='bloque-enlace'>
+            <div class='lectura-prev angosta'>
+              <div class='titulo-prev'>
+                <h6 class='gris-oscuro nombre-categoria'>ediciones e[ad] <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h5 class='rojo-claro fino'>Embarcación Amereida y la Épica de Fundar el Mar Patagónico</h5>
+                <p class='datos-publicacion'>Publicado el 15 de abril, 2014</p>
+              </div>
+              <div class='imagen-noticia-prev angosta'>
+                <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-2.png'>
+              </div>
+              <p class='prev-texto sm'>Ediciones e[ad], PUCV, Ediciones Universitarias de Valparaíso, ISBN: 956-17-0370-X, Formato: 21 x 33 cm [...]</p>
+              <p class='categorias-publicacion'>[ Ediciones ] [ Noticias ] [ Publicación Digital ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+             </div>
+            </div>
+          </a>
+        </div>  <!-- fin noticia de categoria 6 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 7 -->
+          <a href='#' class='bloque-enlace'>
+            <div class='lectura-prev angosta'>
+              <div class='titulo-prev'>
+                <h6 class='gris-oscuro nombre-categoria'>archivo histórico JVA <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h5 class='rojo-claro fino'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
+                <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
+              </div>
+              <div class='imagen-noticia-prev angosta'>
+                <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-3.png'>
+              </div>
+              <p class='prev-texto sm'>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los [...]</p>
+              <p class='categorias-publicacion'>[ Archivo Histórico José Vial Armstrong ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+             </div>
+            </div>
+          </a>
+        </div>  <!-- fin noticia de categoria 7 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 8 -->
+          <a href='#' class='bloque-enlace'>
+            <div class='lectura-prev angosta'>
+              <div class='titulo-prev'>
+                <h6 class='gris-oscuro nombre-categoria'>investigación <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h5 class='rojo-claro fino'>Poética Universitaria, las metáforas de Godofredo Iommi - Jaime Reyes</h5>
+                <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
+              </div>
+              <p class='prev-texto sm'>En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que:</p>
 
-				<div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 1 -->
-          <a href='#'><h6 class='negro centrado altas'>magister arquitectura y diseño</h6></a>
-          <a href='#'>
-              <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 texto-noticia-categorizada'> <!-- noticia categorizada 1 -->
-                <div class='titulo-prev'>
-                  <a href='#'><h6 class='rojo altas'>Concursos de Innovación y Emprendimiento 2014</h6></a>
-                </div>
-                <p class='datos-publicacion'>Publicado el <a href='#'>21 de abril, 2014</a></p>
-                <div class='fila fondo'>
-                  <div class='col-lg-24 col-md-24 col-sm-24'>
-                    <p class='prev-texto'>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen  pueden participar alumnos de pregrado y posgrado, académicos, funcionarios y alumnos del CFT UCEVALPO, para recibir financiamiento que les permita desarrollar sus proyectos e ideas innovadoras. [...]
-                    </p>
-                  </div>
-                </div>
+              <p class='prev-texto sm'>“Nos parece que la condición humana es poética, vale decir que por ella 
+              el hombre vive libremente y sin cesar en la vigilia y coraje de hacer un mundo.” 
+              (e[ad] 1972 ). [...]</p>
+              <p class='categorias-publicacion'>[ Investigación ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+             </div>
+            </div>
+          </a>
+        </div>  <!-- fin noticia de categoria 8 -->
+        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-md'>  <!-- noticia de categoria 9 -->
+          <a href='#' class='bloque-enlace'>
+            <div class='lectura-prev angosta'>
+              <div class='titulo-prev'>
+                <h6 class='gris-oscuro nombre-categoria'>bolsa de trabajo <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h5 class='rojo-claro fino'>Ayudantes de Biblioteca</h5>
+                <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
               </div>
-          </a> <!-- fin noticia categorizada 1 -->
-        </div> <!-- fin categoria 1 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 2 -->
-          <a href='#'><h6 class='negro centrado altas'>taller de amereida</h6></a>
-          <a href='#'>
-            <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 imagen-noticia-categorizada'> <!-- noticia categorizada 2 -->
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-1.jpg'>
-              <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 texto-imagen-categorizada'>
-                <div class='titulo-prev'>
-                  <a href='#'><h6 class='rojo altas'>Entrega Taller de Amereida Trim. I 2014</h6></a>
-                </div>
-                <p class='datos-publicacion'>Publicado el <a href='#'>15 de abril, 2014</a></p>
-                <div class='fila fondo'>
-                  <div class='col-lg-24 col-md-24 col-sm-24'>
-                    <p class='prev-texto'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller; cada alumno elige una [...]</p>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </a> <!-- fin noticia categorizada 2 -->
-        </div> <!-- fin categoria 2 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 3 -->
-          <a href='#'><h6 class='negro centrado altas'>ediciones</h6></a>
-          <a href='#'>
-            <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 imagen-noticia-categorizada'> <!-- noticia categorizada 3 -->
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-2.png'>
-              <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 texto-imagen-categorizada'>
-                <div class='titulo-prev'>
-                  <a href='#'><h6 class='rojo altas'>Embarcación Amereida y la Épica de Fundar el Mar Patagónico</h6></a>
-                </div>
-                <p class='datos-publicacion'>Publicado el <a href='#'>15 de abril, 2014</a></p>
-                <div class='fila fondo'>
-                  <div class='col-lg-24 col-md-24 col-sm-24'>
-                    <p class='prev-texto'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller; cada alumno elige una [...]</p>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </a> <!-- fin noticia categorizada 3 -->
-        </div> <!-- fin categoria 3 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 3 -->
-          <a href='#'><h6 class='negro centrado altas'>archivo histórico jva</h6></a>
-          <a href='#'>
-            <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 imagen-noticia-categorizada'> <!-- noticia categorizada 3 -->
-              <img class='excedente-imagen' src='{{ site.baseurl }}/img/noticia-prev-categ-3.png'>
-              <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 texto-imagen-categorizada'>
-                <div class='titulo-prev'>
-                  <a href='#'><h6 class='rojo altas'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h6></a>
-                </div>
-                <p class='datos-publicacion'>Publicado el <a href='#'>2 de enero, 2014</a></p>
-                <div class='fila fondo'>
-                  <div class='col-lg-24 col-md-24 col-sm-24'>
-                    <p class='prev-texto'>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los [...]</p>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </a> <!-- fin noticia categorizada 3 -->
-        </div> <!-- fin categoria 3 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 4 -->
-          <a href='#'><h6 class='negro centrado altas'>investigación</h6></a>
-          <a href='#'>
-              <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 texto-noticia-categorizada'> <!-- noticia categorizada 4 -->
-                <div class='titulo-prev'>
-                  <a href='#'><h6 class='rojo altas'>Entrega Taller de Amereida Trim. I 2014</h6></a>
-                </div>
-                <p class='datos-publicacion'>Publicado el <a href='#'>15 de abril, 2014</a></p>
-                <div class='fila fondo'>
-                  <div class='col-lg-24 col-md-24 col-sm-24'>
-                    <p class='prev-texto'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller; cada alumno elige una idea por clase y la trata exhaustivamente con los recursos bibliográficos, referenciales y de dibujos que se requieran; todo esto puede ser manuscrito o tipográfico.
-                    </p>
-                    <p class='prev-texto'>Paralelamente se transcribe y digitaliza la tarea y se sube a Casiopea en: <a href='#'>http://wiki.ead.pucv.cl/index.php/Taller_de_Amereida_2014</a> donde cada usuario debe ingresar su Nueva Tarea[...]</p>
-                  </div>
-                </div>
-              </div>
-          </a> <!-- fin noticia categorizada 4 -->
-        </div> <!-- fin categoria 4 -->
-        <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm categoria'> <!-- categoria 1 -->
-          <a href='#'><h6 class='negro centrado altas'>bolsa de trabajo</h6></a>
-          <a href='#'>
-              <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 texto-noticia-categorizada'> <!-- noticia categorizada 1 -->
-                <div class='titulo-prev'>
-                  <a href='#'><h6 class='rojo altas'>Entrega Taller de Amereida Trim. I 2014</h6></a>
-                </div>
-                <p class='datos-publicacion'>Publicado el <a href='#'>15 de abril, 2014</a></p>
-                <div class='fila fondo'>
-                  <div class='col-lg-24 col-md-24 col-sm-24'>
-                    <p class='prev-texto'>Para los Cursos Superiores, la entrega consiste en el desarrollo de las ideas planteadas en cada sesión del Taller; cada alumno elige una idea por clase y la trata exhaustivamente con los recursos bibliográficos, referenciales y de dibujos que se requieran; todo esto puede ser manuscrito o tipográfico.
-                    </p>
-                    <p class='prev-texto'>Paralelamente se transcribe y digitaliza la tarea y se sube a Casiopea en: <a href='#'>http://wiki.ead.pucv.cl/index.php/Taller_de_Amereida_2014</a> donde cada usuario debe ingresar su Nueva Tarea[...]</p>
-                  </div>
-                </div>
-              </div>
-          </a> <!-- fin noticia categorizada 1 -->
-        </div> <!-- fin categoria 1 -->
+              <p class='prev-texto sm'>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales. </p>
+              <p class='prev-texto sm'>Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.[...]</p>
+              <p class='categorias-publicacion'>[ Bolsa de trabajo ] [ Trabajo ] [ Noticias ]</p>
+              <div class='leer-mas'>
+                <i class="icn icn-mas"></i>
+             </div>
+            </div>
+          </a>
+        </div>  <!-- fin noticia de categoria 9 -->
 			</div>  <!-- fin fila -->
 		</div> <!-- fin contenido ead -->
-		<div class='oculto-lg oculto-md oculto-sm col-xs-24 alto-lg'>
-			<div class='caja-contenido-postulante'>
-        <h2>Admisión</h2>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Vías de ingreso</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Becas y financiamiento</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Aranceles</a></li>
+    <div class='oculto-lg oculto-md oculto-sm col-xs-24'>
+      <h6 class='negro altas nombre-seccion'>Futuros Alumnos <i class="icn icn-asterisco icn-sm gris"></i></h6>
+      <div class='caja-contenido-postulante alto-xs'>
+        <a href='#'><h6>Admisión</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <a href='#' class='s semi-gruesa'><li>Vías de ingreso</li></a>
+            <a href='#' class='s semi-gruesa'><li>Becas y financiamiento</li></a>
+            <a href='#' class='s semi-gruesa'><li>Aranceles</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
-        <h2>Carreras y Posgrados</h2>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Arquitectura</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Diseño Gráfico</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Diseño Industrial</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Magíster Náutico y marítimo</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Magíster Ciudad y Territorio</a></li>
+      <div class='caja-contenido-postulante alto-xs'>
+        <a href='#'><h6>Carreras y Posgrados</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <a href='#' class='s semi-gruesa'><li>Arquitectura</li></a>
+            <a href='#' class='s semi-gruesa'><li>Diseño Gráfico</li></a>
+            <a href='#' class='s semi-gruesa'><li>Diseño Industrial</li></a>
+            <a href='#' class='s semi-gruesa'><li>Magíster Náutico y marítimo</li></a>
+            <a href='#' class='s semi-gruesa'><li>Magíster Ciudad y Territorio</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
-        <h2>Campus</h2>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Casa de estudio</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Ciudad Abierta</a></li>
+      <div class='caja-contenido-postulante alto-xs'>
+        <a href='#'><h6>Campus</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <a href='#' class='s semi-gruesa'><li>Casa de estudio</li></a>
+            <a href='#' class='s semi-gruesa'><li>Ciudad Abierta</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
-        <h2>Cuerpo Docente</h2>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Profesores</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Ayudantes</a></li>
+      <div class='caja-contenido-postulante alto-xs'>
+        <a href='#'><h6>Cuerpo Docente</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <a href='#' class='s semi-gruesa'><li>Profesores</li></a>
+            <a href='#' class='s semi-gruesa'><li>Ayudantes</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante'>
-        <h2>La Escuela y el oficio</h2>
-        <ul>
-            <li><a class='xs gris-oscuro semi-gruesa'>Historia</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>La observación</a></li>
-            <li><a class='xs gris-oscuro semi-gruesa'>Amereida</a></li>
+      <div class='caja-contenido-postulante alto-xs'>
+        <a href='#'><h6>La Escuela y el oficio</h6></a>
+        <ul class='enlaces-aside postulante'>
+            <a href='#' class='s semi-gruesa'><li>Historia</li></a>
+            <a href='#' class='s semi-gruesa'><li>La observación</li></a>
+            <a href='#' class='s semi-gruesa'><li>Amereida</li></a>
         </ul>
       </div>
-		</div> <!-- fin contenido para el postulante 2 -->
+    </div> <!-- fin contenido para el postulante 2-->
 	</div> <!-- fin sección contenido-->
 </div> <!-- fin wrap -->
 

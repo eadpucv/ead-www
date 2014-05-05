@@ -20,6 +20,7 @@
         
         &.sm {
             padding: 0 @cuadratin / 2;
+            display: block;
         }
 
         &.md {
@@ -43,10 +44,19 @@
             .nombre-seccion {
                 margin:@cuadratin-tercio 0;
             }
+        }
 
-            .categorias-publicacion {
-                bottom: @cuadratin / 2;
-                position: absolute;
+        &.angosta {
+            padding: 0 @cuadratin / 2;
+            display: block;
+            height: @cuadratin * 16;
+
+            .titulo-prev {
+                height: @cuadratin * 5.5;
+            }
+
+            h5 {
+                margin: @cuadratin / 2 0 0 0;
             }
         }
     }
@@ -74,6 +84,7 @@
     &.categorizada {
         margin-left: @cuadratin / 2;
         padding: 0;
+        border: none;
                         
         .imagen-noticia-prev {
             height: @cuadratin * 11.4; 
@@ -88,15 +99,6 @@
         }
     }
 
-    // Auxiliar de caja
-
-    &.categoria {
-
-        .titulo-prev {
-            margin: @cuadratin-tercio 0 0;
-            height: auto;
-        }
-    }
 }
 
 .leer-mas {
@@ -104,6 +106,11 @@
     color: @rojo-opuesto;
     right: @cuadratin-tercio;
     bottom: 0;
+}
+
+.categorias-publicacion {
+    bottom: @cuadratin / 2;
+    position: absolute;
 }
 
 .caja-contenido-postulante {
@@ -117,23 +124,6 @@
         &:hover {
             color: @rojo-claro;
         }
-    }
-}
-
-.texto-noticia-categorizada {
-    position: relative;
-    height: @cuadratin * 13; 
-    background-color: @gris-claro;
-    padding: 0 @cuadratin / 2;
-
-    &:hover {
-        background-color: @blanco;
-    }
-
-    .fondo {
-        position: absolute;
-        bottom: @cuadratin;
-        padding: 0 @cuadratin / 2;
     }
 }
 
@@ -170,15 +160,18 @@
         }
 
         li {
+            color: @gris-oscuro;
+            font-weight: 500;
             background-color: @gris-blanco;
             padding: 5px @cuadratin;
             margin: 0 0 @cuadratin / 2 0;
             border:1px solid @gris-claro;
 
             &:hover {
+                color: @blanco;
                 background-color: @rojo-claro;
                 .transition(.3s ease all);
-                
+
                 a {
                     color: @blanco;
                 }
@@ -200,14 +193,6 @@
     //background-color: red;
     margin-bottom: @cuadratin / 2;
     position: relative;
-
-    h6 {
-        margin: 0;
-    }
-
-    &.categoria {
-        height: @cuadratin * 14;
-    }
 }
 
 .alto-md {
