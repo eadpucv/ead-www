@@ -241,42 +241,15 @@
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
-    // Ajuste de página 
-    .wrap {
-    width: 90%;
-    border: 1px solid red;
-    }
-
-    // Contenedor del carousel
-    .imagenes-destacadas-ead {
-    min-height: @cuadratin * 10;
-    }
-
-    //  Altura máxima de imagen en Carousel
-    .altura-maxima {
-    height: @cuadratin * 10;
-    }
-
-    .imagenes-destacadas-descripcion-ead {
-        background-color: @transparente;
-        min-height: @cuadratin * 4;
-        position: absolute;
-        bottom: @cuadratin;
-        p {
-            font-size: @cuerpo * .8;
-            line-height: @interlinea * .9;
-            color: @blanco;
-        }
-        h4 {
-            font-size: @cuerpo;
-        }
-    }
 }
 
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
-
+    .caret {
+    margin-left: @padding-md;
+    margin-right: @cuadratin * .4;
+  }
 }
 
 // Medium screen / desktop
@@ -285,7 +258,7 @@
   .caret {
     margin-left: @padding-md;
     margin-right: @cuadratin * .8;
-}
+  }
 
 }
 

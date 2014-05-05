@@ -1,0 +1,246 @@
+// Cajas de contenido específico + tipografías + elementos
+
+.caja-publicacion-prev {
+    padding: 0;
+
+    h6 {
+        margin:0;
+    }
+
+    .titulo-prev {
+        min-height: @cuadratin * 1.5;
+        margin: @cuadratin * .25 0;
+
+        &.md {
+            margin: @cuadratin *.25 0 0 0;
+            min-height: auto;
+            padding: 0;
+            position: relative;
+
+            h6 {
+                margin: 0;
+                padding: 0;
+                font-weight: 200;
+            }
+        }
+    }
+
+    // Ajustes según el tamaños de la caja
+
+    &.categorizada {
+        margin-left: @cuadratin / 2;
+        padding: 0;
+        border: none;
+                        
+        .imagen-noticia-prev {
+            height: @cuadratin * 11.4; 
+            overflow: hidden;
+            float: left;
+            position: relative;
+            
+            .excedente-imagen {
+                height: @cuadratin * 11.4;
+                overflow: hidden;
+            }
+        }
+    }
+
+}
+
+.lectura-prev {
+    padding: 0;
+    position: relative;
+    height: @cuadratin * 5.7;
+
+    &.xs {
+         padding: 0 @cuadratin / 2;
+    }
+    
+    &.sm {
+        padding: 0 @cuadratin / 2;
+        display: block;
+    }
+
+    &.md {
+        float: left;
+        position: relative;
+        margin: 0;
+        width: 666px;
+        padding: 0 @cuadratin;
+        height: @cuadratin * 11.4;
+
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
+            margin: @cuadratin / 2 0 0 0;
+            padding: 0;
+        }
+
+        .nombre-seccion {
+            margin:@cuadratin-tercio 0;
+        }
+    }
+
+    &.angosta {
+        padding: 0 @cuadratin / 2;
+        display: block;
+        height: @cuadratin * 16;
+
+        .titulo-prev {
+            height: @cuadratin * 5.5;
+        }
+
+        h5 {
+            margin: @cuadratin / 2 0 0 0;
+        }
+    }
+}
+
+.leer-mas {
+    position: absolute;
+    color: @rojo-opuesto;
+    right: @cuadratin-tercio;
+    bottom: 0;
+}
+
+.categorias-publicacion {
+    bottom: @cuadratin / 2;
+    position: absolute;
+}
+
+.caja-contenido-postulante {
+    border:1px solid @gris-claro;
+    margin: 0 @cuadratin / 2 @cuadratin / 2;
+    padding: @cuadratin / 2;
+
+    h6 {
+        margin: 0 0 @cuadratin / 2;
+
+        &:hover {
+            color: @rojo-claro;
+        }
+    }
+}
+
+.enlaces-aside {
+    font-size: @cuerpo-nav * .85;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li:before {
+        font-family: 'Stampa';
+        content: '\e601';
+        margin:0 @cuadratin-tercio 0 -@cuadratin-tercio * 2;
+        color: @rojo-claro;
+    }
+
+    li {
+        line-height: @interlinea-nav *.9;
+        margin-bottom: @cuerpo-nav *.5;
+
+        a {
+            &:hover {
+                color: @pizarra-oscuro;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &.postulante {
+        
+        ul {
+            margin: 0 0 @cuadratin-tercio;
+            padding: 0 0 @cuadratin @cuadratin;
+        }
+
+        li {
+            color: @gris-oscuro;
+            font-weight: 500;
+            background-color: @gris-blanco;
+            padding: 5px @cuadratin;
+            margin: 0 0 @cuadratin / 2 0;
+            border:1px solid @gris-claro;
+
+            &:hover {
+                color: @blanco;
+                background-color: @rojo-claro;
+                .transition(.3s ease all);
+
+                a {
+                    color: @blanco;
+                }
+            }
+        }
+    }
+}
+
+// auxiliares para bloques (maqueteo)
+
+.alto-xs {
+    min-height: @cuadratin * 5.7;
+    //background-color: orange;
+    margin-bottom: @cuadratin / 2;
+}
+
+.alto-sm {
+    min-height: @cuadratin * 11.4;
+    //background-color: red;
+    margin-bottom: @cuadratin / 2;
+    position: relative;
+}
+
+.alto-md {
+    height: @cuadratin * 17.1;
+    border-bottom:1px solid @gris-blanco;
+    margin-bottom: @cuadratin;
+}
+
+
+.alto-lg {
+    min-height: @cuadratin * 21;
+    border:1px solid @gris-blanco;
+}
+
+// estilos de cajas
+
+.borde-izquierdo {
+    border-left: 2px solid;
+}
+
+.borde-derecho {
+    border-right: 2px solid;
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+}
+
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+    .lectura-prev {
+
+        &.xs {
+             padding: 0 @cuadratin / 4;
+        }
+    }
+
+}
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
+}

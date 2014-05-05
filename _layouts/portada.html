@@ -10,14 +10,21 @@
 	    	</div>
 
 				<!-- contenido -->
-				<div class='col-lg-24'>
-					<div class='wrap'>
-						<div class='fila'>
-					        {{ content }}
-					        {% include aside.html %}
-					    </div>
+				<div class='wrap'>
+				<div class='fila'>
+					<div class='col-lg-24 col-md-24 col-xs-24'>
+						<h1>{{ page.subtitle }}</h2>
+					</div>
+					<div class='col-lg-16 col-md-16'>
+					        	{{ content }}
+					</div>
+				
+					<div class='col-lg-8 col-md-8 relleno-lg izquierdo'>
+					        	{% include aside.html %}
 					</div>
 				</div>
+				</div>
+				
 	    </div>
 	    {% include footer.html%}
 	</body>
