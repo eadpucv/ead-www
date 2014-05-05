@@ -1,49 +1,34 @@
 // Ajuste de imágenes
 
-.imagen-noticia-categorizada {
-    max-height: @cuadratin * 13; 
-    overflow: hidden;
-    position: relative;
-
-        .excedente-imagen {
-        overflow: hidden;
-        position: center;
-        opacity: .8;
-        width: auto;
-        height: @cuadratin * 17;
-    }
-
-    .texto-imagen-categorizada{
-        position: absolute;
-        bottom: 0;
-        background-color: @transparente-gris;
-        height: @cuadratin * 13;
-        padding: 0 @cuadratin / 2;
-
-        .fondo {
-            position: absolute;
-            bottom: @cuadratin;
-            padding: 0 @cuadratin / 2;
-
-        }
-
-            &:hover {
-                opacity: .8;
-                .transition(.3s ease all);
-        }
-    }
-}
 
 .imagen-noticia-prev {
     height: @cuadratin * 5.7; 
     overflow: hidden;
-    width: 310px;
+    max-width: 310px;
 
     .excedente-imagen {
-        overflow: hidden;
         position: center;
         width: auto;
-        height: 100%;
+        height: 150%;
+    }
+
+    &.angosta {
+        width: 280px;
+        
+        .excedente-imagen {
+            position: center;
+            width: auto;
+            height: 250%;
+        }
+    }
+
+    &.sm {
+        padding: 15px;
+        .excedente-imagen {
+            position: center;
+            width: 100%;
+            height: auto;
+        }
     }
 }
 
@@ -58,27 +43,6 @@
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
     height: @cuadratin * 10;
-    }
-
-    .caja-publicacion-prev {
-        margin: @cuadratin 0;
-        border-bottom: 1px solid @gris-blanco;
-
-        &.noticia-categorizada {
-            &.md {  
-                .imagen-noticia-prev {
-                    min-height: @cuadratin * 15; 
-                    overflow: hidden;
-
-                    .excedente-imagen {
-                        overflow: hidden;
-                        position: center;
-                        width: auto;
-                        width: 130%;
-                    }
-                }
-            }
-        }
     }
 
     .imagen-noticia-prev {
@@ -121,7 +85,19 @@
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
     height: @cuadratin * 16;
-    }  
+    } 
+
+    .imagen-noticia-prev {
+        width: 100%; 
+        overflow: hidden;
+
+        .excedente-imagen {
+            overflow: hidden;
+            position: center;
+            width: 170%;
+            height: auto;
+        }
+    }
 }
 
 // Large screen / wide desktop

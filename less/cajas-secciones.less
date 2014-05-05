@@ -1,51 +1,23 @@
 // Cajas de contenido específico + tipografías + elementos
 
 .caja-publicacion-prev {
-    padding: 0 @cuadratin / 2;
-    border-right: 1px solid @gris-claro;
-    border-left: 1px solid @gris-claro;
+    padding: 0;
 
     h6 {
         margin:0;
     }
 
-    .lectura-prev {
-        padding: 0 @cuadratin / 1.5 @cuadratin / 1.5;
-        position: relative;
-
-        &.xs {
-             padding-bottom: 0;
-        }
-        
-        &.sm, &.xs {
-        }
-
-        &.md {
-            height: @cuadratin * 14;
-            padding-left: @cuadratin;
-
-            h6, h2 {
-                margin: 0;
-                padding: 0;
-            }
-
-            .nombre-seccion {
-                margin:@cuadratin-tercio 0;
-            }
-
-            .categorias-publicacion {
-                bottom: @cuadratin-tercio;
-                position: absolute;
-            }
-        }
-    }
-
     .titulo-prev {
-        margin: 0;
-        min-height: @cuadratin * 2;
+        min-height: @cuadratin * 1.5;
+        margin: @cuadratin * .25 0;
 
         &.md {
-            h1 {
+            margin: @cuadratin *.25 0 0 0;
+            min-height: auto;
+            padding: 0;
+            position: relative;
+
+            h6 {
                 margin: 0;
                 padding: 0;
                 font-weight: 200;
@@ -55,79 +27,101 @@
 
     // Ajustes según el tamaños de la caja
 
-    &.noticia-categorizada {
+    &.categorizada {
         margin-left: @cuadratin / 2;
-        background-color: @gris-claro;
-
-            &:hover {
-            background-color: @blanco;
-        }
-
-        &.sm {
-
-        }
-
-        &.md {
-            padding: 0;
+        padding: 0;
+        border: none;
                         
-            .imagen-noticia-prev {
-                min-height: @cuadratin * 14; 
+        .imagen-noticia-prev {
+            height: @cuadratin * 11.4; 
+            overflow: hidden;
+            float: left;
+            position: relative;
+            
+            .excedente-imagen {
+                height: @cuadratin * 11.4;
                 overflow: hidden;
-                    .excedente-imagen {
-                        height: @cuadratin * 14;
-                        overflow: hidden;
-                    }
             }
         }
     }
 
-    // Auxiliar de caja
+}
 
-    .leer-mas {
-        position: absolute;
-        color: @rojo;
-        right: @cuadratin-tercio;
-        bottom: 0;
+.lectura-prev {
+    padding: 0;
+    position: relative;
+    height: @cuadratin * 5.7;
+
+    &.xs {
+         padding: 0 @cuadratin / 2;
+    }
+    
+    &.sm {
+        padding: 0 @cuadratin / 2;
+        display: block;
     }
 
-    &.categoria {
+    &.md {
+        float: left;
+        position: relative;
+        margin: 0;
+        width: 666px;
+        padding: 0 @cuadratin;
+        height: @cuadratin * 11.4;
+
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
+            margin: @cuadratin / 2 0 0 0;
+            padding: 0;
+        }
+
+        .nombre-seccion {
+            margin:@cuadratin-tercio 0;
+        }
+    }
+
+    &.angosta {
+        padding: 0 @cuadratin / 2;
+        display: block;
+        height: @cuadratin * 16;
 
         .titulo-prev {
-            margin: @cuadratin-tercio 0 0;
-            height: auto;
+            height: @cuadratin * 5.5;
+        }
+
+        h5 {
+            margin: @cuadratin / 2 0 0 0;
         }
     }
 }
 
-.caja-contenido-postulante {
-    background-color: lighten(@gris-blanco, 40%);
-    border:1px solid @gris-claro;
-    margin: 0 @cuadratin / 2 @cuadratin / 2;
-
-    h5 {
-        margin: 0 @cuadratin-tercio;
-    }
-
-    ul {
-        margin: 0 0 @cuadratin-tercio;
-        padding: 0 0 @cuadratin @cuadratin;
-    }
+.leer-mas {
+    position: absolute;
+    color: @rojo-opuesto;
+    right: @cuadratin-tercio;
+    bottom: 0;
 }
 
-.texto-noticia-categorizada {
-    position: relative;
-    height: @cuadratin * 13; 
-    background-color: @gris-claro;
-    padding: 0 @cuadratin / 2;
+.categorias-publicacion {
+    bottom: @cuadratin / 2;
+    position: absolute;
+}
 
-    &:hover {
-        background-color: @blanco;
-    }
+.caja-contenido-postulante {
+    border:1px solid @gris-claro;
+    margin: 0 @cuadratin / 2 @cuadratin / 2;
+    padding: @cuadratin / 2;
 
-    .fondo {
-        position: absolute;
-        bottom: @cuadratin;
-        padding: 0 @cuadratin / 2;
+    h6 {
+        margin: 0 0 @cuadratin / 2;
+
+        &:hover {
+            color: @rojo-claro;
+        }
     }
 }
 
@@ -155,30 +149,48 @@
             }
         }
     }
+
+    &.postulante {
+        
+        ul {
+            margin: 0 0 @cuadratin-tercio;
+            padding: 0 0 @cuadratin @cuadratin;
+        }
+
+        li {
+            color: @gris-oscuro;
+            font-weight: 500;
+            background-color: @gris-blanco;
+            padding: 5px @cuadratin;
+            margin: 0 0 @cuadratin / 2 0;
+            border:1px solid @gris-claro;
+
+            &:hover {
+                color: @blanco;
+                background-color: @rojo-claro;
+                .transition(.3s ease all);
+
+                a {
+                    color: @blanco;
+                }
+            }
+        }
+    }
 }
 
 // auxiliares para bloques (maqueteo)
 
 .alto-xs {
     min-height: @cuadratin * 5.7;
-    display: inline-block;
-    background-color: orange;
+    //background-color: orange;
     margin-bottom: @cuadratin / 2;
 }
 
 .alto-sm {
     min-height: @cuadratin * 11.4;
-    background-color: red;
-    margin-bottom: @cuadratin;
+    //background-color: red;
+    margin-bottom: @cuadratin / 2;
     position: relative;
-
-    h6 {
-        margin: 0;
-    }
-
-    &.categoria {
-        height: @cuadratin * 14;
-    }
 }
 
 .alto-md {
@@ -191,4 +203,44 @@
 .alto-lg {
     min-height: @cuadratin * 21;
     border:1px solid @gris-blanco;
+}
+
+// estilos de cajas
+
+.borde-izquierdo {
+    border-left: 2px solid;
+}
+
+.borde-derecho {
+    border-right: 2px solid;
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+}
+
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+    .lectura-prev {
+
+        &.xs {
+             padding: 0 @cuadratin / 4;
+        }
+    }
+
+}
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
 }
