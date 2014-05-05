@@ -22,17 +22,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/noticia-destacada.jpg" title="Noticia Destacada">
         <!-- descripción-carousel-lg -->
         <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
-          <p class='blanco centrado'>El miércoles 26 de marzo, la e[ad] tuvo el privilegio de recibir en la Ciudad Abierta a la Dra. Carol Edwards</p>
+          <p class='blanco centrado'><i class="icn icn-noticias icn-lg"></i> El miércoles 26 de marzo, la e[ad] tuvo el privilegio de recibir en la Ciudad Abierta a la Dra. Carol Edwards</p>
         </div>
 		      <div class='wrap-carousel'> 
     		    <div class='fila'>
               <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-                <h2 class='blanco margen-superior-s'>Noticias</h2>
+                <h2 class='blanco margen-superior-s'><i class="icn icn-noticias icn-lg"></i> Noticias</h2>
                 <div class='fila'>
-                  <div class='col-md-21 col-sm-22 col-xs-22'>
                     <p class='margen-izquierdo'>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
                     <span class='blanco derecha'>Dra. Carol Edwards</span>
-                  </div>
                 </div>
               </div>  <!-- fin de col imágenes-destacadas-descripcion-ead --> 
             </div>  <!-- fin de fila-->      
@@ -42,16 +40,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/agenda-destacada.jpg">
           <!-- descripción-carousel-lg -->
         <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
-          <p class='blanco centrado'>e[ad] Recibe a Más de un Centenar de Estudiantes Secundarios, 29 Agosto 2013</p>
+          <p class='blanco centrado'><i class="icn icn-calendario icn-lg"></i> e[ad] Recibe a Más de un Centenar de Estudiantes Secundarios, 29 Agosto 2013</p>
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h2 class='blanco margen-superior-s'>Día Abierto 2013</h2>
+            <h2 class='blanco margen-superior-s'><i class="icn icn-calendario icn-lg"></i> Día Abierto 2013 </h2>
             <div class='fila'>
-              <div class='col-md-21 col-sm-22 col-xs-22'>
               <p class='margen-izquierdo'>“Presentamos la escuela en su propio lenguaje, en el lenguaje de cada uno de los oficios; en el lenguaje de la forma. Cada uno hace una interpretación de lo que ve y construye un cuerpo que luego es parte de una exposición colectiva y pública”</p>
               <span class='blanco derecha'>Juan Carlos Jeldes</span>
-              </div>  
             </div>  <!-- fin de fila -->
           </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
         </div> <!-- fin de wrap carousel -->
@@ -60,16 +56,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <img class='excedente-vertical' alt="Fourth slide" src="{{ site.baseurl }}/img/travesia-portada.jpg">
         <!-- descripción-lg -->
         <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
-          <p class='blanco centrado'>Travesía de la Piedra - Curimahuida, Coquimbo, Chile, 1986</p>
+          <p class='blanco centrado'><i class="icn icn-travesia icn-lg"></i> Travesía de la Piedra - Curimahuida, Coquimbo, Chile, 1986</p>
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h2 class='blanco margen-superior-s'>Travesía</h2>
+            <h2 class='blanco margen-superior-s'><i class="icn icn-travesia icn-lg"></i> Travesía</h2>
             <div class='fila'>
-              <div class='col-md-21 col-sm-22 col-xs-22'>
                 <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
                 <span class='blanco derecha'>Alberto Cruz</span>
-              </div>
             </div>  
           </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
         </div>  <!-- fin de wrap carousel --> 
@@ -78,16 +72,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/historia.jpg">
         <!-- descripción-lg -->
         <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
-          <p class='blanco centrado'>Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>
+          <p class='blanco centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h2 class='blanco margen-superior-s'>Historia</h2>
+            <h2 class='blanco margen-superior-s'><i class="icn icn-acto icn-lg"></i> Historia</h2>
             <div class='fila'>
-              <div class='col-md-21 col-sm-22 col-xs-22'>
                 <p class='margen-izquierdo'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
                 <span class='blanco derecha'>Alberto Cruz</span>
-              </div>
             </div>  
           </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
         </div>  <!-- fin de wrap carousel --> 
@@ -96,16 +88,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <img class='excedente-vertical' alt="Fourth slide" src="{{ site.baseurl }}/img/croquis.jpg">
         <!-- descripción-lg -->
         <div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
-          <p class='blanco centrado'>Observación de la semana   realizada por el profesor David Jolly</p>
+          <p class='blanco centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana   realizada por el profesor David Jolly</p>
         </div>
         <div class='wrap-carousel'>
           <div class='col-lg-5 col-md-24 col-sm-24 col-xs-24 imagenes-destacadas-descripcion-ead'> 
-            <h2 class='blanco margen-superior-s'>Observación</h2>
+            <h2 class='blanco margen-superior-s'><i class="icn icn-ojo icn-lg"></i> Observación</h2>
             <div class='fila'>
-              <div class='col-md-21 col-sm-22 col-xs-22'>
                 <p class='margen-izquierdo'>"La Alcoba en la Ciudad Abierta. Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados)..."</p>
                 <span class='blanco derecha'>David Jolly</span>
-              </div>
             </div>  
           </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
         </div>  <!-- fin de wrap carousel --> 
@@ -117,22 +107,18 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 <div class='wrap'>
 	<div class='fila'> <!-- sección actualidad --> 
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24 margen-inferior-s'> <!-- eventos -->
-      <a href='#'><h5 class='negro altas nombre-seccion'>Eventos <i class="icn icn-calendario icn-sm gris"></i></h5></a>
+      <a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-calendario icn-sm gris"></i> Eventos</h5></a>
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
-            <div class='titulo-prev'>
+            <div class='titulo-prev xs'>
               <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6>
             </div>
-            <div class='fila'>
               <div class='fecha-evento'>
-                <div class='borde-izquierdo blanco'>
-                  <p class='dia'>24</p>
-                  <p class='mes'>abr</p>
-                </div>
+                  <p class='dia centrado'>24</p>
+                  <p class='mes centrado'>abr</p>
               </div>
               <p class='prev-texto xs'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa [...]</p>
-            </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
             </div>
@@ -142,20 +128,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento  2 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
-            <div class='titulo-prev'>
+            <div class='titulo-prev xs'>
               <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6>
             </div>
-            <div class='fila'>
               <div class='fecha-evento'>
-                <div class='borde-izquierdo blanco'>
-                  <p class='dia'>18</p>
-                  <p class='mes'>abr</p>
-                </div>
+                  <p class='dia centrado'>18</p>
+                  <p class='mes centrado'>abr</p>
               </div>
               <div class='prev-texto'>
                 <p class='xs'>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a [...]</p>
               </div>
-            </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
             </div>
@@ -165,20 +147,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
-            <div class='titulo-prev'>
+            <div class='titulo-prev xs'>
               <h6 class='rojo-claro'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6>
             </div>
-            <div class='fila'>
               <div class='fecha-evento'>
-                <div class='borde-izquierdo blanco'>
-                  <p class='dia'>15</p>
-                  <p class='mes'>abr</p>
-                </div>
+                  <p class='dia centrado'>15</p>
+                  <p class='mes centrado'>abr</p>
               </div>
               <div class='prev-texto'>
                 <p class='xs'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a [...]</p>
               </div>
-            </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
             </div>
@@ -200,7 +178,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	</div>
 	<div class='fila margen-inferior'>
 		<div class='col-lg-18 col-md-18 col-sm-16'>
-			<a href='#'><h5 class='negro altas nombre-seccion'>Noticias <i class="icn icn-noticias icn-sm gris"></i></h5></a>
+			<a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-noticias icn-sm gris"></i> Noticias </h5></a>
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila'>
@@ -276,7 +254,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div>
 		</div>
 		<div class='col-lg-6 col-md-6 col-sm-8 col-xs-12'>
-      <h5 class='negro nombre-seccion'>@eadpucv <i class="icn icn-twitter icn-sm gris"></i></h5>
+      <h5 class='negro fino nombre-seccion'><i class="icn icn-twitter icn-sm gris"></i> @eadpucv</h5>
       <div class='col-lg-24 alto-sm'>
   			<a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -286,7 +264,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	<hr>
 	<div class='fila'> <!-- sección contenido-->
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>
-      <h6 class='negro altas nombre-seccion'>Futuros Alumnos <i class="icn icn-asterisco icn-sm gris"></i></h6>
+      <h6 class='negro altas altas fino nombre-seccion'><i class="icn icn-mas icn-sm gris"></i> Futuros Alumnos</h6>
       <div class='caja-contenido-postulante alto-xs'>
         <a href='#'><h6>Admisión</h6></a>
         <ul class='enlaces-aside postulante'>
@@ -446,7 +424,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <a href='#' class='bloque-enlace'>
             <div class='lectura-prev angosta'>
               <div class='titulo-prev'>
-                <h6 class='gris-oscuro nombre-categoria'>archivo histórico JVA <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h6 class='gris-oscuro altas fino nombre-categoria'><i class="icn icn-archivo icn-sm gris"></i> archivo histórico JVA</h6>
                 <h5 class='rojo-claro fino'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
                 <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
               </div>
@@ -485,7 +463,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <a href='#' class='bloque-enlace'>
             <div class='lectura-prev angosta'>
               <div class='titulo-prev'>
-                <h6 class='gris-oscuro nombre-categoria'>bolsa de trabajo <i class="icn icn-asterisco icn-sm gris"></i></h6>
+                <h6 class='gris-oscuro altas fino nombre-categoria'><i class="icn icn-trabajo icn-sm gris"></i> bolsa de trabajo</h6>
                 <h5 class='rojo-claro fino'>Ayudantes de Biblioteca</h5>
                 <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
               </div>

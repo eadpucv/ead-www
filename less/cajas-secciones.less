@@ -1,64 +1,10 @@
 // Cajas de contenido específico + tipografías + elementos
 
 .caja-publicacion-prev {
-    padding: 0 @cuadratin / 2;
-    border-right: 1px solid @gris-claro;
-    border-left: 1px solid @gris-claro;
+    padding: 0;
 
     h6 {
         margin:0;
-    }
-
-    .lectura-prev {
-        padding: 0;
-        position: relative;
-        height: @cuadratin * 5.7;
-
-        &.xs {
-             padding: 0 @cuadratin / 2;
-        }
-        
-        &.sm {
-            padding: 0 @cuadratin / 2;
-            display: block;
-        }
-
-        &.md {
-            float: left;
-            position: relative;
-            margin: 0;
-            width: 666px;
-            padding: 0 @cuadratin;
-            height: @cuadratin * 11.4;
-
-            h6 {
-                margin: 0;
-                padding: 0;
-            }
-
-            h4 {
-                margin: @cuadratin / 2 0 0 0;
-                padding: 0;
-            }
-
-            .nombre-seccion {
-                margin:@cuadratin-tercio 0;
-            }
-        }
-
-        &.angosta {
-            padding: 0 @cuadratin / 2;
-            display: block;
-            height: @cuadratin * 16;
-
-            .titulo-prev {
-                height: @cuadratin * 5.5;
-            }
-
-            h5 {
-                margin: @cuadratin / 2 0 0 0;
-            }
-        }
     }
 
     .titulo-prev {
@@ -99,6 +45,58 @@
         }
     }
 
+}
+
+.lectura-prev {
+    padding: 0;
+    position: relative;
+    height: @cuadratin * 5.7;
+
+    &.xs {
+         padding: 0 @cuadratin / 2;
+    }
+    
+    &.sm {
+        padding: 0 @cuadratin / 2;
+        display: block;
+    }
+
+    &.md {
+        float: left;
+        position: relative;
+        margin: 0;
+        width: 666px;
+        padding: 0 @cuadratin;
+        height: @cuadratin * 11.4;
+
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
+            margin: @cuadratin / 2 0 0 0;
+            padding: 0;
+        }
+
+        .nombre-seccion {
+            margin:@cuadratin-tercio 0;
+        }
+    }
+
+    &.angosta {
+        padding: 0 @cuadratin / 2;
+        display: block;
+        height: @cuadratin * 16;
+
+        .titulo-prev {
+            height: @cuadratin * 5.5;
+        }
+
+        h5 {
+            margin: @cuadratin / 2 0 0 0;
+        }
+    }
 }
 
 .leer-mas {
@@ -215,4 +213,34 @@
 
 .borde-derecho {
     border-right: 2px solid;
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+}
+
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+    .lectura-prev {
+
+        &.xs {
+             padding: 0 @cuadratin / 4;
+        }
+    }
+
+}
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
 }
