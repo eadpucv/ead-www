@@ -84,18 +84,18 @@ subtitle: Noticias
 <div class='contenedor-trio-noticias'>
 
 <!-- Categoría Arquitectura, Magister, amereida -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Arquitectura</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.bitacoravirtual.cl/wp-content/uploads/2009/01/proyecto.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Aliquam non sapien enim. In laoreet odio id aliquet mattis.</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs  margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -107,13 +107,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/galeria/casa-escuela/casa-escuela-arq-y-dis_01.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Integer suscipit orci lacus, in scelerisque libero pulvinar facilisis.</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -125,7 +125,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://m1.behance.net/rendition/modules/46365289/disp/c6afab80edbd003bbd4233af48d09c21.jpg'>
@@ -145,18 +145,18 @@ subtitle: Noticias
 </div> <!-- fin de categoría -->
 
 <!-- Categoría -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Diseño Gráfico</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='https://www.domusweb.it/content/dam/domusweb/en/news/2013/11/05/archizoom_open_city/05_Open-City.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>LCras dictum dolor id velit porttitor, sit amet condimentum quam porta</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -168,13 +168,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://dh64nunc4lbai.cloudfront.net/wp-content/uploads/2013/09/wpid-afiche-html5_css3_DF-ead13-low.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Pellentesque dui nibh, tempus a sapien</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -186,7 +186,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2008/12/recepcion-primer-ano.jpg'>
@@ -206,18 +206,18 @@ subtitle: Noticias
 </div> <!-- fin de categoría -->
 
 <!-- Categoría -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Diseño Industrial</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://4.bp.blogspot.com/-Tq06q4pD4Gc/UClaYIBPTbI/AAAAAAAAARc/Ejyr4XwWFB0/s1600/10.JPG'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Donec vitae turpis nunca</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -229,13 +229,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica margen-xs derecho'>
+<div class='noticia chica margen-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://1.bp.blogspot.com/-IWYca9l23V4/TYHEoxkyT-I/AAAAAAAACws/4gyyB0L9nKw/s1600/La-durmiente_Pablo-Picasso_belleza_multiple1.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Sed lacinia tortor a orci pretium malesuadar</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -247,13 +247,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica'>
+<div class='noticia chica'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2011/08/DSC03687.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor mistisum servil consumeval mercenariox</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -272,12 +272,12 @@ subtitle: Noticias
 <div class='contenedor-trio-noticias'>
 
 <!-- Categoría Arquitectura, Magister, amereida -->
-<div class='col-lg-8 col-md-8 categoria izquierda'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria izquierda'>
 
 <h2>Magister</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2014/01/ceremoniatitulacion22014.jpg'>
@@ -295,13 +295,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/Expo-60-a%C3%B1os-ead-inauguraci%C3%B3n-037.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Phasellus nibh neque, rhoncus ac scelerisque at</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -313,13 +313,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2011/05/afiche-final-551x800.png'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor muse concatef lecciona</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -335,12 +335,12 @@ subtitle: Noticias
 
 <!-- Categoría Arquitectura, Magister, amereida -->
 
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Amereida</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2013/09/CL-ame-10-taller-amereida-trimestre-1-036.jpg'>
@@ -358,13 +358,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2010/12/4109992306_cf795785ec_z.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -376,13 +376,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2013/05/1_0003.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor erat sed magna eleifend volutpat.</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -396,18 +396,18 @@ subtitle: Noticias
 </div> <!-- fin de categoría -->
 
 <!-- Categoría -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Estudiantes</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2008/10/obra1.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor adipiscing elit tempus erat sed magna</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -419,13 +419,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2009/10/travesia-villa-ohiggins-obra.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor Yovto Patei</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -437,7 +437,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2013/12/Valentina-2.jpg'>
@@ -461,12 +461,12 @@ subtitle: Noticias
 <div class='contenedor-trio-noticias'>
 
 <!-- Categoría -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Carreras</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2014/04/faenas-605x405.png'>
@@ -484,7 +484,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/f/fc/Nlzcanchavolantinpisara.JPG/700px-Nlzcanchavolantinpisara.JPG'>
@@ -502,7 +502,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2012/12/IMG_6779-640x417-605x394.jpg'>
@@ -522,12 +522,12 @@ subtitle: Noticias
 </div> <!-- fin de categoría --> 
 
 <!-- Categoría -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Archivo histórico JVA</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='https://www.domusweb.it/content/dam/domusweb/en/news/2013/11/05/archizoom_open_city/02_Open-City.jpg'>
@@ -545,7 +545,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2010/10/lanzamiento-libro-acto-arquitectonico.jpg'>
@@ -563,7 +563,7 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2012/04/Cafe-Vienes-2a.jpg'>
@@ -583,18 +583,18 @@ subtitle: Noticias
 </div> <!-- fin de categoría --> 
 
 <!-- Categoría -->
-<div class='col-lg-8 col-md-8 categoria'>
+<div class='col-lg-8 col-md-12 col-xs-24 categoria'>
 
 <h2>Seminarios</h2>
 
 <!-- Noticia 1 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://farm3.staticflickr.com/2071/1497957757_297ab97399_o.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor res martes</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -606,13 +606,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 2 -->
-<div class='col-lg-24 noticia chica relleno-xs derecho'>
+<div class='noticia chica relleno-xs derecho'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03760.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor Amet constell Sabrem</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
@@ -624,13 +624,13 @@ subtitle: Noticias
 </div>
 
 <!-- Noticia 3 -->
-<div class='col-lg-24 noticia chica'>
+<div class='noticia chica'>
 <a href='#' class='bloque-enlace'>
 <div class='noticia-imagen'>
 	<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/Foto0105.jpg'>
 </div>
 <div class='texto-noticia chico'>
-	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor</h3>
+	<h3 class='subtitulo margen-sm izquierdo'>Lorem ipsum dolor Porsimes ludovico</h3>
 	<h6 class='datos-publicacion margen-sm izquierdo'>Publicado día viernes 23 de marzo</h6>
 	<p class='xs margen-sm izquierdo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. [...]</p>
 </div>
