@@ -1,10 +1,54 @@
 // Ajuste de imágenes
     
-// TRABAJA DE JUAN 
-
 .ancho-maximo {
-    width: 100%;
+    width: 120%;
 }
+
+.prev-imagen {
+    position: relative;
+    overflow: hidden;
+
+        img{
+            overflow: hidden;
+        }
+
+    &.xs {
+
+    }
+
+    &.sm {
+        margin: 15px 15px 0 15px;
+        height: @cuadratin * 6.6;
+
+        img {
+
+        }
+    }
+
+    &.md {
+        margin: 0;
+        padding: 0;
+        width: 327px;
+        height: 100%;
+        float: left;
+
+        img {
+            height: 427.5px;
+            width: auto;
+        }
+    }
+
+    &.lg {
+
+    }
+
+    &.por-categoria {
+        margin: 0 0 @cuadratin / 2 0;
+        height: 140px;
+    }
+
+}
+
 
 .noticia {
 
@@ -24,14 +68,6 @@
     }
 }
 
-    &.chica {
-    position: relative;
-    margin-bottom: @cuadratin * .25;
-
-        img{
-        overflow: hidden;
-        }
-    }
 }
 
 .categoria {
@@ -74,39 +110,6 @@
     clear: none;
 }
 
-// TRABAJO DE JUAN
-
-
-.imagen-noticia-prev {
-    height: @cuadratin * 5.7;
-    overflow: hidden;
-    max-width: 310px;
-
-    .excedente-imagen {
-        position: center;
-        width: auto;
-        height: 150%;
-    }
-
-    &.angosta {
-        width: 280px;
-        
-        .excedente-imagen {
-            position: center;
-            width: auto;
-            height: 250%;
-        }
-    }
-
-    &.sm {
-        padding: 15px;
-        .excedente-imagen {
-            position: center;
-            width: 100%;
-            height: auto;
-        }
-    }
-}
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
@@ -119,18 +122,6 @@
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
     height: @cuadratin * 10;
-    }
-
-    .imagen-noticia-prev {
-        max-width: 100%; 
-        overflow: hidden;
-
-            .excedente-imagen {
-                overflow: hidden;
-                position: center;
-                width: 130%;
-                height: auto;
-            }
     }
 
     // Portada noticias
@@ -225,23 +216,10 @@
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-    height: @cuadratin * 16;
+        height: @cuadratin * 16;
     } 
 
-    .imagen-noticia-prev {
-        width: 100%; 
-        overflow: hidden;
-
-        .excedente-imagen {
-            overflow: hidden;
-            position: center;
-            width: 170%;
-            height: auto;
-        }
-    }
-    }
-
-        .noticia {
+    .noticia {
 
         &.grande {
         
@@ -249,7 +227,6 @@
         position: relative;
         overflow: hidden;
         height: @cuadratin * 12;
-
 
             img{
             height: auto;
@@ -298,6 +275,8 @@
     h2 {
         color: @rojo-opuesto;
     }
+}
+
 }
 
 
