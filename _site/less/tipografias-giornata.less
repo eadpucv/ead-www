@@ -30,7 +30,7 @@
 
 .logo-ead-marca {
   font-family: @sans;
-  margin: 0;
+  margin: 5px 0 0 0;
   padding: 0;
 
   a, :hover {
@@ -93,11 +93,10 @@
     background-color: @blanco;
     margin: 0;
     padding: 0; 
-    border:1px solid @gris-blanco;
-
+    border:1px solid @blanco;
     &:hover {
-        background-color: @gris-blanco;
-        border:1px solid @gris-claro;
+        background-color: fade(@blanco, 35%);
+        border: 1px solid @gris-claro;
         .transition(.3s ease all);
     }
 
@@ -129,7 +128,7 @@
     }
 
     &.md {
-        margin: @cuadratin 0;
+        margin: 0 0 @cuadratin * .5 0;
         padding: 0;
         font-size: @cuerpo-nav * .9;
         line-height: @interlinea-nav;
@@ -142,15 +141,6 @@
         line-height: @interlinea * .9;
     }
 }
-
-.truncado {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    height: 40px;
-    white-space: nowrap;
-    width: 40px;
-}
-
 
 .datos-publicacion {
     font-family: @sans;
@@ -192,14 +182,14 @@
         color:@blanco;
         font-family: @sans;
         padding: 0;
-        margin: @cuadratin * .25 0 0 @cuadratin * .25;
+        margin: @cuadratin * .25 0;
         letter-spacing: 0;
         font-size: @cuerpo-nav * 1.5;
     }
 
     .dia {
         font-family: @sans;
-        margin: 0 0 0 @cuadratin * .25;
+        margin: 0;
         padding: 0;
         float: center;
         color:@blanco;
@@ -524,14 +514,14 @@ h2 {
 @media (min-width: @screen-lg){
 
 
-    .imagenes-destacadas-descripcion-ead {
-        height: @cuadratin * 21.7;
+    .cita-carousel {
+        height: @cuadratin * 21.8;
         top: 0;
         background-color: @transparente;
         position: relative;
         float: right;
         min-width: @cuadratin * 12;
-        padding: @cuadratin;
+        padding: @cuadratin * 2 @cuadratin;
 
         p {
             font-size: @cuerpo * 1.3;
@@ -541,6 +531,10 @@ h2 {
 
         h4 {
             font-size: @cuerpo * 1.5;
+        }
+
+        h1 {
+            margin: 0;
         }
     }
 }
