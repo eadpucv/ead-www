@@ -1,5 +1,22 @@
 // Cajas de contenido específico + tipografías + elementos
 
+.logo{
+    margin: @cuadratin * .75 0 @cuadratin * .75 0;
+    display: block;
+    max-width: 320px;
+    float: left;
+    position: relative;
+}
+
+.navegacion {
+    margin: 46px 0 0 0;
+    padding: 0 0 0 72px;
+    float: right;
+    display: inline-block;
+    width: 960px;
+
+}
+
 .caja-publicacion-prev {
     padding: 0 15px 0 0;
 
@@ -9,13 +26,15 @@
     }
 
     .titulo-prev {
-        margin: 10px 0;
 
         &.xs {
+            width: 100%;
+            float: left;
+            padding: 0 @cuadratin * .25 0 0;
         }
 
         &.md {
-            margin: @cuadratin *.25 0 @cuadratin;
+            margin: @cuadratin * .25 0 @cuadratin 0;
             min-height: auto;
             padding: 0;
             position: relative;
@@ -57,10 +76,11 @@
 .lectura-prev {
     padding: 0;
     position: relative;
-    height: @cuadratin * 5.7;
+    height: 100%;
 
     &.xs {
          padding: 0 @cuadratin / 2;
+         height: @cuadratin * 5.7;
     }
     
     &.sm {
@@ -72,7 +92,7 @@
     &.md {
         position: relative;
         margin: 0;
-        width: 68%;
+        width: 695px;
         padding: 0 @cuadratin;
         height: 100%;
         display: inline-block;
@@ -230,10 +250,83 @@
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+    .logo{
+        margin: @cuadratin * .25 0 0 0;
+        max-width: 320px;
+    }
+
+    .navegacion {
+        margin: @cuadratin / 2 0;
+        padding: 0;
+        float: left;
+        width: 100%;
+
+    }
+
+    .wrap-carousel {
+        max-width: 100%;
+    }
+    .caja-publicacion-prev{
+        .titulo-prev {
+
+            &.xs {
+            }
+
+            &.md {
+                margin: @cuadratin * .25 0 0 0;
+            }
+        }
+    }
+
     .lectura-prev {
 
         &.xs {
-             padding: 0 @cuadratin / 4;
+             padding: 0 @cuadratin * .75;
+        }
+
+        &.sm {
+            padding: 0 @cuadratin * .75;
+        }
+
+        &.md {
+            position: relative;
+            margin: 0;
+            width: 65%;
+            height: 100%;
+            display: inline-block;
+            padding: 0 @cuadratin* .75;
+
+            h6 {
+                margin: 0;
+                padding: 0;
+            }
+
+            h4 {
+                margin: @cuadratin / 2 0 0 0;
+                padding: 0;
+            }
+
+            .nombre-seccion {
+                margin:@cuadratin-tercio 0;
+            }
+        }
+    }
+
+    .enlaces-aside {
+
+        li {
+            margin: 0 0 10px 0;
+
+            a {
+                font-size: @cuerpo * .85;
+                font-weight: 300;
+                line-height: 5px;
+
+                &:hover {
+                    color: @pizarra-oscuro;
+                    text-decoration: none;
+                }
+            }
         }
     }
 

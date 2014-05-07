@@ -5,15 +5,30 @@
 .logo-ead {
   font-family: @sans;
   color: @negro;
-  margin: 0;
-  padding: 0;
-  font-size: @cuerpo-nav * .7;
-  line-height: @cuerpo-nav;
+  margin: @cuadratin / 4 0 0 0;
+  padding: 0 @cuadratin / 4;
+  font-weight: 300;
+  font-size: @cuerpo * 1.25;
+  line-height: @cuerpo;
+  letter-spacing: 1px;
 
-  &.altas {
-    font-size: @cuerpo-nav * .8;
-    line-height: @cuerpo-nav;
+  .bajas {
+    font-size: @cuerpo * .9;
+    color: @gris-oscuro;
+    margin:4px 0 0 0;
   }
+
+  &.marca {
+    font-size: @cuerpo * 2.5;
+    letter-spacing: -1px;
+    font-family: @sans;
+    color: @rojo-claro;
+    text-transform: lowercase;
+    margin: @cuadratin / 2 0;
+    padding: 0;
+    font-weight: 200;
+  }
+
   &.footer {
     color: @gris-oscuro;
     font-size: @cuerpo-nav * 1.2;
@@ -30,14 +45,18 @@
 
 .logo-ead-marca {
   font-family: @sans;
-  margin: 5px 0 0 0;
+  margin: 0;
   padding: 0;
+  font-size: @cuerpo * 2.9;
+  color: @rojo-claro;
+
+  &.meta {
+    font-size: @cuerpo;
+    margin: 0;
+  }
 
   a, :hover {
     text-decoration: none;
-  }
-  &.xs {
-    position: relative;
   }
 
   &.footer {
@@ -115,6 +134,7 @@
     font-size: @cuerpo-nav * .8;
     line-height: @interlinea-nav * .8;
     margin: 0;
+    display: inline;
     padding-bottom: 0;
 
     span {
@@ -122,7 +142,7 @@
         margin: 0;
     }
 
-    .xs {
+    &.xs {
         margin:0;
         padding: 0;
     }
@@ -132,6 +152,7 @@
         padding: 0;
         font-size: @cuerpo-nav * .9;
         line-height: @interlinea-nav;
+        display: inline-block;
     }
 
     &.sm {
@@ -164,7 +185,7 @@
     height: @cuadratin * 2.5;
     width: @cuadratin * 2.5;
     margin: 0 @cuadratin * .5 0 0;
-    background-color: @gris-claro;
+    background-color: @gris;
 
     &.xs {
         font-size: @cuerpo-nav * 7;
@@ -368,7 +389,7 @@ h2 {
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
-    .imagenes-destacadas-descripcion-ead {
+    .cita-carousel {
         background-color: @transparente;
         min-height: @cuadratin * 4;
         position: absolute;
@@ -406,7 +427,7 @@ h2 {
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
-    .imagenes-destacadas-descripcion-ead {
+    .cita-carousel {
         background-color: @transparente;
         position: absolute;
         min-height: @cuadratin * 8;
@@ -419,10 +440,6 @@ h2 {
         h4 {
             font-size: @cuerpo * 1.4;
         }
-    }
-
-    .logo-ead {
-        margin: 0 0 0 @cuadratin-tercio * .5;
     }
 
     .caja-publicacion-prev {
@@ -446,10 +463,31 @@ h2 {
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+    .logo-ead {
+      margin: @cuadratin / 4 0 0 0;
+      padding: 0 @cuadratin / 4;
+      font-size: @cuerpo * 1.1;
+      letter-spacing: 1px;
 
-    .imagenes-destacadas-descripcion-ead {
+      .bajas {
+        font-size: @cuerpo * .8;
+        margin:2px 0 0 0;
+      }
+
+      &.marca {
+        font-size: @cuerpo * 2.5;
+        letter-spacing: -1px;
+        margin: @cuadratin / 2 0;
+        padding: 0;
+      }
+    }
+
+
+    .cita-carousel{
         background-color: @transparente;
-        min-height: @cuadratin * 4;
+        min-height: @cuadratin * 3;
+        padding: 0 @cuadratin;
+        width: 100%;
         position: absolute;
         bottom: @cuadratin;
         p {
@@ -462,33 +500,68 @@ h2 {
         }
     }
 
-    // Tipografías
+
+        h5 {
+
+        &.nombre-seccion{
+            font-size: @cuerpo;
+        }
+    }
+
+    .bloque-enlace {
+
+        &.sm {
+            height: 500px;
+        }
+    }
+
     .caja-publicacion-prev {
 
         .prev-texto{
-            font-size: @cuerpo-nav * .75;
-            line-height: @interlinea-nav * .75;
-            margin-bottom: 0;
-            padding-bottom: 0;
+            font-size: @cuerpo-nav * .85;
+            line-height: @interlinea-nav;
+            margin: 0;
+            padding: 0 @cuadratin / 2;
+            position: relative;
+            display: inline-block;
+            width: 80%;
+
+
+            &.xs {
+                padding: 0 cuadratin;
+            }
+
+            &.sm {
+                width: 100%;
+                margin:0;
+                padding: 0;
+                font-size: @cuerpo * .85;
+                line-height: @interlinea;
+            }
+
+            &.md {
+                padding: @cuadratin / 2 0 0 0;
+                width: 100%;
+                font-size: @cuerpo * .85;
+            }
         }
     }
 
     .titulo-prev {
 
         &.xs {
-            width: 65%;
-            float: left;
             h6 {
-                font-size: @cuerpo * .95;
+                font-size: @cuerpo * 1.2;
             }
         }
+
     }
 
     .fecha-evento {
-        padding: @cuadratin * .2 @cuadratin * .25;
+        padding: @cuadratin * .25 0;
         float: left;
-        height: @cuadratin * 2;
-        width: 35%;
+        height: 55px;
+        width: 20%;
         margin: @cuadratin *.25 0;
 
         .mes{
