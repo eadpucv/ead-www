@@ -98,7 +98,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	<div class='fila'> <!-- sección actualidad --> 
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24 margen-inferior'> <!-- eventos -->
       <a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-calendario icn-md gris"></i> Eventos</h5></a>
-      <div class='col-lg-8 col-md-12 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 1 -->
+      <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
             <div class='titulo-prev xs'>
@@ -108,14 +108,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                   <p class='dia centrado'>24</p>
                   <p class='mes centrado'>abr</p>
               </div>
-              <p class='prev-texto xs'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa [...]</p>
+                <p class='prev-texto xs'>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa [...]</p>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
             </div>
           </div>
         </a>
       </div> <!-- fin evento  1 -->
-      <div class='col-lg-8 col-md-12 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento  2 -->
+      <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento  2 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
             <div class='titulo-prev xs'>
@@ -132,7 +132,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div><!-- fin evento  2 -->
-      <div class='col-lg-8 oculto-md oculto-sm col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 3 -->
+      <div class='col-lg-8 col-md-8 oculto-sm col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
             <div class='titulo-prev xs'>
@@ -175,8 +175,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
               <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             </div>
-            <div class='fila'>
-              <p class='prev-texto sm'>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
+            <div id='truncado'>
+            <p class='prev-texto sm'>La e[ad] recibirá este viernes 25 de abril a Sergio Barriswyl, ex alumno, arquitecto y Premio Nacional de Urbanismo 2014, quien, en el contexto del incendio de Valparaíso, realizará una exposición respecto a urbanismo y situaciones de catástrofes en las ciudades chilenas.</p>
+            <p class='prev-texto sm'>Sergio Baeriswyl es arquitecto de la Escuela de Arquitectura y Diseño PUCV (1984), y Doctor en Urbanismo de la Universidad de Karlsruhe, Alemania (1991). Gracias a su trayectoria en sus 20 años de trabajo en planificación, gestión y diseño urbano, este año recibió el Premio Nacional de Urbanismo, sexta versión. La obra del arquitecto refleja una visión moderna en el desarrollo de sus proyectos, entregando una imagen de ciudad que permite a la ciudadanía involucrarse en ellos.</p>
+            <p class='prev-texto sm'>La exposición se llevará a cabo en la Sala de Primer Año de Arquitectura, a las 12:00 horas.</p>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
@@ -196,8 +198,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               <h6 class='rojo-claro'>Continúa el apoyo de la e[ad] a habitantes del Cerro Merced</h6>
               <p class='datos-publicacion'>Publicado el 23 de abril, 2014</p>
             </div>
-            <div class='fila'>
-                <p class='prev-texto sm'>Este miércoles los estudiantes y profesores de la e[ad] sustituyeron la clase de Cultura del Cuerpo por subir al Cerro Merced, en Valparaíso, para [...]</p>
+            <div id='truncado'>
+            <p class='prev-texto sm'>Todos los miércoles por la mañana, los alumnos de la e[ad] se dirigen a la Ciudad Abierta, donde tienen sus clases de Cultura del Cuerpo. Sin embargo, esta semana los estudiantes y sus profesores sustituyeron la clase por subir al Cerro Merced, en Valparaíso, para continuar ayudando en la remoción de escombros.</p>
+            <p class='prev-texto sm'>Con la base de operaciones en la Escuela Básica Federico Albert, la e[ad] continúa apoyando a las familias del sector afectadas por el incendio, no sólo limpiando el terreno, sino también con alimentos. Con la cocina instalada, esta tarde se dio almuerzo a 300 personas, tanto habitantes como voluntarios.</p>
+            <p class='prev-texto sm'>Si bien se deben retomar las clases, el apoyo de la e[ad] a los damnificados continuará, integrado a los talleres y sus respectivas materias de estudio.</p>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>
@@ -214,11 +218,13 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
           <div class='fila lectura-prev sm'>
             <div class='titulo-prev'>
-              <h6 class='rojo-claro'>Estado de Faenas ludovico enaudi facisis totora orden lux miscelaneo inter gore prometeus</h6>
+              <h6 class='rojo-claro'>Arquitectos y urbanistas participarán en Foro Debate Valparaíso (este título se extiende para probar uno de 3 líneas)</h6>
               <p class='datos-publicacion'>Publicado el 15 de abril, 2014</p>
             </div>
-            <div class='fila'>
-                <p class='prev-texto sm'>Hemos creado un formulario para coordinar mejor las faenas y proceder de acuerdo a lo que aprendimos durante la jornada. Por favor, a todos los [...]</p>
+            <div id='truncado'>
+            <p class='prev-texto sm'>Esta tarde se realizará el “Foro Debate Valparaíso”, organizado por la Universidad del Desarrollo, con el objetivo de analizar los efectos del incendio que afectó a parte de los cerros del puerto, y proponer estrategias de reconstrucción.</p>
+            <p class='prev-texto sm'>Participará en el foro el doctor arquitecto y académico e[ad], Mauricio Puentes, junto al arquitecto y Premio Nacional de Urbanismo Sergio Baeriswyl; el doctor en Arquitectura y Estudios Urbanos de la PUC, Alberto Texido; el destacado arquitecto chileno, Gonzalo Mardones; y el doctor en Diseño Urbano de la Universidad de Harvard, y decano de la Facultad de Arquitectura y Arte UDD, Pablo Allard.</p>
+            <p class='prev-texto sm'>El encuentro se llevará a cabo a las 18:00 horas, en el Vacío Central de la Facultad de Arquitectura y Arte de la UDD, Campus Ernesto Silva Bafalluy, ubicado en Av. Plaza 680, Las Condes.</p>
             </div>
             <div class='leer-mas'>
               <i class="icn icn-mas"></i>

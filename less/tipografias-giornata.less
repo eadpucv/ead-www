@@ -227,6 +227,16 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+
+// Texto truncado
+
+#truncado {
+    width: auto;
+    height: 85px;
+    overflow: hidden;
+}
+
+
 // Estilos de párrafo especiales (ESTOS ESTILOS SON DE LAS MAQUETAS PREVIAS, HAY QUE VER SI AÚN SE MANTIENEN O SE EDITAN)
 
 h1 {
@@ -511,20 +521,20 @@ h2 {
     .bloque-enlace {
 
         &.sm {
-            height: 500px;
+            height: @cuadratin * 11.4;
         }
     }
 
     .caja-publicacion-prev {
 
         .prev-texto{
-            font-size: @cuerpo-nav * .85;
+            font-size: @cuerpo-nav * .8;
             line-height: @interlinea-nav;
             margin: 0;
-            padding: 0 @cuadratin / 2;
+            padding: 0;
             position: relative;
             display: inline-block;
-            width: 80%;
+            width: 100%;
 
 
             &.xs {
@@ -551,7 +561,7 @@ h2 {
 
         &.xs {
             h6 {
-                font-size: @cuerpo * 1.2;
+                font-size: @cuerpo;
             }
         }
 

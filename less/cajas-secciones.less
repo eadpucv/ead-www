@@ -26,6 +26,7 @@
     }
 
     .titulo-prev {
+        margin: @cuadratin * .25 0;
 
         &.xs {
             width: 100%;
@@ -198,14 +199,14 @@
 // el valor de alto-xs es la unidad
 
 .alto-xs {
-    min-height: @cuadratin * 5.7;
+    height: @cuadratin * 5.7;
     margin:0;
 }
 
 // el valor de alto-sm son 2 unidades + una mitad
 
 .alto-sm {
-    min-height: @cuadratin * 14.25;
+    height: @cuadratin * 14.25;
     margin-bottom: @cuadratin / 2;
     position: relative;
 }
@@ -221,7 +222,7 @@
 // el valor de alto-lg son 4 unidades
 
 .alto-lg {
-    min-height: @cuadratin * 22.8;
+    height: @cuadratin * 22.8;
     border:1px solid @gris-blanco;
 }
 
@@ -270,6 +271,7 @@
         .titulo-prev {
 
             &.xs {
+                width: 80%;
             }
 
             &.md {
@@ -281,7 +283,7 @@
     .lectura-prev {
 
         &.xs {
-             padding: 0 @cuadratin * .75;
+             padding: 0 @cuadratin * .5;
         }
 
         &.sm {
@@ -327,6 +329,18 @@
                     text-decoration: none;
                 }
             }
+        }
+    }
+
+    // el valor de alto-sm son 2 unidades 
+
+    .alto-sm {
+
+        &.por-oficio {
+            height: @cuadratin * 11.4;
+            min-height: auto;
+            margin-bottom: @cuadratin / 2;
+            position: relative;
         }
     }
 

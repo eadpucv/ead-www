@@ -426,5 +426,18 @@
 <script>
     smoothScroll.init();
 </script>
+<script type='text/javascript'>
+function createEllipsis ( truncadoId ) {
+    $truncado = $("#" + truncadoId);
+    var truncadoHeight = $truncado.height();
+    var $text = $truncado.find("p");
+ 
+    while ( $text.outerHeight() > truncadoHeight ) {
+        $text.text(function (index, text) {
+            return text.replace(/\W*\s(\S)*$/, '...');
+        });
+    }
+  }
+</script>
 	</body>
 </html>
