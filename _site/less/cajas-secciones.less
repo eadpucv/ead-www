@@ -26,16 +26,16 @@
     }
 
     .titulo-prev {
-        margin: @cuadratin * .25 0;
+        padding: @cuadratin * .25 0 0 0;
 
         &.xs {
             width: 100%;
             float: left;
-            padding: 0 @cuadratin * .25 0 0;
+            padding: @cuadratin * .5 0 @cuadratin * .25;
         }
 
         &.md {
-            margin: @cuadratin * .25 0 @cuadratin 0;
+            margin: @cuadratin * .25 0 0 0;
             min-height: auto;
             padding: 0;
             position: relative;
@@ -44,10 +44,6 @@
                 margin: 0;
                 padding: 0;
                 font-weight: 200;
-            }
-
-            h4 {
-                line-height: 30px;
             }
         }
     }
@@ -245,6 +241,61 @@
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
+    .caja-publicacion-prev{
+        .titulo-prev {
+
+            &.xs {
+                width: 74%;
+                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
+            }
+
+            &.md {
+                margin: @cuadratin * .25 0 0 0;
+            }
+        }
+    }
+
+    .lectura-prev {
+
+        &.xs {
+             padding: 0 @cuadratin * .5;
+             height: @cuadratin * 7.12;
+        }
+
+        &.sm {
+            padding: 0 @cuadratin * .75;
+        }
+
+        &.md {
+            position: relative;
+            margin: 0;
+            width: 68%;
+            height: 100%;
+            display: inline-block;
+            padding: 0 @cuadratin* .75;
+
+            h6 {
+                margin: 0;
+                padding: 0;
+            }
+
+            h4 {
+                margin: @cuadratin / 2 0 0 0;
+                padding: 0;
+            }
+
+            .nombre-seccion {
+                margin:@cuadratin-tercio 0;
+            }
+        }
+    }
+
+    // el valor de alto-xs suma 
+
+    .alto-xs {
+        min-height: @cuadratin * 7.12;
+    }
+
 }
 
 // Medium screen / desktop
@@ -271,7 +322,8 @@
         .titulo-prev {
 
             &.xs {
-                width: 80%;
+                width: 70%;
+                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
             }
 
             &.md {
@@ -284,6 +336,7 @@
 
         &.xs {
              padding: 0 @cuadratin * .5;
+             height: @cuadratin * 7.12;
         }
 
         &.sm {
@@ -317,19 +370,35 @@
     .enlaces-aside {
 
         li {
+            line-height: @interlinea-nav *.9;
             margin: 0 0 10px 0;
 
             a {
-                font-size: @cuerpo * .85;
+                font-size: @cuerpo * .9;
                 font-weight: 300;
-                line-height: 5px;
-
-                &:hover {
-                    color: @pizarra-oscuro;
-                    text-decoration: none;
-                }
+                line-height: ;
             }
         }
+
+        &.postulante {
+            
+            ul {
+                margin: 0 0 @cuadratin-tercio;
+                padding: 0 0 @cuadratin @cuadratin;
+            }
+
+            li {
+                padding: 4px @cuadratin * .5;
+                margin: 0 0 @cuadratin * .25 0;
+                font-size: @cuerpo * .9;
+            }
+        }
+    }
+
+    // el valor de alto-xs suma 
+
+    .alto-xs {
+        min-height: @cuadratin * 7.12;
     }
 
     // el valor de alto-sm son 2 unidades 

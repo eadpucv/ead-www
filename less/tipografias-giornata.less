@@ -128,6 +128,10 @@
     h6 {
         font-size: @cuerpo * 1.1;
     }
+
+    h4 {
+        line-height: 30px;
+    }
 }
 
 .prev-texto {
@@ -151,7 +155,7 @@
         margin: 0 0 @cuadratin * .5 0;
         padding: 0;
         font-size: @cuerpo-nav * .9;
-        line-height: @interlinea-nav;
+        line-height: 23px;
         display: inline-block;
     }
 
@@ -179,33 +183,28 @@
 }
 
 .fecha-evento {
-    padding: @cuadratin * .25 @cuadratin * .5;
+    padding: 0 @cuadratin * .5;
     color: @blanco;
     float: left;
-    height: @cuadratin * 2.5;
-    width: @cuadratin * 2.5;
+    height: @cuadratin * 2;
+    width: @cuadratin * 2;
     margin: 0 @cuadratin * .5 0 0;
     background-color: @gris;
 
-    &.xs {
-        font-size: @cuerpo-nav * 7;
-        margin-top: @margen-lg * 2;
-    }
-
-    &.lg {
-        padding: 0;
-        margin: @margen-lg * 2.5 @margen-lg 0 0;
-        font-size: @cuerpo-nav * 9.5;
-        letter-spacing: -@cuadratin-tercio;
-    }
+    // &.lg {
+        //padding: 0;
+        //margin: @margen-lg * 2.5 @margen-lg 0 0;
+        //font-size: @cuerpo-nav * 9.5;
+        //letter-spacing: -@cuadratin-tercio;
+    //}
 
     .mes{
         color:@blanco;
         font-family: @sans;
         padding: 0;
-        margin: @cuadratin * .25 0;
+        margin: 0;
         letter-spacing: 0;
-        font-size: @cuerpo-nav * 1.5;
+        font-size: @cuerpo * 1.2;
     }
 
     .dia {
@@ -214,16 +213,17 @@
         padding: 0;
         float: center;
         color:@blanco;
-        font-size: @cuerpo-nav * 2.5;    
-        line-height: @cuerpo-nav * 2;
+        font-size: @cuerpo * 2;    
+        line-height: @cuerpo * 2;
         letter-spacing: 0;
         }
 }
 
-h1,h2,h3,h4,h5,h6 {
+h5,h6 {
 
     &.nombre-seccion {
         margin: 0 0 @cuadratin / 2 0;
+        font-weight: 200;
     }
 }
 
@@ -232,10 +232,17 @@ h1,h2,h3,h4,h5,h6 {
 
 #truncado {
     width: auto;
-    height: 85px;
+    height: 40%;
+    padding: 15px 0;
     overflow: hidden;
 }
 
+#truncadomd {
+    width: auto;
+    height: 55%;
+    padding: 15px 0;
+    overflow: hidden;
+}
 
 // Estilos de párrafo especiales (ESTOS ESTILOS SON DE LAS MAQUETAS PREVIAS, HAY QUE VER SI AÚN SE MANTIENEN O SE EDITAN)
 
@@ -414,6 +421,14 @@ h2 {
         }
     }
 
+    h5,h6 {
+
+        &.nombre-seccion {
+            font-size: 25px;
+            font-weight: 300;
+        }
+    }
+
     .caja-publicacion-prev {
         margin: @cuadratin 0;
         border-bottom: 1px solid @gris-blanco;
@@ -442,13 +457,22 @@ h2 {
         position: absolute;
         min-height: @cuadratin * 8;
         bottom: @cuadratin;
+        padding: 0 @cuadratin * .75;
         p {
-            font-size: @cuerpo * .8;
+            font-size: @cuerpo;
             line-height: @interlinea;
             color: @blanco;
         }
         h4 {
             font-size: @cuerpo * 1.4;
+        }
+    }
+
+    h5,h6 {
+
+        &.nombre-seccion {
+            font-size: 19px;
+            font-weight: 300;
         }
     }
 
@@ -459,12 +483,57 @@ h2 {
             line-height: @interlinea-nav * .7;
             margin-bottom: 0;
             padding-bottom: 0;
+
+            &.xs {
+                padding: 0 cuadratin;
+                display: inline-block;
+                width: 100%;
+            }
+
+            &.sm {
+                width: 100%;
+                margin:0;
+                padding: 0;
+                font-size: @cuerpo * .85;
+                line-height: @interlinea;
+            }
+
+            &.md {
+                padding: @cuadratin / 2 0 0 0;
+                width: 100%;
+                font-size: @cuerpo * .85;
+                line-height: @cuerpo * 1.5;
+            }
         }  
     }
 
     .titulo-prev {
         h6 {
             font-size: @cuerpo * .95;
+        }
+    }
+
+    .fecha-evento {
+        padding: @cuadratin * .25 0;
+        float: right;
+        height: 51px;
+        width: 51px;
+        margin: 0;
+
+        .mes{
+            padding: 0;
+            margin: 0 auto;
+            letter-spacing: 0;
+            font-size: @cuerpo-nav;
+        }
+
+        .dia {
+            margin: 0;
+            padding: 0;
+            float: center;
+            font-size: @cuerpo-nav * 1.5;    
+            line-height: @cuerpo-nav * 1.25;
+            letter-spacing: 0;
         }
     }
 }
@@ -510,13 +579,14 @@ h2 {
         }
     }
 
+    h5,h6 {
 
-        h5 {
-
-        &.nombre-seccion{
-            font-size: @cuerpo;
+        &.nombre-seccion {
+            font-size: 17px;
+            font-weight: 200;
         }
     }
+    
 
     .bloque-enlace {
 
@@ -536,7 +606,6 @@ h2 {
             display: inline-block;
             width: 100%;
 
-
             &.xs {
                 padding: 0 cuadratin;
             }
@@ -555,40 +624,63 @@ h2 {
                 font-size: @cuerpo * .85;
             }
         }
-    }
 
-    .titulo-prev {
+        .titulo-prev {
 
-        &.xs {
-            h6 {
-                font-size: @cuerpo;
+            &.xs {
+                h6 {
+                    font-size: @cuerpo * .9;
+                }
             }
-        }
 
+             &.md {
+                h4 {
+                    font-size: @cuerpo * 1.2;
+                    line-height: 22px;
+                }
+             }
+
+        }
     }
 
     .fecha-evento {
         padding: @cuadratin * .25 0;
-        float: left;
-        height: 55px;
-        width: 20%;
-        margin: @cuadratin *.25 0;
+        float: right;
+        height: 50px;
+        width: 50px;
+        margin: 0;
 
         .mes{
             padding: 0;
             margin: 0 auto;
             letter-spacing: 0;
-            font-size: @cuerpo-nav * 1.5;
+            font-size: @cuerpo-nav;
         }
 
         .dia {
-            margin: 0 0 0 @cuadratin * .25;
+            margin: 0;
             padding: 0;
             float: center;
-            font-size: @cuerpo-nav * 2;    
+            font-size: @cuerpo-nav * 1.5;    
             line-height: @cuerpo-nav * 1.25;
             letter-spacing: 0;
         }
+    }
+
+    // Texto truncado
+
+    #truncado {
+        width: auto;
+        height: 45%;
+        padding: 15px 0;
+        overflow: hidden;
+    }
+
+    #truncadomd {
+        width: auto;
+        height: 52%;
+        padding: 15px 0;
+        overflow: hidden;
     }
 }
 

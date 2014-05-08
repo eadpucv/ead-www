@@ -599,5 +599,19 @@ function createEllipsis ( truncadoId ) {
     }
   }
 </script>
+
+<script type='text/javascript'>
+function createEllipsis ( truncadomdId ) {
+    $truncadomd = $("#" + truncadomdId);
+    var truncadoHeight = $truncadomd.height();
+    var $text = $truncadomd.find("p");
+ 
+    while ( $text.outerHeight() > truncadomdHeight ) {
+        $text.text(function (index, text) {
+            return text.replace(/\W*\s(\S)*$/, '...');
+        });
+    }
+  }
+</script>
 	</body>
 </html>

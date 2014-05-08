@@ -97,7 +97,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 <div class='wrap'>
 	<div class='fila'> <!-- sección actualidad --> 
 		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24 margen-inferior'> <!-- eventos -->
-      <a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-calendario icn-md gris"></i> Eventos</h5></a>
+      <a href='#'><h5 class='negro altas nombre-seccion'><i class="icn icn-calendario icn-md gris"></i> Eventos</h5></a>
       <div class='col-lg-8 col-md-8 col-sm-12 col-xs-24 caja-publicacion-prev alto-xs'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
           <div class='fila lectura-prev xs'>
@@ -151,7 +151,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin evento  3 -->
 		</div>
 		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>   <!-- info de docencia -->
-      <a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-aviso icn-md gris"></i> Información de Docencia</h5></a>
+      <a href='#'><h5 class='negro altas nombre-seccion'><i class="icn icn-aviso icn-md gris"></i> Información de Docencia</h5></a>
       <div class='col-lg-24 col-md-24 col-sm-22 alto-xs relleno-sm izquierdo'>
         <ul class='enlaces-aside'>
           <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
@@ -164,7 +164,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	</div>
 	<div class='fila margen-inferior'>
 		<div class='col-lg-18 col-md-18 col-sm-16'>
-			<a href='#'><h5 class='negro altas fino nombre-seccion'><i class="icn icn-noticias icn-md gris"></i> Noticias </h5></a>
+			<a href='#'><h5 class='negro altas nombre-seccion'><i class="icn icn-noticias icn-md gris"></i> Noticias </h5></a>
       <div class='col-lg-8 col-md-12 col-sm-12 col-xs-24 caja-publicacion-prev alto-sm'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
             <div class='prev-imagen sm'>
@@ -234,7 +234,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin noticia 3 -->
 		</div>
 		<div class='oculto-lg oculto-md oculto-sm col-xs-12 alto-xs'>
-			<a href='#'><h5 class='negro altas fino nombre-seccion'>Información de Docencia <i class="icn icn-asterisco icn-sm gris"></i></h5></a>
+			<a href='#'><h5 class='negro altas nombre-seccion'>Información de Docencia <i class="icn icn-asterisco icn-sm gris"></i></h5></a>
       <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 alto-xs'>
         <ul class='enlaces-aside'>
           <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
@@ -244,7 +244,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div>
 		</div>
 		<div class='col-lg-6 col-md-6 col-sm-8 col-xs-12'>
-      <h5 class='negro fino nombre-seccion'><i class="icn icn-twitter icn-md gris"></i> @eadpucv</h5>
+      <h5 class='negro nombre-seccion'><i class="icn icn-twitter icn-md gris"></i> @eadpucv</h5>
       <div class='col-lg-24 alto-sm'>
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -253,8 +253,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 	</div> <!-- fin sección actualidad -->
 	<hr>
 	<div class='fila'> <!-- sección contenido-->
-		<div class='col-lg-6 col-md-6 col-sm-8 oculto-xs'>
-      <h6 class='negro altas altas fino nombre-seccion'><i class="icn icn-mas icn-md gris"></i> Futuros Alumnos</h6>
+		<div class='col-lg-6 col-md-6 oculto-sm oculto-xs'>
+      <h6 class='negro altas nombre-seccion'><i class="icn icn-mas icn-md gris"></i> Futuros Alumnos</h6>
       <div class='caja-contenido-postulante'>
         <h6>Admisión</h6>
         <ul class='enlaces-aside postulante'>
@@ -296,8 +296,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </ul>
       </div>
 		</div> <!-- fin contenido para el postulante -->
-		<div class='col-lg-18 col-md-18 col-sm-16 col-xs-24'>
-      <h6 class='negro altas fino nombre-seccion'><i class="icn icn-asterisco icn-md gris"></i> Noticias sobre el oficio</h6>
+		<div class='col-lg-18 col-md-18 col-sm-24 col-xs-24'>
+      <h6 class='negro altas nombre-seccion'> Noticias sobre el oficio</h6>
 			<div class='fila margen-inferior'> <!-- fila noticias oficio -->
         <div class='caja-publicacion-prev por-oficio alto-sm'> <!-- noticia categorizada 1 -->
           <a href='#' class='bloque-enlace sm'>
@@ -310,8 +310,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <h4 class='rojo-claro fino'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
                 <p class='datos-publicacion'>Publicado el 11 de marzo, 2014</p>
               </div>
-              <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta.</p>
-              <p class='prev-texto md'>No hace mucho se hablaba del Taller de Valparaíso y del Taller de Obras como dos opciones de abordar la formación de arquitecto de nuestra Escuela, uno enfocado al estudio de Valparaíso como ciudad, y el otro como lo dice su nombre, mediante la construcción de obra en la Ciudad Abierta, o parte de ella, pues se trata de un periodo de tiempo acotado. Hoy, para los talleres de la Escuela,  la Ciudad de Valparaíso ya no se limita o no se circunscribe al estudio del Antiguo barrio Puerto o al Sector del [...]</p>
+              <div id='truncadomd'>
+                <p class='prev-texto md'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta.</p>
+                <p class='prev-texto md'>No hace mucho se hablaba del Taller de Valparaíso y del Taller de Obras como dos opciones de abordar la formación de arquitecto de nuestra Escuela, uno enfocado al estudio de Valparaíso como ciudad, y el otro como lo dice su nombre, mediante la construcción de obra en la Ciudad Abierta, o parte de ella, pues se trata de un periodo de tiempo acotado. Hoy, para los talleres de la Escuela,  la Ciudad de Valparaíso ya no se limita o no se circunscribe al estudio del Antiguo barrio Puerto o al Sector del Almendral, sino que a partir de diversas  políticas públicas y fundamentalmente ad portas de la aprobación del PREMVAL, donde se manifiesta la “voluntad” de crecimiento del “Gran Valparaíso” hacia el norte del río Aconcagua, dando paso a Valparaíso ciudad-metrópolis. Es de esta manera que la Ciudad Abierta, su ubicación,  ya no figura como un sector alejado, sino al contrario, le concierne y representa el habitar de Valparaíso, el presente de la Ciudad Abierta hoy, con mayor intensidad,  es con Valparaíso.</p>
+              </div>
               <p class='categorias-publicacion'>[ Arquitectura ] [ Noticias ]</p>
               <div class='leer-mas'>
                 <i class="icn icn-mas"></i>
@@ -327,13 +329,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <div class='lectura-prev md'>
               <div class='titulo-prev md'>
                 <h6 class='gris-oscuro nombre-categoria'>diseño gráfico <i class="icn icn-asterisco icn-md gris"></i></h6>
-                <h4 class='rojo-claro fino'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h4>
-                <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+                <h4 class='rojo-claro fino'>Travesía Punta Arenas – Tierra del Fuego 2013</h4>
+                <p class='datos-publicacion'>Publicado el 26 de diciembre, 2013</p>
               </div>
-              <p class='prev-texto md'>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a participar en el seminario “De la hipótesis al Diseño: aproximaciones, casos y obras”, que se llevará a cabo el viernes 16 de mayo a las 15:00 horas, en la Sala Entrepiso.</p>
-              <p class='prev-texto md'>Este encuentro interuniversitario está dirigido a alumnos y académicos de Diseño, y a personas de áreas relacionadas, que estén interesadas en el ámbito del diseño, en las expresiones gráficas, y que buscan maneras de presentarlas de formas nuevas e interdisciplinarias.</p>
-              <p class='prev-texto md'>El objetivo del seminario es dar lugar a la exposición e intercambio de ideas referidas al diseño, creando una instancia en la que los participantes puedan adquirir y, a la vez [...]</p>
-              <p class='categorias-publicacion'>[ Diseño Gráfico ] [ Noticias ][ Seminario ]</p>
+              <div id='truncadomd'>
+                <p class='prev-texto md'>Tercer año de Diseño Gráfico partió el domingo 24 de noviembre de travesía a la ciudad de Punta Arenas. En la ciudad, el grupo conformado por 14 alumnos y dos profesores, montó una Exposición junto a un Acto poético que se realizó el día lunes 2 de diciembre en el recinto de la Universidad de Magallanes, Facultad de Ingeniería.</p>
+                <p class='prev-texto md'>La exposición recoge por una de sus caras la primera travesía de Amereida del año 1965, a través de la bitácora del arquitecto Alberto Cruz C. recientemente fallecido. Por su otra cara, recoge la realización in situ del trabajo pictórico del arquitecto y pintor Hernán Cruz S., y la escritura y lectura del poema realizado por todos durante el acto poético del poeta Carlos Covarrubias, acciones que culminaron con un brindis final.</p>
+                <p class='prev-texto md'>La exposición ha sido diseñada en su parte gráfica por profesores y alumnos del Taller de Tercer año de Diseño Gráfico, en tanto la estructura del montaje fue diseñada por los profesores diseñadores Alfred Thiers y Vanessa Siviero. En la producción y construcción además de la participación de los alumnos, colaboró en el trabajo de fierro y maderas Gonzalo Astudillo, auxiliar de nuestra escuela.</p>
+              </div>
+              <p class='categorias-publicacion'>[ Diseño Gráfico ] [ Noticias ][ Travesía ]</p>
               <div class='leer-mas'>
                 <i class="icn icn-mas"></i>
               </div>
@@ -351,8 +355,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <h4 class='rojo-claro fino'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
                 <p class='datos-publicacion'>Publicado el 25 de abril, 2014</p>
               </div>
-              <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.</p>
-              <p class='prev-texto md'>Los alumnos de la e[ad] colaboraron específicamente en la obra Experimento HV1, que consiste en una especie de huevo de madera compuesto por más de 200 piezas, cuyo tamaño permite la habitabilidad, accediendo a él por unos orificios en sus extremos. La construcción de la obra se llevó a cabo dentro del museo, con las piezas que fueron cortadas en la Escuela, y su exhibición es la culminación de un proceso que se ha [...]</p>
+              <div id='truncadomd'>
+                <p class='prev-texto md'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.</p>
+                <p class='prev-texto md'>Los alumnos de la e[ad] colaboraron específicamente en la obra Experimento HV1, que consiste en una especie de huevo de madera compuesto por más de 200 piezas, cuyo tamaño permite la habitabilidad, accediendo a él por unos orificios en sus extremos. La construcción de la obra se llevó a cabo dentro del museo, con las piezas que fueron cortadas en la Escuela, y su exhibición es la culminación de un proceso que se ha desarrollado a lo largo de tres semanas.</p>
+              </div>
               <p class='categorias-publicacion'>[ Diseño Industrial ] [ Noticias ]</p>
               <div class='leer-mas'>
                 <i class="icn icn-mas"></i>
@@ -362,7 +368,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div><!-- fin noticia categorizada 3 -->
       </div><!-- fin fila noticias oficio -->
       <div class='fila margen-inferior'> <!-- fila noticias categorizadas -->
-        <h6 class='negro altas fino nombre-seccion'>Noticias por categoría<i class="icn icn-asterisco icn-md gris"></i></h6>
+        <h6 class='negro altas nombre-seccion'>Noticias por categoría</h6>
 				<div class='col-lg-8 col-md-12 col-sm-12 col-xs-24 caja-publicacion-prev por-categoria alto-sm'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace'>
             <div class='lectura-prev'>
@@ -474,46 +480,46 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </a>
         </div>  <!-- fin noticia de categoria 9 -->
 			</div>  <!-- fin fila noticias categoria -->
-    <div class='oculto-lg oculto-md oculto-sm col-xs-24'>
-      <h6 class='negro altas nombre-seccion'>Futuros Alumnos <i class="icn icn-asterisco icn-sm gris"></i></h6>
-      <div class='caja-contenido-postulante alto-xs'>
-        <a href='#'><h6>Admisión</h6></a>
+    <div class='oculto-lg oculto-md col-sm-24 col-xs-24'>
+      <h6 class='negro altas nombre-seccion'><i class="icn icn-mas icn-md gris"></i> Futuros Alumnos</h6>
+      <div class='caja-contenido-postulante'>
+        <h6>Admisión</h6>
         <ul class='enlaces-aside postulante'>
-            <a href='#' class='s semi-gruesa'><li>Vías de ingreso</li></a>
-            <a href='#' class='s semi-gruesa'><li>Becas y financiamiento</li></a>
-            <a href='#' class='s semi-gruesa'><li>Aranceles</li></a>
+            <a href='#'><li>Vías de ingreso</li></a>
+            <a href='#'><li>Becas y financiamiento</li></a>
+            <a href='#'><li>Aranceles</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante alto-xs'>
-        <a href='#'><h6>Carreras y Posgrados</h6></a>
+      <div class='caja-contenido-postulante'>
+        <h6>Carreras y Posgrados</h6>
         <ul class='enlaces-aside postulante'>
-            <a href='#' class='s semi-gruesa'><li>Arquitectura</li></a>
-            <a href='#' class='s semi-gruesa'><li>Diseño Gráfico</li></a>
-            <a href='#' class='s semi-gruesa'><li>Diseño Industrial</li></a>
-            <a href='#' class='s semi-gruesa'><li>Magíster Náutico y marítimo</li></a>
-            <a href='#' class='s semi-gruesa'><li>Magíster Ciudad y Territorio</li></a>
+            <a href='#'><li>Arquitectura</li></a>
+            <a href='#'><li>Diseño Gráfico</li></a>
+            <a href='#'><li>Diseño Industrial</li></a>
+            <a href='#'><li>Magíster Náutico y marítimo</li></a>
+            <a href='#'><li>Magíster Ciudad y Territorio</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante alto-xs'>
-        <a href='#'><h6>Campus</h6></a>
+      <div class='caja-contenido-postulante'>
+        <h6>Campus</h6>
         <ul class='enlaces-aside postulante'>
-            <a href='#' class='s semi-gruesa'><li>Casa de estudio</li></a>
-            <a href='#' class='s semi-gruesa'><li>Ciudad Abierta</li></a>
+            <a href='#'><li>Casa de estudio</li></a>
+            <a href='#'><li>Ciudad Abierta</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante alto-xs'>
-        <a href='#'><h6>Cuerpo Docente</h6></a>
+      <div class='caja-contenido-postulante'>
+        <h6>Cuerpo Docente</h6>
         <ul class='enlaces-aside postulante'>
-            <a href='#' class='s semi-gruesa'><li>Profesores</li></a>
-            <a href='#' class='s semi-gruesa'><li>Ayudantes</li></a>
+            <a href='#'><li>Profesores</li></a>
+            <a href='#'><li>Ayudantes</li></a>
         </ul>
       </div>
-      <div class='caja-contenido-postulante alto-xs'>
-        <a href='#'><h6>La Escuela y el oficio</h6></a>
+      <div class='caja-contenido-postulante'>
+        <h6>La Escuela y el oficio</h6>
         <ul class='enlaces-aside postulante'>
-            <a href='#' class='s semi-gruesa'><li>Historia</li></a>
-            <a href='#' class='s semi-gruesa'><li>La observación</li></a>
-            <a href='#' class='s semi-gruesa'><li>Amereida</li></a>
+            <a href='#'><li>Historia</li></a>
+            <a href='#'><li>La observación</li></a>
+            <a href='#'><li>Amereida</li></a>
         </ul>
       </div>
     </div> <!-- fin contenido para el postulante 2-->
