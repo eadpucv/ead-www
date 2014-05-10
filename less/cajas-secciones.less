@@ -17,6 +17,46 @@
 
 }
 
+.pie-de-foto {
+    height: @cuadratin;
+    bottom: 0;
+    background-color: @pizarra-oscuro;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    font-size: @cuerpo-nav * .7;
+    font-family: @sans;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.cita-carousel {
+    height: 570px;
+    background-color: @transparente;
+    float: right;
+    padding: @cuadratin;
+
+    p {
+        font-size: @cuerpo * 1.2;
+        font-family: @sans;
+        line-height: @interlinea * 1.3;
+        color: @blanco;
+    }
+
+    h4 {
+        font-size: @cuerpo * 1.5;
+    }
+
+    h1 {
+        margin: 0;
+    }
+}
+
+
 .caja-publicacion-prev {
 
     h6 {
@@ -256,21 +296,6 @@
             }
         }
     }
-
-    // el valor de alto-xs suma una mitad
-
-    .alto-xs {
-        min-height: @cuadratin * 7.12;
-        position: relative;
-    }
-
-        // el valor de alto-sm son 2 unidades 
-
-    .alto-sm {
-        height: @cuadratin * 11.4;
-        position: relative;
-    }
-
 }
 
 // Medium screen / desktop
@@ -292,6 +317,12 @@
 
     .wrap-carousel {
         max-width: 100%;
+    }
+
+    .cita-carousel {
+    height: 50%;
+    padding: @cuadratin / 2;
+
     }
     .caja-publicacion-prev{
         .titulo-prev {
@@ -368,20 +399,6 @@
                 font-size: @cuerpo * .9;
             }
         }
-    }
-
-    // el valor de alto-xs suma 
-
-    .alto-xs {
-        min-height: @cuadratin * 7.12;
-    }
-
-    // el valor de alto-sm son 2 unidades 
-
-    .alto-sm {
-        height: @cuadratin * 11.4;
-        min-height: auto;
-        position: relative;
     }
 
 }
