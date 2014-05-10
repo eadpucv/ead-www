@@ -2,32 +2,84 @@
 layout: home
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 ---
-
-<!-- CAROUSEL LG -->
-<!-- imagenes-destacadas-ead -->
-<div class='col-lg-12 imagen-carousel'>
-<!-- datos de carousel-lg -->
-<div class='fila'>
-  <col-lg-12>
-  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
-    <!-- Indicadores de carousel lg -->
-    <ol class="carousel-indicators">
-      <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li>
-      <li data-slide-to="1" data-target="#carousel-example-generic"></li>
-      <li data-slide-to="2" data-target="#carousel-example-generic"></li>
-      <li data-slide-to="3" data-target="#carousel-example-generic"></li>
-      <li data-slide-to="4" data-target="#carousel-example-generic"></li>
-    </ol> 
-    <!-- fin datos de carousel-lg -->
-    <div class="carousel-inner">
-      <div class="item active altura-maxima ver">
-        Carousel
-      </div>  <!-- fin de item -->
-    </div>  <!-- fin Carousel inner -->
-  </div>  <!-- fin Carousel -->
-</div>
-</div>
-</div>  <!-- fin de imàgenes-destacadas-ead -->
+<div class='col-lg-12 imagen-carousel'> 
+  <div class='fila'> 
+    <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
+      <!-- Indicadores de carousel lg --> 
+      <ol class="carousel-indicators"> 
+        <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
+        <li data-slide-to="1" data-target="#carousel-example-generic"></li> 
+        <li data-slide-to="2" data-target="#carousel-example-generic"></li> 
+        <li data-slide-to="3" data-target="#carousel-example-generic"></li> 
+        <li data-slide-to="4" data-target="#carousel-example-generic"></li> 
+      </ol> <!-- fin datos de carousel-lg --> <div class="carousel-inner"> 
+      <div class="item active altura-maxima"> 
+        <img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/noticia-destacada.jpg" title="Noticia Destacada"> 
+        <!-- descripción-carousel-lg --> 
+        <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 pie-de-foto'> 
+          <p class='blanco centrado'><i class="icn icn-noticias icn-lg"></i> El miércoles 26 de marzo, la e[ad] tuvo el privilegio de recibir en la Ciudad Abierta a la Dra. Carol Edwards</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='fila'> 
+            <div class='col-lg-2 col-md-12 col-sm-12 col-xs-12 cita-carousel'> 
+              <h1 class='blanco'><i class="icn icn-noticias icn-md"></i> Noticias</h1> 
+              <p>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p> <span class='blanco derecha'>Dra. Carol Edwards</span> 
+            </div> <!-- fin de col imágenes-destacadas-descripcion-ead --> 
+          </div> <!-- fin de fila--> 
+        </div> <!-- fin de wrap carousel --> 
+      </div> <!-- fin de item --> 
+      <div class="item altura-maxima"> 
+        <img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/agenda-destacada.jpg"> <!-- descripción-carousel-lg --> 
+        <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 pie-de-foto'> 
+          <p class='blanco centrado'><i class="icn icn-calendario icn-lg"></i> e[ad] Recibe a Más de un Centenar de Estudiantes Secundarios, 29 Agosto 2013</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-2 col-md-12 col-sm-12 col-xs-12 cita-carousel'> 
+            <h1 class='blanco'><i class="icn icn-calendario icn-md"></i> Día Abierto 2013 </h1> 
+            <p>“Presentamos la escuela en su propio lenguaje, en el lenguaje de cada uno de los oficios; en el lenguaje de la forma. Cada uno hace una interpretación de lo que ve y construye un cuerpo que luego es parte de una exposición colectiva y pública”</p> <span class='blanco derecha'>Juan Carlos Jeldes</span> 
+          </div> <!-- fin de col imagenes-destacadas-descripcion-ead --> 
+        </div> <!-- fin de wrap carousel --> 
+      </div> <!-- fin de item --> 
+      <div class="item altura-maxima"> 
+        <img class='excedente-vertical' alt="Fourth slide" src="{{ site.baseurl }}/img/travesia-portada.jpg"> <!-- descripción-lg --> 
+        <div class='col-lg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pie-de-foto'> 
+          <p class='blanco centrado'><i class="icn icn-travesia icn-lg"></i> Travesía de la Piedra - Curimahuida, Coquimbo, Chile, 1986</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-2 col-md-12 col-sm-12 col-xs-12 cita-carousel'> 
+            <h1 class='blanco'><i class="icn icn-travesia icn-md"></i> Travesía</h1> 
+            <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='blanco derecha'>Alberto Cruz</span> 
+          </div> <!-- fin de col imagenes-destacadas-descripcion-ead --> 
+        </div> <!-- fin de wrap carousel --> 
+      </div> <!-- fin de item --> 
+      <div class="item altura-maxima"> 
+        <img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/historia.jpg"> <!-- descripción-lg --> 
+        <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 pie-de-foto'> 
+          <p class='blanco centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-2 col-md-12 col-sm-12 col-xs-12 cita-carousel'> 
+            <h1 class='blanco'><i class="icn icn-acto icn-md"></i> Historia</h1> 
+            <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='blanco derecha'>Alberto Cruz</span> 
+          </div> <!-- fin de col imagenes-destacadas-descripcion-ead --> 
+        </div> <!-- fin de wrap carousel --> 
+      </div> <!-- fin de item --> 
+      <div class="item altura-maxima"> 
+        <img class='excedente-vertical' alt="Fourth slide" src="{{ site.baseurl }}/img/croquis.jpg"> <!-- descripción-lg --> 
+        <div class='col-lg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pie-de-foto'> 
+          <p class='blanco centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-2 col-md-12 col-sm-12 col-xs-12 cita-carousel'> 
+            <h1 class='blanco'><i class="icn icn-ojo icn-md"></i> Observación</h1> 
+            <p>"La Alcoba en la Ciudad Abierta. Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados)..."</p> <span class='blanco derecha'>David Jolly</span> 
+          </div> <!-- fin de col imagenes-destacadas-descripcion-ead --> 
+        </div> <!-- fin de wrap carousel --> 
+      </div> <!-- fin de item --> 
+    </div> <!-- fin Carousel inner --> 
+    </div> <!-- fin Carousel --> 
+  </div> 
+</div> 
 
 <div class='fondo-negro'>
   <div class='wrap'>
@@ -71,23 +123,23 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div><!-- fin evento  3 -->
   </div>
   <div class='fila'> <!-- sección noticias inferior -->
-    <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-sm fondo-gris'> <!-- noticia 1 -->
-      <div class='ver alto-sm'>
+    <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md fondo-gris'> <!-- noticia 1 -->
+      <div class='ver alto-md'>
         noticia 1
       </div>
     </div><!-- fin noticia 1 -->
-    <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-sm fondo-gris'> <!-- noticia 2 -->
-      <div class='ver alto-sm'>
+    <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md fondo-gris'> <!-- noticia 2 -->
+      <div class='ver alto-md'>
         noticia 2
       </div>
     </div><!-- fin noticia 2 -->
-    <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-sm fondo-gris'> <!-- noticia 3 -->
-      <div class='ver alto-sm'>
+    <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md fondo-gris'> <!-- noticia 3 -->
+      <div class='ver alto-md'>
         noticia 3
       </div>
     </div><!-- fin noticia 3 -->
-		<div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-sm fondo-gris'>
-      <div class='ver alto-sm'>
+		<div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md fondo-gris'>
+      <div class='ver alto-md'>
         twitter
       </div>
     </div>
@@ -139,15 +191,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
   <div class='col-lg-12'>
     <div class='fila'>
       <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 fondo-gris'>
-        <div class='alto-sm ver'>noticia arquitectura
+        <div class='alto-md ver'>noticia arquitectura
         </div>
       </div>
       <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 fondo-gris'>
-        <div class='alto-sm ver'>noticia diseño gráfico
+        <div class='alto-md ver'>noticia diseño gráfico
         </div>
       </div>
       <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque fondo-gris'>
-        <div class='alto-sm ver'>noticia diseño industrial
+        <div class='alto-md ver'>noticia diseño industrial
         </div>
       </div>
     </div>
