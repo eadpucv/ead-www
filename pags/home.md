@@ -92,15 +92,11 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 </div>
 <div class='fondo-blanco'>
   <div class='wrap'>
-<<<<<<< HEAD
-    <h4 class='centrado'><i class="icn icn-calendario icn-lg"></i> Eventos</h4>
-=======
   <div class='seccion'>
       <h3>
         <i class="icn icn-calendario icn-lg"></i> Eventos
       </h3>
   </div>
->>>>>>> _evento
     <div class='fila'><!-- sección eventos superior--> 
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
@@ -129,11 +125,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <div class='pagina sm'>
               <div class='fecha-evento'> 
-<<<<<<< HEAD
-                <p class='dia centrado'>13 abril</p> 
-=======
                 <p class='dia centrado'>13 abr</p> 
->>>>>>> _evento
               </div>  
               <h6 class='rojo-claro'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6> 
               <p>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a las preferencias tendrán el agrado de comentar la manera [...]</p> 
@@ -152,16 +144,11 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </a>
       </div><!-- fin evento  3 -->
     </div>
-<<<<<<< HEAD
-    <h4 class='centrado'><i class="icn icn-noticias icn-lg"></i> Noticias</h4>
-=======
-
     <div class='seccion'>
       <h3>
         <i class="icn icn-noticias icn-lg"></i> Noticias
       </h3>
     </div>
->>>>>>> _evento
     <div class='fila'> <!-- sección noticias inferior -->
       <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
