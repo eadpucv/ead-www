@@ -146,10 +146,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
     <h2><i class="icn icn-noticias icn-lg"></i> Noticias</h2>
     <div class='fila'> <!-- sección noticias inferior -->
-      <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md fondo-gris'> <!-- noticia 1 -->
-        <div class='ver'>
-          noticia 1
-        </div>
+      <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md'> <!-- noticia 1 -->
+        <a href='#' class='bloque-enlace'>
+          <div class='pagina md'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
+            </div>
+          </div>
+        </a>
       </div><!-- fin noticia 1 -->
       <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md fondo-gris'> <!-- noticia 2 -->
         <div class='ver'>
