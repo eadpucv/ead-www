@@ -1060,8 +1060,7 @@ line-height: 19.8px;
     display:block;
     padding:0 8px;
     color:#3f4441;
-    font-weight:400;
-    border-left:1px solid #c1c2c2
+    font-weight:300;
 }
 .nav>li>a:hover,.nav>li>a:focus{
     text-decoration:none;
