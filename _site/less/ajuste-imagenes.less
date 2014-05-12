@@ -19,6 +19,7 @@
     &.sm {
         margin: 0;
         height: @cuadratin * 6;
+        margin-bottom: 15px;
 
         img {
 
@@ -28,13 +29,21 @@
     &.md {
         margin: 0;
         padding: 0;
-        width: 327px;
-        height: 100%;
-        float: left;
+        height: @cuadratin * 14;
+        width: inherit;
+        position: relative;
 
         img {
-            height: 427.5px;
-            width: auto;
+            height: auto;
+            width: 145%;
+            opacity: .8;
+
+            &:hover {
+                opacity: 1;
+                -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
+                -moz-transition: opacity .5s linear, opacity 0.2s linear; 
+                -o-transition: opacity .5s linear, opacity 0.2s linear;
+            }
         }
     }
 
@@ -180,18 +189,17 @@
 
     .prev-imagen {
 
-        &.sm {
-            margin: 14.5px 14.5px 0 14.5px;
+        &.sm {;
             height: @cuadratin * 6.6;
 
             img {
-                width: 200%;
+                width: 120%;
                 height: auto;
             }
         }
 
         &.md {
-            width: 32%;
+            width: 100%;
             padding: 0;
             margin: 0;
             float: left;
@@ -250,8 +258,7 @@
     .prev-imagen {
 
         &.sm {
-            margin: 22.5px 22.5px 0 22.5px;
-            height: @cuadratin * 6.6;
+            height: @cuadratin * 5.5;
 
             img {
                 width: 130%;
@@ -342,7 +349,7 @@
 
     // Contenedor del carousel
     .imagen-carousel {
-            height: @cuadratin * 20;
+        height: 600px;
     }
 
     // Portada noticias
@@ -357,8 +364,10 @@
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-        height: @cuadratin * 20;
-        position: relative;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 150%;
     }
 
 }
