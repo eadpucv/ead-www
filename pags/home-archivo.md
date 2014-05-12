@@ -1,11 +1,12 @@
 ---
-layout: portada
+layout: portada-archivo
 title: Archivo Histórico JVA
 ---
 
-<!-- CAROUSEL-LG -->
 
-<div class='col-lg-24 oculto-md oculto-sm oculto-xs imagenes-destacadas-ead'>
+{% include nav.html %}
+
+<div class='col-lg-12 oculto-md oculto-sm oculto-xs imagenes-destacadas-ead'>
 
 	<!-- configuracion de carousel-lg -->
 
@@ -65,7 +66,7 @@ title: Archivo Histórico JVA
 			<div class="item altura-maxima-lg">
 				<img class='excedente-vertical-lg' alt="Third slide" src="{{ site.baseurl }}/img/img-archivo/foto-4-carrousel.jpg">
 				<div class='col-lg-24 col-lg-24 col-md-24 col-sm-24 col-xs-24 pie-de-foto'>
-					<p class='blanco centrado'>TRA tar 13 - Travesía Tarabuco (Faenas y obra) - 102</p>
+					<p class='blanco centrado'>TRA tar 13 - Travesía Tarabuco (Faenas y obra) - 102</p>
 				</div>
 
 				<!-- descripción-lg -->
@@ -86,143 +87,14 @@ title: Archivo Histórico JVA
 	</div>
 </div>
 
-<!-- Inicio Carrousel -md & sm -->
-
-<div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-ead ver'>
-
-	<div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
-		<ol class="carousel-indicators">
-			<li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
-			<li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
-			<li data-slide-to="2" data-target="#carousel-example-generic"></li>
-		</ol>
-
-		<div class="carousel-inner">
-			<div class="item altura-maxima">
-				<img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/img-archivo/foto-2-carrousel.jpg"> 
-
-				<!-- descripción-carousel-md & sm -->
-
-				<div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
-					<div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'> 
-						<h3 class='beige fina margen-superior-s'>Noticias</h3>
-					</div>
-					<div class='fila'>
-						<div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'>
-							<p class='grande fina sans blanco'>Integer auctor nunc ac dui tempor elementum. Aenean cursus rutrum lorem, in dapibus turpis sagittis quis. Proin et magna vitae mi ultrices molestie at sed massa</p>
-						</div>
-					</div>
-				</div>
-			</div>          
-
-			<div class="item active altura-maxima">
-				<img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/img-archivo/foto-carrousel-8.jpg"> 
-
-				<!-- descripción-carousel-md & sm -->
-
-				<div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
-					<div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'>  
-						<h3 class='beige fina margen-superior-s'>Destacados</h3>
-					</div>
-					<div class='fila'>
-						<div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
-							<p class='blanco grande fina sans'>Integer auctor nunc ac dui tempor elementum. Aenean cursus rutrum lorem, in dapibus turpis sagittis quis. Proin et magna vitae mi ultrices molestie at sed massa</p>      
-						</div>
-					</div>
-				</div>             
-			</div>
-
-			<div class="item altura-maxima">
-				<img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/img-archivo/foto-4-carrousel.jpg">
-
-				<!-- descripción-carousel-md & sm -->
-
-				<div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
-					<div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'> 
-						<h3 class='beige fina margen-superior-s'>Publicaciones</h3>
-					</div>
-					<div class='fila'>
-						<div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
-							<p class='blanco grande fina sans'>Integer auctor nunc ac dui tempor elementum. Aenean cursus rutrum lorem, in dapibus turpis sagittis quis. Proin et magna vitae mi ultrices molestie at sed massa</p>       
-						</div>
-					</div>
-				</div>
-			</div> 
-		</div> <!-- fin carrousel inner -->
-	</div> <!-- fin datos carrousel -->
-</div> <!-- fin col-lg-oculto -->
-
-<!-- Inicio Carrousel -xs -->
-
-<div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-ead-xs ver'>
-
-	<div data-ride="carousel" class="carousel slide col-md-24 margen-superior" id="carousel-example-generic">
-		<ol class="carousel-indicators">
-			<li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
-			<li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
-			<li data-slide-to="2" data-target="#carousel-example-generic"></li>
-		</ol>
-
-		<div class="carousel-inner"> 
-
-			<!-- descripción-carousel-xs -->
-
-			<div class="item altura-maxima-xs">
-				<img class='excedente-vertical-xs' alt="First slide" src="{{ site.baseurl }}/img/img-archivo/foto-2-carrousel.jpg">
-				<div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
-					<div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
-						<h3 class='beige'>Noticias</h3>
-					</div>
-					<div class='fila'>
-						<div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 ver'>
-							<p class='blanco chica fina sans'>Integer auctor nunc ac dui tempor elementum. Aenean cursus rutrum lorem, in dapibus turpis sagittis quis. Proin et magna vitae mi ultrices molestie at sed massa</p>
-						</div>
-					</div>
-				</div>
-			</div> 
-
-			<!-- descripción-carousel-xs -->
-
-			<div class="item active altura-maxima-xs">
-				<img class='excedente-vertical-xs' alt="Second slide" src="{{ site.baseurl }}/img/img-archivo/foto-carrousel-8.jpg">
-				<div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
-					<div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
-						<h3 class='beige'>Destacados</h3>
-					</div>
-					<div class='fila'>
-						<div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 ver'>
-							<p class='blanco chica fina sans'>Integer auctor nunc ac dui tempor elementum. Aenean cursus rutrum lorem, in dapibus turpis sagittis quis. Proin et magna vitae mi ultrices molestie at sed massa</p> 
-						</div>
-					</div>              
-				</div>
-			</div> 
-
-			<!-- descripción-carousel-xs -->
-
-			<div class="item altura-maxima-xs">
-				<img class='excedente-vertical-xs' alt="Third slide" src="{{ site.baseurl }}/img/img-archivo/foto-4-carrousel.jpg">
-				<div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
-					<div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
-						<h3 class='beige'>Publicaciones</h3>
-					</div>
-					<div class='fila'>
-						<div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 ver'>
-							<p class='blanco chica fina sans'>Integer auctor nunc ac dui tempor elementum. Aenean cursus rutrum lorem, in dapibus turpis sagittis quis. Proin et magna vitae mi ultrices molestie at sed massa</p>  
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- fin carrousel inner -->
-	</div> <!-- fin datos carrousel -->
-</div> <!-- fin oculto-lg -->
 
 <!--      CONTENIDO CENTRAL     -->                       
 
-<div class='col-lg-24 col-md-24'>
+<div class='col-lg-12 col-md-12'>
 	<div class='wrap'>
 		<div class='fila'>
 
-			<div class='col-md-18 col-md-offset-3 col-sm-14 col-sm-offset-1 col-xs-22 col-xs-offset-1 margen-superior'>
+			<div class='col-md-12 col-md-offset-3 col-sm-14 col-sm-offset-1 col-xs-22 col-xs-offset-1 margen-superior'>
 				<div class='col-lg-9 linea-divisora  fondo-gris'></div>
 				<div class='col-lg-4 col-md-offset-1'><h6 class='rojo-claro pesada altas'>Noticias del archivo</h6></div>
 				<div class='col-lg-9 col-md-offset-1 linea-divisora fondo-gris'></div>
