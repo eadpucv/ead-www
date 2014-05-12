@@ -92,7 +92,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 </div>
 <div class='fondo-blanco'>
   <div class='wrap'>
+<<<<<<< HEAD
     <h4 class='centrado'><i class="icn icn-calendario icn-lg"></i> Eventos</h4>
+=======
+  <div class='seccion'>
+      <h3>
+        <i class="icn icn-calendario icn-lg"></i> Eventos
+      </h3>
+  </div>
+>>>>>>> _evento
     <div class='fila'><!-- sección eventos superior--> 
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
@@ -102,7 +110,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <p class='dia centrado'>09 may</p> 
               </div>  
               <h6 class='rojo-claro'>Revalidación y Captura Fotográfica – TNE 2014 </h6> 
-              <p>Revalidación y Captura Fotográfica – Tarjeta Nacional Estudiantil TNE 2014 Los alumnos matriculados [...]</p> 
+              <p>Revalidación y Captura Fotográfica – Tarjeta Nacional Estudiantil TNE 2014 Los alumnos matriculados podrán reformular su tarjeta de manera formal en [...]</p> 
           </div>
         </a>
       </div> <!-- fin evento  1 -->
@@ -113,7 +121,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <p class='dia centrado'>28 abr</p> 
               </div>  
               <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6> 
-              <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a [...]</p> 
+              <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a la institución se debe constatar un fondo [...]</p> 
           </div>
         </a>
       </div><!-- fin evento  2 -->
@@ -121,10 +129,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <div class='pagina sm'>
               <div class='fecha-evento'> 
+<<<<<<< HEAD
                 <p class='dia centrado'>13 abril</p> 
+=======
+                <p class='dia centrado'>13 abr</p> 
+>>>>>>> _evento
               </div>  
               <h6 class='rojo-claro'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6> 
-              <p>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a las preferencias [...]</p> 
+              <p>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a las preferencias tendrán el agrado de comentar la manera [...]</p> 
           </div>
         </a>
       </div><!-- fin evento  3 -->
@@ -135,12 +147,21 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
                 <p class='dia centrado'>01 ago</p> 
               </div>  
               <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6> 
-              <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa [...]</p> 
+              <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de nuestro querido alumno Francisco [...]</p> 
           </div>
         </a>
       </div><!-- fin evento  3 -->
     </div>
+<<<<<<< HEAD
     <h4 class='centrado'><i class="icn icn-noticias icn-lg"></i> Noticias</h4>
+=======
+
+    <div class='seccion'>
+      <h3>
+        <i class="icn icn-noticias icn-lg"></i> Noticias
+      </h3>
+    </div>
+>>>>>>> _evento
     <div class='fila'> <!-- sección noticias inferior -->
       <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
