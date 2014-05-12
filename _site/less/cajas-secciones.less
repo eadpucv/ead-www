@@ -17,6 +17,46 @@
 
 }
 
+.pie-de-foto {
+    height: @cuadratin;
+    bottom: 0;
+    background-color: @pizarra-oscuro;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    font-size: @cuerpo-nav * .7;
+    font-family: @sans;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.cita-carousel {
+    height: 570px;
+    background-color: @transparente;
+    float: right;
+    padding: @cuadratin;
+
+    p {
+        font-size: @cuerpo * 1.2;
+        font-family: @sans;
+        line-height: @interlinea * 1.3;
+        color: @blanco;
+    }
+
+    h4 {
+        font-size: @cuerpo * 1.5;
+    }
+
+    h1 {
+        margin: 0;
+    }
+}
+
+
 .caja-publicacion-prev {
 
     h6 {
@@ -189,38 +229,6 @@
     background-color: @negro;
 }
 
-// auxiliares para bloques (maqueteo)
-
-// el valor de alto-xs es la unidad
-
-.alto-xs {
-    height: @cuadratin * 5.7;
-    margin:0;
-}
-
-// el valor de alto-sm son 2 unidades + una mitad
-
-.alto-sm {
-    height: @cuadratin * 14.25;
-    margin-bottom: @cuadratin / 2;
-    position: relative;
-}
-
-// el valor de alto-md son 3 unidades
-
-.alto-md {
-    height: @cuadratin * 17.1;
-    border-bottom:1px solid @gris-blanco;
-    margin-bottom: @cuadratin;
-}
-
-// el valor de alto-lg son 4 unidades
-
-.alto-lg {
-    height: @cuadratin * 22.8;
-    border:1px solid @gris-blanco;
-}
-
 // estilos de cajas
 
 .borde-izquierdo {
@@ -288,13 +296,6 @@
             }
         }
     }
-
-    // el valor de alto-xs suma 
-
-    .alto-xs {
-        min-height: @cuadratin * 7.12;
-    }
-
 }
 
 // Medium screen / desktop
@@ -316,6 +317,12 @@
 
     .wrap-carousel {
         max-width: 100%;
+    }
+
+    .cita-carousel {
+    height: 50%;
+    padding: @cuadratin / 2;
+
     }
     .caja-publicacion-prev{
         .titulo-prev {
@@ -391,24 +398,6 @@
                 margin: 0 0 @cuadratin * .25 0;
                 font-size: @cuerpo * .9;
             }
-        }
-    }
-
-    // el valor de alto-xs suma 
-
-    .alto-xs {
-        min-height: @cuadratin * 7.12;
-    }
-
-    // el valor de alto-sm son 2 unidades 
-
-    .alto-sm {
-
-        &.por-oficio {
-            height: @cuadratin * 11.4;
-            min-height: auto;
-            margin-bottom: @cuadratin / 2;
-            position: relative;
         }
     }
 
