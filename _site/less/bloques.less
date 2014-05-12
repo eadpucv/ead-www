@@ -78,19 +78,36 @@
 }
 
 .fecha-evento {
-    margin: 0;
-    background-color: @rojo-claro;
-    border-radius: 2px;
-    margin-bottom: 15px;
+    margin: 0 14px 20px 0;
+    width: @cuadratin * 2;
+    border-left: 4px solid fade(@pizarra-claro, 20%);
+    //border-right: 3px solid fade(@pizarra-claro, 20%);
+    float: left;
+    height: 75px;
+    padding: 8px 5px 10px;
+
 
     .dia {
         font-family: @sans;
-        font-weight: 400;
+        font-weight: 200;
         margin: 0;
         padding: 4px;
         float: center;
-        color:@blanco;
+        color:@pizarra-claro;
         font-size: @cuerpo * 1.5;
-        letter-spacing: 2px;  
+        letter-spacing: 2px; 
+        line-height: 25px; 
     }
+
+}
+
+  hr {
+    margin: 0 !important;
+    border: 0;
+    border-bottom: 1px solid @gris-claro;
+    .box-shadow(0 0px 1px fade(@gris-oscuro, 20));
+    bottom: 15px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
 }
