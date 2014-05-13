@@ -260,6 +260,77 @@
     }
 }
 
+// Footer
+
+footer {
+    min-height: @cuadratin * 8;
+    backgroud: url('@{ruta-imagenes}/ruido-gris-blanco.png');
+
+    hr {
+        margin: 5px 0 5px 0;
+    }
+
+    p {
+        margin: 0 0 7.5px 0;
+        font-size: 13px;
+    }
+}
+
+.sitios-relacionados {
+    i {
+        color: @rojo;
+        font-size: @cuerpo * 1.5;
+        margin-right: 7.5px;
+    }
+}
+
+.redes-sociales {
+
+    i {
+        color: @negro;
+        font-size: @cuerpo * 1.5;
+        margin-right: 7.5px;
+    }
+
+    a {
+        &:hover {
+
+            .icn-twitter {
+                color: #55ACEE;
+            }
+
+            .icn-facebook  {
+                color: #4C66A4;
+            }
+
+            .icn-vimeo  {
+                color: #44BBFF;
+            }
+
+            .icn-jekyll {
+                color: #FF0084;
+            }
+
+            .icn-soundcloud {
+                color: #FF7700;
+            }
+        }
+    }
+}
+
+.licencia {
+    margin: 10px 0 0 0;
+    height: @cuadratin * 2;
+    background-color: @negro;
+
+    p {
+        padding-top: 20px;
+        font-family: @sans;
+        color: @gris;
+        font-size: 11px;
+    }
+}
+
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
