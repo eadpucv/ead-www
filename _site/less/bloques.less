@@ -31,8 +31,9 @@
 // Clases diferenciales
 
 .pagina {
-
     padding: 20px;
+
+    //  Tamaños
 
     &.xs {
         height: @cuadratin * 3;
@@ -49,6 +50,23 @@
 
     &.md {
         height: @cuadratin * 14;
+    }
+
+    //  Extensiones de clase
+
+    &.evento {
+
+    h6 {
+        height: 70px;
+        max-height: 75px;
+        overflow: hidden;
+    }
+
+    p {
+        max-height: 110px;
+        display: block;
+        overflow: hidden;
+    }
     }
 
     &.carrera {
@@ -69,6 +87,15 @@
     &.info-docencia {
         border-left:1px solid @gris;
         border-right:1px solid @gris;
+    }
+
+    &.noticias-recientes {
+
+        p {
+        max-height: 90px;
+        display: block;
+        overflow: hidden;
+        }
     }
 }
 
@@ -110,7 +137,7 @@
 }
 
 .fecha-evento {
-    margin: 0 14px 20px 0;
+    margin: 0 14px 0px 0;
     width: @cuadratin * 2;
     border-left: 5px solid fade(@pizarra-claro, 20%);
     float: left;
@@ -125,7 +152,7 @@
         padding: 4px;
         float: center;
         color:@pizarra-claro;
-        font-size: @cuerpo * 1.5;
+        font-size: @cuerpo * 1.3;
         line-height: 25px;
         letter-spacing: 2px;  
     }
@@ -180,6 +207,7 @@
     }
 }
 
+<<<<<<< HEAD
 
 
 // Extra small screen / phone
@@ -211,11 +239,74 @@
             font-size: 10px;
         }
     }
+=======
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+    // Ajuste de página 
+    .wrap {
+    width: 90%;
+    }
+
+    .alto-md {
+    height: auto;
+    margin: 15px 0;
+    }
+
+    .pagina {
+
+    //  Clases extendidas
+
+    &.md {
+        height: auto;
+    }
+
+    &.noticias-recientes {
+
+    h6 {
+        font-size: @cuerpo * 1.35;
+    }
+
+    p{
+        font-size: @cuerpo;
+        line-height: @cuerpo * 1.45;
+    }
+    }
+
+    &.evento {
+
+    h6 {
+        height: 60px;
+        font-size: @cuerpo * 1.35;
+        line-height: @cuerpo * 1.9;
+        max-height: 75px;
+        overflow: hidden;
+    }
+
+    p {
+        max-height: 110px;
+        padding: 0 0 0 72px;
+        font-size: @cuerpo;
+        line-height: @cuerpo * 1.45;
+    }
+
+    .fecha-evento {
+    .dia {
+        padding: 0px 0px 0px 0px !important;
+        font-size: @cuerpo * 1.3;
+        font-weight: 100;
+    }
+    }
+    }
+
+}
+>>>>>>> _noticias_recientes
 }
 
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+<<<<<<< HEAD
     .alto-lg {
         height: 550px;
     }
@@ -229,15 +320,38 @@
 
         p,span {
             display: none;
+=======
+
+    // Ajuste de página 
+    .wrap {
+    width: 90%;
+    }
+
+        .pagina {
+
+    //  Clases extendidas
+
+    &.noticias-recientes {
+
+        p {
+        max-height: 65px;
+        display: block;
+        overflow: hidden;
+>>>>>>> _noticias_recientes
         }
     }
 
 }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> _noticias_recientes
 
 // Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+<<<<<<< HEAD
     .alto-lg {
         height: 500px;
     }
@@ -251,13 +365,53 @@
 
         p {
             max-height: 230px;
+=======
+    // Ajuste de página 
+    .wrap {
+    width: 90%;
+    }
+
+    .pagina {
+
+    //  Clases extendidas
+
+    &.evento {
+
+    p {
+        max-height: 110px;
+}
+    .fecha-evento {
+    .dia {
+        padding: 0px 0px 0px 0px !important;
+    }
+    }
+}
+
+    &.noticias-recientes {
+
+        p {
+        max-height: 62px;
+        display: block;
+        overflow: hidden;
+>>>>>>> _noticias_recientes
         }
     }
 
 }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> _noticias_recientes
 
 // Large screen / wide desktop
 
 @media (min-width: @screen-lg){
 
+<<<<<<< HEAD
+=======
+    // ajuste de página
+    .wrap {
+        max-width: 1366px;
+    }
+>>>>>>> _noticias_recientes
 }

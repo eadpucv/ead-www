@@ -103,45 +103,45 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>09 may</p> 
               </div>  
               <h6 class='rojo-claro'>Revalidación y Captura Fotográfica – TNE 2014 </h6> 
-              <p>Revalidación y Captura Fotográfica – Tarjeta Nacional Estudiantil TNE 2014 Los alumnos matriculados podrán reformular su tarjeta de manera formal en [...]</p> 
+              <p>Revalidación y Captura Fotográfica – Tarjeta Nacional Estudiantil TNE 2014 Los alumnos matriculados podrán reformular su tarjeta de manera formal en Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles [...]</p> 
           </div>
         </a>
       </div> <!-- fin evento  1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento  2 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>28 abr</p> 
               </div>  
               <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6> 
-              <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a la institución se debe constatar un fondo [...]</p> 
+              <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a la institución se debe constatar un fondo Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato y El Retoque Inacabado [...]</p> 
           </div>
         </a>
       </div><!-- fin evento  2 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>13 abr</p> 
               </div>  
-              <h6 class='rojo-claro'>“De la hipótesis al Diseño: Aproximaciones, casos y obras”</h6> 
-              <p>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a las preferencias tendrán el agrado de comentar la manera [...]</p> 
+              <h6 class='rojo-claro'>De la hipótesis al Diseño: "Aproximaciones, casos y obras”</h6> 
+              <p>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a las preferencias tendrán el agrado de comentar la manera Después del incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías, el profesor Ricardo Lang y sus alumnos del Taller [...]</p> 
           </div>
         </a>
       </div><!-- fin evento  3 -->
       <div class='col-lg-3 oculto-md col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>01 ago</p> 
               </div>  
-              <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h6> 
-              <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de nuestro querido alumno Francisco [...]</p> 
+              <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D) de locos y más querubines del cielo de rocas mutiladas y más y más</h6> 
+              <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de nuestro querido alumno Francisco Movilidad Estudiantil, para aquellos alumnos que están considerando la posibilidad de un intercambio en el extranjero.  [...]</p> 
           </div>
         </a>
       </div><!-- fin evento  3 -->
@@ -152,9 +152,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </h3>
     </div>
     <div class='fila'> <!-- sección noticias inferior -->
-      <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md'> <!-- noticia 1 -->
+      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina md'>
+          <div class='pagina md noticias-recientes'>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
@@ -164,27 +164,27 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div><!-- fin noticia 1 -->
-      <div class='col-lg-3 col-md-4 col-sm-12 col-xs-12 alto-md'> <!-- noticia 2 -->
+      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 2 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina md'>
+          <div class='pagina md noticias-recientes'>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
-            <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+            <h6 class='rojo-claro'>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
+            <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar [...]</p>
           </div>
         </a>
       </div><!-- fin noticia 2 -->
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 3 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina md'>
+          <div class='pagina md noticias-recientes'>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
-            <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+            <h6 class='rojo-claro'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
+            <p>Después del incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
           </div>
         </a>
       </div><!-- fin noticia 3 -->
