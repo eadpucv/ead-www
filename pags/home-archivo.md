@@ -4,8 +4,6 @@ title: Archivo Histórico JVA
 ---
 
 
-{% include nav.html %}
-
 <div class='col-lg-12 oculto-md oculto-sm oculto-xs imagenes-destacadas-ead'>
 
 	<!-- configuracion de carousel-lg -->
