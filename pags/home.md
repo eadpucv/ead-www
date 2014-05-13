@@ -309,7 +309,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <h6>magíster arquitectura y diseño</h6>
             <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
             <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos, funcionarios y alumnos del CFT UCEVALPO, para recibir financiamiento que les permita desarrollar sus proyectos e ideas innovadoras.</p>
+            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
           </div>
         </a>
       </div> <!-- fin noticia de categoria 4 -->
@@ -319,7 +319,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <h6>taller de amereida</h6>
             <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
             <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos, funcionarios y alumnos del CFT UCEVALPO, para recibir financiamiento que les permita desarrollar sus proyectos e ideas innovadoras.</p>
+            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
           </div>
         </a>
       </div> <!-- fin noticia de categoria 5 -->
@@ -343,7 +343,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <h6>archivo histórico josé vial armstrong</h6>
             <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
             <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
-            <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014, dentro de los que fueron seleccionados dos proyectos asociados a la e[ad]: “Edición del libro Fotografías de Valparaíso” y “Sexta bienal de Tipografía Latinoamericana Tipos Latinos 2014″. </p>
+            <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
           </div>
         </a>
       </div>  <!-- fin noticia de categoria 7 -->
@@ -354,9 +354,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
             <p class='datos-publicacion'>Publicado el 2014</p>
             <p>Definición del Problema
-            En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella 
-            el hombre vive libremente y sin cesar en la vigilia y coraje de hacer un mundo.” 
-            (e[ad] 1972 ). </p>
+            En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
           </div>
         </a>
       </div>  <!-- fin noticia de categoria 8 -->
