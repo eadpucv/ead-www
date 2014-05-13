@@ -122,67 +122,6 @@
     position: absolute;
 }
 
-.caja-contenido-postulante {
-    border:1px solid @gris-claro;
-    margin: 0 @cuadratin / 2 @cuadratin / 4 0;
-    padding: @cuadratin / 2 @cuadratin / 2 0;
-    background-color: @blanco;
-
-    h6 {
-        margin: 0 0 @cuadratin / 2;
-    }
-}
-
-.enlaces-aside {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li:before {
-        font-family: 'Stampa';
-        content: '\e601';
-        margin:0 @cuadratin-tercio 0 -@cuadratin-tercio * 2;
-        color: @negro;
-        font-size: 10px;
-    }
-
-    li {
-        line-height: @interlinea-nav *.9;
-        margin-bottom: @cuerpo-nav *.5;
-
-        a {
-            font-size: @cuerpo * .9;
-            font-weight: 300;
-            &:hover {
-                color: @pizarra-oscuro;
-                text-decoration: none;
-            }
-        }
-    }
-
-    &.postulante {
-        
-        ul {
-            margin: 0 0 @cuadratin-tercio;
-            padding: 0 0 @cuadratin @cuadratin;
-        }
-
-        li {
-            color: @rojo-claro;
-            padding: 4px @cuadratin;
-            margin: 0 0 @cuadratin / 2 0;
-            font-weight: 300;
-            font-size: @cuerpo;
-
-            &:hover {
-                color: @blanco;
-                background-color: @rojo-claro;
-                .transition(.3s ease all);
-            }
-        }
-    }
-}
-
 // bloque meta (borrar, sujeto a los cambios de simon)
 
 .menu-meta {
