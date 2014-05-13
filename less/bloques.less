@@ -53,12 +53,12 @@
 
     &.carrera {
         position: absolute;
-        height: @cuadratin * 8;
+        height: @cuadratin * 9;
         right: 15px;
         left: 15px;
-        -webkit-transition: max-height .5s linear, opacity 0.2s linear; 
-        -moz-transition: max-height .5s linear, opacity 0.2s linear; 
-        -o-transition: max-height .5s linear, opacity 0.2s linear;
+        -webkit-transition: max-height .5s linear, opacity 0s linear; 
+        -moz-transition: max-height .5s linear, opacity 0s linear; 
+        -o-transition: max-height .5s linear, opacity 0s linear;
         bottom: -1px;
         background: linear-gradient(to top, rgba(0, 0, 0, .85), rgba(0,0,0,0));
         padding: 15px;
@@ -85,6 +85,7 @@
     box-shadow: 0 1px 1px rgba(0,0,0,0.05);
     display: inline-block;
     width: 100%;
+    max-height: 420px;
 
 
     &:hover {
@@ -94,6 +95,16 @@
         .carrera {
              bottom: 0;
              max-height: 500px;
+        }
+        
+        // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
+        &.oficio {
+            img {
+                opacity: .7;
+                -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
+                -moz-transition: opacity .5s linear, opacity 0.2s linear; 
+                -o-transition: opacity .5s linear, opacity 0.2s linear;
+            }
         }
     }
 }
@@ -125,7 +136,7 @@
     background-color: @gris-blanco;
     background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
     border-bottom: 1px solid @gris;
-    padding: 15px 0;
+    padding: 7.5px 0;
     margin: 0;
     width: 100%;
     position: absolute;
@@ -139,16 +150,25 @@
 }
 
 .cita-carousel {
-    height: 530px;
-    background-color: @transparente;
+    height: 545px;
+    background: linear-gradient(to top, rgba(0, 0, 0, .95), rgba(0,0,0, .35));
     float: right;
     padding: @cuadratin;
+    position: relative;
 
     p {
         font-size: @cuerpo * 1.2;
         font-family: @sans;
         line-height: @interlinea * 1.3;
         color: @blanco;
+        max-height: 315px;
+        overflow: hidden;
+    }
+
+    span {
+        position: absolute;
+        right: 30px;
+        bottom: 10px;
     }
 
     h4 {
@@ -158,4 +178,86 @@
     h1 {
         margin: 0;
     }
+}
+
+
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+    .alto-lg {
+        height: 315px;
+    }
+
+    .cita-carousel {
+        height: 55px;
+        padding: @cuadratin / 2;
+        position: absolute;
+        bottom: 55px;
+        width: 100%;
+
+        p,span {
+            display: none;
+        }
+
+        h1 {
+            font-size: @cuerpo * 1.2;
+        }
+    }
+
+    .pie-de-foto {
+    
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+    .alto-lg {
+        height: 550px;
+    }
+
+    .cita-carousel {
+        height: 130px;
+        padding: @cuadratin / 2;
+        position: absolute;
+        bottom: 55px;
+        width: 100%;
+
+        p,span {
+            display: none;
+        }
+    }
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+    .alto-lg {
+        height: 500px;
+    }
+    
+    .cita-carousel {
+        height: 425px;
+        padding: @cuadratin / 2;
+        position: absolute;
+        width: 350px;
+        right: @cuadratin;
+
+        p {
+            max-height: 230px;
+        }
+    }
+
+}
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
 }

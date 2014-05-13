@@ -13,14 +13,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </ol> 
     <div class="carousel-inner"> 
       <div class="item active imagen-carousel"> <!-- 1er slide -->
-        <img class='altura-maxima' alt="First slide" src="{{ site.baseurl }}/img/noticia-destacada.jpg" title="Noticia Destacada"> 
+        <img class='altura-maxima' alt="First slide" src="{{ site.baseurl }}/img/noticia-categoria-2.jpg" title="Noticia Destacada"> 
         <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-noticias icn-lg"></i> El miércoles 26 de marzo, la e[ad] tuvo el privilegio de recibir en la Ciudad Abierta a la Dra. Carol Edwards</p> 
+          <p class='centrado'><i class="icn icn-noticias icn-lg"></i> e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</p> 
         </div> 
         <div class='wrap-carousel'> 
           <div class='col-lg-3 cita-carousel'> 
-            <h1 class='blanco'><i class="icn icn-noticias icn-md"></i> Noticias</h1> 
-            <p>"La Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p> <span class='blanco derecha'>Dra. Carol Edwards</span> 
+            <h1 class='blanco'><i class="icn icn-noticias icn-md"></i> Los Ojos del Gato & El Retoque Inacabado</h1> 
+            <p>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão.</p>
           </div>
         </div> 
       </div>
@@ -39,12 +39,12 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class="item imagen-carousel"> <!-- 3er slide -->
         <img class='altura-maxima' alt="Third slide" src="{{ site.baseurl }}/img/travesia-portada.jpg" title="Travesía Destadada"> 
         <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía de la Piedra - Curimahuida, Coquimbo, Chile, 1986</p> 
+          <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
         </div> 
         <div class='wrap-carousel'> 
           <div class='col-lg-3 cita-carousel'> 
-            <h1 class='blanco'><i class="icn icn-travesia icn-md"></i> Travesía</h1> 
-            <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='blanco derecha'>Alberto Cruz</span> 
+            <h1 class='blanco'><i class="icn icn-travesia icn-md"></i> Travesía Tarabuco  - Bolivia, 2013 </h1>
+            <p>Las travesías son viajes poéticos por América que realiza anualmente la e[ad] Escuela de Arquitectura y Diseño PUCV a partir del año 1984. Estos viajes son integrados por los alumnos y profesores de Arquitectura, Diseño Gráfico y Diseño Industrial. Este sitio corresponde al registro de dichos viajes por el continente e invita a todos quienes han participado a colaborar en esta bitácora colectiva.</p> 
           </div>
         </div> 
       </div>
@@ -55,7 +55,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> 
         <div class='wrap-carousel'> 
           <div class='col-lg-3 cita-carousel'> 
-            <h1 class='blanco'><i class="icn icn-travesia icn-md"></i> Travesía</h1> 
+            <h1 class='blanco'><i class="icn icn-travesia icn-md"></i> Aula Neumática, 1984</h1> 
             <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='blanco derecha'>Alberto Cruz</span> 
           </div>
         </div> 
@@ -67,8 +67,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> 
         <div class='wrap-carousel'> 
           <div class='col-lg-3 cita-carousel'> 
-            <h1 class='blanco'><i class="icn icn-ojo icn-md"></i> Observación</h1> 
-            <p>"La Alcoba en la Ciudad Abierta. Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados)..."</p> <span class='blanco derecha'>David Jolly</span> 
+            <h1 class='blanco'><i class="icn icn-ojo icn-md"></i> Observación "La Alcoba"</h1> 
+            <p>La Alcoba en la Ciudad Abierta.<br>
+            Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados), los que se aumentan con unos muros contenedores que reciben a la mayoría de los muebles.<br>
+            Lo edificado construye el exterior levantándose, reconstruye la arena como un libre paso sin interrumpir la extensión.</p> <span class='blanco derecha'>David Jolly</span> 
           </div>
         </div> 
       </div>    
@@ -78,7 +80,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 
 <div class='wrap'>
   <div class='fila'>
-    <div class='col-lg-12 col-md-8 col-sm-12 col-xs-12 alto-xs'>
+    <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
       <div class='pagina info-docencia xs'>
         <img class='izquierda' src='https://cdn3.iconfinder.com/data/icons/communication-icons-3/512/Megaphone-512.png'>
         <div class='referencia-cita'>
@@ -237,75 +239,64 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 <div class='fondo-blanco'>
   <div class='col-lg-12'>
     <div class='fila'>
-      <h4 class='centrado'>Noticias por carrera</h4>
+      <div class='wrap'>
+        <div class='seccion'>
+          <h3>
+            <i class="icn icn-noticias icn-lg"></i> noticias por carrera
+          </h3>
+        </div>
+      </div>
       <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='bloque-enlace oficio'>
           <div class='prev-imagen md'>
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
           </div>
           <div class='pagina md carrera'>
-            <h6 class='blanco'>arquitectura</h6>
+            <h6 class='fino gris'>arquitectura</h6>
             <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
             <p class='blanco datos-publicacion'>Publicado el 11 de marzo, 2014</p>
             <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. </p>
           </div>
         </a>
-        <!--<a href='#' class='bloque-enlace'>
-          <div class='pagina md carrera'>
-            <div class='prev-imagen md'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
-            </div>
-          </div>
-        </a>-->
       </div>
       <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='bloque-enlace oficio'>
           <div class='prev-imagen md'>
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
           </div>
           <div class='pagina md carrera'>
-            <h6 class='blanco'>diseño gráfico</h6>
-            <h4 class='blanco'>Travesía Punta Arenas – Tierra del Fuego 2013</h4>
-            <p class='blanco datos-publicacion'>Publicado el 26 de diciembre, 2013</p>
-            <p class='blanco'>Tercer año de Diseño Gráfico partió el domingo 24 de noviembre de travesía a la ciudad de Punta Arenas. En la ciudad, el grupo conformado por 14 alumnos y dos profesores, montó una Exposición junto a un Acto poético que se realizó el día lunes 2 de diciembre en el recinto de la Universidad de Magallanes, Facultad de Ingeniería.</p>
+            <h6 class='fino gris'>diseño gráfico</h6>
+            <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
+            <p class='blanco datos-publicacion'>Publicado el 9 de mayo, 2014</p>
+            <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
           </div>
         </a>
-        <!--<a href='#' class='bloque-enlace'>
-          <div class='pagina md carrera'>
-            <div class='prev-imagen md'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
-            </div>
-          </div>
-        </a>-->
       </div>
       <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='bloque-enlace oficio'>
           <div class='prev-imagen md'>
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
           </div>
           <div class='pagina md carrera'>
-            <h6 class='blanco'>diseño industrial</h6>
+            <h6 class='fino gris'>diseño industrial</h6>
             <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
             <p class='blanco datos-publicacion'>Publicado el 25 de marzo, 2014</p>
             <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
           </div>
         </a>
-        <!--<a href='#' class='bloque-enlace'>
-          <div class='pagina md carrera'>
-            <div class='prev-imagen md'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
-            </div>
-          </div>
-        </a>-->
       </div>
     </div>
   </div>
   <div class='wrap'>
-    <h4 class='centrado'>Noticias por categoría</h4>
+          <div class='seccion'>
+        <h3>
+          <i class="icn icn-noticias icn-lg"></i> noticias por categorías
+        </h3>
+      </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
-			<div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 4  -->
+			<div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'> <!-- noticia de categoria 4  -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina'>
             <h6>magíster arquitectura y diseño</h6>
             <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
             <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
@@ -313,9 +304,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div> <!-- fin noticia de categoria 4 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 5  -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'> <!-- noticia de categoria 5  -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina'>
             <h6>taller de amereida</h6>
             <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
             <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
@@ -323,9 +314,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div> <!-- fin noticia de categoria 5 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 6 -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>  <!-- noticia de categoria 6 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina'>
             <h6>ediciones e[ad]</h6>
             <h5 class='rojo-claro'>Carta de Alemania</h5>
             <p class='datos-publicacion'>Publicado el 2010</p>
@@ -337,9 +328,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div>  <!-- fin noticia de categoria 6 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 7 -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>  <!-- noticia de categoria 7 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina'>
             <h6>archivo histórico josé vial armstrong</h6>
             <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
             <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
@@ -347,9 +338,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div>  <!-- fin noticia de categoria 7 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 8 -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>  <!-- noticia de categoria 8 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina'>
             <h6>investigación</h6>
             <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
             <p class='datos-publicacion'>Publicado el 2014</p>
@@ -360,9 +351,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div>  <!-- fin noticia de categoria 8 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 9 -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>  <!-- noticia de categoria 9 -->
         <a href='#' class='bloque-enlace'>
-          <div class='pagina sm'>
+          <div class='pagina'>
             <h6>bolsa de trabajo</h6>
             <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
             <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
