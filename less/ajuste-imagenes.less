@@ -17,8 +17,9 @@
     }
 
     &.sm {
-        margin: 15px 15px 0 15px;
-        height: @cuadratin * 6.6;
+        margin: 0;
+        height: @cuadratin * 6;
+        margin-bottom: 15px;
 
         img {
 
@@ -28,23 +29,18 @@
     &.md {
         margin: 0;
         padding: 0;
-        width: 327px;
-        height: 100%;
-        float: left;
+        height: @cuadratin * 14;
+        width: inherit;
+        position: relative;
+        display: inline-block;
+        background: black;
+        padding: 0;
 
         img {
-            height: 427.5px;
-            width: auto;
+            height: auto;
+            width: 145%;
+
         }
-    }
-
-    &.lg {
-
-    }
-
-    &.por-categoria {
-        margin: 0 0 @cuadratin / 2 0;
-        height: 140px;
     }
 
 }
@@ -121,10 +117,39 @@
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-    height: @cuadratin * 10;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 120%;
+    }
+
+    .prev-imagen {
+
+        &.sm {
+            height: auto;
+
+            img {
+                width: 120%;
+                height: auto;
+            }
+        }
+
+        &.md {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            float: left;
+
+            img {
+                height: 130%;
+                width: auto;
+            }
+        }
     }
 
     // Portada noticias
+
+    // Revisar esto: Juancho
 
     .noticia {
 
@@ -167,15 +192,42 @@
 
     // Contenedor del carousel
     .imagen-carousel {
-        min-height: @cuadratin * 18;
+        height: @cuadratin * 18;
     }
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-    height: @cuadratin * 18;
-    background-color: @gris-oscuro;
+        overflow: hidden;
+        position: absolute;
+        bottom: -10%;
+        width: 120%;
     }
 
+    .prev-imagen {
+
+        &.sm {
+            height: @cuadratin * 6.5;
+
+            img {
+                width: 120%;
+                height: auto;
+            }
+        }
+
+        &.md {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            float: left;
+
+            img {
+                height: 170%;
+                width: auto;
+            }
+        }
+    }
+
+    // Revisar esto: Juancho
         .noticia {
 
         &.grande {
@@ -216,8 +268,35 @@
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-        height: @cuadratin * 16;
+        overflow: hidden;
+        position: absolute;
+        bottom: -40%;
+        width: 100%;
     } 
+
+    .prev-imagen {
+
+        &.sm {
+            height: 200px;
+
+            img {
+                width: 150%;
+                height: auto;
+            }
+        }
+
+        &.md {
+            width: 100%;
+            padding: 0;
+
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+
+    // Revisar esto: Juancho
 
     .noticia {
 
@@ -286,7 +365,7 @@
 
     // Contenedor del carousel
     .imagen-carousel {
-        min-height: @cuadratin * 22.8;
+        height: 659px;
     }
 
     // Portada noticias
@@ -301,8 +380,10 @@
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-        height: @cuadratin * 22.8;
-        position: relative;
+        overflow: hidden;
+        position: absolute;
+        bottom: -35%;
+        width: 150%;
     }
 
 }

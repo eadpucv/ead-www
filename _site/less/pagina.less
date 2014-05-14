@@ -6,14 +6,34 @@ Contenedores y reglas generales
 
 // ajuste de página
 
+body{
+  //background: url('../img/noise-textura.png');
+  //background: fade(@negro, 95);
+}
+
 .pag-ancho-total {
-    //.container();
+    .container();
     margin: 0 auto;
     width: 100%;
 }
 
 .wrap {
     margin: 0 auto;
+    padding: 30px 0 30px 0;
+
+    &.header {
+        padding: 5px 0 5px 0;
+    }
+
+    &.footer {
+        padding: 10px 0 0 0;
+    }
+}
+
+
+.wrap-ancho-maximo {
+    width: 100%;
+    padding: 30px 0 0 0;
 }
 
 .wrap-dropdown {
@@ -22,8 +42,15 @@ Contenedores y reglas generales
 }
 
 .wrap-carousel {
-    max-width: 1380px;
+    max-width: 1366px;
     margin: 0 auto;
+}
+
+.contenedor-lg {
+    .container();
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 // Extra small screen / phone
@@ -41,7 +68,7 @@ Contenedores y reglas generales
 
     // Ajuste de página 
     .wrap {
-    width: 85%;
+    width: 90%;
     }
 }
 
