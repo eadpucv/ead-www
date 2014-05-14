@@ -5,20 +5,28 @@
 .logo-ead {
   font-family: @sans;
   color: @negro;
-  margin: 0;
-  padding: 0;
-  font-size: @cuerpo-nav * .7;
-  line-height: @cuerpo-nav;
+  margin: @cuadratin / 4 0 0 0;
+  padding: 0 @cuadratin / 4;
+  font-weight: 300;
+  font-size: @cuerpo * 1.25;
+  line-height: @cuerpo;
+  letter-spacing: 1px;
 
-  &.altas {
-    font-size: @cuerpo-nav * .8;
-    line-height: @cuerpo-nav;
-  }
-  &.footer {
+  .bajas {
+    font-size: @cuerpo * .9;
     color: @gris-oscuro;
-    font-size: @cuerpo-nav * 1.2;
-    line-height: @cuerpo-nav * 1.3;
-    text-align: left;
+    margin:4px 0 0 0;
+  }
+
+  &.marca {
+    font-size: @cuerpo * 2.5;
+    letter-spacing: -1px;
+    font-family: @sans;
+    color: @rojo-claro;
+    text-transform: lowercase;
+    margin: @cuadratin / 2 0;
+    padding: 0;
+    font-weight: 200;
   }
 
   &.contacto {
@@ -32,40 +40,22 @@
   font-family: @sans;
   margin: 0;
   padding: 0;
+  font-size: @cuerpo * 2.9;
+  color: @rojo-claro;
+
+  &.meta {
+    font-size: @cuerpo;
+    margin: 0;
+  }
 
   a, :hover {
     text-decoration: none;
-  }
-  &.xs {
-    position: relative;
-  }
-
-  &.footer {
-    font-size: @cuerpo-nav * 2;
-    position: relative;
-    text-align: left;
   }
 }
 
 // Tipografías carousel
 
 // Descripción del carousel
-
-.pie-de-foto {
-    height: @cuadratin;
-    bottom: 0;
-    background-color: @pizarra-oscuro;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    font-size: @cuerpo-nav * .7;
-    font-family: @sans;
-
-    p {
-        margin: 0;
-        padding: 0;
-    }
-}
 
 // Tipografías contenido 
 
@@ -88,23 +78,13 @@
     }
 }
 
-.bloque-enlace {
-    display: inline-block;
-    background-color: @blanco;
-    margin: 0;
-    padding: 0; 
-    border:1px solid @gris-blanco;
-
-    &:hover {
-        background-color: @gris-blanco;
-        border:1px solid @gris-claro;
-        .transition(.3s ease all);
-    }
-}
-
 .titulo-prev {
     h6 {
         font-size: @cuerpo * 1.1;
+    }
+
+    h4 {
+        line-height: 30px;
     }
 }
 
@@ -112,6 +92,7 @@
     font-size: @cuerpo-nav * .8;
     line-height: @interlinea-nav * .8;
     margin: 0;
+    display: inline;
     padding-bottom: 0;
 
     span {
@@ -119,23 +100,24 @@
         margin: 0;
     }
 
-    .xs {
+    &.xs {
         margin:0;
         padding: 0;
     }
 
     &.md {
-        margin: @cuadratin 0;
+        margin: 0 0 @cuadratin * .5 0;
         padding: 0;
         font-size: @cuerpo-nav * .9;
-        line-height: @interlinea-nav;
+        line-height: 23px;
+        display: inline-block;
     }
 
     &.sm {
-        margin: @cuadratin / 2 0;
+        margin:0;
         padding: 0;
-        font-size: @cuerpo-nav * .85;
-        line-height: @interlinea-nav;
+        font-size: @cuerpo * .8;
+        line-height: @interlinea * .9;
     }
 }
 
@@ -154,53 +136,29 @@
     padding: 0;
 }
 
-.fecha-evento {
-    padding: @cuadratin * .25 @cuadratin * .5;
-    color: @blanco;
-    float: left;
-    height: @cuadratin * 2.5;
-    width: @cuadratin * 2.5;
-    margin: 0 @cuadratin * .5 0 0;
-    background-color: @gris-claro;
-
-    &.xs {
-        font-size: @cuerpo-nav * 7;
-        margin-top: @margen-lg * 2;
-    }
-
-    &.lg {
-        padding: 0;
-        margin: @margen-lg * 2.5 @margen-lg 0 0;
-        font-size: @cuerpo-nav * 9.5;
-        letter-spacing: -@cuadratin-tercio;
-    }
-
-    .mes{
-        color:@blanco;
-        font-family: @sans;
-        padding: 0;
-        margin: @cuadratin * .25 0 0 @cuadratin * .25;
-        letter-spacing: 0;
-        font-size: @cuerpo-nav * 1.5;
-    }
-
-    .dia {
-        font-family: @sans;
-        margin: 0 0 0 @cuadratin * .25;
-        padding: 0;
-        float: center;
-        color:@blanco;
-        font-size: @cuerpo-nav * 2.5;    
-        line-height: @cuerpo-nav * 2;
-        letter-spacing: 0;
-        }
-}
-
-h1,h2,h3,h4,h5,h6 {
+h5,h6 {
 
     &.nombre-seccion {
         margin: 0 0 @cuadratin / 2 0;
+        font-weight: 200;
     }
+}
+
+
+// Texto truncado
+
+#truncado {
+    width: auto;
+    height: 40%;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+#truncadomd {
+    width: auto;
+    height: 55%;
+    padding: 15px 0;
+    overflow: hidden;
 }
 
 // Estilos de párrafo especiales (ESTOS ESTILOS SON DE LAS MAQUETAS PREVIAS, HAY QUE VER SI AÚN SE MANTIENEN O SE EDITAN)
@@ -283,44 +241,6 @@ h2 {
     }
 }
 
-.lista-footer {
-    color: @gris;
-    list-style: none;
-    float: left;
-    font-size: @cuerpo-nav * .8;
-    padding: 0 auto;
-    margin: 0 auto;
-
-    a {
-        text-decoration: none;
-        &:hover {
-        color: @blanco;
-        cursor: pointer;
-        }
-    }
-
-    &.chica {
-        font-size: @cuerpo-nav * .6;
-        padding: @padding-lg 0 0 0;
-
-        a {
-            color: @gris-oscuro;
-
-            &:hover{
-                color:@blanco;
-            }
-        }
-    }
-}
-
-.datos-contacto {
-
-    &.footer {
-        color: @blanco;
-        padding: 0;
-        margin: 0;
-    }
-}
 
 .sitio-relacionado {
     font-size: @cuerpo-nav / 1.1;
@@ -365,18 +285,11 @@ h2 {
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
-    .imagenes-destacadas-descripcion-ead {
-        background-color: @transparente;
-        min-height: @cuadratin * 4;
-        position: absolute;
-        bottom: @cuadratin;
-        p {
-            font-size: @cuerpo * .8;
-            line-height: @interlinea * .9;
-            color: @blanco;
-        }
-        h4 {
-            font-size: @cuerpo;
+    h5,h6 {
+
+        &.nombre-seccion {
+            font-size: 25px;
+            font-weight: 300;
         }
     }
 
@@ -403,23 +316,12 @@ h2 {
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
-    .imagenes-destacadas-descripcion-ead {
-        background-color: @transparente;
-        position: absolute;
-        min-height: @cuadratin * 8;
-        bottom: @cuadratin;
-        p {
-            font-size: @cuerpo * .8;
-            line-height: @interlinea;
-            color: @blanco;
-        }
-        h4 {
-            font-size: @cuerpo * 1.4;
-        }
-    }
+    h5,h6 {
 
-    .logo-ead {
-        margin: 0 0 0 @cuadratin-tercio * .5;
+        &.nombre-seccion {
+            font-size: 19px;
+            font-weight: 300;
+        }
     }
 
     .caja-publicacion-prev {
@@ -429,6 +331,27 @@ h2 {
             line-height: @interlinea-nav * .7;
             margin-bottom: 0;
             padding-bottom: 0;
+
+            &.xs {
+                padding: 0 cuadratin;
+                display: inline-block;
+                width: 100%;
+            }
+
+            &.sm {
+                width: 100%;
+                margin:0;
+                padding: 0;
+                font-size: @cuerpo * .85;
+                line-height: @interlinea;
+            }
+
+            &.md {
+                padding: @cuadratin / 2 0 0 0;
+                width: 100%;
+                font-size: @cuerpo * .85;
+                line-height: @cuerpo * 1.5;
+            }
         }  
     }
 
@@ -437,72 +360,103 @@ h2 {
             font-size: @cuerpo * .95;
         }
     }
+
 }
 
 // Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+    .logo-ead {
+      margin: @cuadratin / 4 0 0 0;
+      padding: 0 @cuadratin / 4;
+      font-size: @cuerpo * 1.1;
+      letter-spacing: 1px;
 
-    .imagenes-destacadas-descripcion-ead {
-        background-color: @transparente;
-        min-height: @cuadratin * 4;
-        position: absolute;
-        bottom: @cuadratin;
-        p {
-            font-size: @cuerpo * 1;
-            line-height: @interlinea;
-            color: @blanco;
-        }
-        h4 {
-            font-size: @cuerpo * 1.8;
+      .bajas {
+        font-size: @cuerpo * .8;
+        margin:2px 0 0 0;
+      }
+
+      &.marca {
+        font-size: @cuerpo * 2.5;
+        letter-spacing: -1px;
+        margin: @cuadratin / 2 0;
+        padding: 0;
+      }
+    }
+
+    h5,h6 {
+
+        &.nombre-seccion {
+            font-size: 17px;
+            font-weight: 200;
         }
     }
 
-    // Tipografías
+
     .caja-publicacion-prev {
 
         .prev-texto{
-            font-size: @cuerpo-nav * .75;
-            line-height: @interlinea-nav * .75;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-    }
+            font-size: @cuerpo-nav * .8;
+            line-height: @interlinea-nav;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: inline-block;
+            width: 100%;
 
-    .titulo-prev {
+            &.xs {
+                padding: 0 cuadratin;
+            }
 
-        &.xs {
-            width: 65%;
-            float: left;
-            h6 {
-                font-size: @cuerpo * .95;
+            &.sm {
+                width: 100%;
+                margin:0;
+                padding: 0;
+                font-size: @cuerpo * .85;
+                line-height: @interlinea;
+            }
+
+            &.md {
+                padding: @cuadratin / 2 0 0 0;
+                width: 100%;
+                font-size: @cuerpo * .85;
             }
         }
+
+        .titulo-prev {
+
+            &.xs {
+                h6 {
+                    font-size: @cuerpo * .9;
+                }
+            }
+
+             &.md {
+                h4 {
+                    font-size: @cuerpo * 1.2;
+                    line-height: 22px;
+                }
+             }
+
+        }
     }
 
-    .fecha-evento {
-        padding: @cuadratin * .2 @cuadratin * .25;
-        float: left;
-        height: @cuadratin * 2;
-        width: 35%;
-        margin: @cuadratin *.25 0;
+    // Texto truncado
 
-        .mes{
-            padding: 0;
-            margin: 0 auto;
-            letter-spacing: 0;
-            font-size: @cuerpo-nav * 1.5;
-        }
+    #truncado {
+        width: auto;
+        height: 45%;
+        padding: 15px 0;
+        overflow: hidden;
+    }
 
-        .dia {
-            margin: 0 0 0 @cuadratin * .25;
-            padding: 0;
-            float: center;
-            font-size: @cuerpo-nav * 2;    
-            line-height: @cuerpo-nav * 1.25;
-            letter-spacing: 0;
-        }
+    #truncadomd {
+        width: auto;
+        height: 52%;
+        padding: 15px 0;
+        overflow: hidden;
     }
 }
 
@@ -510,24 +464,4 @@ h2 {
 
 @media (min-width: @screen-lg){
 
-
-    .imagenes-destacadas-descripcion-ead {
-        height: @cuadratin * 21.7;
-        top: 0;
-        background-color: @transparente;
-        position: relative;
-        float: right;
-        min-width: @cuadratin * 12;
-        padding: @cuadratin;
-
-        p {
-            font-size: @cuerpo * 1.3;
-            line-height: @interlinea * 1.3;
-            color: @blanco;
-        }
-
-        h4 {
-            font-size: @cuerpo * 1.5;
-        }
-    }
 }

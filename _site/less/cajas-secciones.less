@@ -1,18 +1,41 @@
 // Cajas de contenido específico + tipografías + elementos
 
+.logo{
+    margin: @cuadratin * .75 0 @cuadratin * .75 0;
+    display: block;
+    max-width: 320px;
+    float: left;
+    position: relative;
+}
+
+.navegacion {
+    margin: 46px 0 0 0;
+    padding: 0 0 0 72px;
+    float: right;
+    display: inline-block;
+    width: 960px;
+
+}
+
+
 .caja-publicacion-prev {
-    padding: 0;
 
     h6 {
         margin:0;
+        line-height: 22px;
     }
 
     .titulo-prev {
-        min-height: @cuadratin * 1.5;
-        margin: @cuadratin * .25 0;
+        padding: @cuadratin * .25 0 0 0;
+
+        &.xs {
+            width: 100%;
+            float: left;
+            padding: @cuadratin * .5 0 @cuadratin * .25;
+        }
 
         &.md {
-            margin: @cuadratin *.25 0 0 0;
+            margin: @cuadratin * .25 0 0 0;
             min-height: auto;
             padding: 0;
             position: relative;
@@ -27,20 +50,20 @@
 
     // Ajustes según el tamaños de la caja
 
-    &.categorizada {
-        margin-left: @cuadratin / 2;
+    &.por-oficio {
+        margin: 0 0 @cuadratin * .25 0;
         padding: 0;
-        border: none;
-                        
-        .imagen-noticia-prev {
-            height: @cuadratin * 11.4; 
-            overflow: hidden;
-            float: left;
-            position: relative;
-            
-            .excedente-imagen {
-                height: @cuadratin * 11.4;
-                overflow: hidden;
+    }
+
+    &.por-categoria {
+
+        .lectura-prev{
+            padding: 0 @cuadratin / 2;
+            display: block;
+            height: @cuadratin * 14.25;
+
+            h5 {
+                margin: @cuadratin / 2 0 0 0;
             }
         }
     }
@@ -50,24 +73,26 @@
 .lectura-prev {
     padding: 0;
     position: relative;
-    height: @cuadratin * 5.7;
+    height: 100%;
 
     &.xs {
          padding: 0 @cuadratin / 2;
+         height: @cuadratin * 5.7;
     }
     
     &.sm {
         padding: 0 @cuadratin / 2;
         display: block;
+        height: @cuadratin * 7.1;
     }
 
     &.md {
-        float: left;
         position: relative;
         margin: 0;
-        width: 666px;
+        width: 695px;
         padding: 0 @cuadratin;
-        height: @cuadratin * 11.4;
+        height: 100%;
+        display: inline-block;
 
         h6 {
             margin: 0;
@@ -83,27 +108,13 @@
             margin:@cuadratin-tercio 0;
         }
     }
-
-    &.angosta {
-        padding: 0 @cuadratin / 2;
-        display: block;
-        height: @cuadratin * 16;
-
-        .titulo-prev {
-            height: @cuadratin * 5.5;
-        }
-
-        h5 {
-            margin: @cuadratin / 2 0 0 0;
-        }
-    }
 }
 
 .leer-mas {
     position: absolute;
     color: @rojo-opuesto;
-    right: @cuadratin-tercio;
-    bottom: 0;
+    bottom: 10px;
+    right: @cuadratin / 2;
 }
 
 .categorias-publicacion {
@@ -111,98 +122,11 @@
     position: absolute;
 }
 
-.caja-contenido-postulante {
-    border:1px solid @gris-claro;
-    margin: 0 @cuadratin / 2 @cuadratin / 2;
-    padding: @cuadratin / 2;
+// bloque meta (borrar, sujeto a los cambios de simon)
 
-    h6 {
-        margin: 0 0 @cuadratin / 2;
-
-        &:hover {
-            color: @rojo-claro;
-        }
-    }
-}
-
-.enlaces-aside {
-    font-size: @cuerpo-nav * .85;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li:before {
-        font-family: 'Stampa';
-        content: '\e601';
-        margin:0 @cuadratin-tercio 0 -@cuadratin-tercio * 2;
-        color: @rojo-claro;
-    }
-
-    li {
-        line-height: @interlinea-nav *.9;
-        margin-bottom: @cuerpo-nav *.5;
-
-        a {
-            &:hover {
-                color: @pizarra-oscuro;
-                text-decoration: none;
-            }
-        }
-    }
-
-    &.postulante {
-        
-        ul {
-            margin: 0 0 @cuadratin-tercio;
-            padding: 0 0 @cuadratin @cuadratin;
-        }
-
-        li {
-            color: @gris-oscuro;
-            font-weight: 500;
-            background-color: @gris-blanco;
-            padding: 5px @cuadratin;
-            margin: 0 0 @cuadratin / 2 0;
-            border:1px solid @gris-claro;
-
-            &:hover {
-                color: @blanco;
-                background-color: @rojo-claro;
-                .transition(.3s ease all);
-
-                a {
-                    color: @blanco;
-                }
-            }
-        }
-    }
-}
-
-// auxiliares para bloques (maqueteo)
-
-.alto-xs {
-    min-height: @cuadratin * 5.7;
-    //background-color: orange;
-    margin-bottom: @cuadratin / 2;
-}
-
-.alto-sm {
-    min-height: @cuadratin * 11.4;
-    //background-color: red;
-    margin-bottom: @cuadratin / 2;
-    position: relative;
-}
-
-.alto-md {
-    height: @cuadratin * 17.1;
-    border-bottom:1px solid @gris-blanco;
-    margin-bottom: @cuadratin;
-}
-
-
-.alto-lg {
-    min-height: @cuadratin * 21;
-    border:1px solid @gris-blanco;
+.menu-meta {
+    height: @cuadratin;
+    background-color: @negro;
 }
 
 // estilos de cajas
@@ -224,20 +148,161 @@
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
+    .caja-publicacion-prev{
+        .titulo-prev {
+
+            &.xs {
+                width: 74%;
+                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
+            }
+
+            &.md {
+                margin: @cuadratin * .25 0 0 0;
+            }
+        }
+    }
+
+    .lectura-prev {
+
+        &.xs {
+             padding: 0 @cuadratin * .5;
+             height: @cuadratin * 7.12;
+        }
+
+        &.sm {
+            padding: 0 @cuadratin * .75;
+        }
+
+        &.md {
+            position: relative;
+            margin: 0;
+            width: 68%;
+            height: 100%;
+            display: inline-block;
+            padding: 0 @cuadratin* .75;
+
+            h6 {
+                margin: 0;
+                padding: 0;
+            }
+
+            h4 {
+                margin: @cuadratin / 2 0 0 0;
+                padding: 0;
+            }
+
+            .nombre-seccion {
+                margin:@cuadratin-tercio 0;
+            }
+        }
+    }
 }
 
 // Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+    .logo{
+        margin: @cuadratin * .25 0 0 0;
+        max-width: 320px;
+    }
+
+    .navegacion {
+        margin: @cuadratin / 2 0;
+        padding: 0;
+        float: left;
+        width: 100%;
+
+    }
+
+    .wrap-carousel {
+        max-width: 100%;
+    }
+
+    .caja-publicacion-prev{
+        .titulo-prev {
+
+            &.xs {
+                width: 70%;
+                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
+            }
+
+            &.md {
+                margin: @cuadratin * .25 0 0 0;
+            }
+        }
+    }
+
     .lectura-prev {
 
         &.xs {
-             padding: 0 @cuadratin / 4;
+             padding: 0 @cuadratin * .5;
+             height: @cuadratin * 7.12;
+        }
+
+        &.sm {
+            padding: 0 @cuadratin * .75;
+        }
+
+        &.md {
+            position: relative;
+            margin: 0;
+            width: 65%;
+            height: 100%;
+            display: inline-block;
+            padding: 0 @cuadratin* .75;
+
+            h6 {
+                margin: 0;
+                padding: 0;
+            }
+
+            h4 {
+                margin: @cuadratin / 2 0 0 0;
+                padding: 0;
+            }
+
+            .nombre-seccion {
+                margin:@cuadratin-tercio 0;
+            }
+        }
+    }
+
+    .enlaces-aside {
+
+        li {
+            line-height: @interlinea-nav *.9;
+            margin: 0 0 10px 0;
+
+            a {
+                font-size: @cuerpo * .9;
+                font-weight: 300;
+                line-height: ;
+            }
+        }
+
+        &.postulante {
+            
+            ul {
+                margin: 0 0 @cuadratin-tercio;
+                padding: 0 0 @cuadratin @cuadratin;
+            }
+
+            li {
+                padding: 4px @cuadratin * .5;
+                margin: 0 0 @cuadratin * .25 0;
+                font-size: @cuerpo * .9;
+            }
         }
     }
 
 }
+
+    .fondo-ruido {
+        background-color: @gris-blanco;
+        background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
+        border: none;
+    }
 
 // Large screen / wide desktop
 
