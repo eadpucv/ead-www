@@ -1,10 +1,50 @@
 // Ajuste de imágenes
     
-// TRABAJA DE JUAN 
-
 .ancho-maximo {
-    width: 100%;
+    width: 120%;
 }
+
+.prev-imagen {
+    position: relative;
+    overflow: hidden;
+
+        img{
+            overflow: hidden;
+        }
+
+    &.xs {
+
+    }
+
+    &.sm {
+        margin: 0;
+        height: @cuadratin * 6;
+        margin-bottom: 15px;
+
+        img {
+
+        }
+    }
+
+    &.md {
+        margin: 0;
+        padding: 0;
+        height: @cuadratin * 14;
+        width: inherit;
+        position: relative;
+        display: inline-block;
+        background: black;
+        padding: 0;
+
+        img {
+            height: auto;
+            width: 145%;
+
+        }
+    }
+
+}
+
 
 .noticia {
 
@@ -24,14 +64,6 @@
     }
 }
 
-    &.chica {
-    position: relative;
-    margin-bottom: @cuadratin * .25;
-
-        img{
-        overflow: hidden;
-        }
-    }
 }
 
 .categoria {
@@ -74,66 +106,50 @@
     clear: none;
 }
 
-// TRABAJO DE JUAN
-
-
-.imagen-noticia-prev {
-    height: @cuadratin * 5.7;
-    overflow: hidden;
-    max-width: 310px;
-
-    .excedente-imagen {
-        position: center;
-        width: auto;
-        height: 150%;
-    }
-
-    &.angosta {
-        width: 280px;
-        
-        .excedente-imagen {
-            position: center;
-            width: auto;
-            height: 250%;
-        }
-    }
-
-    &.sm {
-        padding: 15px;
-        .excedente-imagen {
-            position: center;
-            width: 100%;
-            height: auto;
-        }
-    }
-}
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
     // Contenedor del carousel
-    .imagenes-destacadas-ead {
+    .imagen-carousel {
     min-height: @cuadratin * 10;
     }
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-    height: @cuadratin * 10;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 120%;
     }
 
-    .imagen-noticia-prev {
-        max-width: 100%; 
-        overflow: hidden;
+    .prev-imagen {
 
-            .excedente-imagen {
-                overflow: hidden;
-                position: center;
-                width: 130%;
+        &.sm {
+            height: auto;
+
+            img {
+                width: 120%;
                 height: auto;
             }
+        }
+
+        &.md {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            float: left;
+
+            img {
+                height: 130%;
+                width: auto;
+            }
+        }
     }
 
     // Portada noticias
+
+    // Revisar esto: Juancho
 
     .noticia {
 
@@ -175,16 +191,43 @@
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
     // Contenedor del carousel
-    .imagenes-destacadas-ead {
-        min-height: @cuadratin * 18;
+    .imagen-carousel {
+        height: @cuadratin * 18;
     }
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-    height: @cuadratin * 18;
-    background-color: @gris-oscuro;
+        overflow: hidden;
+        position: absolute;
+        bottom: -10%;
+        width: 120%;
     }
 
+    .prev-imagen {
+
+        &.sm {
+            height: @cuadratin * 6.5;
+
+            img {
+                width: 120%;
+                height: auto;
+            }
+        }
+
+        &.md {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            float: left;
+
+            img {
+                height: 170%;
+                width: auto;
+            }
+        }
+    }
+
+    // Revisar esto: Juancho
         .noticia {
 
         &.grande {
@@ -219,29 +262,43 @@
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
     // Contenedor del carousel
-    .imagenes-destacadas-ead {
+    .imagen-carousel{
         min-height: @cuadratin * 16;
     }
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-    height: @cuadratin * 16;
+        overflow: hidden;
+        position: absolute;
+        bottom: -40%;
+        width: 100%;
     } 
 
-    .imagen-noticia-prev {
-        width: 100%; 
-        overflow: hidden;
+    .prev-imagen {
 
-        .excedente-imagen {
-            overflow: hidden;
-            position: center;
-            width: 170%;
-            height: auto;
+        &.sm {
+            height: 200px;
+
+            img {
+                width: 150%;
+                height: auto;
+            }
+        }
+
+        &.md {
+            width: 100%;
+            padding: 0;
+
+            img {
+                height: 100%;
+                width: auto;
+            }
         }
     }
-    }
 
-        .noticia {
+    // Revisar esto: Juancho
+
+    .noticia {
 
         &.grande {
         
@@ -249,7 +306,6 @@
         position: relative;
         overflow: hidden;
         height: @cuadratin * 12;
-
 
             img{
             height: auto;
@@ -300,14 +356,16 @@
     }
 }
 
+}
+
 
 // Large screen / wide desktop
 
 @media (min-width: @screen-lg){
 
     // Contenedor del carousel
-    .imagenes-destacadas-ead {
-        min-height: @cuadratin * 22.7;
+    .imagen-carousel {
+        height: 659px;
     }
 
     // Portada noticias
@@ -322,8 +380,10 @@
 
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
-        height: @cuadratin * 22.7;
-        position: relative;
+        overflow: hidden;
+        position: absolute;
+        bottom: -35%;
+        width: 150%;
     }
 
 }
