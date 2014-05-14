@@ -10,7 +10,7 @@
 
 .alto-sm {
     height: @cuadratin * 8;
-    margin: 0 0 30px 0;
+    margin: 0 0 50px 0;
 }
 
 // el valor de alto-md son 3 unidades
@@ -36,7 +36,7 @@
     //  Tamaños
 
     &.xs {
-        min-height: 180px;
+        min-height: 90px;
         padding: 0px;
 
         img {
@@ -99,9 +99,7 @@
     }
 
     &.info-docencia {
-        padding: 52px 15px;
-        border-left: 1px solid fade(@pizarra, 20%);
-        border-right: 1px solid fade(@pizarra, 20%);
+        padding: 10px 15px;
     }
 
     &.noticias-recientes {
@@ -253,7 +251,7 @@
 .cita-carousel {
     height: 613px;
     //background: linear-gradient(to top, rgba(0, 0, 0, .95), rgba(0,0,0, .35));
-    background-color: fade(@gris-claro, 90%);
+    background-color: fade(@blanco, 96%);
     float: right;
     padding: @cuadratin * 2 @cuadratin;
     position: relative;
@@ -354,13 +352,15 @@ footer {
     background-color: @negro;
 
     p {
-        padding-top: 20px;
+        padding-top: 10px;
         font-family: @sans;
-        color: @gris;
         font-size: 11px;
     }
 }
 
+.mapa {
+
+}
 
 // clases auxiliares para bloques
 
@@ -445,6 +445,8 @@ hr {
     }
 
     .bloque-enlace {
+
+        max-height: 100%;
 
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
