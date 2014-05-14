@@ -5,13 +5,16 @@ p {
 .cita {
 	margin: 0;
 	line-height: 25px;
-	margin-bottom: 30px;
 	//text-align: center;
-	font-style: italic;
 	font-weight: 200;
-	color: @gris-oscuro;
+	color: fade(@gris-claro, 70%);
 	font-size: @cuerpo;
-	display: inline;
+	display: inline-block;
+	width: 984px;
+	border-left: 2px solid fade(@gris, 60);
+	border-right: 2px solid fade(@gris, 60);
+	padding-left: @cuadratin * 2;
+	padding-right: @cuadratin * 2;
 }
 
 ul li{
