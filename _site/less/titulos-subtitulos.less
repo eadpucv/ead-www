@@ -10,22 +10,48 @@ h3, h4, h5, h6 {
 	font-size: 18px;
 }
 
-.seccion {
+
+.fondo-blanco{
+	.seccion {
 		border-bottom: 1px solid fade(@gris, 50);
 		text-align: center;
 		position: relative;
-		margin: @cuadratin 0;
-	
+		margin: 0;
+		padding: 13px 0 30px 0px;
+		
+		h3{
+			background-color: @blanco;
+		}
+	}
+}
+
+.seccion{
+	text-align: center;
+	position: relative;
+	margin: 0px;
+	padding: 13px 0 30px 0px;
+
 	h3{
 		color: @gris;
 		font-size: 14px;
 		letter-spacing: 4px;
 		text-transform: uppercase;
-		background-color: @blanco;
 		position: relative;
-		top: 20px;
-		padding: 0 20px;
-		display: inline-block;
+		top: 14px;
+		padding: 0 25px;
+		display: inline;
+
+		&:before,
+		&:after{
+			content: "";
+			display: inline-block;
+			position: relative;
+			border-top: 1px solid fade(@negro, 10);
+			border-bottom: 1px solid fade(@blanco, 70);
+			width: 35%;
+			height: 2px;
+		}
+
 
 		i{
 			font-size: 14px;
