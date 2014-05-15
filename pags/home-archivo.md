@@ -72,9 +72,7 @@ title: Archivo Histórico JVA
 <div class='col-lg-12 col-md-12'>
 	<div class='wrap'>
     <div class='division-seccion'>
-      <h3>
-        <i class="icn icn-noticias icn-lg"></i> Noticias
-      </h3>
+      <h3><i class="icn icn-noticias icn-lg "></i> Noticias</h3>
     </div>
 
 	<div class='fila'>
@@ -118,8 +116,8 @@ title: Archivo Histórico JVA
 <div class='fila'>
 	<div class="col-lg-12">
 
-		<div class='col-lg-3 col-lg-offset-0'>
-			<div class='cont-noticia-previa margen-superior'>
+		<div class='col-lg-3 '>
+			<div class='cont-noticia-previa'>
 				<div class='cont-icono-fecha'>
 					<i class='icn icn-noticias icn-md rojo-claro'></i>
 					<span class="gris-oscuro datos-publicacion">jueves 8 de mayo de 2014</span>
@@ -128,7 +126,7 @@ title: Archivo Histórico JVA
 					<a href='#'><h6 class="rojo-claro">Presentación Libro "Los Ojos del Gato"</br> Memorial de Edison Simons</h6></a>
 				</div>
 
-				<div class='cont-icono-fecha'>
+				<div class='cont-icono-fecha margen-superior-s'>
 					<i class='icn icn-noticias icn-md rojo-claro'></i>
 				<span class="gris-oscuro datos-publicacion">jueves 2 de enero de 2014</span>
 				</div>
@@ -138,8 +136,8 @@ title: Archivo Histórico JVA
 			</div>
 		</div>
 
-		<div class='col-lg-3 col-lg-offset-1'>
-			<div class='cont-noticia-previa col-lg-12 margen-superior'>
+		<div class='col-lg-3 col-lg-offset-0'>
+			<div class='cont-noticia-previa'>
 				<div class='cont-icono-fecha'>
 					<i class='icn icn-noticias icn-md rojo-claro'></i>
 					<span class="gris-oscuro datos-publicacion">jueves 8 de mayo de 2014</span>
@@ -148,7 +146,7 @@ title: Archivo Histórico JVA
 					<a href='#'><h6 class="rojo-claro">Presentación Libro "Los Ojos del Gato"</br> Memorial de Edison Simons</h6></a>
 				</div>
 
-				<div class='cont-icono-fecha'>
+				<div class='cont-icono-fecha margen-superior-s'>
 					<i class='icn icn-noticias icn-md rojo-claro'></i>
 					<span class="gris-oscuro datos-publicacion">jueves 2 de enero de 2014</span>
 				</div>
@@ -158,8 +156,8 @@ title: Archivo Histórico JVA
 			</div>
 		</div>
 
-		<div class='col-lg-3 col-lg-offset-1'>
-			<div class='cont-noticia-previa col-lg-12 margen-superior'>
+		<div class='col-lg-3 col-lg-offset-0'>
+			<div class='cont-noticia-previa'>
 				<div class='cont-icono-fecha'>
 					<i class='icn icn-noticias icn-md rojo-claro'></i>
 					<span class="gris-oscuro datos-publicacion">jueves 8 de mayo de 2014</span>
@@ -168,7 +166,7 @@ title: Archivo Histórico JVA
 					<a href='#'><h6 class="rojo-claro">Presentación Libro "Los Ojos del Gato"</br> Memorial de Edison Simons</h6></a>
 				</div>
 
-				<div class='cont-icono-fecha'>
+				<div class='cont-icono-fecha margen-superior-s'>
 					<i class='icn icn-noticias icn-md rojo-claro'></i>
 					<span class="gris-oscuro datos-publicacion">jueves 2 de enero de 2014</span>
 				</div>
@@ -184,115 +182,156 @@ title: Archivo Histórico JVA
 
 <!--  Inicio Álbumes destacados -->
 
-
 <div class='col-lg-12'>
-    <div class='fila'>
-      <div class='wrap'>
+	<div class='wrap'>
+		<div class='division-seccion'>
+      		<h3><i class="icn icn-estrella icn-lg "></i> Álbumes destacados</h3>
+    	</div>
+    	<div class='fila'>
+      
 
 		<div class='col-lg-12 margen-superior'>
-			<div class='col-lg-9 linea-divisora  fondo-gris'></div>
+<!-- 			<div class='col-lg-9 linea-divisora  fondo-gris'></div>
 			<div class='col-lg-4 col-md-offset-1'><h6 class='rojo-claro pesada altas'>Álbumes destacados</h6></div>
-			<div class='col-lg-9 col-md-offset-1 linea-divisora fondo-gris'></div>
+			<div class='col-lg-9 col-md-offset-1 linea-divisora fondo-gris'></div> -->
 
-			<div class='col-lg-24 col-md-24 col-sm-23 fondo blanco margen-superior'>
-
-				<div class='col-lg-7 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 fondo-gris-claro margen-cuadros'>
+				<div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
 					<img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-album-1.jpg'></br>
-					<div class='cuadro-icono fondo-negro-claro'></div>
+					<div class='cuadro-icono fondo-negro-claro'><i class= 'icn icn-acto icn-lg blanco'></i> </div>
 
-					<h4 class='rojo-claro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Montaje y Exposición:</br>4ta Bienal Chile se Diseña</h4> <h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día lunes 21 de Abril 2014.</h6>
+					<h6 class='rojo-claro fina texto-cuadro-des'>Montaje y Exposición:</br>4ta Bienal Chile se Diseña</h6> <h6 class="datos-publicacion col-lg-12">Publicado día lunes 21 de Abril 2014.</h6>
 
-					<p class='xs gris-oscuro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
-					<p class="col-lg-21 col-lg-offset-2 categorias-publicacion margen-superior">[ Diseño ] [ Actividades ]</p>  
+					<p class='xs negro-claro fina texto-cuadro-des'>Entre el 26 de noviembre y el 12 de diciembre de 2010 se realizó la 4ª Bienal de Diseño que marcó la refundación de las bienales de esta disciplina luego de 14 años de ausencia.</p> 
 
-					<div class='col-lg-2 col-lg-offset-22 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 texto-cuadro-des'>
+					<p class="categorias-publicacion margen-superior-s">[ Diseño ]  [ Actividades ]</p>  
+
+					<div class='col-lg-offset-11 texto-cuadro-des'>
 						<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
 					</div>        
 				</div>
 
-				<div class='col-lg-7 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 fondo-gris-claro margen-cuadros'>
+				<div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
 
 					<img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-album-2.jpg'>
 					<div class='cuadro-icono fondo-negro-claro'></div> 
 
-					<h4 class='rojo-claro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Valparaíso Antiguo:</br>Capturas de Juan Hernández</h4> <h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día miércoles 23 de Abril 2014.</h6>
-					<p class='xs gris-oscuro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
-					<p class="col-lg-21 col-lg-offset-2 categorias-publicacion margen-superior">[ Catastro ]</p>  
+					<h6 class='rojo-claro fina texto-cuadro-des'>Valparaíso Antiguo:</br>Capturas de Juan Hernández</h6> <h6 class="datos-publicacion col-lg-12">Publicado día miércoles 23 de Abril 2014.</h6>
 
-					<div class='col-lg-2 col-lg-offset-22 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 texto-cuadro-des'>
+					<p class='xs negro-claro fina  texto-cuadro-des'>Imágenes de la ciudad entre 1960 y 1980, que da cuenta de rasgos esenciales de la identidad original del puerto y su patrimonio,bajo el registro histórico de Juan Hernández, ex fotógrafo de la escuela.</p> 
+
+					<p class="categorias-publicacion margen-superior">[ Catastro ]</p>  
+
+					<div class='col-lg-offset-11 texto-cuadro-des'>
 						<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
 					</div>        
 				</div>
 
-				<div class='col-lg-7 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 fondo-gris-claro'>
+				<div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
 
 					<img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-album-3.jpg'>
-					<div class='cuadro-icono fondo-negro-claro'>
-						<i class='icn icn-travesia icn-lg col-lg-2 col-lg-offset-6 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 '></i>
+					<div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco'></i>
 					</div>
 
-					<h4 class='rojo-claro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Travesía Caldera:</br>Habitáculos para el desierto</h4><h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día jueves 24 de Abril 2014.</h6>
-					<p class='xs gris-oscuro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
-					<p class="col-lg-21 col-lg-offset-2 categorias-publicacion margen-superior">[ Travesías ] [ Diseño Industrial ][ Arquitectura ]</p>    
+					<h6 class='rojo-claro fina texto-cuadro-des'>Travesía Caldera:</br>Habitáculos para el desierto</h6><h6 class="datos-publicacion col-lg-12 ">Publicado día jueves 24 de Abril 2014.</h6>
+
+					<p class='xs negro-claro fina texto-cuadro-des'>Travesía al norte del país, realizada por alumnos de taller de Diseño Industrial y el profesor Ricardo Lang el año 1987.</p> 
+
+					<p class="categorias-publicacion margen-superior">[ Travesía ] [ Diseño Industrial ]</p>    
 					
-					<div class='col-lg-2 col-lg-offset-22 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 texto-cuadro-des'>
+					<div class='col-lg-offset-11 texto-cuadro-des'>
 						<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
-					</div>
+					</div> 
 				</div>
-			</div> <!-- fin col-lg-24 --> 
-		</div> <!-- fin col-md-18 --> 
+
+				<div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
+
+					<img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/travesia-tarabuco.jpg'>
+					<div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco'></i>
+					</div>
+
+					<h6 class='rojo-claro fina texto-cuadro-des'>Travesía Tarabuco:</br>Taller 2º año Diseño Industrial</h6><h6 class="datos-publicacion col-lg-12">Publicado día jueves 24 de Abril 2014.</h6>
+
+					<p class='xs negro-claro fina texto-cuadro-des'> Travesía realizada a Bolivia por el Taller de 2º año Diseño Industrial junto al profesor Juan Carlos Jeldes y su ayudante Daniela Salgado</p> 
+
+					<p class="categorias-publicacion margen-superior">[ Travesía ] [ Diseño Industrial ]</p>    
+					
+					<div class='col-lg-offset-11 texto-cuadro-des'>
+						<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
+					</div> 
+				</div>
+
+			</div> <!-- fin col-lg-24 -->
+		</div>
 	</div>
 </div>
-</div>
-		<!-- fin álbumes destacados --> 
+<!-- fin álbumes destacados --> 
 		<!-- inicio publicaciones recientes --> 
 
 <div class='col-lg-12'>
-    <div class='fila'>
-      <div class='wrap'>
-			<div class='col-md-18 col-md-offset-3 col-sm-14 col-sm-offset-1 col-xs-22 col-xs-offset-1 margen-superior'>
-				<div class='col-lg-8 linea-divisora  fondo-gris'></div>
+	<div class='wrap'>
+    	<div class='division-seccion'>
+      		<h3><i class="icn icn-etiqueta icn-lg "></i> Publicaciones recientes</h3>
+    	</div>
+    	<div class='fila'>
+      
+			<div class='col-lg-12 margen-superior'>
+<!-- 				<div class='col-lg-8 linea-divisora  fondo-gris'></div>
 				<div class='col-lg-6 col-md-offset-1'><h6 class='rojo-claro pesada altas'>Publicaciones  recientes</h6></div>
-				<div class='col-lg-8 col-md-offset-1 linea-divisora fondo-gris'></div>
-				<div class='col-lg-24 col-md-24 col-sm-23 fondo blanco margen-superior'>
-					<div class='col-lg-7 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 fondo-gris-claro margen-cuadros'>
-						<img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-pub-1.jpg'>
+				<div class='col-lg-8 col-md-offset-1 linea-divisora fondo-gris'></div> -->
+				
+				<div class='col-lg-12 fondo-blanco margen-superior'>
+					<div class='col-lg-2 fondo-gris-claro margen-cuadros'>
+						<img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/marimenuco-travesia.jpg'>
 							<div class='cuadro-icono fondo-negro-claro'>
-								<i class='icn icn-travesia icn-lg col-lg-2 col-lg-offset-6 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 '></i>
+								<i class='icn icn-imagen icn-lg blanco'></i>
 							</div>
 						</br>
-						<h4 class='rojo-claro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Travesía Tarabuco</h4> 
+						<h6 class='rojo-claro fina texto-cuadro-des'>Travesía Marimenuco 2012</h6> 
 						<h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día viernes 25 de Abril 2014.</h6> 
-						<p class='xs gris-oscuro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p>
-						<p class="col-lg-21 col-lg-offset-2 categorias-publicacion margen-superior">[ Travesías ] [ Diseño Industrial ]</p>    
-						<div class='col-lg-2 col-lg-offset-22 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 texto-cuadro-des'>
+						<p class='xs negro-claro fina texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p>
+						<p class="categorias-publicacion margen-superior">[ Travesías ] [ Diseño Industrial ]</p>    
+						<div class='col-lg-offset-11 texto-cuadro-des'>
 							<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
 						</div>        
 					</div>
-					<div class='col-lg-7 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 fondo-gris-claro margen-cuadros'>
+					<div class='col-lg-2 fondo-gris-claro margen-cuadros'>
 						<img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-pub-2.jpg'>
-						<div class='cuadro-icono fondo-negro-claro'></div>
-						<h4 class='rojo-claro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Taller de Amereida</h4> 
+						<div class='cuadro-icono fondo-negro-claro'><i class='icn icn-parlante-l icn-lg blanco'></i></div>
+						<h6 class='rojo-claro fina texto-cuadro-des'>Taller de Amereida</h6> 
 						<h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día miércoles 30 de Abril 2014.</h6>
-						<p class='xs gris-oscuro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
-						<p class="col-lg-21 col-lg-offset-2 categorias-publicacion margen-superior">[ Actividades ] [Taller de Amereida ]</p>    
-						<div class='col-lg-2 col-lg-offset-22 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 texto-cuadro-des'>
+						<p class='xs negro-claro fina texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
+						<p class="categorias-publicacion margen-superior">[ Actividades ] [Taller de Amereida ]</p>    
+						<div class='col-lg-offset-11 texto-cuadro-des'>
 							<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
 						</div>        
 					</div>
-					<div class='col-lg-7 col-md-12 col-md-offset-0 col-sm-offset-1 col-xs-20 col-xs-offset-3 fondo-gris-claro'>
+					<div class='col-lg-2 fondo-gris-claro margen-cuadros '>
 						<img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-pub-3.jpg'>
 						<div class='cuadro-icono fondo-negro-claro'>
-							<i class='icn icn-acto icn-lg col-lg-2 col-lg-offset-6 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3'></i>
+							<i class='icn icn-ojo-l icn-lg blanco'></i>
 						</div>
-						<h4 class='rojo-claro fina col-lg-21 col-lg-offset-2 texto-cuadro-des'>Phalène de Horcones</h4>
+						<h6 class='rojo-claro fina texto-cuadro-des'>Phalène de Horcones</h6>
 						<h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día miércoles 30 de Abril 2014.</h6> 
-						<p class='xs gris-oscuro fina col-lg-21 col-lg-offset-2 '>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
-						<p class="col-lg-21 col-lg-offset-2 categorias-publicacion margen-superior">[Actividades ] [ Phalènes- Actos poéticos ]</p>    
-						<div class='col-lg-2 col-lg-offset-22 col-md-24 col-md-offset-20 col-sm-offset-1 col-xs-20 col-xs-offset-3 texto-cuadro-des'>
+						<p class='xs negro-claro fina texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
+						<p class="categorias-publicacion margen-superior">[ Actos poéticos ]</p>    
+						<div class='col-lg-offset-11 texto-cuadro-des'>
 							<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
-						</div>
+						</div> 
 					</div>
+					<div class='col-lg-2 fondo-gris-claro'>
+						<img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/pizarron20años-documentos.jpg'>
+						<div class='cuadro-icono fondo-negro-claro'>
+							<i class='icn icn-documento-l icn-lg blanco'></i>
+						</div>
+						<h6 class='rojo-claro fina texto-cuadro-des'>Exposición 20 años </h6>
+						<h6 class="datos-publicacion col-lg-21 col-lg-offset-2">Publicado día miércoles 30 de Abril 2014.</h6> 
+						<p class='xs negro-claro fina texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p> 
+						<p class="categorias-publicacion margen-superior">[Exposiciones]</p>    
+						<div class='col-lg-offset-11 texto-cuadro-des'>
+							<a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
+						</div> 
+					</div>
+
 				</div> <!-- fin col-lg-24  --> 
 			</div> <!-- fin col-md-18 publicaciones recientes--> 
 		</div> <!-- fin fila -->
