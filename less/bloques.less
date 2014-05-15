@@ -10,7 +10,7 @@
 
 .alto-sm {
     height: @cuadratin * 8;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
 }
 
 // el valor de alto-md son 3 unidades
@@ -85,14 +85,6 @@
         max-height: 120px;
 
         p {
-            max-height: 85px;
-            overflow: hidden;
-        }
-    }
-
-    &.categoria {
-        p {
-            margin: 7.5px 0;
             max-height: 85px;
             overflow: hidden;
         }
@@ -176,6 +168,11 @@
     }
 }
 
+.categoria {
+    margin: 30px 0;
+    padding: 15px 0;
+}
+
 .bloque-enlace {
     background-color: fade(@gris-claro, 25%);
     border:1px solid #e3e3e3;
@@ -204,6 +201,36 @@
                 -o-transition: opacity .5s linear, opacity 0.2s linear;
             }
         }
+    }
+}
+
+
+.enlace-noticia {
+    background-color: none;
+    /*border-bottom: 1px solid @gris-claro;
+    padding-bottom: 15px;*/
+    display: inline-block;
+    padding-top: 3px;
+    border-top: 2px solid fade(@rojo-claro, 80);
+
+    &:hover {
+        border-top: 20px solid @rojo-claro;
+        //border-width: 25px;
+        .transition(.3s ease all);
+
+        h6 {
+        color: @rojo-claro;
+        .transition(.3s ease all);
+        }
+    }
+
+    h6 {
+        color: fade(@negro, 85);
+    }
+        
+    p {
+        max-height: 85px;
+        overflow: hidden;
     }
 }
 
@@ -249,7 +276,7 @@
 }
 
 .cita-carousel {
-    height: 613px;
+    height: 614px;
     //background: linear-gradient(to top, rgba(0, 0, 0, .95), rgba(0,0,0, .35));
     background-color: fade(@blanco, 96%);
     float: right;
@@ -442,6 +469,10 @@ hr {
             overflow: hidden;
             max-height: 250px;
         }
+
+        &.info-docencia {
+            padding: 0px 15px;
+        }
     }
 
     .bloque-enlace {
@@ -490,7 +521,33 @@ hr {
     .pie-de-foto {
 
         p {
-            font-size: 10px;
+            font-size: 1.8vmax;
+            padding: 0 20px;
+        }
+    }
+
+    .referencia-cita {
+        width: 100%;  
+        float: left;
+        margin: 0;
+        border-left: none;
+
+        h6 {
+            width: 90%;
+        }
+
+        i {
+            font-size: 27px;
+            margin: 0 7.5% 0 0;
+        }
+    }
+
+    .licencia {
+        margin: 10px 0 0 0;
+        height: 100px;
+
+        p {
+            padding-top: 0px;
         }
     }
 }
@@ -533,7 +590,6 @@ hr {
             }
         }
 
-
         &.carrera {
             right: 15px;
             left: 15px;
@@ -541,6 +597,10 @@ hr {
             padding: 15px;
             overflow: hidden;
             max-height: 250px;
+        }
+
+        &.info-docencia {
+            padding: 0px 15px;
         }
     }
 
@@ -564,6 +624,31 @@ hr {
             }
         }
     }
+
+    .referencia-cita {
+        width: 100%;  
+        float: left;
+        margin: 0;
+        border-left: none;
+
+        h6 {
+            width: 90%;
+        }
+
+        i {
+            font-size: 27px;
+            margin: 0 7.5% 0 0;
+        }
+    }
+
+    .licencia {
+        margin: 10px 0 0 0;
+        height: 100px;
+
+        p {
+            padding-top: 0px;
+        }
+    }
 }
 
 // Medium screen / desktop
@@ -575,7 +660,7 @@ hr {
     }
     
     .cita-carousel {
-        height: 434px;
+        height: 454px;
         padding: @cuadratin / 2;
         position: absolute;
         width: 350px;
@@ -644,6 +729,23 @@ hr {
             }
         }
     }
+
+    .referencia-cita {
+        width: 30%;  
+        float: left;
+        margin: 0;
+        border-left: 1px solid fade(@gris, 80);
+
+        h6 {
+            width: 90%;
+        }
+
+        i {
+            font-size: @cuerpo * 2.5;
+            margin: 0 7.5%;
+        }
+    }
+
 }
 
 // Large screen / wide desktop

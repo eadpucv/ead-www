@@ -17,7 +17,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-noticias icn-lg"></i> e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</p> 
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-noticias icn-md"></i> Los Ojos del Gato & El Retoque Inacabado</h1> 
             <p>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão.</p><span class='derecha'>Francesca Cambiaso</span>
           </div>
@@ -29,7 +29,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-travesia icn-md"></i> Travesía Tarabuco  - Bolivia, 2013 </h1>
             <p>Las travesías son viajes poéticos por América que realiza anualmente la e[ad] Escuela de Arquitectura y Diseño PUCV a partir del año 1984. Estos viajes son integrados por los alumnos y profesores de Arquitectura, Diseño Gráfico y Diseño Industrial. Este sitio corresponde al registro de dichos viajes por el continente e invita a todos quienes han participado a colaborar en esta bitácora colectiva.</p><span class='derecha'>Sylvia Arriagada</span> 
           </div>
@@ -41,7 +41,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>  
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-travesia icn-md"></i> Aula Neumática, 1984</h1> 
             <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='derecha'>Alberto Cruz</span> 
           </div>
@@ -53,7 +53,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-ojo icn-md"></i> Observación "La Alcoba"</h1> 
             <p>La Alcoba en la Ciudad Abierta.<br>
             Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados), los que se aumentan con unos muros contenedores que reciben a la mayoría de los muebles.<br>
@@ -141,44 +141,78 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
     <div class='fila'> <!-- sección noticias inferior -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
+        <a href='#' class='enlace-noticia'>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
-            <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+            <h6>Exposición de Sergio Baeriswyl en la e[ad]</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
-          </div>
+            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el Sala Exposición se llevará a cabo una charla de Movilidad Estudiantil, para aquellos alumnos que [...]</p>
         </a>
       </div><!-- fin noticia 1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 2 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
+        <a href='#' class='enlace-noticia'>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
-            <h6 class='rojo-claro'>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
+            <h6>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar [...]</p>
-          </div>
+            <p>El Comité de Túneles y Sala Exposición se llevará a cabo una charla de Movilidad Estudiantil, para aquellos alumnos que Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar [...]</p>
         </a>
       </div><!-- fin noticia 2 -->
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 3 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
+        <a href='#' class='enlace-noticia'>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
-            <h6 class='rojo-claro'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+            <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Después del incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
-          </div>
+            <p>Después del incendio que area Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
         </a>
       </div><!-- fin noticia 3 -->
-  		<div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 4 -->
+        <a href='#' class='enlace-noticia'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia4.jpg'>
+            </div>
+            <h6>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Área Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto Urbanismo 2014, quien, en el [...]</p>
+        </a>
+      </div><!-- fin noticia 4 -->
+      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 5 -->
+        <a href='#' class='enlace-noticia'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia5.jpg'>
+            </div>
+            <h6 class='negro'>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
+            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+            <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar Área Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto[...]</p>
+        </a>
+      </div><!-- fin noticia 5 -->
+      <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 6 -->
+        <a href='#' class='enlace-noticia'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia6.jpg'>
+            </div>
+            <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+            <p>Después del incendio que afecto a los cerros de Valparaíso, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. y con el equipamiento que la e[ad] posee para las travesías [...]</p>
+        </a>
+      </div><!-- fin noticia 6 -->
+            <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
+        <a href='#' class='enlace-noticia'>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia6.jpg'>
+            </div>
+            <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+            <p>Después del un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
+        </a>
+      </div><!-- fin noticia 6 -->
+      <div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
   	</div> <!-- fin sección noticias inferior -->
   </div> <!-- fin wrap -->
@@ -312,73 +346,95 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </h3>
       </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
-			<div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 4  -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>magíster arquitectura y diseño</h6>
-            <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
-            <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
-          </div>
-        </a>
-      </div> <!-- fin noticia de categoria 4 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 5  -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>taller de amereida</h6>
-            <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
-            <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
-          </div>
-        </a>
-      </div> <!-- fin noticia de categoria 5 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 6 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>ediciones e[ad]</h6>
-            <h5 class='rojo-claro'>Carta de Alemania</h5>
-            <p class='datos-publicacion'>Publicado el 2010</p>
-            <p>Jaime Reyes Gil
-            Colección HeteroGenios
-            Ediciones e[ad] | Taller de Investigaciones Gráficas
-            70 páginas
-            Viña del Mar</p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 6 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 7 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>archivo histórico josé vial armstrong</h6>
-            <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
-            <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
-            <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 7 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 8 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>investigación</h6>
-            <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
-            <p class='datos-publicacion'>Publicado el 2014</p>
-            <p>Definición del Problema
-            En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 8 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 9 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>bolsa de trabajo</h6>
-            <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
-            <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
-            <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
-            Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
-          </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 9 -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>
+  			<div class='categoria'> <!-- noticia de categoria 4  -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>magíster arquitectura y diseño</h6>
+              <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
+              <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+          </a>
+        </div> <!-- fin noticia de categoria 4 -->
+        <div class='categoria'> <!-- noticia de categoria 5  -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>taller de amereida</h6>
+              <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
+              <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+          </a>
+        </div> <!-- fin noticia de categoria 5 -->
+        <div class='categoria'>  <!-- noticia de categoria 6 -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>ediciones e[ad]</h6>
+              <h5 class='rojo-claro'>Carta de Alemania</h5>
+              <p class='datos-publicacion'>Publicado el 2010</p>
+              <p>Jaime Reyes Gil
+              Colección HeteroGenios
+              Ediciones e[ad] | Taller de Investigaciones Gráficas
+              70 páginas
+              Viña del Mar</p>
+            </a>
+        </div>  <!-- fin noticia de categoria 6 -->
+      </div>
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>  <!-- noticia de categoria 7 -->
+        <div class='categoria'>
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>archivo histórico josé vial armstrong</h6>
+              <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
+              <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
+              <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
+          </a>
+        </div>  <!-- fin noticia de categoria 7 -->
+        <div class='categoria'>  <!-- noticia de categoria 8 -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>investigación</h6>
+              <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
+              <p class='datos-publicacion'>Publicado el 2014</p>
+              <p>Definición del Problema
+              En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
+          </a>
+        </div>  <!-- fin noticia de categoria 8 -->
+        <div class='categoria'>  <!-- noticia de categoria 9 -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>bolsa de trabajo</h6>
+              <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
+              <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
+              <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
+              Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
+            </p>
+          </a>
+        </div>  <!-- fin noticia de categoria 9 -->
+      </div>
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>
+        <div class='categoria'> <!-- noticia de categoria 4  -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>magíster arquitectura y diseño</h6>
+              <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
+              <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+          </a>
+        </div> <!-- fin noticia de categoria 4 -->
+        <div class='categoria'> <!-- noticia de categoria 5  -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>taller de amereida</h6>
+              <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
+              <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+          </a>
+        </div> <!-- fin noticia de categoria 5 -->
+        <div class='categoria'>  <!-- noticia de categoria 6 -->
+          <a href='#' class='bloque-enlace-categoria'>
+              <h6>ediciones e[ad]</h6>
+              <h5 class='rojo-claro'>Carta de Alemania</h5>
+              <p class='datos-publicacion'>Publicado el 2010</p>
+              <p>Jaime Reyes Gil
+              Colección HeteroGenios
+              Ediciones e[ad] | Taller de Investigaciones Gráficas
+              70 páginas
+              Viña del Mar</p>
+            </a>
+        </div>  <!-- fin noticia de categoria 6 -->
+      </div>
     </div>
     <div class='fila'>
       <div class='oculto-lg oculto-md col-sm-12 col-xs-12 fondo-gris'>
