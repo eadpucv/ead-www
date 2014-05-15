@@ -6,10 +6,17 @@ Taller de Investigaciones Gráficas 2012 - *
 
 
 */
+<<<<<<< HEAD
 @ruta-pyxis:			'../bower_components/pyxis/less/';
 @ruta-stampa: 			'../bower_components/stampa/less/';
 @ruta-tipografias:		'../fonts/';
 @ruta-imagenes:			'../bower_components/pyxis/img/';
+=======
+@ruta-pyxis:		'../bower_components/pyxis/less/';
+@ruta-stampa: 		'../bower_components/stampa/less/';
+@ruta-tipografias:	'../fonts/';
+@ruta-imagenes:		'../bower_components/pyxis/img/';
+>>>>>>> FETCH_HEAD
 
 // Ensamblador
 
@@ -52,7 +59,17 @@ Taller de Investigaciones Gráficas 2012 - *
 
 @import '@{ruta-stampa}stampa.less';
 
-// Estilos Extendidos
+// Estilos Extendidos Giornata
+
+// Bloques
+
+@import 'bloques.less';		// variables de alturas para contenedores
+
+// Tipografías
+
+@import 'titulos-subtitulos.less';		// variables de alturas para contenedores
+@import 'parrafos.less'; // Ajustes tipográficos
+@import 'tipografias-giornata.less'; // Ajustes tipográficos
 
 @import 'pagina.less';
 @import 'layout.less';
@@ -60,9 +77,16 @@ Taller de Investigaciones Gráficas 2012 - *
 @import 'carousel.less';				// Carousel
 @import 'interaccion.less';				// elementos de diálogo y uso
 @import 'navs.less';
+<<<<<<< HEAD
 @import 'variables.less';				// los nombres de las cifras
 @import 'tipografias-giornata.less';	// Ajustes tipográficos
 @import 'cajas-secciones.less';			// Ajustes de bloques por secciones y tamaños
 @import 'ajuste-imagenes.less';			// Ajuste de imágenes según clases
 @import 'rellenos-y-margenes.less';		// Ajuste de paddings y margenes
 @import 'jva.less';						// Estilos propios sección AHJVA
+=======
+@import 'variables.less';	// los nombres de las cifras
+@import 'cajas-secciones.less'; // Ajustes de bloques por secciones y tamaños
+@import 'ajuste-imagenes.less'; // Ajuste de imágenes según clases
+@import 'rellenos-y-margenes.less'; //Ajuste de paddings y margenes
+>>>>>>> FETCH_HEAD
