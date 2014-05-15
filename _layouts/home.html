@@ -2,10 +2,18 @@
 <html>
 	{% include head.html %}
 	<body lang='ES_es'>
-		<div class='fondo-blanco'>
-		    {% include nav.html %}
+
+	    <div class='pag-ancho-total'>
+	    	<div class='fila sombra fondo-blanco'>
+		    	{% include cabecera.html %}
+		    	{% include nav.html %}
+	    	</div>
+
+	    	<div class='fila'>
+				{{ content }}
+			</div>
 	    </div>
-		{{ content }}
-		{% include footer.html%}
+	    
+	    {% include footer.html%}
 	</body>
 </html>

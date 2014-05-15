@@ -71,7 +71,7 @@
 			"file": "pags/portada_noticias.md",
 			"settings":
 			{
-				"buffer_size": 24640,
+				"buffer_size": 5322,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +103,7 @@
 			"file": "less/rellenos-y-margenes.less",
 			"settings":
 			{
-				"buffer_size": 1808,
+				"buffer_size": 1811,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "less/layout.less",
 			"settings":
 			{
-				"buffer_size": 5939,
+				"buffer_size": 5997,
 				"line_ending": "Unix"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "less/giornata.less",
 			"settings":
 			{
-				"buffer_size": 2237,
+				"buffer_size": 2004,
 				"line_ending": "Unix"
 			}
 		},
@@ -127,7 +127,7 @@
 			"file": "less/ajuste-imagenes.less",
 			"settings":
 			{
-				"buffer_size": 5488,
+				"buffer_size": 3409,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "less/tipografias-giornata.less",
 			"settings":
 			{
-				"buffer_size": 10760,
+				"buffer_size": 8570,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "less/variables.less",
 			"settings":
 			{
-				"buffer_size": 3911,
+				"buffer_size": 3864,
 				"line_ending": "Unix"
 			}
 		}
@@ -284,7 +284,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"/www/eadpucv/giornata/less",
@@ -471,21 +471,20 @@
 					"file": "pags/portada_noticias.md",
 					"settings":
 					{
-						"buffer_size": 24640,
+						"buffer_size": 5322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								812,
+								812
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 57.0,
@@ -581,15 +580,15 @@
 					"file": "less/rellenos-y-margenes.less",
 					"settings":
 					{
-						"buffer_size": 1808,
+						"buffer_size": 1811,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1746,
+								1746
 							]
 						],
 						"settings":
@@ -608,15 +607,15 @@
 					"file": "less/layout.less",
 					"settings":
 					{
-						"buffer_size": 5939,
+						"buffer_size": 5997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3987,
+								3987
 							]
 						],
 						"settings":
@@ -636,15 +635,15 @@
 					"file": "less/giornata.less",
 					"settings":
 					{
-						"buffer_size": 2237,
+						"buffer_size": 2004,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2003,
+								2003
 							]
 						],
 						"settings":
@@ -662,15 +661,15 @@
 					"file": "less/ajuste-imagenes.less",
 					"settings":
 					{
-						"buffer_size": 5488,
+						"buffer_size": 3409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								389,
+								389
 							]
 						],
 						"settings":
@@ -690,15 +689,15 @@
 					"file": "less/tipografias-giornata.less",
 					"settings":
 					{
-						"buffer_size": 10760,
+						"buffer_size": 8570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2172,
+								2172
 							]
 						],
 						"settings":
@@ -718,15 +717,15 @@
 					"file": "less/variables.less",
 					"settings":
 					{
-						"buffer_size": 3911,
+						"buffer_size": 3864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								76,
+								76
 							]
 						],
 						"settings":

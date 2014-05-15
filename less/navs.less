@@ -10,6 +10,75 @@
   padding-left: 0; // Override default ul/ol
   list-style: none; 
 
+  &.user {
+
+    > li {
+        font-family: @sans;
+        font-size:@cuerpo-nav *.75;
+        line-height: @interlinea * .95;
+        font-weight: 300;
+        padding: 0 @cuadratin-tercio;
+        margin-top: @cuadratin-tercio / 4;
+        position: relative;
+        display: block;
+        background-color: @negro;
+          &:hover,
+          &:focus {
+            background-color: @blanco;
+            }
+
+      > a {
+        position: relative;
+        display: block;
+        padding: 0 @padding-md;
+        color: @blanco;
+        font-weight: 400;
+        font-size: @cuerpo-nav;
+        font-weight: 100;
+        border-left:1px solid @gris;
+          &:hover,
+          &:focus {
+            text-decoration: none;
+            color: @negro;
+            }
+      }
+    }
+  }
+
+    &.busqueda {
+
+    > li {
+        font-family: @sans;
+        font-size:@cuerpo-nav *.75;
+        line-height: @interlinea * .95;
+        font-weight: 300;
+        padding: 0 @cuadratin-tercio;
+        margin-top: @cuadratin-tercio / 4;
+        position: relative;
+        display: block;
+
+      > a {
+        position: relative;
+        display: block;
+        padding: 0 @padding-md;
+        color: @blanco;
+        font-weight: 400;
+        font-size: @cuerpo-nav;
+        font-weight: 100;
+        border-left:1px solid @gris;
+          &:hover, 
+          &:focus {
+
+            text-decoration: none;
+            color: @rojo-claro;
+            span {
+              color: @rojo-claro;
+            }
+            }
+      }
+    }
+  }
+
 
   //&:extend(.clearfix all); <-- HAY PROBLEMAS CON ESTA LÍNEA, NO DEJA COMPILAR!!!
 #primer-dropdown {
@@ -31,7 +100,7 @@
       display: block;
       padding: 0 @cuadratin-tercio / 1.9;
       color: @pizarra;
-      font-weight: 300;
+      font-weight: 400;
       font-size: @cuerpo-nav;
 
       &:hover,

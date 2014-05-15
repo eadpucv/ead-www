@@ -19,13 +19,19 @@
     .transition(.6s ease-in-out left);
 
     // Account for jankitude on images
-    //> img,
-    //> a > img {
+    > img,
+    > a > img {
       //&:extend(.img-responsive);
-      //line-height: 1;
-      //width: 100%;
-      //overflow: hidden;
-    //}
+      line-height: 1;
+      width: 100%;
+      overflow: hidden;
+
+      &.excedente-vertical {
+      line-height: 1;
+      width: 140%;
+      overflow: hidden;
+      }
+    }
   }
 
   > .active,
@@ -161,6 +167,7 @@
 
 .carousel-indicators {
   position: absolute;
+  bottom: 10px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -244,7 +251,7 @@
 
   // Move up the indicators
   .carousel-indicators {
-    bottom: 80px;
+    bottom: 20px;
   }
 }
 
@@ -262,7 +269,7 @@
     > a > img {
       //&:extend(.img-responsive);
 
-      &.altura-maxima {
+      &.excedente-vertical {
       line-height: 1;
       width: 175%;
       overflow: hidden;
@@ -289,7 +296,7 @@
     > a > img {
       //&:extend(.img-responsive);
 
-      &.altura-maxima {
+      &.excedente-vertical {
       line-height: 1;
       width: 140%;
       overflow: hidden;
@@ -312,7 +319,7 @@
     > a > img {
       //&:extend(.img-responsive);
 
-      &.altura-maxima {
+      &.excedente-vertical {
       line-height: 1;
       width: 100%;
       overflow: hidden;

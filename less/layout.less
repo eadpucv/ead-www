@@ -3,14 +3,103 @@
 //----- Además se hacen modificaciones en Carousel.less, Navs.less, Dropdowns.less, variables.less, auxiliares.less,
 
 // Estilos antiguos (borrar)
-.ver{
-    .box-shadow(0 0 2px fade(@negro, 20));
-    background-color: @gris-claro;
-    padding: 0;
+
+.menu-rapido-ead {
+    min-height: @cuadratin * 1; 
 }
 
-.bloque {
-    display: inline-block;
+.menu-nav-ead {
+    min-height: @cuadratin * 2;
+    vertical-align: middle;
+}
+
+.imagenes-historia-ead {
+    height: @cuadratin * 28;
+}
+
+.imagenes-historia-ead-xs {
+    height: @cuadratin * 20
+}
+
+.parrafo-articulo-ead {
+    min-height: @cuadratin * 20;
+}
+
+.caja-aside-articulo-ead {
+    min-height: @cuadratin * 10
+}
+
+.articulo-agenda-ead {
+    min-height: @cuadratin * 4;
+}
+
+.articulo-agenda-ead-sm {
+    min-height: @cuadratin * 6;
+}
+
+.caja-noticia-ead {
+    min-height: @cuadratin * 9;
+    position: relative;
+}
+
+.texto-noticia-ead {
+    min-height: @cuadratin * 8;
+}
+
+.articulo-aside-ead {
+    min-height: @cuadratin * 2;
+}
+
+.footer-ead {
+	min-height: @cuadratin * 6;
+}
+
+.titulos-ead {
+    min-height: @cuadratin * 1.5;
+}
+
+.subtitulos-ead {
+    min-height: @cuadratin;
+}
+
+.imagenes-publicacion-ead {
+    min-height: @cuadratin * 18;
+}
+
+.caja-perfil-publicacion-ead {
+    min-height: @cuadratin * 15;
+}
+
+.parrafo-noticia-publicacion-ead {
+    min-height: @cuadratin * 20;
+}
+
+.caja-aside-publicacion-ead {
+    min-height: @cuadratin * 18;
+}
+
+.caja-perfil-publicacion-sm-ead {
+    min-height: @cuadratin * 6;
+}
+
+.imagenes-publicacion-xs-ead {
+    min-height: @cuadratin * 10;
+}
+
+.navegacion-articulo-ead {
+    min-height: @cuadratin * 20;
+}
+
+.navegacion-articulo-ead-xs {
+    height: @cuadratin * 2;
+}
+
+.caja-resultado-ead {
+    min-height: @cuadratin * 4;
+}
+
+.caja-filtro-ead {
+    min-height: @cuadratin * 10;
 }
 
 // Tratado de imágenes
@@ -21,6 +110,11 @@
 
 .anchototal {
     width: 100%;
+}
+
+.excedente-vertical {
+    width: 200%;
+    overflow: hidden;
 }
 
 .excedente-horizontal {
@@ -84,6 +178,13 @@
 
 .comentario-ead {
     min-height: @cuadratin * 3
+}
+
+.excedente-vertical {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 150%;
 }
 
 // Auxiliares
@@ -198,6 +299,11 @@ input[type='search'] {
             }
     }
 
+    // Bloques 
+
+    .alto-sm {
+        min-height: @cuadratin * 15;
+    }
 }
 
 
