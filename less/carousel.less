@@ -72,7 +72,7 @@
   left: 0;
   bottom: 0;
   width: @carousel-control-width;
-  .opacity(@carousel-control-opacity);
+  .opacity(.9);
   font-size: @carousel-control-font-size;
   color: @carousel-control-color;
   text-align: center;
@@ -82,17 +82,22 @@
 
   // Set gradients for backgrounds
   &.left {
-    top: 250px;
-    #gradient > .horizontal(@gris; @gris-oscuro);
-    width: @cuadratin * 2;
-    height: @cuadratin * 3; 
+    top: 40%;
+    left: 0;
+    background-color: @rojo-claro;
+    border-top-right-radius: @cuadratin * 3;
+    border-bottom-right-radius: @cuadratin * 3;
+    width: @cuadratin * 1.5;
+    height: @cuadratin * 3;
   }
   &.right {
-    top: 250px;
+    top: 40%;
     left: auto;
     right: 0;
-    #gradient > .horizontal(@gris-oscuro; @gris);
-    width: @cuadratin * 2;
+    background-color: @rojo-claro;
+    border-top-left-radius: @cuadratin * 3;
+    border-bottom-left-radius: @cuadratin * 3;
+    width: @cuadratin * 1.5;
     height: @cuadratin * 3;
   }
 
@@ -102,7 +107,7 @@
     outline: 0;
     color: @carousel-control-color;
     text-decoration: none;
-    .opacity(.9);
+    .opacity(1);
   }
 
   // Toggles
