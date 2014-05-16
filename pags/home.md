@@ -2,7 +2,7 @@
 layout: home
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 ---
-<div class='container-lg alto-lg'>
+<div class='alto-lg'>
   <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
     <ol class="carousel-indicators"> 
       <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
@@ -224,74 +224,101 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
   	</div> <!-- fin sección noticias inferior -->
   </div> <!-- fin wrap -->
 </div>
-
-<div class='wrap'>
-      <div class='seccion'>
-      <h3>
-        <i class="icn icn-noticias icn-lg"></i> Enlaces para el postulante
-      </h3>
-    </div>
-    <!--
-  <div class='fila'> 
-	  <div class='col-lg-12 col-md-12 oculto-sm oculto-xs alto-sm'>
-      <div class='fila'>
-        <div class='col-lg-2 col-sm-4 col-xs-12'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Futuro alumno</h6>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-12'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Admisión</h6>
-          <ul>
-            <a href='#'><li>Vías de ingreso</li></a>
-            <a href='#'><li>Becas y financiamiento</li></a>
-            <a href='#'><li>Aranceles</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Carreras y Posgrados</h6>
-          <ul>
-            <a href='#'><li>Arquitectura</li></a>
-            <a href='#'><li>Diseño Gráfico</li></a>
-            <a href='#'><li>Diseño Industrial</li></a>
-            <a href='#'><li>Magíster Náutico y marítimo</li></a>
-            <a href='#'><li>Magíster Ciudad y Territorio</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Campus</h6>
-          <ul>
-            <a href='#'><li>Casa de estudio</li></a>
-            <a href='#'><li>Ciudad Abierta</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Cuerpo Docente</h6>
-          <ul>
-            <a href='#'><li>Profesores</li></a>
-            <a href='#'><li>Ayudantes</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>La Escuela y el oficio</h6>
-          <ul>
-            <a href='#'><li>Historia</li></a>
-            <a href='#'><li>La observación</li></a>
-            <a href='#'><li>Amereida</li></a>
-          </ul>
-        </div>
+<!-- Carousel de Contenido para el postulante -->
+<div class='franja-postulante'>
+  <div data-ride="carousel" class="carousel slide" id="carousel-postulante"> 
+    <div class="carousel-inner"> 
+      <div class="item active">
+        <div class='wrap cf'>
+          <div alt="First slide" title="Admisión">
+            <div class='col-lg-3 seccion-postulante'>
+              <h1 class='centrado'>Admisión</h1>
+              <p>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE.</p>
+            </div>
+            <div class='col-lg-9 enlaces-postulante'>
+                <a class='btn btn-md btn-transparente' href='#'>Vías de ingreso</a>
+                <a class='btn btn-md btn-transparente' href='#'>Becas y financiamiento</a>
+                <a class='btn btn-md btn-transparente' href='#'>Aranceles</a>
+            </div>
+          </div>
         </div>
       </div>
-	  </div> -->
+      <div class="item">
+        <div class='wrap cf'>
+          <div alt="Second slide" title="Carreras">
+            <div class='col-lg-3 seccion-postulante'>
+              <h1 class='centrado'>Carreras y posgrados</h1>
+              <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte.</p>
+            </div>
+            <div class='col-lg-9 enlaces-postulante'>
+            <ul>
+              <a class='btn btn-md btn-transparente' href='#'><li>Arquitectura</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>Diseño Gráfico</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>Diseño Industrial</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>Magíster de Arquitectura y Diseño</li></a>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class='wrap cf'>
+          <div alt="Third slide" title="Campus">
+            <div class='col-lg-3 seccion-postulante'>
+              <h1 class='centrado'>Campus</h1>
+              <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América.</p>
+              <p>El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.</p>
+              <p>El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
+            </div>
+            <div class='col-lg-9 enlaces-postulante'>
+            <ul>
+              <a class='btn btn-md btn-transparente' href='#'><li>Casa de estudio</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>Ciudad Abierta</li></a>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class='wrap cf'>
+          <div alt="Fourth slide" title="Cuerpo Docente">
+            <div class='col-lg-3 seccion-postulante'>
+              <h1 class='centrado'>Cuerpo Docente</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.</p>
+            </div>
+            <div class='col-lg-9 enlaces-postulante'>
+            <ul>
+              <a class='btn btn-md btn-transparente' href='#'><li>Profesores</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>Ayudantes</li></a>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class='wrap cf'>
+          <div alt="Fourth slide" title="Escuela y el oficio">
+            <div class='col-lg-3 seccion-postulante'>
+              <h1 class='centrado'>La escuela y el oficio</h1>
+              <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
+            </div>
+            <div class='col-lg-9 enlaces-postulante'>
+            <ul>
+              <a class='btn btn-md btn-transparente' href='#'><li>Historia</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>La observación</li></a>
+              <a class='btn btn-md btn-transparente' href='#'><li>Amereida</li></a>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a data-slide="prev" href="#carousel-postulante" class="left carousel-control">
+      <i class="icn icn-nav-izq"></i>
+    </a>
+    <a data-slide="next" href="#carousel-postulante" class="right carousel-control">
+      <i class="icn icn-nav-der"></i>
+    </a>
   </div>
 </div>
 
