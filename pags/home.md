@@ -134,6 +134,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </a>
       </div><!-- fin evento  3 -->
     </div>
+
     <div class='seccion'>
       <h3>
         <i class="icn icn-noticias icn-lg"></i> Noticias
