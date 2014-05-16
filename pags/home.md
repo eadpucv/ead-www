@@ -64,7 +64,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
   </div>
 </div>
-<div class='fondo-pizarra-oscuro'>
+<div>
   <div class='wrap'>
     <div class='fila'>
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
@@ -142,6 +142,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     <div class='fila'> <!-- sección noticias inferior -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
@@ -152,6 +153,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin noticia 1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 2 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
@@ -162,6 +164,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin noticia 2 -->
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 3 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
@@ -172,6 +175,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin noticia 3 -->
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 4 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia4.jpg'>
             </div>
@@ -182,6 +186,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin noticia 4 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 5 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia5.jpg'>
             </div>
@@ -192,6 +197,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin noticia 5 -->
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 6 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia6.jpg'>
             </div>
@@ -199,17 +205,18 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             <p>Después del incendio que afecto a los cerros de Valparaíso, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. y con el equipamiento que la e[ad] posee para las travesías [...]</p>
         </a>
-      </div><!-- fin noticia 6 -->
+      </div><!-- fin noticia 7 -->
             <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
         <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='prev-imagen sm'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia6.jpg'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia7.jpg'>
             </div>
             <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             <p>Después del un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
         </a>
-      </div><!-- fin noticia 6 -->
+      </div><!-- fin noticia 7 -->
       <div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -303,10 +310,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
           </div>
           <div class='pagina md carrera'>
-            <h6 class='fino gris'>arquitectura</h6>
+            <h6>arquitectura</h6>
             <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
             <p class='blanco datos-publicacion'>Publicado el 11 de marzo, 2014</p>
-            <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. </p>
+            <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. una memoria de éste; un espacio socio-cultural, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. </p>
           </div>
         </a>
       </div>
@@ -316,7 +323,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
           </div>
           <div class='pagina md carrera'>
-            <h6 class='fino gris'>diseño gráfico</h6>
+            <h6>diseño gráfico</h6>
             <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
             <p class='blanco datos-publicacion'>Publicado el 9 de mayo, 2014</p>
             <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
@@ -329,7 +336,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
           </div>
           <div class='pagina md carrera'>
-            <h6 class='fino gris'>diseño industrial</h6>
+            <h6>diseño industrial</h6>
             <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
             <p class='blanco datos-publicacion'>Publicado el 25 de marzo, 2014</p>
             <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
