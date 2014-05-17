@@ -6,12 +6,21 @@ title: Giornata Maquetas
 <nav style='margin: 100px'>
   <h1>Maquetas Nuevas</h1>
   <li><h4>Páginas</h4>
+<<<<<<< HEAD
     <ul><a href="{{ site.baseurl }}/pags/home">Home</a></ul>
     <ul><a href="{{ site.baseurl }}/pags/historia">pagina-historia</a></ul>
     <ul><a href="{{ site.baseurl }}/pags/articulo-agenda">pagina-articulo-agenda</a></ul>
     <ul><a href="{{ site.baseurl }}/pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
     <ul><a href="{{ site.baseurl }}/pags/portada-agenda">portada-agenda</a></ul>
     <ul><a href="{{ site.baseurl }}/pags/home-archivo">Portada del Archivo JVA</a></ul>
+=======
+    <ul><a href="pags/home">Home</a></ul>
+    <ul><a href="pags/historia">pagina-historia</a></ul>
+    <ul><a href="pags/articulo-agenda">pagina-articulo-agenda</a></ul>
+    <ul><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
+    <ul><a href="pags/portada-agenda">portada-agenda</a></ul>
+    <ul><a href="pags/home-archivo">Portada del Archivo JVA</a></ul>
+>>>>>>> origin/_home-ahjva
   </li>
 </nav>
 <nav style='margin: 100px'>
