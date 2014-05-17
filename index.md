@@ -10,6 +10,7 @@ title: Giornata Maquetas
     <ul><a href="pags/articulo-agenda">pagina-articulo-agenda</a></ul>
     <ul><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
     <ul><a href="pags/portada-agenda">portada-agenda</a></ul>
+    <ul><a href="pags/home-archivo">Portada del Archivo JVA</a></ul>
   </li>
 </nav>
 <nav style='margin: 100px'>
