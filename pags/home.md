@@ -91,6 +91,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>09 may</p> 
@@ -102,6 +103,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div> <!-- fin evento  1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento  2 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>28 abr</p> 
@@ -113,6 +115,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin evento  2 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>13 abr</p> 
@@ -124,6 +127,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin evento  3 -->
       <div class='col-lg-3 oculto-md col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>01 ago</p> 
@@ -144,6 +148,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
@@ -155,6 +162,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 2 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
@@ -166,6 +176,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 3 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
@@ -177,6 +190,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 4 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia4.jpg'>
             </div>
@@ -188,6 +204,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 5 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia5.jpg'>
             </div>
@@ -199,6 +218,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 6 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia6.jpg'>
             </div>
@@ -210,6 +232,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia7.jpg'>
             </div>
@@ -345,7 +370,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
+      <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12 bloque alto-md'>
         <a href='#' class='bloque-enlace oficio'>
           <div class='prev-imagen md'>
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
@@ -358,7 +383,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </div>
         </a>
       </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
+      <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12 bloque alto-md'>
         <a href='#' class='bloque-enlace oficio'>
           <div class='prev-imagen md'>
             <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
@@ -381,9 +406,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </h3>
       </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
   			<div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>magíster arquitectura y diseño</h6>
               <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
               <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
@@ -392,6 +418,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
               <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
@@ -400,6 +427,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 5 -->
         <div class='categoria'>  <!-- noticia de categoria 6 -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>ediciones e[ad]</h6>
               <h5 class='rojo-claro'>Carta de Alemania</h5>
               <p class='datos-publicacion'>Publicado el 2010</p>
@@ -411,9 +439,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </a>
         </div>  <!-- fin noticia de categoria 6 -->
       </div>
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>  <!-- noticia de categoria 7 -->
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>  <!-- noticia de categoria 7 -->
         <div class='categoria'>
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>archivo histórico josé vial armstrong</h6>
               <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
               <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
@@ -422,6 +451,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>  <!-- fin noticia de categoria 7 -->
         <div class='categoria'>  <!-- noticia de categoria 8 -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>investigación</h6>
               <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
               <p class='datos-publicacion'>Publicado el 2014</p>
@@ -431,6 +461,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>  <!-- fin noticia de categoria 8 -->
         <div class='categoria'>  <!-- noticia de categoria 9 -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>bolsa de trabajo</h6>
               <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
               <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
@@ -440,8 +471,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           </a>
         </div>  <!-- fin noticia de categoria 9 -->
       </div>
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6'>
+      <div class='col-lg-4 col-md-6 oculto-sm oculto-xs'>
         <div class='categoria'> <!-- noticia de categoria 4  -->
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <a href='#' class='bloque-enlace-categoria'>
               <h6>magíster arquitectura y diseño</h6>
               <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
@@ -451,6 +483,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
               <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
@@ -459,6 +492,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 5 -->
         <div class='categoria'>  <!-- noticia de categoria 6 -->
           <a href='#' class='bloque-enlace-categoria'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>ediciones e[ad]</h6>
               <h5 class='rojo-claro'>Carta de Alemania</h5>
               <p class='datos-publicacion'>Publicado el 2010</p>
@@ -471,120 +505,6 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>  <!-- fin noticia de categoria 6 -->
       </div>
     </div>
-    <div class='fila'>
-      <div class='oculto-lg oculto-md col-sm-12 col-xs-12 fondo-gris'>
-        <div class='fila'>
-          <div class='col-sm-4 col-xs-12'>
-            <div class='ver alto-xs'>
-              admisión
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              carreras
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 4
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 5
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              campus
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              cuerpo docente
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              escuela & oficio 
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-        </div>
-      </div> <!-- fin contenido para el postulante 2-->
-    </div> <!-- fin fila enlaces responsive -->
   </div> <!-- wrap -->
 </div> <!-- fin wrap ancho total-->
 

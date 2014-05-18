@@ -73,8 +73,6 @@
     &.carrera {
         position: absolute;
         height: 240px;
-        right: 15px;
-        left: 15px;
         -webkit-transition: max-height .5s linear, opacity 0s linear; 
         -moz-transition: max-height .5s linear, opacity 0s linear; 
         -o-transition: max-height .5s linear, opacity 0s linear;
@@ -114,7 +112,6 @@
             padding-left: 12px;
             color: @gris-oscuro;
             margin: 5px 0 22.6px;
-
         }
     }
 
@@ -198,6 +195,26 @@
 .categoria {
     margin: 30px 0;
     padding: 15px 0;
+    position: relative;
+
+        .seguir-leyendo {
+        right: 35px;
+        top: -32px;    
+        }
+
+        &:hover {
+        //border-top: 30px solid #D94D3F;
+        //border-top: 30px solid #D13F32;
+        border-left: 1px solid @rojo-claro;
+        border-top: 20px solid @rojo-claro;
+        padding-left: 15px;
+        .transition(.3s ease all);
+
+        h6 {
+        color: @rojo-claro;
+        .transition(.2s ease all);
+        }
+    }
 }
 
 .bloque-enlace {
@@ -209,18 +226,24 @@
     display: inline-block;
     width: 100%;
     max-height: 420px;
+    position: relative;
 
+    .seguir-leyendo {
+        right: 35px;
+        top: -10px;    
+        }
 
     &:hover {
-        border-top:16px solid fade(@gris-oscuro, 80);
+
+        .evento{
+        border-top: 25px solid fade(@gris-oscuro, 80);
         //border-bottom:2px solid fade(@rojo-claro, 80);
         .transition(.2s ease all);
 
-        .evento{
         h6 {
             color: fade(@negro, 70);
         }
-        }
+    }
 
         .carrera {
            bottom: 0;
@@ -249,7 +272,7 @@
     font-weight: 300;
     z-index: 10;
     right: 35px;
-    top: -36px;
+    top: -34px;
     letter-spacing: 3px;
 
     &.ver-mas {
@@ -260,6 +283,16 @@
         font-size: 14px;
         }
     }
+
+.seguir-leyendo-cuadro {
+    width: 20px;
+    height: 20px;
+    background-color: @rojo-claro;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    display: none;
+}
 
 
 .enlace-noticia {
@@ -272,14 +305,12 @@
     position: relative;
 
     &:hover {
-        //border-top: 30px solid #D94D3F;
-        //border-top: 30px solid #D13F32;
-        border-top: 30px solid @rojo-claro;
+        border-top: 25px solid @rojo-claro;
         .transition(.3s ease all);
 
         h6 {
         color: @rojo-claro;
-        .transition(.3s ease all);
+        .transition(.2s ease all);
         }
     }
 
@@ -478,32 +509,16 @@ footer {
     }
 }
 
-.mapa {
-
-}
-
-// clases auxiliares para bloques
-
-hr {
-    padding: 0;
-    margin: 0;
-    &.derecho, &.derecha {
-        border-right: 1px solid @gris;
-        height: 100%;
-    }
-
-    &.izquierdo, &.izquierda {
-        border-left: 1px solid @gris;
-    }
-}
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
+
 
     // Ajuste de página 
     .wrap {
         width: 90%;
     }
+
 
     .alto-md {
         height: auto;
@@ -557,8 +572,6 @@ hr {
         }
 
         &.carrera {
-            right: 15px;
-            left: 15px;
             bottom: -1px;
             padding: 15px;
             overflow: hidden;
@@ -569,6 +582,29 @@ hr {
             padding: 0px 15px;
         }
     }
+
+  
+    .seguir-leyendo {
+        display: inline-block;
+        position: absolute;
+        font-size: 12px;
+        color: @blanco;
+        font-family: @sans;
+        text-transform: uppercase;
+        font-weight: 300;
+        z-index: 10;
+        right: 35px;
+        top: -34px;
+        letter-spacing: 3px;
+
+        &.ver-mas {
+            position: absolute;
+            font-weight: 200;
+            right: 15px;
+            color: @blanco;
+            font-size: 14px;
+            }
+        }
 
     .bloque-enlace {
 
@@ -585,6 +621,9 @@ hr {
         }
         
         &:hover {
+            .evento {
+                border-top: none;
+            }
 
             .carrera {
                 bottom: 0px;
@@ -613,6 +652,55 @@ hr {
         }
     }
 
+
+    .seguir-leyendo {
+        display: none;
+
+            &.ver-mas {
+                display: none;
+                }
+    }
+
+    .seguir-leyendo-cuadro {
+        width: 200px;
+        height: 70px;
+        background-color: @rojo-claro;
+        position: absolute;
+        right: 0;
+        z-index: 10;
+        display: block;
+
+            .seguir-leyendo {
+            display: inline-block;
+            position: absolute;
+            font-size: 14px;
+            color: @blanco;
+            font-family: @sans;
+            text-transform: uppercase;
+            font-weight: 300;
+            z-index: 12;
+            left: 34px;
+            top: 24px;
+            letter-spacing: 3px;
+            padding: 0;
+            margin: 0;
+            right: auto;
+            display: block;
+
+            &.ver-mas {
+                position: absolute;
+                font-weight: 100;
+                right: auto;
+                left: 20px;
+                top: 16px;
+                font-family: @sans;
+                color: @blanco;
+                font-size: 30px;
+                display: none;
+                }
+        }
+    }
+
     .pie-de-foto {
 
         p {
@@ -620,6 +708,7 @@ hr {
             padding: 0 20px;
         }
     }
+
 
     .referencia-cita {
         width: 100%;  
@@ -637,6 +726,22 @@ hr {
         }
     }
 
+        .categoria {
+
+        .seguir-leyendo {
+        right: 35px;
+        top: -32px;    
+        }
+
+        &:hover {
+        //border-top: 30px solid #D94D3F;
+        //border-top: 30px solid #D13F32;
+        border-left: none;
+        border-top: none;
+        padding-left: 0px;
+    }
+}
+
     .licencia {
         margin: 10px 0 0 0;
         height: 100px;
@@ -645,8 +750,14 @@ hr {
             padding-top: 0px;
         }
     }
-}
 
+    .enlace-noticia {
+        &:hover {
+            border-top: none;
+    }
+}
+}
+  
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
@@ -686,12 +797,14 @@ hr {
         }
 
         &.carrera {
-            right: 15px;
-            left: 15px;
-            bottom: -1px;
+            bottom: 0px;
             padding: 15px;
             overflow: hidden;
-            max-height: 250px;
+            max-height: 130px;
+
+             p{
+                display: none;
+            }
         }
 
         &.info-docencia {
@@ -713,10 +826,87 @@ hr {
         
         &:hover {
 
+            .evento {
+                border-top: none;
+            }
+
             .carrera {
                 bottom: 0px;
                 max-height: 250px;
+                max-height: 130px;
             }
+        }
+    }
+
+    .seguir-leyendo {
+        display: inline-block;
+        position: absolute;
+        font-size: 12px;
+        color: @blanco;
+        font-family: @sans;
+        text-transform: uppercase;
+        font-weight: 300;
+        z-index: 12;
+        left: 360px;
+        top: 14px;
+        letter-spacing: 3px;
+        padding: 0;
+        margin: 0;
+        right: auto;
+        display: none;
+
+    &.ver-mas {
+        position: absolute;
+        font-weight: 100;
+        right: auto;
+        left: 20px;
+        top: 16px;
+        font-family: @sans;
+        color: @blanco;
+        font-size: 30px;
+        display: none;
+        }
+    }
+
+    .seguir-leyendo-cuadro {
+        //width: 160px;
+        width: 50px;
+        height: 50px;
+        //height: 30px;
+        background-color: @rojo-claro;
+        position: absolute;
+        right: 0;
+        z-index: 10;
+        display: block;
+
+            .seguir-leyendo {
+            display: inline-block;
+            position: absolute;
+            font-size: 12px;
+            color: @blanco;
+            font-family: @sans;
+            text-transform: uppercase;
+            font-weight: 300;
+            z-index: 12;
+            left: 360px;
+            top: 14px;
+            letter-spacing: 3px;
+            padding: 0;
+            margin: 0;
+            right: auto;
+            display: none;
+
+            &.ver-mas {
+                position: absolute;
+                font-weight: 100;
+                right: auto;
+                left: 20px;
+                top: 16px;
+                font-family: @sans;
+                color: @blanco;
+                font-size: 30px;
+                display: block;
+                }
         }
     }
 
@@ -736,12 +926,34 @@ hr {
         }
     }
 
+    .categoria {
+
+        .seguir-leyendo {
+        right: 35px;
+        top: -32px;    
+        }
+
+        &:hover {
+        //border-top: 30px solid #D94D3F;
+        //border-top: 30px solid #D13F32;
+        border-left: none;
+        border-top: none;
+        padding-left: 0px;
+    }
+}
+
     .licencia {
         margin: 10px 0 0 0;
         height: 100px;
 
         p {
             padding-top: 0px;
+        }
+    }
+
+    .enlace-noticia {
+        &:hover {
+            border-top: none;
         }
     }
 }
@@ -798,8 +1010,6 @@ hr {
 
         &.carrera {
             height: 330px;
-            right: 15px;
-            left: 15px;
             bottom: -1px;
             padding: 15px;
             overflow: hidden;
