@@ -386,7 +386,7 @@
 
 .seccion-postulante {
     padding: 0 30px 0 0;
-    max-height: 290px;
+    max-height: 300px;
     overflow: hidden;
 
     h1 {
@@ -412,11 +412,23 @@
 }
 
 
+
+
 // Footer
 
 footer {
     min-height: @cuadratin * 8;
     backgroud: url('@{ruta-imagenes}/ruido-gris-blanco.png');
+
+    a {
+        color: @rojo-claro;
+
+        &:hover {
+            color: @gris-oscuro;
+            .transition(.3s ease all);
+
+        }
+    }
 
     hr {
         margin: 5px 0 5px 0;
@@ -428,7 +440,46 @@ footer {
     }
 }
 
-.sitios-relacionados {
+.escuela {
+    margin: 0;
+    font-family: @sans;
+
+    p, span {
+        margin: 0;
+    }
+
+    a {
+        font-size: @cuerpo;
+    }
+
+    .marca {
+        font-size: @cuerpo * 1.25;
+    }
+}
+
+.direccion {
+    margin: 0;
+    font-family: @sans;
+
+    a, p {
+        font-size: @cuerpo * 0.8;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.sitio-relacionado {
+    max-width: 40%;
+    padding: 0 20px 0 0;
+    float: left;
+    color: @rojo;
+
+    p {
+        font-size: @cuerpo;
+    }
+
     i {
         color: @rojo;
         font-size: @cuerpo * 1.5;
@@ -437,6 +488,8 @@ footer {
 }
 
 .redes-sociales {
+    width: 20%;
+    float: left;
 
     i {
         color: @negro;
@@ -472,18 +525,20 @@ footer {
 
 .licencia {
     margin: 10px 0 0 0;
-    height: @cuadratin * 2;
+    width: 100%;
+    height: auto;
     background-color: @negro;
 
     p {
-        padding-top: 10px;
+        padding-top: 0px;
+        margin: 0;
         font-family: @sans;
-        font-size: 11px;
+        font-size: 13px;
     }
-}
 
-.mapa {
-
+    img {
+        padding-left: 15px;
+    }
 }
 
 // clases auxiliares para bloques
@@ -639,13 +694,64 @@ hr {
         }
     }
 
-    .licencia {
-        margin: 10px 0 0 0;
-        height: 100px;
+    // Franja postulante
+
+    .wrap-postulante {
+        width: 80%;
+        height: auto;
+    }
+
+    .franja-postulante {
+        height: auto;
+    }
+
+    #carousel-postulante {
+        height: auto;
+    }
+
+    .seccion-postulante {
+        height: 150px;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+
+    .enlaces-postulante {
+        padding: 0 15px;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        right: auto;
+        top: 60%;
+    }
+
+
+    // Footer
+
+    .escuela {
+        margin: 0 0 30px 0;
+    }
+
+    .sitio-relacionado {
+        max-width: 100%;
+        width: 100%;
 
         p {
-            padding-top: 0px;
+            font-size: @cuerpo;
         }
+
+        i {
+            font-size: @cuerpo * 1.2;
+            margin-right: 5px;
+        }
+    }
+
+    .redes-sociales {
+            margin: 0 auto;
+            text-align: center;
+        i {
+            font-size: @cuerpo * 1.2;
+        }
+
     }
 }
 
@@ -738,14 +844,31 @@ hr {
         }
     }
 
-    .licencia {
-        margin: 10px 0 0 0;
-        height: 100px;
+    // Franja postulante
+
+    .wrap-postulante {
+        width: 85%;
+    }
+
+    // Footer
+
+    .escuela {
+        margin: 0 0 30px 0;
+    }
+
+    .sitio-relacionado {
+        max-width: 60%;
 
         p {
-            padding-top: 0px;
+            font-size: 13.8px;
+        }
+
+        i {
+            font-size: @cuerpo;
+            margin-right: 5px;
         }
     }
+
 }
 
 // Medium screen / desktop
@@ -840,6 +963,37 @@ hr {
         i {
             font-size: @cuerpo * 2.5;
             margin: 0 7.5%;
+        }
+    }
+
+    // Franja postulante
+
+    .wrap-postulante {
+        width: 88%;
+    }
+
+    // Footer
+
+    .escuela {
+        margin: 0 0 30px 0;
+
+        p {font-size: @cuerpo * .75;
+        }
+        .marca {
+        font-size: @cuerpo * 1.1;
+        }
+    }
+
+    .sitio-relacionado {
+        max-width: 60%;
+
+        p {
+            font-size: 13.8px;
+        }
+
+        i {
+            font-size: @cuerpo;
+            margin-right: 5px;
         }
     }
 

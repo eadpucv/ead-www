@@ -262,25 +262,40 @@
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
   .carousel-inner {
-  > .item {
-    .transition(.6s ease-in-out left);
-    > img,
-    > a > img {
-      //&:extend(.img-responsive);
+    > .item {
+      .transition(.6s ease-in-out left);
+      > img,
+      > a > img {
+        //&:extend(.img-responsive);
 
-      &.altura-maxima {
-      line-height: 1;
-      width: 175%;
-      overflow: hidden;
+        &.altura-maxima {
+        line-height: 1;
+        width: 175%;
+        overflow: hidden;
+        }
       }
     }
   }
-}
+
+  .carousel-control {
+    text-shadow: none;
+    &.left, &.right {
+      background-color: rgba(0, 0, 0, 0);
+      color: @rojo-claro;
+    }
+  }
 }
 
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+    .carousel-control {
+    text-shadow: none;
+    &.left, &.right {
+      background-color: rgba(0, 0, 0, 0);
+      color: @rojo-claro;
+    }
+  }
 
 }
 

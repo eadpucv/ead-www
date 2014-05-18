@@ -113,7 +113,15 @@
 
     // Contenedor del carousel
     .imagen-carousel {
-    height: 315px;
+        height: 315px;
+    }
+
+    .imagen-carousel-sm {
+        height: 305px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: @negro;
     }
 
     //  Altura máxima de imagen en Carousel
@@ -122,6 +130,15 @@
         position: absolute;
         bottom: 0;
         width: 120%;
+
+        &.sm {
+            width: 140%;
+            opacity: .5;
+            bottom: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+        }
     }
 
     .prev-imagen {
@@ -196,12 +213,28 @@
         height: 550px;
     }
 
+    .imagen-carousel-sm {
+        height: 305px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: @negro;
+    }
+
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
         overflow: hidden;
         position: absolute;
         bottom: -10%;
         width: 120%;
+
+        &.sm {
+            opacity: .5;
+            bottom: 0%;
+            left: 0%;
+            margin: 0;
+            padding: 0;
+        }
     }
 
     .prev-imagen {
@@ -267,12 +300,28 @@
         height: 500px;
     }
 
+    .imagen-carousel-sm {
+        height: 305px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: @negro;
+    }
+
     //  Altura máxima de imagen en Carousel
     .altura-maxima {
         overflow: hidden;
         position: absolute;
         bottom: -40%;
         width: 100%;
+
+        &.sm {
+            opacity: .5;
+            bottom: -30%;
+            left: 0;
+            margin: 0;
+            padding: 0;
+        }
     } 
 
     .prev-imagen {
