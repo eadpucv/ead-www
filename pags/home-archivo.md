@@ -13,6 +13,7 @@ title: Archivo Histórico JVA
 =======
 <!-- CAROUSEL -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <div class='col-lg-12 col-md-12 imagenes-destacadas-ead'>  <!-- datos de carousel-lg -->
   
@@ -196,10 +197,62 @@ title: Archivo Histórico JVA
     </div>
   </div>
 </div>
+=======
+    <section class="demo_wrapper">
+      <article class="demo_block">
+      <ul id="demo1">
+        <li><a href="#slide1"><img src="{{ site.baseurl }}/img/img-carousel/foto-2-carrousel.jpg" alt="TOR tri 04 - Torneo Triagón - 108" ></a></li>
+        <li><a href="#slide2"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel7.jpg"  alt="PH-AP ver 71 - Phalène Quinta Vergara - 49"></a></li>
+        <li><a href="#slide3"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel-8.jpg" alt="EX bie 10 - IV Bienal de Diseño - Chile se diseña (faenas escuela) - 10"></a></li>
+      </ul>
+      </article>
+    </section>    
+    <script>
+      $(function() {
+        var demo1 = $("#demo1").slippry({
+          transition: 'fade',
+          useCSS: true,
+          speed: 1000,
+          pause: 3000,
+          auto: true,
+          preload: 'visible'
+        });
 
+        $('.stop').click(function () {
+          demo1.stopAuto();
+        });
+
+        $('.start').click(function () {
+          demo1.startAuto();
+        });
+
+        $('.prev').click(function () {
+          demo1.goToPrevSlide();
+          return false;
+        });
+        $('.next').click(function () {
+          demo1.goToNextSlide();
+          return false;
+        });
+        $('.reset').click(function () {
+          demo1.destroySlider();
+          return false;
+        });
+        $('.reload').click(function () {
+          demo1.reloadSlider();
+          return false;
+        });
+        $('.init').click(function () {
+          demo1 = $("#demo1").slippry();
+          return false;
+        });
+      });
+    </script>
+
+<!--      CONTENIDO CENTRAL     -->
 >>>>>>> origin/_home-ahjva
 
-<!--      CONTENIDO CENTRAL     -->                       
+>>>>>>> origin/_home-ahjva
 
 <div class='col-lg-12 col-md-12'>
 <<<<<<< HEAD
@@ -305,6 +358,11 @@ title: Archivo Histórico JVA
 </div>
 
 >>>>>>> origin/_home-ahjva
+
+<<<<<<< HEAD
+>>>>>>> origin/_home-ahjva
+=======
+<p> <!-- fin fila --></p>
 
 >>>>>>> origin/_home-ahjva
 <!-- Inicio noticias varias -->
@@ -451,6 +509,9 @@ title: Archivo Histórico JVA
    </div> <!-- fin col-lg-12 -->
 </div>
 >>>>>>> origin/_home-ahjva
+
+
+<p> <!-- fin fila --></p>
 
 <!-- fin de Noticia destacada -->
 
@@ -607,6 +668,7 @@ title: Archivo Histórico JVA
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<p class="categorias-publicacion margen-superior">[ Travesía ] [ Diseño Industrial ]</p>    
 <<<<<<< HEAD
 					
@@ -631,8 +693,16 @@ title: Archivo Histórico JVA
 	</div> <!-- fin wrap -->
 </div> <!-- fin col-lg-12 -->
 =======
+=======
+
+<p> <!-- fin col-lg-12 --></p>
+
+>>>>>>> origin/_home-ahjva
 <!-- fin álbumes destacados -->
 >>>>>>> origin/_home-ahjva
+
+
+<p></p>
 
 <!-- inicio publicaciones recientes -->
 
@@ -641,6 +711,8 @@ title: Archivo Histórico JVA
 >>>>>>> origin/_home-ahjva
 =======
 >>>>>>> origin/_home-ahjva
+
+<p></p>
 
 <div class='col-lg-12'>
     <div class='wrap'>

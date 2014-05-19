@@ -4,7 +4,9 @@
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Archivo Histórico JVA</title>
-  <link href='/css/giornata.css' rel='stylesheet'>
+  <link href='css/giornata.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="css/slippry.css">
   <link rel='icon' type='image/x-icon' href='img/favicon.ico' />
   <link rel='apple-touch-icon-precomposed' sizes='114x114' href='/img/favicon-114.png'>
   <link rel='apple-touch-icon-precomposed' sizes='72x72' href='/img/favicon-72.png'>
@@ -16,6 +18,7 @@
   <script src="/js/smooth-scroll.js"></script>
   <script src="/js/affix.js"></script>
   <script src="/js/collapse.js"></script>
+<<<<<<< HEAD
 </head>
 <<<<<<< HEAD
 	<body lang='ES_es'>
@@ -39,6 +42,14 @@
 </div> <!-- Fin Menú navegación -->
 		    	
 =======
+=======
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/slippry.min.js"></script>
+  <script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+
+
+
+>>>>>>> origin/_home-ahjva
   <body lang='ES_es'>
 
       <div class='pag-ancho-total'>
@@ -240,6 +251,7 @@
         <!-- contenido -->
         <div class='wrap'>
           <div class='fila'>
+<<<<<<< HEAD
             <div class='col-lg-12 col-md-12 col-xs-12'>
               <h1></h2>
 >>>>>>> origin/_home-ahjva
@@ -319,11 +331,65 @@
 =======
  <!-- fin datos carousel lg -->
 >>>>>>> origin/_home-ahjva
+=======
+
+                 
+<!-- CAROUSEL -->
+    <section class="demo_wrapper">
+      <article class="demo_block">
+      <ul id="demo1">
+        <li><a href="#slide1"><img src="img-carousel/foto-2-carrousel.jpg" alt="TOR tri 04 - Torneo Triagón - 108" ></a></li>
+        <li><a href="#slide2"><img src="img-carousel/foto-carrousel7.jpg"  alt="PH-AP ver 71 - Phalène Quinta Vergara - 49"></a></li>
+        <li><a href="#slide3"><img src="img-carousel/foto-carrousel-8.jpg" alt="EX bie 10 - IV Bienal de Diseño - Chile se diseña (faenas escuela) - 10"></a></li>
+      </ul>
+      </article>
+    </section>    
+
+    <script>
+      $(function() {
+        var demo1 = $("#demo1").slippry({
+          transition: 'fade',
+          useCSS: true,
+          speed: 1000,
+          pause: 3000,
+          auto: true,
+          preload: 'visible'
+        });
+
+        $('.stop').click(function () {
+          demo1.stopAuto();
+        });
+
+        $('.start').click(function () {
+          demo1.startAuto();
+        });
+
+        $('.prev').click(function () {
+          demo1.goToPrevSlide();
+          return false;
+        });
+        $('.next').click(function () {
+          demo1.goToNextSlide();
+          return false;
+        });
+        $('.reset').click(function () {
+          demo1.destroySlider();
+          return false;
+        });
+        $('.reload').click(function () {
+          demo1.reloadSlider();
+          return false;
+        });
+        $('.init').click(function () {
+          demo1 = $("#demo1").slippry();
+          return false;
+        });
+      });
+    </script>
+>>>>>>> origin/_home-ahjva
 
 <!--      CONTENIDO CENTRAL     -->
 
-
-<p></p>
 
 <div class='col-lg-12 col-md-12'>
     <div class='wrap'>
@@ -350,6 +416,7 @@
 
             <div class='col-lg-12 col-md-12 col-sm-12  margen-superior'>
                 <div class='col-lg-5'>
+<<<<<<< HEAD
                     <img class= 'destacada-archivo' src='/img/img-archivo/foto-noticia1.jpg'>          
 <<<<<<< HEAD
                     <div class='indice-fecha fondo-negro-claro'></div>
@@ -359,6 +426,9 @@
                         <h1 class='blanco fina centrada'> 22 <br/></h1>
                         <h2 class='blanco fina centrada'>abr</h2>
 =======
+=======
+                    <img class= 'destacada-archivo' src='img/img-archivo/foto-noticia1.jpg'>          
+>>>>>>> origin/_home-ahjva
                     <div class='indice-fecha fondo-negro-claro'>
                       <div class='linea-vert-fecha fondo-blanco'></div>
                       <div class='contenedor-fecha'>
@@ -411,7 +481,7 @@
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
 
-                <img class='foto-interior-pub' src='/img/img-archivo/seminario-dis.jpg'>                
+                <img class='foto-interior-pub' src='img/img-archivo/seminario-dis.jpg'>                
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">“De la hipótesis al Diseño: Aproximaciones, casos y obras”<p class='subtitulo'>El objetivo del seminario es dar lugar a la exposición e intercambio de ideas referidas al diseño, creando una instancia [...] </p></span></a>
                 </div>
@@ -421,7 +491,7 @@
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
                
-                <img class='foto-interior-pub' src='/img/img-archivo/concurso-vergel.jpg'> 
+                <img class='foto-interior-pub' src='img/img-archivo/concurso-vergel.jpg'> 
 
 <<<<<<< HEAD
                 <div class='cont-icono-fecha margen-superior-s'>
@@ -443,7 +513,7 @@
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
 
-                <img class='foto-interior-pub' src='/img/img-archivo/Ojos-Gato-2014.png'>                
+                <img class='foto-interior-pub' src='img/img-archivo/Ojos-Gato-2014.png'>                
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">Presentación Libro "Los Ojos del Gato" Memorial de Edison Simons <p class='subtitulo'>Se llevó a cabo en la Escuela la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro[...]</p></span></a>
                 </div>
@@ -453,7 +523,7 @@
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
                 
-                <img class='foto-interior-pub' src='/img/img-archivo/inauguracion-expo.jpg'>
+                <img class='foto-interior-pub' src='img/img-archivo/inauguracion-expo.jpg'>
 
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">Exposición Travesía Magallanes 2013 en Museo Marítimo Nacional <p class='subtitulo'>En el contexto de la celebración del 99° aniversario del Museo Marítimo Nacional, esta mañana se inauguró la exposición Travesía Magallanes 2013,[...]</p></span></a>
@@ -524,7 +594,7 @@
             <div class='col-lg-12 margen-superior'>
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
-                    <img class='altura-foto-interior margen-superior' src='/img/img-archivo/foto-album-1.jpg'></br>
+                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/foto-album-1.jpg'></br>
                     <div class='cuadro-icono fondo-negro-claro'><i class= 'icn icn-acto icn-lg blanco col-lg-offset-3'></i> </div>
 >>>>>>> origin/_home-ahjva
 
@@ -541,11 +611,15 @@
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     <img class='altura-foto-interior margen-superior' src='/img/img-archivo/foto-album-2.jpg'>
                     <div class='cuadro-icono fondo-negro-claro'></div> 
 =======
                     <img class='altura-foto-interior margen-superior' src='/img/img-archivo/foto-album-2.jpg'>
+=======
+                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/foto-album-2.jpg'>
+>>>>>>> origin/_home-ahjva
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-imagen icn-lg blanco col-lg-offset-3'></i></div> 
 >>>>>>> origin/_home-ahjva
 
@@ -562,12 +636,16 @@
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     <img class='altura-foto-interior margen-superior' src='/img/img-archivo/foto-album-3.jpg'>
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco'></i>
                     </div>
 =======
                     <img class='altura-foto-interior margen-superior' src='/img/img-archivo/foto-album-3.jpg'>
+=======
+                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/foto-album-3.jpg'>
+>>>>>>> origin/_home-ahjva
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco col-lg-offset-3'></i></div>
 >>>>>>> origin/_home-ahjva
 
@@ -592,12 +670,16 @@
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     <img class='altura-foto-interior margen-superior' src='/img/img-archivo/travesia-tarabuco.jpg'>
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco'></i>
                     </div>
 =======
                     <img class='altura-foto-interior margen-superior' src='/img/img-archivo/travesia-tarabuco.jpg'>
+=======
+                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/travesia-tarabuco.jpg'>
+>>>>>>> origin/_home-ahjva
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco col-lg-offset-3'></i></div>
 >>>>>>> origin/_home-ahjva
 
@@ -638,16 +720,28 @@
     </div> <!-- fin wrap -->
 </div>
 
+
+<p> <!-- fin col-lg-12 --></p>
+
 <!-- fin álbumes destacados -->
+
+
+<p></p>
 
 <!-- inicio publicaciones recientes -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <p></p>
 >>>>>>> origin/_home-ahjva
 
 =======
+>>>>>>> origin/_home-ahjva
+=======
+
+<p></p>
+
 >>>>>>> origin/_home-ahjva
 <div class='col-lg-12'>
     <div class='wrap'>
@@ -665,6 +759,7 @@
 >>>>>>> origin/_home-ahjva
                 
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
+<<<<<<< HEAD
                         <img class='foto-interior-pub margen-superior' src='/img/img-archivo/marimenuco-travesia.jpg'>
 <<<<<<< HEAD
                             <div class='cuadro-icono fondo-negro-claro'>
@@ -676,6 +771,9 @@
                         <p class='xs negro-claro fina texto-cuadro-des'>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish.</p>
                         <p class="categorias-publicacion margen-superior">[ Travesías ] [ Diseño Industrial ]</p>    
 =======
+=======
+                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/marimenuco-travesia.jpg'>
+>>>>>>> origin/_home-ahjva
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-imagen icn-lg blanco col-lg-offset-3'></i></div></br>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Travesía Marimenuco 2012</h6> 
@@ -704,7 +802,7 @@
 =======
                     
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='/img/img-archivo/foto-pub-2.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/foto-pub-2.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-parlante-l icn-lg blanco col-lg-offset-3'></i></div>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Taller de Amereida</h6> 
@@ -735,7 +833,7 @@
 =======
                     
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='/img/img-archivo/foto-pub-3.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/foto-pub-3.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-ojo-l icn-lg blanco col-lg-offset-3'></i></div>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Phalène de Horcones</h6>
@@ -766,7 +864,7 @@
 =======
                     
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='/img/img-archivo/pizarron20años-documentos.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/pizarron20años-documentos.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-documento-l icn-lg blanco col-lg-offset-3'></i></div>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Exposición 20 años </h6>
@@ -878,6 +976,7 @@
         </div>   <!-- fin wrap -->
     </div>
 
+<<<<<<< HEAD
 
 
       <div class='fila fondo-negro'> <!-- inicio footer -->
@@ -891,101 +990,113 @@
               <p class='logo-ead-marca footer rojo-claro grande'>e[ad]</p>
               <p class='logo-ead footer altas'>Escuela de Arquitectura y Diseño</p>
               <p class='logo-ead footer margen'>Pontificia Universidad Católica</p>
+=======
+    <div class='fila fondo-negro'> <!-- inicio footer -->
+    <div class='col-24-lg col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+      <div class='wrap centrado'>
+        <div class='fila'>
+          <div class='col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+            <div class='fila margen-superior-s margen-inferior-s'>
+               <div class='col-lg-24 col-lg-offset-0'>
+                <p class='logo-ead-marca footer rojo-claro grande'>e[ad]</p>
+                <p class='logo-ead footer altas'>Escuela de Arquitectura y Diseño</p>
+                <p class='logo-ead footer margen'>Pontificia Universidad Católica</p>
+              </div>
+>>>>>>> origin/_home-ahjva
             </div>
           </div>
-        </div>
-        <div class='col-lg-10 col-lg-offset-0 col-md-11 col-md-offset-0 col-sm-14 oculto-xs contenedor-fondo'>
-          <div class='finalizar'>
-            <div class='col-lg-24 col-lg-offset-0 col-md-24 col-md-offset-0'>
-             <a class='menu-footer borde-derecho' href='#'>Escuela</a>
-             <a class='menu-footer borde-derecho' href='#'>Carreras y Posgrados</a>
-             <a class='menu-footer borde-derecho' href='#'>Admisión</a>
-             <a class='menu-footer borde-derecho' href='#'>Estudiantes</a>
-             <a class='menu-footer borde-derecho' href='#'>Extensión</a>
-             <a class='menu-footer' href='#'>Amereida</a>
+          <div class='col-lg-10 col-lg-offset-0 col-md-11 col-md-offset-0 col-sm-14 oculto-xs contenedor-fondo'>
+            <div class='finalizar'>
+              <div class='col-lg-24 col-lg-offset-0 col-md-24 col-md-offset-0'>
+               <a class='menu-footer borde-derecho' href='#'>Escuela</a>
+               <a class='menu-footer borde-derecho' href='#'>Carreras y Posgrados</a>
+               <a class='menu-footer borde-derecho' href='#'>Admisión</a>
+               <a class='menu-footer borde-derecho' href='#'>Estudiantes</a>
+               <a class='menu-footer borde-derecho' href='#'>Extensión</a>
+               <a class='menu-footer' href='#'>Amereida</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1'>
-          <div class='finalizar'>
-            <div class='col-lg-22 col-lg-offset-1 col-md-24 col-md-offset-0 col-xs-20 col-xs-offset-2 ver'>
-             <a class='menu-footer borde-derecho' href='#'>Noticias</a>
-             <a class='menu-footer borde-derecho' href='#'>Calendario</a>
-             <a class='menu-footer borde-derecho' href='#'>Bolsa de trabajo</a>
-             <a class='menu-footer' href='#'>Estudiantes</a>
+          <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1'>
+            <div class='finalizar'>
+              <div class='col-lg-22 col-lg-offset-1 col-md-24 col-md-offset-0 col-xs-20 col-xs-offset-2 ver'>
+               <a class='menu-footer borde-derecho' href='#'>Noticias</a>
+               <a class='menu-footer borde-derecho' href='#'>Calendario</a>
+               <a class='menu-footer borde-derecho' href='#'>Bolsa de trabajo</a>
+               <a class='menu-footer' href='#'>Estudiantes</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='col-lg-7 oculto-md oculto-sm oculto-xs contenedor-fondo'>
-          <div class='fila '>
-            <div class='col-lg-22 col-lg-offset-1'>
-              <img src='/img/iconos-sociales/fb.png'>
-              <img src='/img/iconos-sociales/twitter.png'>
-              <img src='/img/iconos-sociales/vimeo.png'>
-              <img src='/img/iconos-sociales/soundscloud.png'>
+          <div class='col-lg-7 oculto-md oculto-sm oculto-xs contenedor-fondo'>
+            <div class='fila '>
+              <div class='col-lg-22 col-lg-offset-1'>
+                <img src='/img/iconos-sociales/fb.png'>
+                <img src='/img/iconos-sociales/twitter.png'>
+                <img src='/img/iconos-sociales/vimeo.png'>
+                <img src='/img/iconos-sociales/soundscloud.png'>
+              </div>
             </div>
           </div>
-        </div>
-      </div> <!-- fin fila superior -->
-      <div class='fila'>
-        <div class='col-lg-6 col-md-8 col-sm-10 col-sm-offset-0 col-xs-22 col-xs-offset-1 margen-inferior'>
-          <div class='fila'>
-            <div class='col-lg-17 col-lg-offset-4 '>
-              <p class='logo-ead contacto footer'>Matta 12, Recreo, Viña del Mar, Chile. Cód. Postal: 2580129, Casilla 4170 V2 Valparaíso</p>
-              <p class='logo-ead contacto footer'>Teléfono +56 32 2274401</p>
-              <p class='logo-ead contacto footer'>Fax +56 32 2274421</p>
+        </div> <!-- fin fila superior -->
+        <div class='fila'>
+          <div class='col-lg-6 col-md-8 col-sm-10 col-sm-offset-0 col-xs-22 col-xs-offset-1 margen-inferior'>
+            <div class='fila'>
+              <div class='col-lg-17 col-lg-offset-4 '>
+                <p class='logo-ead contacto footer'>Matta 12, Recreo, Viña del Mar, Chile. Cód. Postal: 2580129, Casilla 4170 V2 Valparaíso</p>
+                <p class='logo-ead contacto footer'>Teléfono +56 32 2274401</p>
+                <p class='logo-ead contacto footer'>Fax +56 32 2274421</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='col-lg-10 col-lg-offset-0 col-md-11 col-sm-14 col-sm-offset-0 col-xs-22 col-xs-offset-1 borde-izquierdo borde-derecho'>
-          <div class='fila'>
-            <div class='col-lg-14 col-lg-offset-5 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
-              <p class='lista-footer'><a>1998 - 2014 e[ad] </a><a>| Suscripción (RSS) </a><a>| Cómo Suscribirse </a><a>| Diseñado por TIG </a><a>| Colofón </a><a>| Optimizado para Firefox</a></p>
-              <p class='lista-footer chica'><a>e[ad] de la Escuela de Arquitectura y Diseño PUCV está licenciado bajo Creative Commons Atribución No Comercial Licenciar Igual 2.0 Chile License.</a></p>
-              <img src='http://i.creativecommons.org/l/by-nc-sa/2.0/cl/80x15.png'>
+          <div class='col-lg-10 col-lg-offset-0 col-md-11 col-sm-14 col-sm-offset-0 col-xs-22 col-xs-offset-1 borde-izquierdo borde-derecho'>
+            <div class='fila'>
+              <div class='col-lg-14 col-lg-offset-5 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+                <p class='lista-footer'><a>1998 - 2014 e[ad] </a><a>| Suscripción (RSS) </a><a>| Cómo Suscribirse </a><a>| Diseñado por TIG </a><a>| Colofón </a><a>| Optimizado para Firefox</a></p>
+                <p class='lista-footer chica'><a>e[ad] de la Escuela de Arquitectura y Diseño PUCV está licenciado bajo Creative Commons Atribución No Comercial Licenciar Igual 2.0 Chile License.</a></p>
+                <img src='http://i.creativecommons.org/l/by-nc-sa/2.0/cl/80x15.png'>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='oculto-lg col-md-offset-0 col-md-5 oculto-sm oculto-xs margen-inferior-s'>
-          <div class='fila'>
-            <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1'>
-              <p class='datos-contacto footer'>Sitios relacionados</p>
-              <a class='sitio-relacionado' href='#'>[ Wiki Casiopea ]</a>
-              <a class='sitio-relacionado' href='#'>[ Archivo Histórico José Vial Armstrong ]</a>
-              <a class='sitio-relacionado' href='#'>[ Biblioteca ]</a>
-              <a class='sitio-relacionado' href='#'>[ Travesías ]</a>
-              <a class='sitio-relacionado' href='#'>[ Pyxis Framework ]</a>
+          <div class='oculto-lg col-md-offset-0 col-md-5 oculto-sm oculto-xs margen-inferior-s'>
+            <div class='fila'>
+              <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1'>
+                <p class='datos-contacto footer'>Sitios relacionados</p>
+                <a class='sitio-relacionado' href='#'>[ Wiki Casiopea ]</a>
+                <a class='sitio-relacionado' href='#'>[ Archivo Histórico José Vial Armstrong ]</a>
+                <a class='sitio-relacionado' href='#'>[ Biblioteca ]</a>
+                <a class='sitio-relacionado' href='#'>[ Travesías ]</a>
+                <a class='sitio-relacionado' href='#'>[ Pyxis Framework ]</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='oculto-lg oculto-md col-sm-10 col-sm-offset-0 col-xs-22 col-xs-offset-1'>
-          <div class='fila'>
-            <div class='col-lg-22 col-lg-offset-1'>
-              <img src='/img/iconos-sociales/fb.png'>
-              <img src='/img/iconos-sociales/twitter.png'>
-              <img src='/img/iconos-sociales/vimeo.png'>
-              <img src='/img/iconos-sociales/soundscloud.png'>
+          <div class='oculto-lg oculto-md col-sm-10 col-sm-offset-0 col-xs-22 col-xs-offset-1'>
+            <div class='fila'>
+              <div class='col-lg-22 col-lg-offset-1'>
+                <img src='/img/iconos-sociales/fb.png'>
+                <img src='/img/iconos-sociales/twitter.png'>
+                <img src='/img/iconos-sociales/vimeo.png'>
+                <img src='/img/iconos-sociales/soundscloud.png'>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='col-lg-5 col-lg-offset-1 oculto-md col-sm-14 col-sm-offset-10 col-xs-22 col-xs-offset-1 margen-inferior-s'>
-          <div class='fila'>
-            <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1'>
-              <p class='datos-contacto footer'>Sitios relacionados</p>
-              <a class='sitio-relacionado' href='#'>[ Wiki Casiopea ]</a>
-              <a class='sitio-relacionado' href='#'>[ Archivo Histórico José Vial Armstrong ]</a>
-              <a class='sitio-relacionado' href='#'>[ Biblioteca ]</a>
-              <a class='sitio-relacionado' href='#'>[ Travesías ]</a>
-              <a class='sitio-relacionado' href='#'>[ Pyxis Framework ]</a>
+          <div class='col-lg-5 col-lg-offset-1 oculto-md col-sm-14 col-sm-offset-10 col-xs-22 col-xs-offset-1 margen-inferior-s'>
+            <div class='fila'>
+              <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1'>
+                <p class='datos-contacto footer'>Sitios relacionados</p>
+                <a class='sitio-relacionado' href='#'>[ Wiki Casiopea ]</a>
+                <a class='sitio-relacionado' href='#'>[ Archivo Histórico José Vial Armstrong ]</a>
+                <a class='sitio-relacionado' href='#'>[ Biblioteca ]</a>
+                <a class='sitio-relacionado' href='#'>[ Travesías ]</a>
+                <a class='sitio-relacionado' href='#'>[ Pyxis Framework ]</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div> <!-- fin fila inferior -->
-    </div> <!-- fin wrap -->
-  </div> <!-- fin col24 -->
-</div> <!-- fin fila footer --> 
-<script>
-    smoothScroll.init();
-</script>
-  </body>
-</html>
+        </div> <!-- fin fila inferior -->
+      </div> <!-- fin wrap -->
+    </div> <!-- fin col24 -->
+  </div> <!-- fin fila footer --> 
+  <script>
+      smoothScroll.init();
+  </script>
+    </body>
+  </html>
