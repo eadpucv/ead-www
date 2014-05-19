@@ -2,16 +2,15 @@
 layout: portada-archivo
 title: Archivo Histórico JVA
 ---
-
-<!-- CAROUSEL -->
+<!-- Carousel -->
     <div class="demo_wrapper">
-      <article class="demo_block">
+      <div class="demo_block">
       <ul id="demo1">
         <li><a href="#slide1"><img src="{{ site.baseurl }}/img/img-carousel/foto-2-carrousel.jpg" alt="TOR tri 04 - Torneo Triagón - 108" ></a></li>
         <li><a href="#slide2"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel7.jpg"  alt="PH-AP ver 71 - Phalène Quinta Vergara - 49"></a></li>
         <li><a href="#slide3"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel-8.jpg" alt="EX bie 10 - IV Bienal de Diseño - Chile se diseña (faenas escuela) - 10"></a></li>
       </ul>
-      </article>
+      </div>
     </div>    
     <script>
       $(function() {
