@@ -295,7 +295,7 @@ title: Archivo Histórico JVA
                             <div class='prev-imagen lg'>
                                 <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/marimenuco-travesia.jpg'>
                             </div>
-                            <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-imagen icn-lg blanco col-lg-offset-3'></i></div>
+                            <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-jekyll icn-lg blanco col-lg-offset-3'></i></div>
                             
                             <h6 class='rojo-claro fina texto-cuadro-des'>Travesía Marimenuco 2012</h6> 
                             <h6 class="datos-pub-jva">Publicado día 25 de Abril 2014.</h6> 
@@ -314,7 +314,7 @@ title: Archivo Histórico JVA
                             <div class='prev-imagen lg'>
                                 <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/foto-pub-2.jpg'>
                             </div>
-                            <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-parlante-l icn-lg blanco col-lg-offset-3'></i></div>
+                            <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-soundcloud icn-lg blanco col-lg-offset-3'></i></div>
                             
                             <h6 class='rojo-claro fina texto-cuadro-des'>Taller de Amereida</h6> 
                             <h6 class="datos-pub-jva">Publicado día 30 de Abril 2014.</h6>
@@ -333,7 +333,7 @@ title: Archivo Histórico JVA
                             <div class='prev-imagen lg'>
                                 <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/foto-pub-3.jpg'>
                             </div>
-                            <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-ojo-l icn-lg blanco col-lg-offset-3'></i></div>
+                            <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-vimeo icn-lg blanco col-lg-offset-3'></i></div>
                             
                             <h6 class='rojo-claro fina texto-cuadro-des'>Phalène de Horcones</h6>
                             <h6 class="datos-pub-jva">Publicado día 30 de Abril 2014.</h6> 
