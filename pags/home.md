@@ -64,29 +64,27 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
   </div>
 </div>
-<div>
-  <div class='wrap'>
-    <div class='fila'>
-      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
-        <div class='pagina info-docencia xs'>
-          <div class='referencia-cita'>
-            <i class="izquierda gris icn icn-anuncio icn-lg"></i>
-            <h6>Clases de Geografía suspendida.</h6>
-            <p class='datos-publicacion gris'>7 de mayo, 2014</p>
-          </div>
-          <p class='cita'>Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles 14 de mayo, a las 15:30 horas, en Francia esquina Brasil, Valparaíso.</p>
+<div class='wrap'>
+  <div class='fila'>
+    <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
+      <div class='pagina info-docencia xs'>
+        <div class='referencia-cita'>
+          <i class="izquierda gris icn icn-anuncio icn-lg"></i>
+          <h6>Clases de Geografía suspendida.</h6>
+          <p class='datos-publicacion gris'>7 de mayo, 2014</p>
         </div>
+        <p class='cita'>Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles 14 de mayo, a las 15:30 horas, en Francia esquina Brasil, Valparaíso.</p>
       </div>
     </div>
   </div>
 </div>
 <div class='fondo-blanco'>
   <div class='wrap'>
-  <div class='seccion'>
-      <h3>
-        <i class="icn icn-calendario icn-lg"></i> Eventos
-      </h3>
-  </div>
+    <div class='seccion'>
+        <h3>
+          <i class="icn icn-calendario icn-lg"></i> Eventos
+        </h3>
+    </div>
     <div class='fila'><!-- sección eventos superior--> 
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
@@ -229,8 +227,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p>Después del incendio que afecto a los cerros de Valparaíso, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. y con el equipamiento que la e[ad] posee para las travesías [...]</p>
         </a>
       </div><!-- fin noticia 7 -->
-            <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
+      <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
         <a href='#' class='enlace-noticia'>
+<<<<<<< HEAD
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='seguir-leyendo-cuadro'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -241,6 +240,15 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
             <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
             <p>Después del un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
+=======
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+          <div class='prev-imagen sm'>
+            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia7.jpg'>
+          </div>
+          <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+          <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
+          <p>Después del un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
+>>>>>>> _franja-postulantes
         </a>
       </div><!-- fin noticia 7 -->
       <div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
@@ -254,87 +262,84 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 <div class='franja-postulante'>
   <div data-ride="carousel" class="carousel slide" id="carousel-postulante"> 
     <div class="carousel-inner"> 
-      <div class="item active">
-        <div class='wrap cf'>
-          <div alt="First slide" title="Admisión">
-            <div class='col-lg-3 seccion-postulante'>
-              <h1 class='centrado'>Admisión</h1>
-              <p>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE.</p>
-            </div>
-            <div class='col-lg-9 enlaces-postulante'>
-                <a class='btn btn-md btn-transparente' href='#'>Vías de ingreso</a>
-                <a class='btn btn-md btn-transparente' href='#'>Becas y financiamiento</a>
-                <a class='btn btn-md btn-transparente' href='#'>Aranceles</a>
-            </div>
+      <div class="item active" alt="First slide" title="Admisión">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Admisión</h1>
+            <p>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/admn.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente' href='#'>Vías de ingreso</a>
+            <a class='btn btn-md btn-transparente' href='#'>Becas y financiamiento</a>
+            <a class='btn btn-md btn-transparente' href='#'>Aranceles</a>
           </div>
         </div>
       </div>
-      <div class="item">
-        <div class='wrap cf'>
-          <div alt="Second slide" title="Carreras">
-            <div class='col-lg-3 seccion-postulante'>
-              <h1 class='centrado'>Carreras y posgrados</h1>
-              <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte.</p>
-            </div>
-            <div class='col-lg-9 enlaces-postulante'>
-            <ul>
-              <a class='btn btn-md btn-transparente' href='#'><li>Arquitectura</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>Diseño Gráfico</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>Diseño Industrial</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>Magíster de Arquitectura y Diseño</li></a>
-            </ul>
-            </div>
+      <div class="item" alt="Second slide" title="Carreras">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Carreras y posgrados</h1>
+            <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/carreras.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente' href='#'>Arquitectura</a>
+            <a class='btn btn-md btn-transparente' href='#'>Diseño Gráfico</a>
+            <a class='btn btn-md btn-transparente' href='#'>Diseño Industrial</a>
+            <a class='btn btn-md btn-transparente' href='#'>Magíster de Arquitectura y Diseño</a>
           </div>
         </div>
       </div>
-      <div class="item">
-        <div class='wrap cf'>
-          <div alt="Third slide" title="Campus">
-            <div class='col-lg-3 seccion-postulante'>
-              <h1 class='centrado'>Campus</h1>
-              <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América.</p>
-              <p>El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.</p>
-              <p>El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
-            </div>
-            <div class='col-lg-9 enlaces-postulante'>
-            <ul>
-              <a class='btn btn-md btn-transparente' href='#'><li>Casa de estudio</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>Ciudad Abierta</li></a>
-            </ul>
-            </div>
+      <div class="item" alt="Third slide" title="Campus">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Campus</h1>
+            <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América.</p>
+            <p>El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.</p>
+            <p>El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/campus.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente' href='#'>Casa de estudio</a>
+            <a class='btn btn-md btn-transparente' href='#'>Ciudad Abierta</a>
           </div>
         </div>
       </div>
-      <div class="item">
-        <div class='wrap cf'>
-          <div alt="Fourth slide" title="Cuerpo Docente">
-            <div class='col-lg-3 seccion-postulante'>
-              <h1 class='centrado'>Cuerpo Docente</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.</p>
-            </div>
-            <div class='col-lg-9 enlaces-postulante'>
-            <ul>
-              <a class='btn btn-md btn-transparente' href='#'><li>Profesores</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>Ayudantes</li></a>
-            </ul>
-            </div>
+      <div class="item" alt="Fourth slide" title="Cuerpo Docente">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Cuerpo Docente</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/docentes.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente' href='#'>Profesores</a>
+            <a class='btn btn-md btn-transparente' href='#'>Ayudantes</a>
           </div>
         </div>
       </div>
-      <div class="item">
-        <div class='wrap cf'>
-          <div alt="Fourth slide" title="Escuela y el oficio">
-            <div class='col-lg-3 seccion-postulante'>
-              <h1 class='centrado'>La escuela y el oficio</h1>
-              <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
-            </div>
-            <div class='col-lg-9 enlaces-postulante'>
-            <ul>
-              <a class='btn btn-md btn-transparente' href='#'><li>Historia</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>La observación</li></a>
-              <a class='btn btn-md btn-transparente' href='#'><li>Amereida</li></a>
-            </ul>
-            </div>
+      <div class="item" alt="Fourth slide" title="Escuela y el oficio">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>La escuela y el oficio</h1>
+            <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/escuelaoficio.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente' href='#'>Historia</a>
+            <a class='btn btn-md btn-transparente' href='#'>La observación</a>
+            <a class='btn btn-md btn-transparente' href='#'>Amereida</a>
           </div>
         </div>
       </div>
@@ -347,8 +352,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </a>
   </div>
 </div>
-
 <div class='fondo-blanco'>
+<<<<<<< HEAD
       <div class='wrap-ancho-maximo'>
           <div class='col-lg-12'>
     <div class='fila'>
@@ -393,40 +398,101 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
             <p class='blanco datos-publicacion'>Publicado el 25 de marzo, 2014</p>
             <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
+=======
+  <div class='wrap-ancho-maximo'>
+    <div class='col-lg-12'>
+      <div class='fila'>
+          <div class='seccion'>
+            <h3>
+              <i class="icn icn-noticias icn-lg"></i> noticias por carrera
+            </h3>
+>>>>>>> _franja-postulantes
           </div>
-        </a>
-      </div>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
+          <a href='#' class='bloque-enlace oficio'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
             </div>
+            <div class='pagina md carrera'>
+              <h6>arquitectura</h6>
+              <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
+              <p class='blanco datos-publicacion'>Publicado el 11 de marzo, 2014</p>
+              <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. una memoria de éste; un espacio socio-cultural, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. </p>
+            </div>
+          </a>
+        </div>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
+          <a href='#' class='bloque-enlace oficio'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
+            </div>
+            <div class='pagina md carrera'>
+              <h6>diseño gráfico</h6>
+              <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
+              <p class='blanco datos-publicacion'>Publicado el 9 de mayo, 2014</p>
+              <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
+            </div>
+          </a>
+        </div>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
+          <a href='#' class='bloque-enlace oficio'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
+            </div>
+            <div class='pagina md carrera'>
+              <h6>diseño industrial</h6>
+              <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
+              <p class='blanco datos-publicacion'>Publicado el 25 de marzo, 2014</p>
+              <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <div class='wrap'>
-          <div class='seccion'>
-        <h3>
-          <i class="icn icn-noticias icn-lg"></i> noticias por categorías
-        </h3>
-      </div>
+    <div class='seccion'>
+      <h3>
+        <i class="icn icn-noticias icn-lg"></i> noticias por categorías
+      </h3>
+    </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
   			<div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>magíster arquitectura y diseño</h6>
               <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
               <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
               <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+=======
+            <h6>magíster arquitectura y diseño</h6>
+            <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
+            <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
+            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+>>>>>>> _franja-postulantes
           </a>
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
               <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
               <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+=======
+            <h6>taller de amereida</h6>
+            <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
+            <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+>>>>>>> _franja-postulantes
           </a>
         </div> <!-- fin noticia de categoria 5 -->
         <div class='categoria'>  <!-- noticia de categoria 6 -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>ediciones e[ad]</h6>
               <h5 class='rojo-claro'>Carta de Alemania</h5>
@@ -437,36 +503,70 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               70 páginas
               Viña del Mar</p>
             </a>
+=======
+            <h6>ediciones e[ad]</h6>
+            <h5 class='rojo-claro'>Carta de Alemania</h5>
+            <p class='datos-publicacion'>Publicado el 2010</p>
+            <p>Jaime Reyes Gil
+            Colección HeteroGenios
+            Ediciones e[ad] | Taller de Investigaciones Gráficas
+            70 páginas
+            Viña del Mar</p>
+          </a>
+>>>>>>> _franja-postulantes
         </div>  <!-- fin noticia de categoria 6 -->
       </div>
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>  <!-- noticia de categoria 7 -->
         <div class='categoria'>
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>archivo histórico josé vial armstrong</h6>
               <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
               <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
               <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
+=======
+            <h6>archivo histórico josé vial armstrong</h6>
+            <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
+            <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
+            <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
+>>>>>>> _franja-postulantes
           </a>
         </div>  <!-- fin noticia de categoria 7 -->
         <div class='categoria'>  <!-- noticia de categoria 8 -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>investigación</h6>
               <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
               <p class='datos-publicacion'>Publicado el 2014</p>
               <p>Definición del Problema
               En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
+=======
+            <h6>investigación</h6>
+            <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
+            <p class='datos-publicacion'>Publicado el 2014</p>
+            <p>Definición del Problema
+            En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
+>>>>>>> _franja-postulantes
           </a>
         </div>  <!-- fin noticia de categoria 8 -->
         <div class='categoria'>  <!-- noticia de categoria 9 -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>bolsa de trabajo</h6>
               <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
               <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
               <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
               Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
+=======
+            <h6>bolsa de trabajo</h6>
+            <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
+            <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
+            <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
+            Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
+>>>>>>> _franja-postulantes
             </p>
           </a>
         </div>  <!-- fin noticia de categoria 9 -->
@@ -475,23 +575,31 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <div class='categoria'> <!-- noticia de categoria 4  -->
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <a href='#' class='bloque-enlace-categoria'>
-              <h6>magíster arquitectura y diseño</h6>
-              <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
-              <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
-              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+            <h6>magíster arquitectura y diseño</h6>
+            <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
+            <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
+            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
           </a>
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
               <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
               <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+=======
+            <h6>taller de amereida</h6>
+            <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
+            <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+>>>>>>> _franja-postulantes
           </a>
         </div> <!-- fin noticia de categoria 5 -->
         <div class='categoria'>  <!-- noticia de categoria 6 -->
           <a href='#' class='bloque-enlace-categoria'>
+<<<<<<< HEAD
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>ediciones e[ad]</h6>
               <h5 class='rojo-claro'>Carta de Alemania</h5>
@@ -502,11 +610,19 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
               70 páginas
               Viña del Mar</p>
             </a>
+=======
+            <h6>ediciones e[ad]</h6>
+            <h5 class='rojo-claro'>Carta de Alemania</h5>
+            <p class='datos-publicacion'>Publicado el 2010</p>
+            <p>Jaime Reyes Gil
+            Colección HeteroGenios
+            Ediciones e[ad] | Taller de Investigaciones Gráficas
+            70 páginas
+            Viña del Mar</p>
+          </a>
+>>>>>>> _franja-postulantes
         </div>  <!-- fin noticia de categoria 6 -->
       </div>
     </div>
   </div> <!-- wrap -->
 </div> <!-- fin wrap ancho total-->
-
-
-
