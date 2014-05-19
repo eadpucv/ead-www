@@ -4,7 +4,7 @@ title: Archivo Histórico JVA
 ---
 
 <!-- CAROUSEL -->
-    <section class="demo_wrapper">
+    <div class="demo_wrapper">
       <article class="demo_block">
       <ul id="demo1">
         <li><a href="#slide1"><img src="{{ site.baseurl }}/img/img-carousel/foto-2-carrousel.jpg" alt="TOR tri 04 - Torneo Triagón - 108" ></a></li>
@@ -12,7 +12,7 @@ title: Archivo Histórico JVA
         <li><a href="#slide3"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel-8.jpg" alt="EX bie 10 - IV Bienal de Diseño - Chile se diseña (faenas escuela) - 10"></a></li>
       </ul>
       </article>
-    </section>    
+    </div>    
     <script>
       $(function() {
         var demo1 = $("#demo1").slippry({
