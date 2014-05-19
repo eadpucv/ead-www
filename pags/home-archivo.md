@@ -4,71 +4,59 @@ title: Archivo Histórico JVA
 ---
 
 <!-- CAROUSEL -->
-  <div class='container-lg alto-lg'>
-  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
-    <ol class="carousel-indicators"> 
-      <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
-      <li data-slide-to="1" data-target="#carousel-example-generic"></li> 
-      <li data-slide-to="2" data-target="#carousel-example-generic"></li> 
-      <li data-slide-to="3" data-target="#carousel-example-generic"></li> 
-    </ol> 
-    <div class="carousel-inner"> 
-      <div class="item active imagen-carousel"> <!-- 1er slide -->
-        <img class='altura-maxima' alt="First slide" src="{{ site.baseurl }}/img/img-archivo/marrymenuco-carousel2.jpg" title="Noticia Destacada"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-noticias icn-lg"></i> TRA mar 12 - Travesía Marimenuco (Faenas) - 03</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-noticias icn-md"></i> Nuevos álbumes: Travesía Marimenuco</h1> 
-            <p>Obra realizada anteriormente por estudiantes y docentes de Tercer Año de Arquitectura donde  se construyó una ruca para que los lugareños pudiesen celebrar su Wetripantu o año nuevo mapuche.</p>
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 2do slide -->
-        <img class='altura-maxima' alt="Second slide" src="{{ site.baseurl }}/img/img-archivo/marrymenuco-carousel2.jpg" title="Travesía Destadada"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-travesia icn-md"></i> Travesía Tarabuco  - Bolivia, 2013 </h1>
-            <p>Las travesías son viajes poéticos por América que realiza anualmente la e[ad] Escuela de Arquitectura y Diseño PUCV a partir del año 1984. Estos viajes son integrados por los alumnos y profesores de Arquitectura, Diseño Gráfico y Diseño Industrial. Este sitio corresponde al registro de dichos viajes por el continente e invita a todos quienes han participado a colaborar en esta bitácora colectiva.</p><span class='derecha'>Sylvia Arriagada</span> 
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 3er slide -->
-        <img class='altura-maxima' alt="Third slide" src="{{ site.baseurl }}/img/historia.jpg" title="Historia de la Escuela"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>  
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-travesia icn-md"></i> Aula Neumática, 1984</h1> 
-            <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='derecha'>Alberto Cruz</span> 
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 4to slide -->
-        <img class='altura-maxima' alt="Fourth slide" src="{{ site.baseurl }}/img/croquis.jpg" title="Observación de la semana"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-ojo icn-md"></i> Observación "La Alcoba"</h1> 
-            <p>La Alcoba en la Ciudad Abierta.<br>
-            Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados), los que se aumentan con unos muros contenedores que reciben a la mayoría de los muebles.<br>
-            Lo edificado construye el exterior levantándose, reconstruye la arena como un libre paso sin interrumpir la extensión.</p> <span class='derecha'>David Jolly</span> 
-          </div>
-        </div> 
-      </div>    
-    </div>
-  </div>
-</div>
+    <section class="demo_wrapper">
+      <article class="demo_block">
+      <ul id="demo1">
+        <li><a href="#slide1"><img src="{{ site.baseurl }}/img/img-carousel/foto-2-carrousel.jpg" alt="TOR tri 04 - Torneo Triagón - 108" ></a></li>
+        <li><a href="#slide2"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel7.jpg"  alt="PH-AP ver 71 - Phalène Quinta Vergara - 49"></a></li>
+        <li><a href="#slide3"><img src="{{ site.baseurl }}/img/img-carousel/foto-carrousel-8.jpg" alt="EX bie 10 - IV Bienal de Diseño - Chile se diseña (faenas escuela) - 10"></a></li>
+      </ul>
+      </article>
+    </section>    
+    <script>
+      $(function() {
+        var demo1 = $("#demo1").slippry({
+          transition: 'fade',
+          useCSS: true,
+          speed: 1000,
+          pause: 3000,
+          auto: true,
+          preload: 'visible'
+        });
 
+        $('.stop').click(function () {
+          demo1.stopAuto();
+        });
 
-<!--      CONTENIDO CENTRAL     -->                       
+        $('.start').click(function () {
+          demo1.startAuto();
+        });
+
+        $('.prev').click(function () {
+          demo1.goToPrevSlide();
+          return false;
+        });
+        $('.next').click(function () {
+          demo1.goToNextSlide();
+          return false;
+        });
+        $('.reset').click(function () {
+          demo1.destroySlider();
+          return false;
+        });
+        $('.reload').click(function () {
+          demo1.reloadSlider();
+          return false;
+        });
+        $('.init').click(function () {
+          demo1 = $("#demo1").slippry();
+          return false;
+        });
+      });
+    </script>
+
+<!--      CONTENIDO CENTRAL     -->
+
 
 <div class='col-lg-12 col-md-12'>
     <div class='wrap'>
@@ -109,6 +97,8 @@ title: Archivo Histórico JVA
     </div> <!-- fin wrap -->
 </div>
 
+
+<p> <!-- fin fila --></p>
 
 <!-- Inicio noticias varias -->
 
@@ -179,6 +169,9 @@ title: Archivo Histórico JVA
         </div>
    </div> <!-- fin col-lg-12 -->
 </div>
+
+
+<p> <!-- fin fila --></p>
 
 <!-- fin de Noticia destacada -->
 
@@ -258,10 +251,18 @@ title: Archivo Histórico JVA
     </div> <!-- fin wrap -->
 </div>
 
+
+<p> <!-- fin col-lg-12 --></p>
+
 <!-- fin álbumes destacados -->
+
+
+<p></p>
 
 <!-- inicio publicaciones recientes -->
 
+
+<p></p>
 
 <div class='col-lg-12'>
     <div class='wrap'>
