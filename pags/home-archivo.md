@@ -14,7 +14,7 @@ title: Archivo Histórico JVA
     </ol> 
     <div class="carousel-inner"> 
       <div class="item active imagen-carousel"> <!-- 1er slide -->
-        <img class='altura-maxima' alt="First slide" src="img/img-archivo/marrymenuco-carousel2.jpg" title="Noticia Destacada"> 
+        <img class='altura-maxima' alt="First slide" src="{{ site.baseurl }}/img/img-archivo/marrymenuco-carousel2.jpg" title="Noticia Destacada"> 
         <div class='pie-de-foto'> 
           <p class='centrado'><i class="icn icn-noticias icn-lg"></i> TRA mar 12 - Travesía Marimenuco (Faenas) - 03</p> 
         </div> 
@@ -26,7 +26,7 @@ title: Archivo Histórico JVA
         </div> 
       </div>
       <div class="item imagen-carousel"> <!-- 2do slide -->
-        <img class='altura-maxima' alt="Second slide" src="img/img-archivo/marrymenuco-carousel2.jpg" title="Travesía Destadada"> 
+        <img class='altura-maxima' alt="Second slide" src="{{ site.baseurl }}/img/img-archivo/marrymenuco-carousel2.jpg" title="Travesía Destadada"> 
         <div class='pie-de-foto'> 
           <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
         </div> 
@@ -38,7 +38,7 @@ title: Archivo Histórico JVA
         </div> 
       </div>
       <div class="item imagen-carousel"> <!-- 3er slide -->
-        <img class='altura-maxima' alt="Third slide" src="img/historia.jpg" title="Historia de la Escuela"> 
+        <img class='altura-maxima' alt="Third slide" src="{{ site.baseurl }}/img/historia.jpg" title="Historia de la Escuela"> 
         <div class='pie-de-foto'> 
           <p class='centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>  
         </div> 
@@ -50,7 +50,7 @@ title: Archivo Histórico JVA
         </div> 
       </div>
       <div class="item imagen-carousel"> <!-- 4to slide -->
-        <img class='altura-maxima' alt="Fourth slide" src="/img/croquis.jpg" title="Observación de la semana"> 
+        <img class='altura-maxima' alt="Fourth slide" src="{{ site.baseurl }}/img/croquis.jpg" title="Observación de la semana"> 
         <div class='pie-de-foto'> 
           <p class='centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
         </div> 
@@ -80,7 +80,7 @@ title: Archivo Histórico JVA
 
             <div class='col-lg-12 col-md-12 col-sm-12  margen-superior'>
                 <div class='col-lg-5'>
-                    <img class= 'destacada-archivo' src='img/img-archivo/foto-noticia1.jpg'>          
+                    <img class= 'destacada-archivo' src='{{ site.baseurl }}/img/img-archivo/foto-noticia1.jpg'>          
                     <div class='indice-fecha fondo-negro-claro'>
                       <div class='linea-vert-fecha fondo-blanco'></div>
                       <div class='contenedor-fecha'>
@@ -118,7 +118,7 @@ title: Archivo Histórico JVA
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
 
-                <img class='foto-interior-pub' src='img/img-archivo/seminario-dis.jpg'>                
+                <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/seminario-dis.jpg'>                
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">“De la hipótesis al Diseño: Aproximaciones, casos y obras”<p class='subtitulo'>El objetivo del seminario es dar lugar a la exposición e intercambio de ideas referidas al diseño, creando una instancia [...] </p></span></a>
                 </div>
@@ -128,7 +128,7 @@ title: Archivo Histórico JVA
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
                
-                <img class='foto-interior-pub' src='img/img-archivo/concurso-vergel.jpg'> 
+                <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/concurso-vergel.jpg'> 
 
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">Convocatoria Concurso de Ideas y Relatos: Vergel 439 <p class='subtitulo'>Producto del trágico siniestro que afectó a la ciudad de Valparaíso el pasado 12 de abril de 2014, el académico Luis Álvarez Aránguiz,[...]</p></span></a>
@@ -139,7 +139,7 @@ title: Archivo Histórico JVA
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
 
-                <img class='foto-interior-pub' src='img/img-archivo/Ojos-Gato-2014.png'>                
+                <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/Ojos-Gato-2014.png'>                
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">Presentación Libro "Los Ojos del Gato" Memorial de Edison Simons <p class='subtitulo'>Se llevó a cabo en la Escuela la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro[...]</p></span></a>
                 </div>
@@ -149,7 +149,7 @@ title: Archivo Histórico JVA
         <div class='col-sm-2'>
             <div class='cont-noticia-previa'>
                 
-                <img class='foto-interior-pub' src='img/img-archivo/inauguracion-expo.jpg'>
+                <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/inauguracion-expo.jpg'>
 
                 <div class='titulo-noticia-prev'>
                     <a href='#'><span class="rojo-claro">Exposición Travesía Magallanes 2013 en Museo Marítimo Nacional <p class='subtitulo'>En el contexto de la celebración del 99° aniversario del Museo Marítimo Nacional, esta mañana se inauguró la exposición Travesía Magallanes 2013,[...]</p></span></a>
@@ -195,7 +195,7 @@ title: Archivo Histórico JVA
             <div class='col-lg-12 margen-superior'>
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
-                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/foto-album-1.jpg'></br>
+                    <img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-album-1.jpg'></br>
                     <div class='cuadro-icono fondo-negro-claro'><i class= 'icn icn-acto icn-lg blanco col-lg-offset-3'></i> </div>
 
                     <h6 class='rojo-claro fina texto-cuadro-des'>Montaje y Exposición:</br>4ta Bienal Chile se Diseña</h6> <h6 class="datos-publicacion col-lg-12">Publicado día lunes 21 de Abril 2014.</h6>
@@ -210,7 +210,7 @@ title: Archivo Histórico JVA
                 </div>
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
-                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/foto-album-2.jpg'>
+                    <img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-album-2.jpg'>
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-imagen icn-lg blanco col-lg-offset-3'></i></div> 
 
                     <h6 class='rojo-claro fina texto-cuadro-des'>Valparaíso Antiguo:</br>Capturas de Juan Hernández</h6> <h6 class="datos-publicacion col-lg-12">Publicado día miércoles 23 de Abril 2014.</h6>
@@ -225,7 +225,7 @@ title: Archivo Histórico JVA
                 </div>
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
-                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/foto-album-3.jpg'>
+                    <img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-album-3.jpg'>
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco col-lg-offset-3'></i></div>
 
                     <h6 class='rojo-claro fina texto-cuadro-des'>Travesía Caldera:</br>Habitáculos para el desierto</h6><h6 class="datos-publicacion col-lg-12 ">Publicado día jueves 24 de Abril 2014.</h6>
@@ -240,7 +240,7 @@ title: Archivo Histórico JVA
                 </div>
 
                 <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro altura-destacados margen-destacados'>
-                    <img class='altura-foto-interior margen-superior' src='img/img-archivo/travesia-tarabuco.jpg'>
+                    <img class='altura-foto-interior margen-superior' src='{{ site.baseurl }}/img/img-archivo/travesia-tarabuco.jpg'>
                     <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-travesia icn-lg blanco col-lg-offset-3'></i></div>
 
                     <h6 class='rojo-claro fina texto-cuadro-des'>Travesía Tarabuco:</br>Taller 2º año Diseño Industrial</h6><h6 class="datos-publicacion col-lg-12">Publicado día jueves 24 de Abril 2014.</h6>
@@ -273,7 +273,7 @@ title: Archivo Histórico JVA
             <div class='col-lg-12 margen-superior'>
                 
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/marimenuco-travesia.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/marimenuco-travesia.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-imagen icn-lg blanco col-lg-offset-3'></i></div></br>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Travesía Marimenuco 2012</h6> 
@@ -288,7 +288,7 @@ title: Archivo Histórico JVA
                     </div>
                     
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/foto-pub-2.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-pub-2.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-parlante-l icn-lg blanco col-lg-offset-3'></i></div>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Taller de Amereida</h6> 
@@ -303,7 +303,7 @@ title: Archivo Histórico JVA
                     </div>
                     
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/foto-pub-3.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/foto-pub-3.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-ojo-l icn-lg blanco col-lg-offset-3'></i></div>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Phalène de Horcones</h6>
@@ -318,7 +318,7 @@ title: Archivo Histórico JVA
                     </div>
                     
                     <div class='col-lg-2 col-md-4- col-sm-6 col-xs-12 fondo-gris-claro margen-destacados margen-cuadros'>
-                        <img class='foto-interior-pub margen-superior' src='img/img-archivo/pizarron20años-documentos.jpg'>
+                        <img class='foto-interior-pub margen-superior' src='{{ site.baseurl }}/img/img-archivo/pizarron20años-documentos.jpg'>
                         <div class='cuadro-icono fondo-negro-claro'><i class='icn icn-documento-l icn-lg blanco col-lg-offset-3'></i></div>
                         
                         <h6 class='rojo-claro fina texto-cuadro-des'>Exposición 20 años </h6>
