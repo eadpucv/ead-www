@@ -30,11 +30,59 @@ ul li{
 }
 
 
-.breadcrumb {
-	font-family: @sans;
-	font-size: @cuerpo * .8;
-	color: @gris;
-	margin: 5px 0;
+#breadcrumb {
+    display: block;
+    font-family: @sans;
+    font-size: @cuerpo * .8;
+    padding: 0;
+    font-weight: normal;
+    height: 46px;
+    letter-spacing: 1px;
+    margin: 0 0 2px;
+    text-transform: uppercase;
+
+    li {
+	    display: inline;
+	    float: left;
+	    margin: 19px 0 0;
+	    padding: 0 30px 0 0;
+
+	    a {
+	    	color: @gris-oscuro;
+		    display: block;
+		    font-weight: 300;
+    		height: 12px;
+
+    		&:hover {
+    			color: @rojo-claro;
+    		}
+	    }
+    }
+
+    li:after {
+		float: right;
+		margin: -10px -20px 0 0;
+		vertical-align: middle;
+		display: inline-block;
+		font-family: "Stampa";
+		content: "\e601";
+		color: @gris-oscuro;
+    }
+
+    li:last-child {
+    	a {
+    		color: @rojo-claro;
+
+    		&:hover {
+    			color: @pizarra;
+    		}
+    	}
+    }
+
+    li:last-child:after {
+    	font-family: "Stampa";
+    	content: none;
+    }
 }
 
 .entry-details {
@@ -133,8 +181,6 @@ ul li{
 		margin: 4px 0 0 -25px;    
 		vertical-align: middle;
 		display: inline-block;
-		width: 4px;
-		height: 4px;
 		font-family: "Stampa";
 		content: "\e601";
 		color: @gris-oscuro;
@@ -149,6 +195,37 @@ ul li{
 		width: 100%;
 		border-left: none;
 		border-right: none;
+	}
+
+	#breadcrumb {
+	    font-size: @cuerpo * .75;
+	    padding: 0;
+	    letter-spacing: 0.5px;
+
+	    li {
+		    display: none;
+	    }
+
+	    li:last-child {
+	    	display: inline-block;
+	    	a {
+	    		color: @rojo-claro;
+
+	    		&:hover {
+	    			color: @pizarra;
+	    		}
+	    	}
+	    }
+
+	    li:last-child:before {
+			position: absolute;  
+			margin: 2px 0 0 -20px;    
+			vertical-align: middle;
+			display: inline-block;
+			font-family: "Stampa";
+			content: "\e602";
+			color: @gris-oscuro;
+	    }
 	}
 
 	.e-content, .p-summary, .p-name {
@@ -168,6 +245,37 @@ ul li{
 		border-right: none;
 	}
 
+	#breadcrumb {
+	    font-size: @cuerpo * .75;
+	    padding: 0;
+	    letter-spacing: 0.5px;
+
+	    li {
+		    display: none;
+	    }
+
+	    li:last-child {
+	    	display: inline-block;
+	    	a {
+	    		color: @rojo-claro;
+
+	    		&:hover {
+	    			color: @pizarra;
+	    		}
+	    	}
+	    }
+
+	    li:last-child:before {
+			position: absolute;  
+			margin: 2px 0 0 -20px;    
+			vertical-align: middle;
+			display: inline-block;
+			font-family: "Stampa";
+			content: "\e602";
+			color: @gris-oscuro;
+	    }
+	}
+
 	.e-content, .p-summary, .p-name {
 		width: 100%;
 	}
@@ -183,8 +291,29 @@ ul li{
 		width: 70%;
 	}
 
+	#breadcrumb {
+	    font-size: @cuerpo * .8;
+	    letter-spacing: 0.5px;
+	}
+
 	.e-content, .p-summary, .p-name {
 		width: 90%;
+	}
+
+	// Aside 
+
+	.publicaciones-enlazadas {
+
+	    li {
+	        margin: 13px 0;
+	        padding: 0 0 0 20px;
+	        font-size: 13px;
+	        list-style: none;
+
+	         a {
+	         	font-weight: 300;
+	         }
+	    }
 	}
 }
 

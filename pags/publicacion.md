@@ -3,12 +3,12 @@ layout: publicacion
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 subtitle: Destacados diseñadores participan en seminario sobre investigación y diseño
 ---
-
+<div class='bloque'>
 <article class="h-entry">
 	<div class='prev-imagen franja'>
 		<img class='centrada' src='{{ site.baseurl }}/img/imagen-publicacion1.jpg'>
 	</div>
-	<h2 class='rojo-claro centrado'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h2>
+	<h2 class='rojo-claro'>Seminario “De la hipótesis al Diseño: Aproximaciones, casos y obras”</h2> <!-- subtítulo del post, en caso de no tener, no hay nada acá -->
 	<div class="e-content p-summary p-name">
 		<div class='bloque'>
 			<p>El pasado viernes 16 de mayo se llevó a cabo en la e[ad] el seminario “De la hipótesis al diseño: Aproximaciones, casos y obras”, organizado por el Taller de Título 1 Diseño Gráfico, en el que participaron Katherine Mollenhauer, Manuel Pinto y Diego Gómez, todos diseñadores con experiencia en el área de investigación.</p>
@@ -34,4 +34,4 @@ subtitle: Destacados diseñadores participan en seminario sobre investigación y
 	<p class='palabras'><a href='#'>[ Diseño ]</a> <a href='#'>[ Investigación ]</a> <a href='#'>[ Casos ]</a> <a href='#'>[ Diseño Gráfico ]</a> <a href='#'>[ Seminario ]</a></p>
 	</div>
 </article> 
-
+</div>
