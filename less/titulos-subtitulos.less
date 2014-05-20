@@ -50,8 +50,9 @@ h3, h4, h5, h6 {
 			position: relative;
 			border-top: 1px solid fade(@negro, 10);
 			border-bottom: 1px solid fade(@blanco, 70);
-			width: 30%;
-			height: 5px;
+			width: 25vw;
+			height: 2px;
+			top: -3px;
 		}
 
 
@@ -60,3 +61,59 @@ h3, h4, h5, h6 {
 		}
 	}
 }
+
+
+
+// Extra small screen / wide desktop
+@media(max-width: @screen-xs-max){
+
+.seccion{
+	h3{
+		letter-spacing: 2px;
+		font-size: 20px;
+		font-weight: 200;
+
+		&:before,
+		&:after{
+			width: 3vw;
+		}
+}
+}
+}
+
+// Small screen / wide desktop
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+.seccion{
+
+	h3{
+		letter-spacing: 3px;
+
+		&:before,
+		&:after{
+			width: 19vw;
+		}
+}
+}
+}	
+
+// Medium screen / wide desktop
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+.seccion{
+
+	h3{
+
+		&:before,
+		&:after{
+			width: 19vw;
+		}
+}
+}
+}
+
+// Large screen / wide desktop
+@media (min-width: @screen-lg){
+
+}
+
+

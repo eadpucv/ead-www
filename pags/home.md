@@ -143,7 +143,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 
     <div class='seccion'>
       <h3>
-        <i class="icn icn-noticias icn-lg"></i> Noticias
+        <i class="icn icn-noticias icn-lg"></i> Noticias recientes
       </h3>
     </div>
     <div class='fila'> <!-- sección noticias inferior -->
@@ -254,6 +254,11 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 </div>
 <!-- Carousel de Contenido para el postulante -->
 <div class='franja-postulante'>
+      <div class='seccion'>
+      <h3>
+        <i class="icn icn-noticias icn-lg"></i> Escuela & Enlaces
+      </h3>
+    </div>
   <div data-ride="carousel" class="carousel slide" id="carousel-postulante"> 
     <div class="carousel-inner"> 
       <div class="item active" alt="First slide" title="Admisión">
@@ -415,13 +420,16 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
   <div class='wrap'>
     <div class='seccion'>
       <h3>
-        <i class="icn icn-noticias icn-lg"></i> noticias por categorías
+        <i class="icn icn-noticias icn-lg"></i> Publicaciones
       </h3>
     </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
   			<div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>magíster arquitectura y diseño</h6>
               <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
@@ -431,6 +439,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
@@ -442,6 +453,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>  <!-- noticia de categoria 7 -->
         <div class='categoria'>
           <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>archivo histórico josé vial armstrong</h6>
               <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
@@ -451,6 +465,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>  <!-- fin noticia de categoria 7 -->
         <div class='categoria'>  <!-- noticia de categoria 9 -->
           <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>bolsa de trabajo</h6>
               <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
@@ -464,6 +481,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-4 oculto-md oculto-sm oculto-xs'>
         <div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace categoria'>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <h6>magíster arquitectura y diseño</h6>
             <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
@@ -473,6 +493,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
