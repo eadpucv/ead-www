@@ -2,7 +2,7 @@
 layout: home
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 ---
-<div class='container-lg alto-lg'>
+<div class='alto-lg'>
   <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
     <ol class="carousel-indicators"> 
       <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
@@ -17,7 +17,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-noticias icn-lg"></i> e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</p> 
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-noticias icn-md"></i> Los Ojos del Gato & El Retoque Inacabado</h1> 
             <p>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão.</p><span class='derecha'>Francesca Cambiaso</span>
           </div>
@@ -29,7 +29,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-travesia icn-md"></i> Travesía Tarabuco  - Bolivia, 2013 </h1>
             <p>Las travesías son viajes poéticos por América que realiza anualmente la e[ad] Escuela de Arquitectura y Diseño PUCV a partir del año 1984. Estos viajes son integrados por los alumnos y profesores de Arquitectura, Diseño Gráfico y Diseño Industrial. Este sitio corresponde al registro de dichos viajes por el continente e invita a todos quienes han participado a colaborar en esta bitácora colectiva.</p><span class='derecha'>Sylvia Arriagada</span> 
           </div>
@@ -41,7 +41,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>  
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-travesia icn-md"></i> Aula Neumática, 1984</h1> 
             <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='derecha'>Alberto Cruz</span> 
           </div>
@@ -53,7 +53,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
           <p class='centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
         </div> 
         <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
             <h1><i class="icn icn-ojo icn-md"></i> Observación "La Alcoba"</h1> 
             <p>La Alcoba en la Ciudad Abierta.<br>
             Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados), los que se aumentan con unos muros contenedores que reciben a la mayoría de los muebles.<br>
@@ -64,33 +64,36 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
   </div>
 </div>
-<div class='fondo-pizarra-oscuro'>
-  <div class='wrap'>
-    <div class='fila'>
-      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
+<div class='wrap'>
+  <div class='fila'>
+    <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
+      
         <div class='pagina info-docencia xs'>
-          <div class='referencia-cita'>
-            <i class="izquierda gris icn icn-anuncio icn-lg"></i>
-            <h6>Clases de Geografía suspendida.</h6>
-            <p class='datos-publicacion gris'>7 de mayo, 2014</p>
-          </div>
-          <p class='cita'>Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles 14 de mayo, a las 15:30 horas, en Francia esquina Brasil, Valparaíso.</p>
+        <a href='#'>
+        <div class='referencia-cita'>
+          <i class="izquierda gris icn icn-anuncio icn-lg"></i>
+          <h6>Clases de Geografía suspendida.</h6>
+          <aside class='entry-details gris'>7 de mayo, 2014</p>
         </div>
-      </div>
+        <p class='cita'>Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles 14 de mayo, a las 15:30 horas, en Francia esquina Brasil, Valparaíso.</p>
+        </a>
+       </div>
+      
     </div>
   </div>
 </div>
 <div class='fondo-blanco'>
   <div class='wrap'>
-  <div class='seccion'>
-      <h3>
-        <i class="icn icn-calendario icn-lg"></i> Eventos
-      </h3>
-  </div>
+    <div class='seccion'>
+        <h3>
+          <i class="icn icn-calendario icn-lg"></i> Eventos
+        </h3>
+    </div>
     <div class='fila'><!-- sección eventos superior--> 
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>09 may</p> 
@@ -102,6 +105,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div> <!-- fin evento  1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento  2 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>28 abr</p> 
@@ -113,6 +117,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin evento  2 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>13 abr</p> 
@@ -124,6 +129,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       </div><!-- fin evento  3 -->
       <div class='col-lg-3 oculto-md col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
         <a href='#' class='bloque-enlace'>
+          <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='fecha-evento'> 
                 <p class='dia centrado'>01 ago</p> 
@@ -134,368 +140,370 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </a>
       </div><!-- fin evento  3 -->
     </div>
+
     <div class='seccion'>
       <h3>
-        <i class="icn icn-noticias icn-lg"></i> Noticias
+        <i class="icn icn-noticias icn-lg"></i> Noticias recientes
       </h3>
     </div>
     <div class='fila'> <!-- sección noticias inferior -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
             </div>
-            <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
-          </div>
+            <h6>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el Sala Exposición se llevará a cabo una charla de Movilidad Estudiantil, para aquellos alumnos que [...]</p>
         </a>
       </div><!-- fin noticia 1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 2 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
             </div>
-            <h6 class='rojo-claro'>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar [...]</p>
-          </div>
+            <h6>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>El Comité de Túneles y Sala Exposición se llevará a cabo una charla de Movilidad Estudiantil, para aquellos alumnos que Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar [...]</p>
         </a>
       </div><!-- fin noticia 2 -->
       <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 3 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
             <div class='prev-imagen sm'>
               <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
             </div>
-            <h6 class='rojo-claro'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Después del incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
-          </div>
+            <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>Después del incendio que area Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
         </a>
       </div><!-- fin noticia 3 -->
-  		<div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 4 -->
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia4.jpg'>
+            </div>
+            <h6>Exposición de Sergio Baeriswyl en la e[ad]</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Área Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto Urbanismo 2014, quien, en el [...]</p>
+        </a>
+      </div><!-- fin noticia 4 -->
+      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 5 -->
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia5.jpg'>
+            </div>
+            <h6 class='negro'>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar Área Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto[...]</p>
+        </a>
+      </div><!-- fin noticia 5 -->
+      <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 6 -->
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia6.jpg'>
+            </div>
+            <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>Después del incendio que afecto a los cerros de Valparaíso, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. y con el equipamiento que la e[ad] posee para las travesías [...]</p>
+        </a>
+      </div><!-- fin noticia 7 -->
+      <div class='col-lg-3 oculto-md oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
+        <a href='#' class='enlace-noticia'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='prev-imagen sm'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia7.jpg'>
+            </div>
+            <h6>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
+            <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
+            <p>Después del un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
+        </a>
+      </div><!-- fin noticia 7 -->
+      <div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
   	</div> <!-- fin sección noticias inferior -->
   </div> <!-- fin wrap -->
 </div>
-
-<div class='wrap'>
+<!-- Carousel de Contenido para el postulante -->
+<div class='franja-postulante'>
       <div class='seccion'>
       <h3>
-        <i class="icn icn-noticias icn-lg"></i> Enlaces para el postulante
+        <i class="icn icn-noticias icn-lg"></i> Escuela & Enlaces
       </h3>
     </div>
-    <!--
-  <div class='fila'> 
-	  <div class='col-lg-12 col-md-12 oculto-sm oculto-xs alto-sm'>
-      <div class='fila'>
-        <div class='col-lg-2 col-sm-4 col-xs-12'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Futuro alumno</h6>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-12'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Admisión</h6>
-          <ul>
-            <a href='#'><li>Vías de ingreso</li></a>
-            <a href='#'><li>Becas y financiamiento</li></a>
-            <a href='#'><li>Aranceles</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Carreras y Posgrados</h6>
-          <ul>
-            <a href='#'><li>Arquitectura</li></a>
-            <a href='#'><li>Diseño Gráfico</li></a>
-            <a href='#'><li>Diseño Industrial</li></a>
-            <a href='#'><li>Magíster Náutico y marítimo</li></a>
-            <a href='#'><li>Magíster Ciudad y Territorio</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Campus</h6>
-          <ul>
-            <a href='#'><li>Casa de estudio</li></a>
-            <a href='#'><li>Ciudad Abierta</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Cuerpo Docente</h6>
-          <ul>
-            <a href='#'><li>Profesores</li></a>
-            <a href='#'><li>Ayudantes</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>La Escuela y el oficio</h6>
-          <ul>
-            <a href='#'><li>Historia</li></a>
-            <a href='#'><li>La observación</li></a>
-            <a href='#'><li>Amereida</li></a>
-          </ul>
-        </div>
+  <div data-ride="carousel" class="carousel slide" id="carousel-postulante"> 
+    <div class="carousel-inner"> 
+      <div class="item active" alt="First slide" title="Admisión">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Admisión</h1>
+            <p class='blanco'>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/admn.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Vías de ingreso</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Becas y financiamiento</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Aranceles</a>
+          </div>
         </div>
       </div>
-	  </div> -->
+      <div class="item" alt="Second slide" title="Carreras">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Carreras y posgrados</h1>
+            <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/carreras.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Arquitectura</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Diseño Gráfico</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Diseño Industrial</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Magíster de Arquitectura y Diseño</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" alt="Third slide" title="Campus">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Campus</h1>
+            <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América.</p>
+            <p>El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.</p>
+            <p>El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/campus.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Casa de estudio</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Ciudad Abierta</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" alt="Fourth slide" title="Cuerpo Docente">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>Cuerpo Docente</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/docentes.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Profesores</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Ayudantes</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" alt="Fourth slide" title="Escuela y el oficio">
+        <div class='wrap-postulante'>
+          <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
+            <h1>La escuela y el oficio</h1>
+            <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
+            <img class='altura-maxima sm' src='{{ site.baseurl }}/img/escuelaoficio.jpg'>
+          </div>
+          <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Historia</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>La observación</a>
+            <a class='btn btn-md btn-transparente-blanco' href='#'>Amereida</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a data-slide="prev" href="#carousel-postulante" class="left carousel-control">
+      <i class="icn icn-nav-izq"></i>
+    </a>
+    <a data-slide="next" href="#carousel-postulante" class="right carousel-control">
+      <i class="icn icn-nav-der"></i>
+    </a>
   </div>
 </div>
-
 <div class='fondo-blanco'>
-      <div class='wrap-ancho-maximo'>
-          <div class='col-lg-12'>
-    <div class='fila'>
-        <div class='seccion'>
-          <h3>
-            <i class="icn icn-noticias icn-lg"></i> noticias por carrera
-          </h3>
-        </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace oficio'>
-          <div class='prev-imagen md'>
-            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
+  <div class='wrap-ancho-maximo'>
+    <div class='col-lg-12'>
+      <div class='fila'>
+          <div class='seccion'>
+            <h3>
+              <i class="icn icn-noticias icn-lg"></i> Noticias por carrera
+            </h3>
           </div>
-          <div class='pagina md carrera'>
-            <h6 class='fino gris'>arquitectura</h6>
-            <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
-            <p class='blanco datos-publicacion'>Publicado el 11 de marzo, 2014</p>
-            <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. </p>
-          </div>
-        </a>
-      </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace oficio'>
-          <div class='prev-imagen md'>
-            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
-          </div>
-          <div class='pagina md carrera'>
-            <h6 class='fino gris'>diseño gráfico</h6>
-            <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
-            <p class='blanco datos-publicacion'>Publicado el 9 de mayo, 2014</p>
-            <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
-          </div>
-        </a>
-      </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace oficio'>
-          <div class='prev-imagen md'>
-            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
-          </div>
-          <div class='pagina md carrera'>
-            <h6 class='fino gris'>diseño industrial</h6>
-            <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
-            <p class='blanco datos-publicacion'>Publicado el 25 de marzo, 2014</p>
-            <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
-          </div>
-        </a>
-      </div>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+          <div class='bloque-enlace oficio'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
             </div>
+            <!-- seguir leyendo -->
+            <a href='#'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='pagina md carrera'>
+              <a href='#'><h6>arquitectura</h6></a>
+              <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
+              <aside class='blanco entry-details'>Publicado el 11 de marzo, 2014</aside>
+              <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. una memoria de éste; un espacio socio-cultural, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. </p>
+            </div>
+          </div>
+        </div>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+          <div class='bloque-enlace oficio'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
+            </div>
+            <!-- seguir leyendo -->
+            <a href='#'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='pagina md carrera'>
+              <a href='#'><h6>diseño gráfico</h6></a>
+              <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
+              <aside class='blanco entry-details'>Publicado el 9 de mayo, 2014</aside>
+              <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
+            </div>
+          </div>
+        </div>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+          <div class='bloque-enlace oficio'>
+            <div class='prev-imagen md'>
+              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
+            </div>
+            <!-- seguir leyendo -->
+            <a href='#'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
+            <a><div class='seguir-leyendo-cuadro'></a>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <div class='pagina md carrera'>
+              <a href='#'><h6>diseño industrial</h6></a>
+              <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
+              <aside class='blanco entry-details'>Publicado el 25 de marzo, 2014</aside>
+              <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class='wrap'>
-          <div class='seccion'>
-        <h3>
-          <i class="icn icn-noticias icn-lg"></i> noticias por categorías
-        </h3>
-      </div>
+    <div class='seccion'>
+      <h3>
+        <i class="icn icn-noticias icn-lg"></i> Publicaciones
+      </h3>
+    </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
-			<div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 4  -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+  			<div class='categoria'> <!-- noticia de categoria 4  -->
+          <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              <h6>magíster arquitectura y diseño</h6>
+              <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
+              <aside class='entry-details'>Publicado el 21 de abril, 2014</aside>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
+          </a>
+        </div> <!-- fin noticia de categoria 4 -->
+        <div class='categoria'> <!-- noticia de categoria 5  -->
+          <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              <h6>taller de amereida</h6>
+              <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
+              <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos Hay un control permanente. Viene Sanidad y controla cómo estamos operando, qué hay de menú, cómo han operado las cosas, cómo está funcionando el baño, todo el tema de la higiene… No nos recomiendan mucho tener cosas frescas, por la manipulación de los alimentos, pero tomamos todas las medidas de precaución</p>
+          </a>
+        </div> <!-- fin noticia de categoria 5 -->
+      </div>
+      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>  <!-- noticia de categoria 7 -->
+        <div class='categoria'>
+          <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              <h6>archivo histórico josé vial armstrong</h6>
+              <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
+              <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
+              <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014La jornada parte a las 9:00 de la mañana, y termina a las 16:00, cuando ya tenemos la cocina lavada y dispuesta para el otro día. Es una jornada larga. Lo más largo es la preparación y cuando llega mucha gente.  Se ha ido armando una red de contactos, de personas que ayudan </p>
+          </a>
+        </div>  <!-- fin noticia de categoria 7 -->
+        <div class='categoria'>  <!-- noticia de categoria 9 -->
+          <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              <h6>bolsa de trabajo</h6>
+              <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
+              <aside class='entry-details'>Publicado el 7 de marzo, 2014</aside>
+              <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
+              Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
+            </p>
+          </a>
+        </div>  <!-- fin noticia de categoria 9 -->
+      </div>
+      <div class='col-lg-4 oculto-md oculto-sm oculto-xs'>
+        <div class='categoria'> <!-- noticia de categoria 4  -->
+          <a href='#' class='bloque-enlace categoria'>
+            <div class='seguir-leyendo-cuadro'>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+            </div>
+            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <h6>magíster arquitectura y diseño</h6>
             <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
-            <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
+            <aside class='entry-details'>Publicado el 21 de abril, 2014</aside>
             <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
-          </div>
-        </a>
-      </div> <!-- fin noticia de categoria 4 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 5  -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>taller de amereida</h6>
-            <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
-            <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
-          </div>
-        </a>
-      </div> <!-- fin noticia de categoria 5 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 6 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>ediciones e[ad]</h6>
-            <h5 class='rojo-claro'>Carta de Alemania</h5>
-            <p class='datos-publicacion'>Publicado el 2010</p>
-            <p>Jaime Reyes Gil
-            Colección HeteroGenios
-            Ediciones e[ad] | Taller de Investigaciones Gráficas
-            70 páginas
-            Viña del Mar</p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 6 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 7 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>archivo histórico josé vial armstrong</h6>
-            <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
-            <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
-            <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 7 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 8 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>investigación</h6>
-            <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
-            <p class='datos-publicacion'>Publicado el 2014</p>
-            <p>Definición del Problema
-            En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 8 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 9 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>bolsa de trabajo</h6>
-            <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
-            <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
-            <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
-            Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
-          </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 9 -->
+          </a>
+        </div> <!-- fin noticia de categoria 4 -->
+        <div class='categoria'> <!-- noticia de categoria 5  -->
+          <a href='#' class='bloque-enlace categoria'>
+              <div class='seguir-leyendo-cuadro'>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              </div>
+              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+              <h6>taller de amereida</h6>
+              <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
+              <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+              <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos ay un control permanente. Viene Sanidad y controla cómo estamos operando, qué hay de menú, cómo han operado las cosas, cómo está funcionando el baño, todo el tema de la higiene… No nos recomiendan mucho tener cosas frescas, por la manipulación de los alimentos, pero tomamos todas las medidas de precaución, con alcohol en las manos, guantes… </p>
+          </a>
+        </div> <!-- fin noticia de categoria 5 -->
+      </div>
     </div>
-    <div class='fila'>
-      <div class='oculto-lg oculto-md col-sm-12 col-xs-12 fondo-gris'>
-        <div class='fila'>
-          <div class='col-sm-4 col-xs-12'>
-            <div class='ver alto-xs'>
-              admisión
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              carreras
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 4
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 5
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              campus
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              cuerpo docente
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              escuela & oficio 
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-        </div>
-      </div> <!-- fin contenido para el postulante 2-->
-    </div> <!-- fin fila enlaces responsive -->
   </div> <!-- wrap -->
 </div> <!-- fin wrap ancho total-->
-
-
-
