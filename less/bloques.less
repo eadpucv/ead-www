@@ -76,7 +76,7 @@
         -webkit-transition: max-height .5s linear, opacity 0s linear; 
         -moz-transition: max-height .5s linear, opacity 0s linear; 
         -o-transition: max-height .5s linear, opacity 0s linear;
-        bottom: -1px;
+        bottom: -20px;
         background: linear-gradient(to top, rgba(0, 0, 0, .85), rgba(0,0,0,0));
         padding: 15px;
         overflow: hidden;
@@ -127,53 +127,6 @@
             overflow: hidden;
         }
     }
-    /*
-    &.postulante {
-        margin-top: 15px;
-        margin-bottom: 20px;
-        display: block;
-        height: 320px;
-        border-left: 1px solid fade(@pizarra-claro, 20%);
-        border-width: 1px 0px;
-        border-color: rgba(0, 0, 0, 0.08); 
-        -moz-use-text-color #FFF;
-
-        h6 {
-            text-transform: uppercase;
-            font-size: @cuerpo * 0.9;
-            font-weight: 300;
-        }
-
-        ul {
-            margin: 30px 0 0 0;
-            padding: 0;
-        }
-
-        li {
-            text-transform: uppercase;
-            color: @rojo-claro;
-            margin: 0 0 10px 0;
-            padding: 7.5px 0;
-            //box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-            font-weight: 200;
-            font-size: @cuerpo * 0.7;
-
-            &:hover {
-                color: @blanco;
-                background-color: @rojo-claro;
-                .transition(.3s ease all);
-            }
-
-            a {
-                font-size: @cuerpo * .9;
-                font-weight: 300;
-                &:hover {
-                    color: @pizarra-oscuro;
-                    text-decoration: none;
-                }
-            }
-        }
-    } */
 }
 
 .referencia-cita {
@@ -193,7 +146,7 @@
 }
 
 .categoria {
-    margin: 30px 0;
+    margin: 0px 0;
     padding: 15px 0;
     position: relative;
 
@@ -205,9 +158,6 @@
         &:hover {
         //border-top: 30px solid #D94D3F;
         //border-top: 30px solid #D13F32;
-        border-left: 1px solid @rojo-claro;
-        border-top: 20px solid @rojo-claro;
-        padding-left: 15px;
         .transition(.3s ease all);
 
         h6 {
@@ -227,27 +177,57 @@
     width: 100%;
     max-height: 420px;
     position: relative;
+    border-top: 20px solid @blanco;
 
     .seguir-leyendo {
         right: 35px;
         top: -10px;    
         }
 
+    &.oficio {
+
+        a {
+            display: block;
+        }
+
+        &:hover {
+        border-top: 20px solid @rojo-claro;
+        .transition(.2s ease all);
+        }
+
+        .seguir-leyendo {
+            top: -31px; 
+        }
+    }
+
+    &.categoria {
+        &:hover {
+        border-top: 20px solid @rojo-claro;
+        .transition(.3s ease all);
+        }
+
+        .seguir-leyendo {
+            top: -32px; 
+        }
+    }
+
     &:hover {
 
         .evento{
         border-top: 25px solid fade(@gris-oscuro, 80);
-        //border-bottom:2px solid fade(@rojo-claro, 80);
         .transition(.2s ease all);
 
         h6 {
             color: fade(@negro, 70);
         }
     }
-
         .carrera {
-           bottom: 0;
+           bottom: -20px;
            max-height: 500px;
+
+        h6 {
+            color: @rojo-claro;
+        }
     }
 
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
@@ -692,11 +672,20 @@ hr {
 
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
+            border-top: none;
             img {
                 opacity: .7;
                 -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
                 -moz-transition: opacity .5s linear, opacity 0.2s linear; 
                 -o-transition: opacity .5s linear, opacity 0.2s linear;
+            }
+
+            &:hover {
+                border-top: none;
+            }
+
+            .seguir-leyendo {
+                top: 24px;
             }
         }
         
@@ -933,7 +922,7 @@ hr {
         }
 
         &.carrera {
-            bottom: 0px;
+            bottom: -20px;
             padding: 15px;
             overflow: hidden;
             max-height: 130px;
@@ -945,6 +934,13 @@ hr {
 
         &.info-docencia {
             padding: 0px 15px;
+
+            a {
+
+            &:hover {
+                border-bottom: 15px solid @rojo;
+            }
+            }
         }
     }
 
@@ -952,11 +948,9 @@ hr {
 
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
-            img {
-                opacity: .7;
-                -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
-                -moz-transition: opacity .5s linear, opacity 0.2s linear; 
-                -o-transition: opacity .5s linear, opacity 0.2s linear;
+
+            &:hover {
+                border-top: 20px solid @blanco;
             }
         }
         
