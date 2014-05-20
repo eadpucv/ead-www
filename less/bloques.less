@@ -205,9 +205,9 @@
         &:hover {
         //border-top: 30px solid #D94D3F;
         //border-top: 30px solid #D13F32;
-        border-left: 1px solid @rojo-claro;
+        //border-left: 1px solid @rojo-claro;
+        margin: 10px 0;
         border-top: 20px solid @rojo-claro;
-        padding-left: 15px;
         .transition(.3s ease all);
 
         h6 {
@@ -435,7 +435,7 @@
     }
 
     p {
-        color: @gris-oscuro;
+        color: @pizarra;
         font-family: @sans;
         font-size: @cuerpo;
     }
@@ -450,7 +450,26 @@
     top: 40%;
 }
 
-// Footer
+
+// Para las publicaciones 
+
+// Para lograr separar bien los contenidos y mantener un órden de blancos y lectura:
+
+.bloque {
+    margin: 0 auto;
+}
+
+
+// Aside & Footer
+
+.bloque-aside {
+    margin: 30px 0;
+
+    &.sm {
+        min-height: @cuadratin * 8;
+    }
+}
+
 
 footer {
     min-height: @cuadratin * 8;
@@ -554,6 +573,14 @@ footer {
 
             .icn-soundcloud {
                 color: #FF7700;
+            }
+
+            .icn-enlace {
+                color: @rojo-claro;
+            }
+
+            .icn-rss {
+                color: @naranja;
             }
         }
     }
@@ -824,7 +851,6 @@ hr {
 
     .licencia {
         margin: 10px 0 0 0;
-        height: 100px;
     }
 
     // Franja postulante
@@ -894,6 +920,59 @@ hr {
     }
 }
   
+
+
+// Comentarios
+
+.contenido-comentario {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.imagen-usuario {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 70px;
+
+        img {
+        width: 120%;
+        height: auto;
+    }
+}
+
+.bloque-comentario {
+    padding-left: 160px;
+}
+
+
+.comentario {
+    display: inline-block;
+    background-color: @blanco;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 10px;
+
+    p {
+        margin: 5px 0 15px 0;
+    }
+}
+
+.comentar {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 0 50px;
+    margin: 20px 0;
+}
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
@@ -1080,7 +1159,6 @@ hr {
 
     .licencia {
         margin: 10px 0 0 0;
-        height: 100px;
     }
 
     // Franja postulante

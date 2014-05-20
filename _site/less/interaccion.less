@@ -5,7 +5,7 @@
 
 //#FE4918;
 //#BA3512;
-
+input[type='submit'],
 a.btn {
     display: inline-block;
     font-family: 'Source Sans Pro';
@@ -17,6 +17,17 @@ a.btn {
     text-align: center;
     vertical-align: middle;
     .border-radius(@radio);
+
+    &:hover {
+        background: none repeat scroll 0 0 @rojo-opuesto;
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) @cafe-opuesto;
+        color: @blanco;
+        .transition(.3s ease all);
+    }
+
+    &:active{
+        .box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
+    }
 
     &.btn-md{
         font-size: @cuerpo * 1.2;
@@ -33,7 +44,7 @@ a.btn {
         padding: @cuadratin * .5;
     }
 
-    &.btn-transparente {
+    &.btn-transparente-blanco {
         -moz-border-bottom-colors: none;
         -moz-border-left-colors: none;
         -moz-border-right-colors: none;
@@ -55,6 +66,19 @@ a.btn {
         &:active{
             .box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
         }
+    }
+
+    &.btn-transparente-negro {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border: 2px solid @pizarra;
+        color: @pizarra;
+        border-image: none;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px 1px 3px;
     }
 }
 
@@ -155,7 +179,7 @@ a.btn{
         padding: @padding-sm * 2 @padding-md;
     }
 }
-
+*/
 
 .pegado-antes{.border-radius(@radio 0 0 @radio)}
 .pegado-despues{.border-radius(0 @radio @radio 0)}
@@ -164,7 +188,7 @@ a.btn{
 
 // Reset
 
-/*
+
 textarea,
 select,
 input[type='text'],
@@ -220,6 +244,7 @@ form{
                 color: @rojo-claro;
                 font-size: @cuerpo;
             }
+
             select,
             input{
                 border: 1px solid fade(@gris-oscuro, 50);
@@ -391,4 +416,3 @@ form{
   color: @blanco;
   text-align: center;
 }
-*/
