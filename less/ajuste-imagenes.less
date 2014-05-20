@@ -12,6 +12,8 @@
             overflow: hidden;
         }
 
+    // Tamaños
+
     &.xs {
 
     }
@@ -44,27 +46,22 @@
         }
     }
 
-}
+    // Extensión de clases
 
+    &.franja {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 30px;
 
-.noticia {
-
-    &.grande {
-
-    .noticia-imagen {
-    position: relative;
-    overflow: hidden;
-    height: @cuadratin * 20;
-    border: 1px solid @gris-blanco;
-    background-color: @gris-blanco;
-
-        img{
-        height: auto;
-        width: 100%;
+        img {
+            width: 100%;
         }
     }
 }
 
+.centrada {
+    bottom: -35%;
+    position: absolute;
 }
 
 .categoria {
@@ -163,36 +160,22 @@
                 width: auto;
             }
         }
+
+        &.franja{
+            img {
+                width: 150%;
+                min-width: 720px; 
+            }
+        }
+    }
+
+    .centrada {
+        bottom: -10%;
+        position: absolute;
     }
 
     // Portada noticias
 
-    // Revisar esto: Juancho
-
-    .noticia {
-
-        &.grande {
-        
-        .noticia-imagen {
-        position: relative;
-        overflow: hidden;
-        height: @cuadratin * 12;
-
-            img{
-            height: auto;
-            }
-        }
-}
-
-        &.chica {
-        text-align: center;
-
-            img{
-            overflow: hidden;
-            width: 100%;
-        }
-    }
-}
 
     .texto-noticia {
 
@@ -259,35 +242,18 @@
                 width: auto;
             }
         }
-    }
 
-    // Revisar esto: Juancho
-        .noticia {
-
-        &.grande {
-        
-        .noticia-imagen {
-        position: relative;
-        overflow: hidden;
-        height: @cuadratin * 12;
-
-
-            img{
-            height: auto;
-            width: 150%;
+        &.franja {
+            img {
+                width: 110%;
             }
         }
-}
-
-        &.chica {
-        text-align: center;
-
-            img{
-            overflow: hidden;
-            width: 100%;
-        }
     }
-}
+
+    .centrada {
+        bottom: -10%;
+        position:absolute;
+    }
 
 }
 
@@ -344,33 +310,14 @@
                 width: auto;
             }
         }
-    }
 
-    // Revisar esto: Juancho
-
-    .noticia {
-
-        &.grande {
-        
-        .noticia-imagen {
-        position: relative;
-        overflow: hidden;
-        height: @cuadratin * 12;
-
-            img{
-            height: auto;
+        &.franja {
+            img {
+                width: 120%;
             }
         }
-}
-
-        &.chica {
-
-            img{
-            overflow: hidden;
-            width: 100%;
-        }
     }
-}
+
 
 .texto-noticia {
     
@@ -405,6 +352,11 @@
         color: @rojo-opuesto;
     }
 }
+
+    .centrada {
+        bottom: -15%;
+        position: absolute;
+    }
 
 }
 

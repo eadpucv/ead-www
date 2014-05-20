@@ -106,7 +106,7 @@
             padding-right: 15px;
         }
 
-        .datos-publicacion {
+        .entry-details {
             font-size: 14px;
             padding-left: 12px;
             color: @gris-oscuro;
@@ -155,8 +155,6 @@
         }
 
         &:hover {
-        //border-top: 30px solid #D94D3F;
-        //border-top: 30px solid #D13F32;
         .transition(.3s ease all);
 
         h6 {
@@ -167,11 +165,6 @@
 }
 
 .bloque-enlace {
-    //background-color: fade(@gris-claro, 25%);
-    //border-top:1px solid #e3e3e3;
-    //border-bottom:1px solid #e3e3e3;
-    //border-radius: 4px;
-    //box-shadow: 0 1px 1px rgba(0,0,0,0.05);
     display: inline-block;
     width: 100%;
     max-height: 420px;
@@ -442,7 +435,26 @@
     top: 40%;
 }
 
-// Footer
+
+// Para las publicaciones 
+
+// Para lograr separar bien los contenidos y mantener un órden de blancos y lectura:
+
+.bloque {
+    margin: 0 auto;
+}
+
+
+// Aside & Footer
+
+.bloque-aside {
+    margin: 0 0 30px 0;
+
+    &.sm {
+        min-height: @cuadratin * 8;
+    }
+}
+
 
 footer {
     min-height: @cuadratin * 8;
@@ -546,6 +558,14 @@ footer {
 
             .icn-soundcloud {
                 color: #FF7700;
+            }
+
+            .icn-enlace {
+                color: @rojo-claro;
+            }
+
+            .icn-rss {
+                color: @naranja;
             }
         }
     }
@@ -838,7 +858,6 @@ hr {
 
     .licencia {
         margin: 10px 0 0 0;
-        height: 100px;
     }
 
     // Franja postulante
@@ -908,6 +927,59 @@ hr {
     }
 }
   
+
+
+// Comentarios
+
+.contenido-comentario {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.imagen-usuario {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 70px;
+
+        img {
+        width: 120%;
+        height: auto;
+    }
+}
+
+.bloque-comentario {
+    padding-left: 160px;
+}
+
+
+.comentario {
+    display: inline-block;
+    background-color: @blanco;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 10px;
+
+    p {
+        margin: 5px 0 15px 0;
+    }
+}
+
+.comentar {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 0 50px;
+    margin: 20px 0;
+}
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
@@ -995,7 +1067,7 @@ hr {
                 font-weight: 200;
             }
 
-            .datos-publicacion {
+            .entry-details {
                 padding-left: 60px;
             }
 
@@ -1133,7 +1205,6 @@ hr {
 
     .licencia {
         margin: 10px 0 0 0;
-        height: 100px;
     }
 
     // Franja postulante
@@ -1166,6 +1237,18 @@ hr {
             border-top: none;
         }
     }
+
+    // Aside 
+
+
+    .bloque-aside {
+        margin: 50px 0;
+
+        &.sm {
+            min-height: @cuadratin * 8;
+        }
+    }
+
 }
 
 // Medium screen / desktop
