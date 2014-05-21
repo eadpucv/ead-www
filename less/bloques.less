@@ -132,7 +132,7 @@
     width: 350px;  
     float: left;
     margin: 0;
-    border-left: 1px solid fade(@gris, 80);
+    border-left: 1px solid fade(@gris, 80);1
 
     h6 {
         width: 300px;
@@ -170,6 +170,7 @@
     max-height: 420px;
     position: relative;
     border-top: 20px solid @blanco;
+    margin-top: -25px;
 
     .seguir-leyendo {
         right: 35px;
@@ -185,7 +186,7 @@
 
         &:hover {
         border-top: 20px solid @rojo-claro;
-        .transition(.2s ease all);
+        .transition(.3s ease all);
         }
 
         .seguir-leyendo {
@@ -624,6 +625,25 @@ hr {
         position: relative;
     }
 
+    .referencia-cita {
+    width: 350px;  
+    float: left;
+    margin: 0;
+    border-left: 1px solid fade(@gris, 80);
+
+    .entry-details {
+        padding: 7px 47px 0;
+    }
+
+    h6 {
+        width: 300px;
+    }
+
+    i {
+        font-size: @cuerpo * 3;
+        margin: -@cuadratin * .25 45px 0;
+    }
+}
 
 
     // Ajuste de página 
@@ -646,8 +666,10 @@ hr {
         }
 
         &.sm {
+            padding: 0px;
+            margin: 0px;
             p {
-                
+                padding: none;
             }
         }
 
@@ -694,6 +716,10 @@ hr {
             padding: 15px;
             overflow: hidden;
             max-height: 250px;
+
+            p {
+                max-height: 65px;
+            }
         }
 
         &.info-docencia {
@@ -725,12 +751,14 @@ hr {
         }
 
     .bloque-enlace {
-
+        border-top: 0px;
         max-height: 100%;
 
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
             border-top: none;
+            margin-top: 15px;
+            
             img {
                 opacity: .7;
                 -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
@@ -748,15 +776,25 @@ hr {
         }
 
         &.categoria {
+            border-top: 0px;
+            padding: 0px;
 
             h6 {
-                font-size: 16px;
+                font-size: 14px;
             }
 
             h5 {
-                font-size: 23px;
+                font-size: 20px;
                 line-height: @cuerpo * 1.5;
                 font-weight: 200;
+            }
+
+            .seguir-leyendo-cuadro {
+                display: none;
+            }
+
+            &:hover {
+                border-top: 0px;
             }
         }
         
@@ -946,7 +984,11 @@ hr {
     }
 
     .enlace-noticia {
-        
+        h6 {
+            color: @rojo-claro;
+        }
+
+
         &:hover {
             border-top: none;
         }
@@ -1059,18 +1101,15 @@ hr {
         &.info-docencia {
             padding: 0px 15px;
 
-            a {
-
-            &:hover {
-                border-bottom: 15px solid @rojo;
-            }
+            p {
+                padding: 0px;
             }
         }
     }
 
     .bloque-enlace {
+        border-top: 0px;
 
-        // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
 
             &:hover {
