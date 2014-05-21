@@ -14,6 +14,7 @@ a.btn {
     cursor: pointer;
     font-size: @cuerpo;
     color: @blanco;
+    background: none;
     text-align: center;
     vertical-align: middle;
     .border-radius(@radio);
@@ -209,7 +210,7 @@ input[type='color'],
   width: 100%;
   padding: @padding-sm @padding-sm;
   margin-bottom: @margen-sm;
-  font-size: @cuerpo / 1.2;
+  font-size: @cuerpo * 2;
   line-height: @interlinea;
   color: @gris;
 }
@@ -221,8 +222,9 @@ form{
 
     label{
         display: block;
-        font-weight: 700;
+        font-weight: 200;
         font-size: @cuerpo * .8;
+        margin: 10px 0;
 
         &.checkbox{
             display: inline-block;
@@ -332,12 +334,22 @@ form{
         textarea{font-size: @cuerpo * .8}
     }
     &.md{
-        label{font-size: @cuerpo * .8}
+        legend{
+            font-size: @cuerpo;
+            text-transform: uppercase;
+            letter-spacing: .2ex;
+            color: @gris-claro;
+        }
+        label{
+            font-size: @cuerpo;
+            color: @gris-claro;
+        }
         input,
         select,
-        textarea{font-size: @cuerpo}
+        textarea{font-size: @cuerpo * 1.2}
     }
     &.lg{
+
         legend{
             font-size: @cuerpo * 2;
             font-weight: 100;
@@ -345,7 +357,7 @@ form{
         }
         label{
             font-size: @cuerpo * .95;
-            font-weight: 300;
+            font-weight: 200;
         }
         input,
         select,

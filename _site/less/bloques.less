@@ -602,6 +602,55 @@ hr {
     }
 }
 
+// Comentarios
+
+.contenido-comentario {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.imagen-usuario {
+        float: left;
+        margin: 0 20px 0 0;
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+        border-radius: 70px;
+
+            img {
+            width: 120%;
+            height: auto;
+        }
+}
+
+.bloque-comentario {
+    padding-left: 160px;
+}
+
+.comentario {
+    display: inline-block;
+    padding: 10px;
+
+    p {
+        margin: 5px 0 15px 0;
+        color: @gris-claro;
+    }
+}
+
+.comentar {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 0 50px;
+    margin: 20px 0;
+}
+
+
+
+
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
@@ -925,60 +974,16 @@ hr {
             border-top: none;
         }
     }
-}
-  
 
+    // Comentario 
 
-// Comentarios
-
-.contenido-comentario {
-    background-color: #F5F5F5;
-    border: 1px solid #E3E3E3;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.imagen-usuario {
-    float: left;
-    margin: 0 20px 0 0;
-    width: 140px;
-    height: 140px;
-    overflow: hidden;
-    border-radius: 70px;
-
-        img {
-        width: 120%;
-        height: auto;
+    .imagen-usuario {
+        display: none;
     }
-}
 
-.bloque-comentario {
-    padding-left: 160px;
-}
-
-
-.comentario {
-    display: inline-block;
-    background-color: @blanco;
-    border: 1px solid #E3E3E3;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    padding: 10px;
-
-    p {
-        margin: 5px 0 15px 0;
+    .bloque-comentario {
+        padding: 0;
     }
-}
-
-.comentar {
-    background-color: #F5F5F5;
-    border: 1px solid #E3E3E3;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    padding: 0 50px;
-    margin: 20px 0;
 }
 
 // Small screen / tablet
@@ -1373,6 +1378,12 @@ hr {
             font-size: @cuerpo;
             margin-right: 5px;
         }
+    }
+
+    // comentarios
+
+    .bloque-comentario {
+        padding-left: 0;
     }
 
 }

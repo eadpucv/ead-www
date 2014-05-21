@@ -30,8 +30,8 @@ subtitle: Destacados diseñadores participan en seminario sobre investigación y
 	<div class='prev-imagen franja'>
 		<img class='centrada' src='{{ site.baseurl }}/img/imagen-publicacion5.jpg'>
 	</div>
-	<div class='keywords fondo-gris'>
-	<p class='palabras'><a href='#'>[ Diseño ]</a> <a href='#'>[ Investigación ]</a> <a href='#'>[ Casos ]</a> <a href='#'>[ Diseño Gráfico ]</a> <a href='#'>[ Seminario ]</a></p>
+	<div class='keywords'>
+		<p class='palabras'><a href='#'>[ Diseño ]</a> <a href='#'>[ Investigación ]</a> <a href='#'>[ Casos ]</a> <a href='#'>[ Diseño Gráfico ]</a> <a href='#'>[ Seminario ]</a></p>
 	</div>
 </article> 
 </div>
