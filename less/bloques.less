@@ -333,7 +333,6 @@
 .pie-de-foto {
     bottom: 0;
     background-color: @gris-blanco;
-    //background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
     background-color: @blanco;
     border-bottom: 1px solid @gris;
     padding: 3px 0;
@@ -443,6 +442,17 @@
 .bloque {
     margin: 0 auto;
 }
+
+// Header 
+
+.logo{
+    margin: @cuadratin * .75 0 @cuadratin * .75 0;
+    display: block;
+    max-width: 320px;
+    float: left;
+    position: relative;
+}
+
 
 
 // Aside & Footer
@@ -654,6 +664,16 @@ hr {
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
+    .logo{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        float: left;
+        position: relative;
+    }
+
+
 
     // Ajuste de página 
     .wrap {
@@ -672,6 +692,12 @@ hr {
 
         &.md {
             height: auto;
+        }
+
+        &.sm {
+            p {
+                
+            }
         }
 
         &.noticias-recientes {
@@ -698,7 +724,7 @@ hr {
 
             p {
                 max-height: 110px;
-                padding: 0 0 0 72px;
+                padding: 0 0 0 2px;
                 font-size: @cuerpo;
                 line-height: @cuerpo * 1.45;
             }
@@ -867,7 +893,7 @@ hr {
     .pie-de-foto {
 
         p {
-            font-size: 1.8vmax;
+            font-size: @cuerpo * 0.75;
             padding: 0 20px;
         }
     }
