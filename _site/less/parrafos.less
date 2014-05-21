@@ -114,12 +114,14 @@ ul li{
 }
 
 .keywords {
-	background-color: @gris-claro;
+	border-top: 1px solid @gris-claro;
+	border-bottom: 1px solid @gris-claro;
 	padding:15px;
+	text-align: center;
 
 	.palabras {
 		font-family: @sans;
-    	font-size: @cuerpo * .8;
+    	font-size: 14.8px;
     	color: @gris-oscuro;
     	margin: 0;
     	padding: 0;
@@ -192,6 +194,20 @@ ul li{
 	}
 }
 
+// Comentarios
+
+.usuario {
+	color: @blanco;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contacto {
+	color: @gris-claro;
+	font-size: @cuerpo * .9;
+	font-family: @sans;
+}
+
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
@@ -232,6 +248,23 @@ ul li{
 			content: "\e602";
 			color: @gris-oscuro;
 	    }
+	}
+
+	.h-entry {
+		width: 100%;
+
+		img {
+			width: 100%;
+			padding-bottom: 20px;
+
+			&.izquierda {
+				padding-right: 0px;
+			}
+
+			&.derecha {
+				padding-left: 0px;
+			}
+		}
 	}
 
 	.e-content, .p-summary, .p-name {
@@ -282,8 +315,59 @@ ul li{
 	    }
 	}
 
+
+	.h-entry {
+		width: 100%;
+
+		img {
+			width: 100%;
+			padding-bottom: 30px;
+
+			&.izquierda {
+				padding-right: 0px;
+			}
+
+			&.derecha {
+				padding-left: 0px;
+			}
+		}
+	}
+
 	.e-content, .p-summary, .p-name {
 		width: 100%;
+	}
+
+
+	// Aside 
+	.publicaciones-enlazadas {
+		padding: 0;
+
+	    li {
+	    	border-bottom: 1px solid @gris-claro;
+	        margin: 15px 0;
+	        padding: 20px 20px 20px 20px;
+	        font-size: 14px;
+	        list-style: none;
+
+	         a {
+	         	font-weight: 300;
+	         	font-size: @cuerpo;
+	         }
+	    }
+
+		li:before {
+			position: absolute;  
+			margin: 4px 0 0 -25px;    
+			vertical-align: middle;
+			display: inline-block;
+			font-family: "Stampa";
+			content: "\e601";
+			color: @gris-oscuro;
+		}
+
+		li:last-child {
+			border-bottom: none;
+		}
 	}
 }
 
@@ -304,6 +388,23 @@ ul li{
 
 	.e-content, .p-summary, .p-name {
 		width: 90%;
+	}
+
+	.h-entry {
+		width: 100%;
+
+		img {
+			width: 60%;
+			padding-bottom: 30px;
+
+			&.izquierda {
+				padding-right: 30px;
+			}
+
+			&.derecha {
+				padding-left: 30px;
+			}
+		}
 	}
 
 	// Aside 
