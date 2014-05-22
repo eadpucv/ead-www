@@ -74,6 +74,7 @@ h3, h4, h5, h6 {
 // Extra small screen / wide desktop
 @media(max-width: @screen-xs-max){
 
+<<<<<<< HEAD
 .seccion{
 	h3{
 		letter-spacing: .7px;
@@ -83,24 +84,42 @@ h3, h4, h5, h6 {
 		&:before,
 		&:after{
 			width: 0px;
+=======
+	.seccion{
+		h3{
+			letter-spacing: 2px;
+			font-size: 20px;
+			font-weight: 200;
+
+			&:before,
+			&:after{
+				width: 3vw;
+			}
+>>>>>>> FETCH_HEAD
 		}
-}
-}
+	}
+
+	.entry-title {
+		color: @blanco;
+	    font-size: 30px;
+	    margin: 0 0 10px 0;
+	    line-height: 30px;
+	}
 }
 
 // Small screen / wide desktop
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
-.seccion{
+	.seccion{
 
-	h3{
-		letter-spacing: 3px;
+		h3{
+			letter-spacing: 3px;
 
-		&:before,
-		&:after{
-			width: 19vw;
+			&:before,
+			&:after{
+				width: 19vw;
+			}
 		}
-}
-}
+	}
 }	
 
 // Medium screen / wide desktop
