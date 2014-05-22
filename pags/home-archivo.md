@@ -315,7 +315,7 @@ title: Archivo Histórico JVA
                   <a href='noticia-dest.html'><i class='icn icn-mas rojo-claro'></i></a>
                 </div> 
               </div>
-            </div>
+            </div> 
           </div> <!-- fin fila catalogos-->
         </div> <!-- fin wrap cátalogos en linea -->
       </div>  <!-- fin pag ancho total-->
