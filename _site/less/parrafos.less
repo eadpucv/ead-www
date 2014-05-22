@@ -89,7 +89,7 @@ ul li{
     font-family: @sans;
     font-size: 12.3px;
     margin: 0;
-    padding: 7px 47px 0;
+    padding: 7px 0;
     color: @gris-oscuro;
 
     a {
@@ -136,6 +136,37 @@ ul li{
     }
 }
 
+// Header evento
+
+.datos-evento {
+    display: inline-block;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.numero-evento {
+    margin: -27px 0;
+    max-width: 190px;
+    color: @rojo-claro;
+    font-size: 100px;
+    float: left;
+    padding: 0;
+    display: block;
+}
+
+.dia-evento {
+    margin: -30px 0;
+    font-family: @sans;
+    font-weight: 200;
+    padding: 4px;
+    float: center;
+    color:@gris-claro;
+    font-size: 30px;
+    line-height: 25px;
+    letter-spacing: 2px;  
+}
+
+
 .h-entry {
 	width: 100%;
 
@@ -145,6 +176,33 @@ ul li{
 		font-size: @cuerpo;
 		line-height: 29px;
 	}
+
+	span {
+		margin: 0;
+		font-family: inherit;
+		display: inline;
+	}
+
+	li {
+        margin: 15px 0;
+        padding: 0 0 0 20px;
+        font-size: inherit;
+        list-style: none;
+
+         a {
+            font-weight: 300;
+         }
+    }
+
+    li:before {
+        position: absolute;  
+        margin: 4px 0 0 -25px;    
+        vertical-align: middle;
+        display: inline-block;
+        font-family: "Stampa";
+        content: "\e62f";
+        color: @gris-oscuro;
+    }
 
 
 	img {
@@ -197,13 +255,13 @@ ul li{
 // Comentarios
 
 .usuario {
-	color: @blanco;
+	color: @gris-oscuro;
     font-size: 20px;
     font-weight: 200;
 }
 
 .contacto {
-	color: @gris-claro;
+	color: @gris;
 	font-size: @cuerpo * .9;
 	font-family: @sans;
 }
@@ -270,6 +328,25 @@ ul li{
 	.e-content, .p-summary, .p-name {
 		width: 100%;
 	}
+
+		// Header evento
+
+	.datos-evento {
+	    display: inline-block;
+	    margin-left: 0px;
+	    width: 100%;
+	}
+
+	.numero-evento {
+	    margin: -15px 0;
+	    display: none;
+	    font-size: 70px;
+	}
+
+	.dia-evento {
+	    margin: -25px 0;
+	    font-size: 20px; 
+	}
 }
 
 
@@ -335,6 +412,24 @@ ul li{
 
 	.e-content, .p-summary, .p-name {
 		width: 100%;
+	}
+
+	// Header evento
+
+	.datos-evento {
+	    display: inline-block;
+	    margin-left: 15px;
+	    width: 71%;
+	}
+
+	.numero-evento {
+	    margin: -15px 0;
+	    font-size: 70px;
+	}
+
+	.dia-evento {
+	    margin: -25px 0;
+	    font-size: 20px; 
 	}
 
 
@@ -406,6 +501,7 @@ ul li{
 			}
 		}
 	}
+
 
 	// Aside 
 

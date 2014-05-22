@@ -6,16 +6,19 @@ title: Giornata Maquetas
   <h1>Maquetas Nuevas</h1>
   <li><h4>Páginas</h4>
     <ul><a href="pags/home">Home</a></ul>
-    <ul><a href="pags/historia">pagina-historia</a></ul>
-    <ul><a href="pags/articulo-agenda">pagina-articulo-agenda</a></ul>
-    <ul><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
-    <ul><a href="pags/portada-agenda">portada-agenda</a></ul>
+    <ul><a href="pags/portada_noticias">Portada Noticias (Falta ajustar las columnas)</a></ul>
+    <ul><a href="pags/">Portada Eventos (Aún no se diseña)</a></ul>
+    <ul><a href="pags/">Portada Información de docencia - Cuerpo Docente (Aún no se diseña)</a></ul>
+    <ul><a href="pags/">Listado - Cuerpo Docente (Aún no se diseña)</a></ul>
+    <ul><a href="pags/">Enunciado - Página standard (Aún no se diseña)</a></ul>
+    <ul><a href="pags/">Enunciado + Post - Contenido estático + entradas actualizables (Aún no se diseña)</a></ul>
+    <ul><a href="pags/">Resultados de búsqueda (Aún no se diseña)</a></ul>
   </li>
 </nav>
 <nav style='margin: 100px'>
   <li><h4>Entradas</h4>
     <ul><a href="pags/publicacion">Post: Publicación</a></ul>
-    <ul><a href="pags/portada_noticias">Post: Evento</a></ul>
+    <ul><a href="pags/evento">Post: Evento</a></ul>
   </li>
 </nav>
 <nav style='margin: 100px'>
