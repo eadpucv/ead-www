@@ -10,9 +10,8 @@
 	    		<div class='col-lg-12 oculto-xs'>
 	    			<ul id='breadcrumb'>
 	    				<li><a href='#'><i class="icn icn-hogar icn-md"></i></a></li>
-	    				<li><a href='#'> ... </a></li>
-	    				<li><a href='#'> Página de portadilla </i></a></li>
-	    				<li><a href='#'> Publicación genérica (Noticia, taller de amereida, ediciones, bolsa de trabajo, magister.</a></li>
+	    				<li><a href='#'> eventos </i></a></li>
+	    				<li><a href='#'> Convocatoria Concurso de Ideas y Relatos</a></li>
 	    			</ul>
 	    		</div>
 	    	</div>
@@ -21,9 +20,17 @@
 		    <div class='wrap'>
 		    	<div class='fila'>
 		    		<div class='col-lg-12'>
-			    		<h1 class="entry-title">{{ page.subtitle }}</h1> <!-- título del post -->
-			    		<aside class='entry-details blanco'>publicado el día 19 de Mayo, por Francesca Cambiaso</aside>
-			    		<aside class='categorias'>Categorías: <a href='#'>[ Diseño ]</a> <a href='#'>[ Seminario ]</a></aside>
+		    			<div class='numero-evento'>
+		    				15 - <p class='dia-evento'>mayo</p>
+		    			</div>
+		    			<div class='numero-evento'>
+		    				17 <p class='dia-evento'>junio</p>
+		    			</div>
+			    		<div class='datos-evento'>
+			    			<h1 class="entry-title">{{ page.subtitle }}</h1> <!-- título del post -->
+			    			<aside class='entry-details blanco'>publicado el día 14 de Mayo, por Francesca Cambiaso</aside>
+			    			<aside class='categorias'>Categorías: <a href='#'>[ Concurso ]</a> <a href='#'>[ Estudiantes ]</a></aside>
+			    		</div>
 			    	</div>
 			    </div>
 			</div>
@@ -35,14 +42,14 @@
 			    		{{ content }}
 			    	</div>
 			    	<div class='col-lg-3 col-md-3'>
-			    		{% include aside.html%}
+			    		{% include aside-evento.html%}
 			    	</div>
 			    </div>
 			</div>
 		</div>
 		<div class='fondo-comentarios'>
 			<div class='wrap cf'>
-				{% include comentarios.html%}
+				{% include comentarios-evento.html%}
 			</div>
 		</div>
 		{% include footer.html%}

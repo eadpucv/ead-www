@@ -19,13 +19,6 @@ a.btn {
     vertical-align: middle;
     .border-radius(@radio);
 
-    &:hover {
-        background: none repeat scroll 0 0 @rojo-opuesto;
-        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) @cafe-opuesto;
-        color: @blanco;
-        .transition(.3s ease all);
-    }
-
     &:active{
         .box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
     }
@@ -36,6 +29,24 @@ a.btn {
         font-weight: 200;
         margin: 5px;
         padding: @cuadratin * .35;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border: 2px solid;
+        border-color: @gris-oscuro;
+        color: @gris-oscuro;
+        border-image: none;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px 1px 3px;
+
+        &:hover {
+            background: none repeat scroll 0 0 @rojo-claro;
+            border-color: @rojo-oscuro;
+            color: @blanco;
+            .transition(.3s ease all);
+        }
     }
 
     &.btn-lg{
@@ -258,7 +269,7 @@ form{
         font-size: @cuerpo * 1.5;
         margin: @cuerpo 0;
         font-weight: 100;
-        color: fade(@pizarra, 30);
+        color: #B1B1B1;
     }
     
     input[type='submit'],
@@ -338,11 +349,11 @@ form{
             font-size: @cuerpo;
             text-transform: uppercase;
             letter-spacing: .2ex;
-            color: @gris-claro;
+            color: #B1B1B1;
         }
         label{
             font-size: @cuerpo;
-            color: @gris-claro;
+            color: #B1B1B1;
         }
         input,
         select,
