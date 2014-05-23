@@ -3,16 +3,26 @@
 	{% include head.html %}
 	<body lang='ES_es' class='fondo-gris-claro'>
 
-		<div class='fila landing margen-inferior'>
-  			<div class='col-lg-24 fondo-pizarra'>
+		<!--<div class='fila landing margen-inferior'>
+  			<div class='col-lg-12 fondo-pizarra'>
     			<h1 class='blanco centrado'>Giornata</h1>
     			<p class='centrado grande blanco'>Maquetas navegables para el sitio ead.pucv.cl</p>
     			<p class='centrado chico gris-claro'>Este repositorio está en <a href='https://github.com/eadpucv/giornata.git'>GitHub</a> y depende de <a href='http://eadpucv.github.io/pyxis/'>Pyxis Framework</a> & <a href='http://eadpucv.github.io/stampa/'>Stampa</a></p>
   			</div>
+		</div>-->
+			<div class='landing centrado'>
+				<h1>Giornata</h1>
+				<p class='gris'>Diseño front-end para el sitio de la Escuela de Arquitecuta y Diseño e[ad], de la PUCV para luego convertirlo a un tema de wordpress.</p>
+				<p class='gris'>Maquetas diseñadas con:</p>
+                <p class='rojo'><a href='http://eadpucv.github.io/pyxis/'><span class='pyxis gruesa rojo-claro'>Pyxis</span> <span class='pyxis fino gris'>framework</span></a> & <a href='http://eadpucv.github.io/stampa/'><span class='pyxis naranja-opuesto grues'>Stampa</span></a></p>
+			</div>
+		<div class='fondo-landing'>
+			<img class='imagen-landing' src="{{ site.baseurl }}/img/landing.jpg">
+			<!-- para insertar un video o música, luego borraré esto <iframe frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/4kvT0dywaF8?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1">
+			</iframe> -->
 		</div>
-
-	    <div class='pag'>
-	        {{ content }}
-	    </div>
+	    	<div class='wrap'>
+	        	{{ content }}
+	    	</div>
 	</body>
 </html>

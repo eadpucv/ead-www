@@ -443,6 +443,10 @@
 
 .bloque {
     margin: 0 auto;
+
+    &.mapa {
+        width: 100%;
+    }
 }
 
 // Header 
@@ -455,7 +459,16 @@
     position: relative;
 }
 
+// Header 
 
+.navegacion {
+    margin: 46px 0 0 0;
+    padding: 0 0 0 72px;
+    float: right;
+    display: inline-block;
+    width: 960px;
+
+}
 
 // Aside & Footer
 
@@ -667,12 +680,41 @@ hr {
     border: 1px solid #E3E3E3;
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    padding: 0 50px;
-    margin: 20px 0;
+    padding: 20px;
+    margin: 20px 0 0 0;
 }
 
 
+// Landing giornata index
 
+.landing {
+    padding: 60px 0;
+    background-color: @blanco;
+    h1 {
+        font-size: @cuerpo * 10;
+        color: @rojo-claro;
+        margin: 0;
+        padding: 60px 0 0 0;
+    }
+}
+
+.fondo-landing {
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.imagen-landing {
+    position: absolute;
+    top: -30%;
+}
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
@@ -1077,6 +1119,36 @@ hr {
         padding: 20px;
         background-color: lighten(@gris-claro, 8%);
     }
+
+    // Landing index giornata
+
+    .landing {
+    padding: 60px 0;
+    h1 {
+        font-size: 22vw;
+        margin: 0;
+        padding: 60px 0 0 0;
+    }
+}
+
+    .fondo-landing {
+        width: 100%;
+        height: 1234px;
+
+        img {
+            width: 321%;
+        }
+    }
+
+    .imagen-landing {
+        top:0;
+    }
+}
+
+.fondo-ruido {
+    background-color: @gris-blanco;
+    background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
+    border: none;
 }
 
 // Small screen / tablet
@@ -1350,6 +1422,17 @@ hr {
         }
     }
 
+    // Landing index giornata
+
+    .fondo-landing {
+        width: 100%;
+        height: 1024px;
+
+        img {
+            width: 160%;
+        }
+    }
+
 }
 
 // Medium screen / desktop
@@ -1481,6 +1564,18 @@ hr {
     .bloque-comentario {
         padding-left: 0;
     }
+
+    // Landing index giornata
+
+    .fondo-landing {
+        width: 100%;
+        height: 1080px;
+
+        img {
+            width: 125%;
+        }
+    }
+
 
 }
 

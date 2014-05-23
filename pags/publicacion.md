@@ -13,11 +13,11 @@ subtitle: Destacados diseñadores participan en seminario sobre investigación y
 		<div class='bloque'>
 			<p>El pasado viernes 16 de mayo se llevó a cabo en la e[ad] el seminario “De la hipótesis al diseño: Aproximaciones, casos y obras”, organizado por el Taller de Título 1 Diseño Gráfico, en el que participaron Katherine Mollenhauer, Manuel Pinto y Diego Gómez, todos diseñadores con experiencia en el área de investigación.</p>
 			<p>El seminario estaba dirigido a estudiantes, docentes y personas de áreas afines, Los expositores centraron sus ponencias en la importancia de la investigación en el diseño, quienes tomando como ejemplo sus propios casos de estudio, animaron a los presentes a emprender en iniciativas de esa índole.</p>
-			<img class='izquierda' src='{{ site.baseurl }}/img/imagen-publicacion6.jpg'>
+			<img class='imagen-inserta izquierda' src='{{ site.baseurl }}/img/imagen-publicacion6.jpg'>
 			<p>Katherine Mollenhauer se refirió a distintas metodologías utilizadas en el desarrollo de la disciplina, enfocándose principalmente en Design Driven, que considera la identidad y el territorio como contexto relevante, teniendo el diseño un rol fundamental en el origen del proceso productivo.</p>
 		</div>
 		<div class='bloque'>
-			<img class='derecha' src='{{ site.baseurl }}/img/imagen-publicacion2.jpg'>
+			<img class='imagen-inserta derecha' src='{{ site.baseurl }}/img/imagen-publicacion2.jpg'>
 			<p>Manuel Pinto se enfocó en quiénes pueden realizar un proyecto de investigación de diseño, cuál es un buen tema de estudio y cómo éste puede surgir. A partir del caso “Un discurso para la cohesión social: El proceso semiótico-discursivo en la (re)construcción de marca Chile en el Bicentenario”, Pinto concluyó que todos los diseñadores son capaces de abordar un proyecto de investigación, animando a los presentes a aceptar el desafío.</p>
 		</div>
 		<div class='bloque'>
