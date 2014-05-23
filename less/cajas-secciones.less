@@ -1,134 +1,33 @@
-// Cajas de contenido específico + tipografías + elementos
-.navegacion {
-    margin: 46px 0 0 0;
-    padding: 0 0 0 72px;
-    float: right;
+// Cajas de contenido específico 
+
+// Cajas de docentes
+
+.docente {
     display: inline-block;
-    width: 960px;
-
+    background-color: orange;
+    width: 100%;
+    min-height: @cuadratin * 5;
 }
 
+.imagen-docente {
+    margin: 5px;
+    width: 30%;
+    background-color: pink;
+    height: @cuadratin * 6;
+    overflow: hidden;
+    float: left;
 
-.caja-publicacion-prev {
-
-    h6 {
-        margin:0;
-        line-height: 22px;
-    }
-
-    .titulo-prev {
-        padding: @cuadratin * .25 0 0 0;
-
-        &.xs {
-            width: 100%;
-            float: left;
-            padding: @cuadratin * .5 0 @cuadratin * .25;
-        }
-
-        &.md {
-            margin: @cuadratin * .25 0 0 0;
-            min-height: auto;
-            padding: 0;
-            position: relative;
-
-            h6 {
-                margin: 0;
-                padding: 0;
-                font-weight: 200;
-            }
-        }
-    }
-
-    // Ajustes según el tamaños de la caja
-
-    &.por-oficio {
-        margin: 0 0 @cuadratin * .25 0;
-        padding: 0;
-    }
-
-    &.por-categoria {
-
-        .lectura-prev{
-            padding: 0 @cuadratin / 2;
-            display: block;
-            height: @cuadratin * 14.25;
-
-            h5 {
-                margin: @cuadratin / 2 0 0 0;
-            }
-        }
-    }
-
-}
-
-.lectura-prev {
-    padding: 0;
-    position: relative;
-    height: 100%;
-
-    &.xs {
-         padding: 0 @cuadratin / 2;
-         height: @cuadratin * 5.7;
-    }
-    
-    &.sm {
-        padding: 0 @cuadratin / 2;
-        display: block;
-        height: @cuadratin * 7.1;
-    }
-
-    &.md {
-        position: relative;
-        margin: 0;
-        width: 695px;
-        padding: 0 @cuadratin;
-        height: 100%;
-        display: inline-block;
-
-        h6 {
-            margin: 0;
-            padding: 0;
-        }
-
-        h4 {
-            margin: @cuadratin / 2 0 0 0;
-            padding: 0;
-        }
-
-        .nombre-seccion {
-            margin:@cuadratin-tercio 0;
-        }
+    .ancho-maximo {
+        width: 100%;
     }
 }
 
-.leer-mas {
-    position: absolute;
-    color: @rojo-opuesto;
-    bottom: 10px;
-    right: @cuadratin / 2;
+.datos-docente {
+    background-color: yellow;
+    min-height: @cuadratin * 2;
+    display: inline-block;
 }
 
-.categorias-publicacion {
-    bottom: @cuadratin / 2;
-    position: absolute;
-}
-
-// bloque meta (borrar, sujeto a los cambios de simon)
-
-.menu-meta {
-    height: @cuadratin;
-    background-color: @negro;
-}
-
-// estilos de cajas
-
-.borde-izquierdo {
-    border-left: 2px solid;
-}
-
-.borde-derecho {
-    border-right: 2px solid;
-}
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
@@ -139,161 +38,14 @@
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
-    .caja-publicacion-prev{
-        .titulo-prev {
-
-            &.xs {
-                width: 74%;
-                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
-            }
-
-            &.md {
-                margin: @cuadratin * .25 0 0 0;
-            }
-        }
-    }
-
-    .lectura-prev {
-
-        &.xs {
-             padding: 0 @cuadratin * .5;
-             height: @cuadratin * 7.12;
-        }
-
-        &.sm {
-            padding: 0 @cuadratin * .75;
-        }
-
-        &.md {
-            position: relative;
-            margin: 0;
-            width: 68%;
-            height: 100%;
-            display: inline-block;
-            padding: 0 @cuadratin* .75;
-
-            h6 {
-                margin: 0;
-                padding: 0;
-            }
-
-            h4 {
-                margin: @cuadratin / 2 0 0 0;
-                padding: 0;
-            }
-
-            .nombre-seccion {
-                margin:@cuadratin-tercio 0;
-            }
-        }
-    }
 }
 
 // Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
-    .logo{
-        margin: @cuadratin * .25 0 0 0;
-        max-width: 320px;
-    }
-
-    .navegacion {
-        margin: @cuadratin / 2 0;
-        padding: 0;
-        float: left;
-        width: 100%;
-
-    }
-
-    .wrap-carousel {
-        max-width: 100%;
-    }
-
-    .caja-publicacion-prev{
-        .titulo-prev {
-
-            &.xs {
-                width: 70%;
-                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
-            }
-
-            &.md {
-                margin: @cuadratin * .25 0 0 0;
-            }
-        }
-    }
-
-    .lectura-prev {
-
-        &.xs {
-             padding: 0 @cuadratin * .5;
-             height: @cuadratin * 7.12;
-        }
-
-        &.sm {
-            padding: 0 @cuadratin * .75;
-        }
-
-        &.md {
-            position: relative;
-            margin: 0;
-            width: 65%;
-            height: 100%;
-            display: inline-block;
-            padding: 0 @cuadratin* .75;
-
-            h6 {
-                margin: 0;
-                padding: 0;
-            }
-
-            h4 {
-                margin: @cuadratin / 2 0 0 0;
-                padding: 0;
-            }
-
-            .nombre-seccion {
-                margin:@cuadratin-tercio 0;
-            }
-        }
-    }
-
-    .enlaces-aside {
-
-        li {
-            line-height: @interlinea-nav *.9;
-            margin: 0 0 10px 0;
-
-            a {
-                font-size: @cuerpo * .9;
-                font-weight: 300;
-                line-height: ;
-            }
-        }
-
-        &.postulante {
-            
-            ul {
-                margin: 0 0 @cuadratin-tercio;
-                padding: 0 0 @cuadratin @cuadratin;
-            }
-
-            li {
-                padding: 4px @cuadratin * .5;
-                margin: 0 0 @cuadratin * .25 0;
-                font-size: @cuerpo * .9;
-            }
-        }
-    }
-
 }
 
-    .fondo-ruido {
-        background-color: @gris-blanco;
-        background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
-        border: none;
-    }
 
 // Large screen / wide desktop
 
