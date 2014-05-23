@@ -29,15 +29,87 @@ h3, h4, h5, h6 {
 
 
 .categoria-noticias-titulo {
-    color: @gris-oscuro;
+    color: fade(@rojo-claro, 70);
     font-weight: 300;
+    font-size: @cuerpo * 0.95;
     text-transform: uppercase;
     letter-spacing: 1px;
 
         &:hover {
-            color: @negro;
+            color: @rojo-claro;
             .transition(.3s ease all);
 
+    }
+}
+
+// contenedor texto en noticia-grande de Portada-noticias
+
+.contenedor-texto {
+	width: 90%;
+	height: auto;
+	padding-top: 0px;
+	margin: 0 auto;
+}
+
+.noticia-chica {
+
+    &:hover {
+        .transition(.3s ease all);
+
+    h6 {
+        color: @rojo-claro;
+        .transition(.2s ease all);
+        }
+    }
+}
+
+.texto-noticia {
+    
+    //background-color: @gris-claro;
+    margin: 0;
+
+    h1, h3 {
+        margin: 0;
+        color: @rojo-claro;
+    }
+
+    &.grande {
+    padding-top: @cuerpo / 3; 
+    min-height: @cuadratin * 6;
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    min-height: 200px;
+
+    .contenedor-texto {
+    	padding-top: 5px;
+
+        h2 {
+        	font-size: 25.3px;
+            font-weight: 100;
+            color: fade(@negro-oscuro, 60);
+        }
+
+        p {
+        	max-height: 70px;
+        	overflow: hidden;
+        }
+
+        aside {
+            color: fade(@negro-oscuro, 80);
+            }
+        }
+    }
+
+
+    &.chico {
+    padding-top: @cuerpo / 6;
+    min-height: @cuadratin * 5;
+
+    p {
+        margin-top: @cuerpo;
+    }
     }
 }   
 
@@ -106,6 +178,37 @@ h3, h4, h5, h6 {
 	    margin: 0 0 10px 0;
 	    line-height: 30px;
 	}
+
+
+.texto-noticia {
+
+    &.grande {
+
+    .contenedor-texto {
+
+        h2 {
+        	font-size: 22.2px;
+            font-weight: 100;
+            color: fade(@negro-oscuro, 60);
+        	}
+        }
+    }
+}
+
+.categoria-noticias-titulo {
+    color: fade(@rojo-claro, 70);
+    font-weight: 200;
+    font-size: @cuerpo * 1.1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+        &:hover {
+            color: @rojo-claro;
+            .transition(.3s ease all);
+
+    }
+}
+
 }
 
 // Small screen / wide desktop
