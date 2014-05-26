@@ -1,0 +1,101 @@
+// Cajas de contenido específico 
+
+// Cajas de docentes
+
+.docente {
+    margin: 5px 0;
+    display: inline-block;
+    background-color: @gris-claro;
+    width: 100%;
+    min-height: @cuadratin * 5;
+}
+
+.imagen-docente {
+    margin: 5px;
+    width: 30%;
+    height: @cuadratin * 6;
+    overflow: hidden;
+    float: left;
+
+    .ancho-maximo {
+        width: 120%;
+    }
+}
+
+.datos-docente {
+    width: 65%;
+    margin: 5px 10px;
+    min-height: @cuadratin * 2;
+    display: inline-block;
+
+    h2 {
+        margin: 0;
+        color: @pizarra;
+        padding: 0;
+    }
+}
+
+.resena-docente {
+    margin: 5px 10px;
+    width: 65%;
+    display: inline-block;
+
+    p {
+        font-size: @cuerpo * .9;
+        padding: 0;
+        line-height: @interlinea * .9;
+        font-family: @sans;
+        max-height: 100px;
+        overflow: hidden;
+    }
+}
+
+#menu-fixed {
+    position: fixed;
+
+    a {
+        color: @gris-oscuro;
+        font-size: 15px;
+        text-align: right;
+        padding: 5px;
+    }
+
+    .active a {
+        color: @rojo-claro;
+        border:none;
+        .transition(.3s ease all);
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+}
+
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+    #menu-fixed {
+        position: fixed;
+        max-width: 15vw;
+    }
+
+}
+
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
+}
