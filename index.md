@@ -6,7 +6,6 @@ title: Giornata Maquetas
   <h1>Maquetas Nuevas</h1>
   <li><h4>Páginas</h4>
     <ul><a href="pags/home">Home</a></ul>
-<<<<<<< HEAD
     <ul><a href="pags/historia">pagina-historia</a></ul>
     <ul><a href="pags/articulo-agenda">pagina-articulo-agenda</a></ul>
     <ul><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
@@ -16,8 +15,6 @@ title: Giornata Maquetas
     <ul><a href="pags/categoria-catalogo">Categorias catálogo AHJVA</a></ul>
     <ul><a href="pags/album-catalogo">Álbum catálogo AHJVA</a></ul>
     <ul><a href="pags/reseña-ahjva">Página reseña AHJVA</a></ul>
-=======
->>>>>>> 803d513da7f52b35684b5f125c04579ad363f794
     <ul><a href="pags/portada_noticias">Portada Noticias (Falta ajustar las columnas)</a></ul>
     <ul><a href="pags/">Portada Eventos (Aún no se diseña)</a></ul>
     <ul><a href="pags/">Portada Información de docencia - Cuerpo Docente (Aún no se diseña)</a></ul>
