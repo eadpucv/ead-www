@@ -19,9 +19,102 @@ subtitle: Diseño Gráfico
 	<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
 		<div class='bloque'>
 			<article class="h-entry"> 
-				<div class='prev-imagen md'>
-					<img class='centrada' src='{{ site.baseurl }}/img/disenografico1.jpg'>
+
+				<!-- CAROUSEL -->
+				<!-- imagenes-destacadas-ead -->
+				<!-- datos de carousel-lg -->
+				  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+				  <!-- Indicadores de carousel lg -->
+
+				<!-- fin datos de carousel-lg -->
+				<div class="carousel-inner">
+
+				<div class="item active">
+					<div class='noticia grande'>
+						<div class='noticia-imagen'>
+							<img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2012/02/acto-3.jpg'>
+						</div>
+						<div class='texto-noticia grande'>
+				            <div class='contenedor-texto'>
+							<h2><a href='#'>Convocatoria Concurso de Ideas y Relatos</a></h2>
+							<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. [...]</p>
+				            </div>
+						</div>
+					</div>
+				</div>  <!-- fin de item -->
+
+				<div class="item">
+						<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/dibujo-portada.jpg'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Diplomado en Maderas, Laminados y Mobiliario</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
+
+				<div class="item">
+				 		<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_lang_02.jpg'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Destacados diseñadores participan en seminario sobre investigación y diseño</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
+
+				<div class="item">
+				 		<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_mc_04.jpg'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
+
+				<div class="item">
+				 		<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://proyectos.ead.pucv.cl/baobab/Carpeta/images/bucle_infinito.png'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
 				</div>
+
+				<!-- Controles -->
+				<a data-slide="prev" href="#carousel-example-generic" class="left carousel-control">
+				<i class="icn icn-nav-izq"></i>
+				</a>
+				<a data-slide="next" href="#carousel-example-generic" class="right carousel-control">
+				<i class="icn icn-nav-der"></i>
+				</a>
+
+				</div> <!-- fin de carousel -->
+
 				<div class="e-content p-summary p-name enunciado">
 					<!-- sección fija para cada una de las carreras de pregado -->
 					<div class='bloque'>
