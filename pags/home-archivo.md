@@ -243,7 +243,7 @@ title: Archivo Histórico JVA
               <div class='col-md-6'> 
                 <h6 class='gris-oscuro margen-superior'>Faenas y ágape</h6>
                 <a href=''><h2 class='rojo-claro fina'>4ta Bienal de Diseño "Chile se diseña"</h2></a>
-                <p class='xs gris-oscuro fina'>Entre el 26 de noviembre y el 12 de diciembre de 2010 se realizó la 4ª Bienal de Diseño que marcó la refundación de las bienales de esta disciplina luego de 14 años de ausencia. El evento buscó valorar la Imagen País mediante una selección de proyectos y emprendimientos personales de fuerte impacto cultural, social y económico. La bienal reflejó el quehacer profesional de la primera década del nuevo siglo y, sobre todo, estableció vínculos que permitieron al público comprender el diseño como un ámbito que impregna toda la vida cotidiana.</br>La escuela fue parte de este evento, realizando jornadas de faenas (elaboración de estructuras y ágapes) para inauguración de la bienal, apoyado por sus docentes y alumnos de diseño.</p></br>                         
+                <p class='xs gris-oscuro fina'>Entre el 26 de noviembre y el 12 de diciembre de 2010 se realizó la 4ª Bienal de Diseño que marcó la refundación de las bienales de esta disciplina luego de 14 años de ausencia. El evento buscó valorar la Imagen País mediante una selección de proyectos y emprendimientos personales de fuerte impacto cultural, social y económico. La bienal reflejó el quehacer profesional de la primera década del nuevo siglo y, sobre todo, estableció vínculos que permitieron al público comprender el diseño como un ámbito que impregna toda la vida cotidiana.</br>La escuela fue parte de este evento, realizando jornadas de faenas (elaboración de estructuras y ágapes) para inauguración de la bienal, apoyado por sus docentes y alumnos de diseño.</p></br>                     
                 <div class='margen-ver-mas'>
                   <a href='noticia-dest.html'><i class='icn icn-mas icono-mas icn-lg rojo-claro'></i></a>
                 </div>  
@@ -276,8 +276,7 @@ title: Archivo Histórico JVA
                 <div class='prev-imagen lg'>
                   <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/foto-pub-2.jpg'>
                 </div>                 
-                <div class='cuadro-icono fondo-gris-oscuro'><i class='icn icn-soundcloud icn-lg blanco recuadro-icn'></i></div>              
-                <a href=''><h6 class='rojo-claro texto-cuadro-des'>Taller de Amereida</h6></a>
+                <div class='cuadro-icono fondo-gris-oscuro'><i class='icn icn-soundcloud icn-lg blanco recuadro-icn'></i></div>     <a href=''><h6 class='rojo-claro texto-cuadro-des'>Taller de Amereida</h6></a>
                 <h6 class="datos-pub-jva">Publicado día 30 de Abril 2014.</h6>   
                 <p class='xs negro-claro fina texto-cuadro-des margen-etiquetas'>El Taller de Amereida es la instancia en que se reúne prácticamente la totalidad del cuerpo de la Escuela. es decir, estudiantes y profesores, a construir y debatir precisamente ese ser cuerpo.</p> 
                 <p class="categorias-pub-jva">[ Actividades ] [Taller de Amereida ]</p>                    
@@ -306,7 +305,7 @@ title: Archivo Histórico JVA
                 <div class='prev-imagen lg'>
                   <img class='foto-interior-pub' src='{{ site.baseurl }}/img/img-archivo/foto-labor3.jpg'>
                 </div>   
-                <div class='cuadro-icono fondo-gris-oscuro'><i class='icn icn-documento-l icn-lg blanco recuadro-icn'></i></div>     
+                <div class='cuadro-icono fondo-gris-oscuro'><i class='icn icn-documento-l icn-lg blanco recuadro-icn'></i></div>   
                 <a href=''><h6 class='rojo-claro texto-cuadro-des'>Casa Jean Mermoz </h6></a>
                 <h6 class="datos-pub-jva">Publicado día 30 de Abril 2014.</h6>             
                 <p class='xs negro-claro fina texto-cuadro-des margen-etiquetas'>Muestra realizada en el Museo Nacional de Bellas Artes, Santiago, Chile; consta de pizarrones de 1,5 x 1,5 mt. escritos y dibujados a tiza blanca. Se digitalizaron negativos fotográficos de 6 x 6 mm. </p> 
