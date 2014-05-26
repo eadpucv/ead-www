@@ -6,11 +6,9 @@ subtitle: Noticias
 
 <!-- CAROUSEL -->
 <!-- imagenes-destacadas-ead -->
-<div class='contenedor-noticias-recientes'>
 <!-- datos de carousel-lg -->
   <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
   <!-- Indicadores de carousel lg -->
-
 <!-- fin datos de carousel-lg -->
 <div class="carousel-inner">
 
@@ -84,7 +82,6 @@ subtitle: Noticias
 </a>
 
 </div> <!-- fin de carousel -->
-</div> <!-- fin de contenedor de noticias recientes -->
 
 
 <!-- Contenedor de noticias -->
@@ -93,7 +90,7 @@ subtitle: Noticias
 <!-- Categoría Arquitectura, Magister, amereida -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Arquitectura</a></h5>
+<h5><a href='{{ site.baseurl }}/pags/categoria_noticias' class='categoria-noticias-titulo'>Arquitectura</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>

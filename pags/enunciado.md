@@ -4,22 +4,117 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
 subtitle: Diseño Gráfico
 ---
 <div class='fila'>
-	<div class='col-lg-3'>
-  		<ol>
-    		<li><a data-scroll href='#estudiar'>Estudiar Diseño Gráfico en la e[ad]</a></li>
-    		<li><a data-scroll href='#perfil'>Concepción perfil del egresado</a></li>
-    		<li><a data-scroll href='#competencias'>Competencias fundamentales</a></li>
-    		<li><a data-scroll href='#objetivos'>Objetivos educacionales</a></li>
-    		<li><a data-scroll href='#malla'>Malla Curricular</a></li>
-    		<li><a data-scroll href='#docentes'>Docentes de Diseño Gráfico</a></li>
-  		</ol>
+	<div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
+		<nav id='menu-fixed'>
+	  		<ul class="nav nav-stacked affix-top" data-spy="affix" data-offset-top="25">
+	    		<li><a data-scroll href='#estudiar'>Estudiar Diseño Gráfico en la e[ad]</a></li>
+	    		<li><a data-scroll href='#perfil'>Concepción perfil del egresado</a></li>
+	    		<li><a data-scroll href='#competencias'>Competencias fundamentales</a></li>
+	    		<li><a data-scroll href='#objetivos'>Objetivos educacionales</a></li>
+	    		<li><a data-scroll href='#malla'>Malla Curricular</a></li>
+	    		<li><a data-scroll href='#profesores'>Profesores de Diseño Gráfico</a></li>
+	  		</ul>
+  		</nav>
 	</div>
-	<div class='col-lg-9'>
+	<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
 		<div class='bloque'>
-			<article class="h-entry">
-				<div class='prev-imagen md'>
-					<img class='centrada' src='{{ site.baseurl }}/img/disenografico1.jpg'>
+			<article class="h-entry"> 
+
+				<!-- CAROUSEL -->
+				<!-- imagenes-destacadas-ead -->
+				<!-- datos de carousel-lg -->
+				  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+				  <!-- Indicadores de carousel lg -->
+
+				<!-- fin datos de carousel-lg -->
+				<div class="carousel-inner">
+
+				<div class="item active">
+					<div class='noticia grande'>
+						<div class='noticia-imagen'>
+							<img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2012/02/acto-3.jpg'>
+						</div>
+						<div class='texto-noticia grande'>
+				            <div class='contenedor-texto'>
+							<h2><a href='#'>Convocatoria Concurso de Ideas y Relatos</a></h2>
+							<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. [...]</p>
+				            </div>
+						</div>
+					</div>
+				</div>  <!-- fin de item -->
+
+				<div class="item">
+						<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/dibujo-portada.jpg'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Diplomado en Maderas, Laminados y Mobiliario</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
+
+				<div class="item">
+				 		<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_lang_02.jpg'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Destacados diseñadores participan en seminario sobre investigación y diseño</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
+
+				<div class="item">
+				 		<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_mc_04.jpg'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
+
+				<div class="item">
+				 		<div class='noticia grande'>
+							<div class='noticia-imagen'>
+								<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://proyectos.ead.pucv.cl/baobab/Carpeta/images/bucle_infinito.png'>
+							</div>
+							<div class='texto-noticia grande'>
+				                <div class='contenedor-texto'>
+								<h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
+								<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+				                </div>
+							</div>
+						</div>
+					</div>  <!-- fin de item -->
 				</div>
+
+				<!-- Controles -->
+				<a data-slide="prev" href="#carousel-example-generic" class="left carousel-control">
+				<i class="icn icn-nav-izq"></i>
+				</a>
+				<a data-slide="next" href="#carousel-example-generic" class="right carousel-control">
+				<i class="icn icn-nav-der"></i>
+				</a>
+
+				</div> <!-- fin de carousel -->
+
 				<div class="e-content p-summary p-name enunciado">
 					<!-- sección fija para cada una de las carreras de pregado -->
 					<div class='bloque'>
@@ -98,22 +193,115 @@ subtitle: Diseño Gráfico
 						<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
 						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
 					</div>
-					<div id='docentes' class='bloque'>
-						<h2 class='rojo-claro'>Docentes de Diseño Gráfico</h2>
+					<div id='profesores' class='bloque'>
+						<h2 class='rojo-claro'>Profesores de Diseño Gráfico</h2>
 						<p>Etiam ac ullamcorper ipsum. Pellentesque volutpat laoreet ultrices. Ut ornare purus sagittis odio placerat, porta pharetra nulla imperdiet. Sed non felis vulputate, lobortis purus hendrerit, ullamcorper odio. Praesent adipiscing, ante blandit molestie eleifend, augue nulla malesuada ante, at sodales libero magna in nibh. Duis mattis leo in eros rutrum varius vehicula sed purus. Donec vel imperdiet velit, et aliquam nulla. Cras nec bibendum nunc. Donec sed luctus elit. Donec porta bibendum porta. Vivamus ac sapien tristique, fermentum metus eget, semper sapien. Nulla vehicula, mi nec pulvinar ultricies, ipsum nunc mollis risus, ut eleifend tellus elit in erat. </p>
 						<div class='docente'>
 							<div class='imagen-docente'>
-								<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/b/b1/CDS-MADLAB-Personas-Sylvia.png/200px-CDS-MADLAB-Personas-Sylvia.png'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente1.jpg'>
 							</div>
-							<div class='datos-docente'>Sylvia Arriagada
+							<div class='datos-docente'>
+								<h2><a href='#'>Sylvia Arriagada</a></h2>
+								<h6>Diseñadora Gráfica</h6>
 							</div>
 							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente2.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>José Balcells</a></h2>
+								<h6>Diseñador Gráfico, Escultor</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente3.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Jorge Barahona</a></h2>
+								<h6>Diseñador de Experiencia de Usuarios y Servicios, Arquitecto de Información</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente4.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Katherine Exss</a></h2>
+								<h6>Diseñadora, MA Information Design</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente5.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Alejandro Garretón</a></h2>
+								<h6>Diseñador Gráfico</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente6.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Manuel Sanfuentes</a></h2>
+								<h6>Diseñador Gráfico, Poeta</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente7.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Herbert Spencer</a></h2>
+								<h6>Diseñador Gráfico, MDes Interaction Design CMU</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente8.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Michèle Wilkomirsky</a></h2>
+								<h6>Diseñadora Gráfica</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<h2 class='rojo-claro'>Profesores ayudantes</h2>
+						<p>Etiam ac ullamcorper ipsum. Pellentesque volutpat laoreet ultrices. Ut ornare purus sagittis odio placerat, porta pharetra nulla imperdiet. Sed non felis vulputate, lobortis purus hendrerit, ullamcorper odio. Praesent adipiscing, ante blandit molestie eleifend, augue nulla malesuada ante, at sodales libero magna in nibh. Duis mattis leo in eros rutrum varius vehicula sed purus. Donec vel imperdiet velit, et aliquam nulla. Cras nec bibendum nunc. Donec sed luctus elit. Donec porta bibendum porta. Vivamus ac sapien tristique, fermentum metus eget, semper sapien. Nulla vehicula, mi nec pulvinar ultricies, ipsum nunc mollis risus, ut eleifend tellus elit in erat. </p>
 					</div>
 				</div>
 			</article> 
 		</div> <!-- fin de bloque -->
 	</div> <!-- fin de col -->
 </div> <!-- fin fila -->
+
+<script>
+$('.enunciado').scrollspy({ target: '#menu-fixed' })
+</script>
 
