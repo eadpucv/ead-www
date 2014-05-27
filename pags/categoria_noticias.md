@@ -10,7 +10,7 @@ subtitle: Arquitectura
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='{{ site.baseurl }}/pags/publicacion' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -23,12 +23,13 @@ subtitle: Arquitectura
     <p>a invitación se extiende a alumnos y profesionales área de diseño, arquitectura y arte, y a todos quienes quieran adquirir un conocimiento más profundo acerca de la madera y las técnicas para trabajarla.</p>
 </a>
 </div><!-- fin noticia 1 -->
+
 </div>
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -41,12 +42,13 @@ subtitle: Arquitectura
     <p>Vergel 439 invita a participar en el “Concurso de Ideas y Relatos”, que busca convertir las ruinas del incendio de Valparaíso -particularmente la casa del profesor Luis Álvarez</p>
 </a>
 </div><!-- fin noticia 1 -->
+
 </div>
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -59,14 +61,14 @@ subtitle: Arquitectura
     <p>El miércoles 14 de mayo se realizará el lanzamiento del Concurso Nacional de Arquitectura Parque Deportivo Villa Alemana, dirigido a arquitectos jóvenes y alumnos que cursan sus últimos años en la carrera.</p>
 </a>
 </div><!-- fin noticia 1 -->
-</div>
 
+</div>
 
 <!-- Categoría Arquitectura -->
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -76,15 +78,17 @@ subtitle: Arquitectura
     </div>
     <h6>Ximena Izquierdo en Ciclo de Charlas Despliegue del Oficio</h6>
     <aside class='entry-details'>Publicado el 24 de abril, 2014</aside>
-    <p>a invitación se extiende a alumnos y profesionales área de diseño, arquitectura y arte, y a todos quienes quieran adquirir un conocimiento más profundo acerca de la madera y las técnicas para trabajarla.</p>
+    <p>a invitación se extiende a alumnos y profesionales área de diseño, arquitectura y arte, y a todos quienes quieran adquirir un conocimiento más profundo acerca de la madera y las técnicas para trabajarla y saber menester.</p>
 </a>
 </div><!-- fin noticia 1 -->
+
 </div>
+
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -97,12 +101,13 @@ subtitle: Arquitectura
     <p>Vergel 439 invita a participar en el “Concurso de Ideas y Relatos”, que busca convertir las ruinas del incendio de Valparaíso -particularmente la casa del profesor Luis Álvarez</p>
 </a>
 </div><!-- fin noticia 1 -->
+
 </div>
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -115,13 +120,13 @@ subtitle: Arquitectura
     <p>El miércoles 14 de mayo se realizará el lanzamiento del Concurso Nacional de Arquitectura Parque Deportivo Villa Alemana, dirigido a arquitectos jóvenes y alumnos que cursan sus últimos años en la carrera.</p>
 </a>
 </div><!-- fin noticia 1 -->
-</div>
 
+</div>
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -134,12 +139,13 @@ subtitle: Arquitectura
     <p>a invitación se extiende a alumnos y profesionales área de diseño, arquitectura y arte, y a todos quienes quieran adquirir un conocimiento más profundo acerca de la madera y las técnicas para trabajarla.</p>
 </a>
 </div>
+
 </div>
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -152,12 +158,14 @@ subtitle: Arquitectura
     <p>Vergel 439 invita a participar en el “Concurso de Ideas y Relatos”, que busca convertir las ruinas del incendio de Valparaíso -particularmente la casa del profesor Luis Álvarez</p>
 </a>
 </div><!-- fin noticia 1 -->
+
 </div>
+
 
 <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
-<a href='#' class='bloque-enlace portada'>
+<a href='#' class='bloque-enlace portada categoria-especifica'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
     <div class='seguir-leyendo-cuadro'>
     <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -170,7 +178,17 @@ subtitle: Arquitectura
     <p>El miércoles 14 de mayo se realizará el lanzamiento del Concurso Nacional de Arquitectura Parque Deportivo Villa Alemana, dirigido a arquitectos jóvenes y alumnos que cursan sus últimos años en la carrera.</p>
 </a>
 </div><!-- fin noticia 1 -->
-</div>
 
 </div>
+</div>
+
+<div class='centrado extendido'>
+<a class='btn btn-md btn-transparente-negro cargar-mas'>ver más</a>
+</div>
+
+
+
+
+
+
 

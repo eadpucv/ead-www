@@ -1,14 +1,12 @@
 ---
 layout: portada
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
-subtitle: Noticias
+subtitle: Portada de noticias
 ---
 
+
 <!-- CAROUSEL -->
-<!-- imagenes-destacadas-ead -->
-<!-- datos de carousel-lg -->
-  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
-  <!-- Indicadores de carousel lg -->
+<div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
 <!-- fin datos de carousel-lg -->
 <div class="carousel-inner">
 
@@ -629,7 +627,6 @@ subtitle: Noticias
 </div><!-- fin noticia 1 -->
 
 </div> <!-- fin de categoría -->
-
 </div><!-- fin de fila -->
 </div><!-- Fin de contenedor de noticias -->
 
@@ -796,7 +793,7 @@ subtitle: Noticias
 
 </div> <!-- fin de categoría --> 
 </div> <!-- fin de fila -->
-</div>
+</div> <!-- fin de contenedor -->A
 
 <!--- /////////////////////////
 
