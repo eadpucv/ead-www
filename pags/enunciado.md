@@ -192,11 +192,230 @@ subtitle: Diseño Gráfico
 						<h2 class='rojo-claro'>Malla curricular</h2>
 						<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
 						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
+
+						<!-- Se piensa que esto no debería ser una tabla, pero es un diseño que tendremos que volver a redefinirlo, por ahora queremos dejarlo así y luego pensarlo de una manera más coherente con la gráfica nueva -->
+						<table class='w100 malla-curricular'>
+							<tbody>
+								<tr>
+									<td>
+										<h2>Primer Año</h2>
+										<h6>Ciclo básico</h6>
+									</td>
+								</tr>
+								<tr>
+									<th class='w33 fondo-gris'>periodo anual</th>
+									<th class='w33 fondo-gris'></th>
+									<th class='w33 fondo-gris'></th>
+								</tr>
+								<tr>
+									<td> 
+										<ul class='curso-malla'>
+											<li>ARQ 150 – (37 Créditos)<br>
+											 Primer Año Diseño Plan Común<br>
+											<p><a href='#'>Taller Inicial Común 1ª y 2ª Etapa</a></p>
+											<p><a href='#'>Taller de Construcción 1</a></p>
+											<p><a href='#'>Presentación del Diseño Común</a></p>
+											<p><a href='#'>Fundamentos de Matemáticas 1</a></p>
+											<p><a href='#'>Lenguaje Computacional 0 – Imagen Escrita</a></p>
+											<p><a href='#'>Cultura Religiosa: Antropología Cristiana</a></p>
+											<p><a href='#'>Cultura Religiosa: Moral Cristiana</a></p>
+											<p><a href='#'>Cultura del Cuerpo 1 y 2</a></p>
+											<p><a href='#'>Taller de Amereida 1, 2 y 3</a></p></li>
+										</ul>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h2>Segundo Año</h2>
+										<h6>Ciclo superior</h6>
+									</td>
+								</tr>
+								<tr>
+									<th class='w33 fondo-gris'>primer periodo</th>
+									<th class='w33 fondo-gris'>segundo periodo</th>
+									<th class='w33 fondo-gris'>tercer periodo</th>
+								</tr>
+								<tr>
+									<td> 
+										<ul class='curso-malla'>
+											<li>ARQ 280 – (10 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico 3ª Etapa</a></li>
+											<li>MAT 229 - (4 Créditos)<br>
+											<a href='#'>Fundamentos de Matemáticas 2</a></li>
+											<li>ARQ 266 – (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 4</a></li>
+											<li>ARQ 251 – (1 Crédito)<br>
+											<a href='#'>Cultura del Cuerpo 3</a></li>
+										</ul>
+									</td>
+									<td>
+										<ul class='curso-malla'>
+											<li>ARQ 271 - (2 Créditos)<br>
+											<a href='#'>Presentación del Diseño Gráfico 1</a></li>
+											<li>ARQ 267 – (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 5</a></li>
+											<li>ARQ 252 – (1 Crédito)<br>
+											<a href='#'>Cultura del Cuerpo 4</a></li>
+											<li>ARQ 281 – (2 Créditos)<br>
+											<a href='#'>Taller de Construcción 2</a></li>
+											<li>ARQ 286 – (2 Créditos)<br>
+											<a href='#'>Lenguaje Computacional 1</a></li>
+											<li>ARQ 287 – (2 Créditos)<br>
+											<a href='#'>Lenguaje Tipográfico</a></li>
+										</ul>
+									</td>
+									<td>
+										<ul class='curso-malla'>
+											<li>ARQ 285 – (10 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico 4ª Etapa</a></li>
+											<li>ARQ 268 - (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 6</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h2>Tercer Año</h2>
+										<h6>Ciclo superior</h6>
+									</td>
+								</tr>
+								<tr>
+									<th class='w33 fondo-gris'>primer periodo</th>
+									<th class='w33 fondo-gris'>segundo periodo</th>
+									<th class='w33 fondo-gris'>tercer periodo</th>
+								</tr>
+								<tr>
+									<td> 
+										<ul class='curso-malla'>
+											<li>ARQ 380 – (10 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico 5ª Etapa</a></li>
+											<li>MAT 329 - (4 Créditos)<br>
+											<a href='#'>Fundamentos de Matemáticas 3</a></li>
+											<li>ARQ 366 – (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 7</a></li>
+											<li>ARQ 351 – (1 Crédito)<br>
+											<a href='#'>Cultura del Cuerpo 5</a></li>
+										</ul>
+									</td>
+									<td>
+										<ul class='curso-malla'>
+											<li>ARQ 361 - (2 Créditos)<br>
+											<a href='#'>Presentación del Diseño Gráfico 2</a></li>
+											<li>ARQ 367 – (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 8</a></li>
+											<li>ARQ 352 – (1 Crédito)<br>
+											<a href='#'>Cultura del Cuerpo 6</a></li>
+											<li>ARQ 389 – (2 Créditos)<br>
+											<a href='#'>Taller de Construcción 3</a></li>
+											<li>ARQ 388 – (2 Créditos)<br>
+											<a href='#'>Lenguaje Computacional 2</a></li>
+											<li>ARQ 387 – (2 Créditos)<br>
+											<a href='#'>Sistemas de Impresión</a></li>
+										</ul>
+									</td>
+									<td>
+										<ul class='curso-malla'>
+											<li>ARQ 385 – (10 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico 6ª Etapa</a></li>
+											<li>ARQ 368 – (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 9</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h2>Cuarto Año</h2>
+										<h6>Ciclo superior</h6>
+									</td>
+								</tr>
+								<tr>
+									<th class='w33 fondo-gris'>primer periodo</th>
+									<th class='w33 fondo-gris'>segundo periodo</th>
+									<th class='w33 fondo-gris'></th>
+								</tr>
+								<tr>
+									<td> 
+										<ul class='curso-malla'>
+											<li>ARQ 480 – (10 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico 7ª Etapa</a></li>
+											<li>ARQ 466 – (1 Crédito)<br>
+											<a href='#'>Taller de Amereida 10</a></li>
+											<li>ARQ 451 – (1 Crédito)<br>
+											<a href='#'>Cultura del Cuerpo 7</a></li>
+											<li>ARQ 471 – (2 Créditos)<br>
+											<a href='#'>Presentación del Diseño Gráfico 3</a></li>
+										</ul>
+									</td>
+									<td>
+										<ul class='curso-malla'>
+											<li>ARQ 481 – (2 Créditos)<br>
+											<a href='#'>Taller de Construcción 4</a></li>
+											<li>ARQ 482 – (2 Créditos)<br>
+											<a href='#'>Lenguaje Computacional 3</a></li>
+											<li>ARQ 483 – (2 Créditos)<br>
+											<a href='#'>Gráfica Digital</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h2>Cuarto año</h2>
+										<h6>Ciclo de titulación</h6>
+									</td>
+								</tr>
+								<tr>
+									<th class='w33 fondo-gris'></th>
+									<th class='w33 fondo-gris'></th>
+									<th class='w33 fondo-gris'>tercer periodo</th>
+								</tr>
+								<tr>
+									<td> 
+									</td>
+									<td> 
+									</td>
+									<td> 
+										<ul class='curso-malla'>
+											<li>ARQ 485 – (14 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico Titulación 1</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h2>Quinto Año</h2>
+										<h6>Ciclo de titulación</h6>
+									</td>
+								</tr>
+								<tr>
+									<th class='w33 fondo-gris'>primer periodo</th>
+									<th class='w33 fondo-gris'>segundo periodo</th>
+									<th class='w33 fondo-gris'></th>
+								</tr>
+								<tr>
+									<td> 
+										<ul class='curso-malla'>
+											<li>ARQ 580 - (14 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico Titulación 2</a></li>
+										</ul>
+									</td>
+									<td>
+										<ul class='curso-malla'>
+											<li>ARQ 585 – (14 Créditos)<br>
+											<a href='#'>Taller de Diseño Gráfico Titulación 3</a></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<div id='profesores' class='bloque'>
 						<h2 class='rojo-claro'>Profesores de Diseño Gráfico</h2>
 						<p>Etiam ac ullamcorper ipsum. Pellentesque volutpat laoreet ultrices. Ut ornare purus sagittis odio placerat, porta pharetra nulla imperdiet. Sed non felis vulputate, lobortis purus hendrerit, ullamcorper odio. Praesent adipiscing, ante blandit molestie eleifend, augue nulla malesuada ante, at sodales libero magna in nibh. Duis mattis leo in eros rutrum varius vehicula sed purus. Donec vel imperdiet velit, et aliquam nulla. Cras nec bibendum nunc. Donec sed luctus elit. Donec porta bibendum porta. Vivamus ac sapien tristique, fermentum metus eget, semper sapien. Nulla vehicula, mi nec pulvinar ultricies, ipsum nunc mollis risus, ut eleifend tellus elit in erat. </p>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente1.jpg'>
 							</div>
@@ -208,7 +427,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente2.jpg'>
 							</div>
@@ -220,7 +439,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente3.jpg'>
 							</div>
@@ -232,7 +451,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente4.jpg'>
 							</div>
@@ -244,7 +463,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente5.jpg'>
 							</div>
@@ -256,7 +475,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente6.jpg'>
 							</div>
@@ -268,7 +487,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente7.jpg'>
 							</div>
@@ -280,7 +499,7 @@ subtitle: Diseño Gráfico
 								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
 							</div>
 						</div>
-						<div class='docente'>
+						<div class='pagina docente'>
 							<div class='imagen-docente'>
 								<img class='ancho-maximo' src='{{ site.baseurl }}/img/docente8.jpg'>
 							</div>
@@ -294,6 +513,42 @@ subtitle: Diseño Gráfico
 						</div>
 						<h2 class='rojo-claro'>Profesores ayudantes</h2>
 						<p>Etiam ac ullamcorper ipsum. Pellentesque volutpat laoreet ultrices. Ut ornare purus sagittis odio placerat, porta pharetra nulla imperdiet. Sed non felis vulputate, lobortis purus hendrerit, ullamcorper odio. Praesent adipiscing, ante blandit molestie eleifend, augue nulla malesuada ante, at sodales libero magna in nibh. Duis mattis leo in eros rutrum varius vehicula sed purus. Donec vel imperdiet velit, et aliquam nulla. Cras nec bibendum nunc. Donec sed luctus elit. Donec porta bibendum porta. Vivamus ac sapien tristique, fermentum metus eget, semper sapien. Nulla vehicula, mi nec pulvinar ultricies, ipsum nunc mollis risus, ut eleifend tellus elit in erat. </p>
+						<div class='pagina docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/ayudante2.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Karen Carrera</a></h2>
+								<h6>Diseñadora Gráfica</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='pagina docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/ayudante3.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Jaime Pérez Moena</a></h2>
+								<h6>Diseñador Gráfico</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
+						<div class='pagina docente'>
+							<div class='imagen-docente'>
+								<img class='ancho-maximo' src='{{ site.baseurl }}/img/ayudante1.jpg'>
+							</div>
+							<div class='datos-docente'>
+								<h2><a href='#'>Macarena Álamos R</a></h2>
+								<h6>Diseñador Gráfico</h6>
+							</div>
+							<div class='resena-docente'>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</article> 

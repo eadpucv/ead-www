@@ -2,29 +2,23 @@
 
 // Cajas de docentes
 
-.docente {
-    margin: 5px 0;
-    display: inline-block;
-    background-color: @gris-claro;
-    width: 100%;
-    min-height: @cuadratin * 5;
-}
-
 .imagen-docente {
-    margin: 5px;
-    width: 30%;
-    height: @cuadratin * 6;
+    display: block;
+    margin: 5px 20px 0 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     overflow: hidden;
     float: left;
 
     .ancho-maximo {
-        width: 120%;
+        width: 100%;
     }
 }
 
 .datos-docente {
     width: 65%;
-    margin: 5px 10px;
+    margin: 5px 0;
     min-height: @cuadratin * 2;
     display: inline-block;
 
@@ -36,7 +30,7 @@
 }
 
 .resena-docente {
-    margin: 5px 10px;
+    margin: 5px 0;
     width: 65%;
     display: inline-block;
 
@@ -54,15 +48,17 @@
     position: fixed;
 
     a {
+        margin: 10px 0;
         color: @gris-oscuro;
         font-size: 15px;
+        padding: 0px 5px 0px 0;
+        border-right:2px solid @blanco;
         text-align: right;
-        padding: 5px;
     }
 
     .active a {
         color: @rojo-claro;
-        border:none;
+        border-right:2px solid @rojo-claro;
         .transition(.3s ease all);
 
         &:hover {
@@ -71,14 +67,161 @@
     }
 }
 
+// Comentarios
+
+.fondo-comentarios {
+    background-color: @blanco-gris;
+}
+
+.contenido-comentario {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.imagen-usuario {
+        float: left;
+        margin: 0 20px 0 0;
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+        border-radius: 70px;
+
+            img {
+            width: 120%;
+            height: auto;
+        }
+}
+
+.bloque-comentario {
+    padding-left: 160px;
+}
+
+.comentario {
+    display: inline-block;
+    padding: 10px;
+
+    p {
+        margin: 5px 0 15px 0;
+        color: @negro-claro;
+    }
+
+}
+
+.comentar {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+
+
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
+
+    // Comentarios
+
+
+    .contenido-comentario {
+        margin-top: 30px;
+        border: none;
+        border-bottom: 1px solid @gris-claro;
+        box-shadow: none;
+        padding: 0 0 20px 0;
+    }
+
+    .bloque-comentario {
+        padding-left: 160px;
+    }
+
+    .comentario {
+        padding: 0px;
+
+        p {
+            margin: 5px 0 15px 0;
+            color: @negro-claro;
+        }
+    }
+
+    .comentar {
+        border: none;
+        box-shadow:none;
+        padding: 0px;
+        margin: 20px 0 0 0;
+    }
+
+    // Comentario 
+
+    .imagen-usuario {
+        display: none;
+    }
+
+    .bloque-comentario {
+        padding: 0;
+    }
+
+    .imagen-docente {
+        display: block;
+        margin: 0 auto;
+        float: none;
+
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
+
+    .datos-docente {
+        text-align: center;
+        width: 100%;
+        margin: 5px 0;
+        padding: 0 10px;
+        min-height: @cuadratin * 2;
+        display: inline-block;
+
+        h2 {
+            margin: 0;
+            color: @pizarra;
+            padding: 0;
+        }
+    }
+
+    .resena-docente {
+        margin: 5px 0;
+        width: 100%;
+        padding: 0 10px;
+        display: inline-block;
+
+        p {
+            font-size: @cuerpo * .9;
+            padding: 0;
+            line-height: @interlinea * .9;
+            font-family: @sans;
+            max-height: 100px;
+            overflow: hidden;
+        }
+    }
+
+
 
 }
 
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+    
+    // Cajas de docentes
+    
+    .imagen-docente {
+
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
+
 
 }
 
@@ -89,6 +232,53 @@
     #menu-fixed {
         position: fixed;
         max-width: 15vw;
+    }
+
+    // Cajas de docentes
+
+    .imagen-docente {
+        width: 160px;
+        height: 160px;
+        margin:0 20px 0 0;
+
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
+
+    .datos-docente {
+        width: 59%;
+        margin: 5px 0;
+        min-height: @cuadratin * 2;
+        display: inline-block;
+
+        h2 {
+            margin: 0;
+            color: @pizarra;
+            padding: 0;
+        }
+    }
+
+    .resena-docente {
+        margin: 5px 0;
+        width: 59%;
+        display: inline-block;
+
+        p {
+            font-size: @cuerpo * .9;
+            padding: 0;
+            line-height: @interlinea * .9;
+            font-family: @sans;
+            max-height: 100px;
+            overflow: hidden;
+        }
+    }
+
+
+    // comentarios
+
+    .bloque-comentario {
+        padding-left: 0;
     }
 
 }
