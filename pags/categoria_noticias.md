@@ -7,7 +7,7 @@ subtitle: Arquitectura
 <div class='fila'>
 
 <!-- Categoría Arquitectura -->
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='{{ site.baseurl }}/pags/publicacion' class='bloque-enlace portada categoria-especifica'>
@@ -26,7 +26,7 @@ subtitle: Arquitectura
 
 </div>
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -45,7 +45,7 @@ subtitle: Arquitectura
 
 </div>
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -65,7 +65,7 @@ subtitle: Arquitectura
 </div>
 
 <!-- Categoría Arquitectura -->
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -85,7 +85,7 @@ subtitle: Arquitectura
 </div>
 
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -104,7 +104,7 @@ subtitle: Arquitectura
 
 </div>
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -123,7 +123,7 @@ subtitle: Arquitectura
 
 </div>
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -142,7 +142,7 @@ subtitle: Arquitectura
 
 </div>
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
@@ -162,7 +162,7 @@ subtitle: Arquitectura
 </div>
 
 
-<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
+<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada categoria-especifica'>
