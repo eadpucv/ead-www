@@ -126,6 +126,17 @@
             overflow: hidden;
         }
     }
+
+    &.docente {
+        margin: 10px 0;
+        display: inline-block;
+        background-color: #F5F5F5;
+        border: 1px solid #E3E3E3;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+        width: 100%;
+        min-height: @cuadratin * 5;
+    }
 }
 
 .referencia-cita {
@@ -653,57 +664,6 @@ hr {
     }
 }
 
-// Comentarios
-
-.fondo-comentarios {
-    background-color: @blanco-gris;
-}
-
-.contenido-comentario {
-    border: 1px solid #E3E3E3;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.imagen-usuario {
-        float: left;
-        margin: 0 20px 0 0;
-        width: 140px;
-        height: 140px;
-        overflow: hidden;
-        border-radius: 70px;
-
-            img {
-            width: 120%;
-            height: auto;
-        }
-}
-
-.bloque-comentario {
-    padding-left: 160px;
-}
-
-.comentario {
-    display: inline-block;
-    padding: 10px;
-
-    p {
-        margin: 5px 0 15px 0;
-        color: @negro-claro;
-    }
-
-}
-
-.comentar {
-    border: 1px solid #E3E3E3;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    padding: 20px;
-    margin: 20px 0 0 0;
-}
-
 
 // Landing giornata index
 
@@ -853,6 +813,10 @@ hr {
 
         &.info-docencia {
             padding: 0px 15px;
+        }
+
+        &.docente {
+            padding: 10px;
         }
     }
 
@@ -1140,16 +1104,6 @@ hr {
         &:hover {
             border-top: none;
         }
-    }
-
-    // Comentario 
-
-    .imagen-usuario {
-        display: none;
-    }
-
-    .bloque-comentario {
-        padding: 0;
     }
 
     // Aside 
@@ -1602,6 +1556,17 @@ hr {
         width: 88%;
     }
 
+    // Header 
+
+    .navegacion {
+        margin: 5px 0 20px 0;
+        padding: 0;
+        float: right;
+        display: inline-block;
+        width: 100%;
+
+    }
+
     // Footer
 
     .escuela {
@@ -1625,12 +1590,6 @@ hr {
             font-size: @cuerpo;
             margin-right: 5px;
         }
-    }
-
-    // comentarios
-
-    .bloque-comentario {
-        padding-left: 0;
     }
 
     // Landing index giornata

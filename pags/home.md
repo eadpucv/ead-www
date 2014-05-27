@@ -269,9 +269,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/admn.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Vías de ingreso</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Becas y financiamiento</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Aranceles</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Vías de ingreso</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Becas y financiamiento</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Aranceles</a>
           </div>
         </div>
       </div>
@@ -285,10 +285,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/carreras.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Arquitectura</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Diseño Gráfico</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Diseño Industrial</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Magíster de Arquitectura y Diseño</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Arquitectura</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Diseño Gráfico</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Diseño Industrial</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Magíster de Arquitectura y Diseño</a>
           </div>
         </div>
       </div>
@@ -304,8 +304,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/campus.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Casa de estudio</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Ciudad Abierta</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Casa de estudio</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Ciudad Abierta</a>
           </div>
         </div>
       </div>
@@ -319,8 +319,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/docentes.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Profesores</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Ayudantes</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Profesores</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Ayudantes</a>
           </div>
         </div>
       </div>
@@ -334,9 +334,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/escuelaoficio.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Historia</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>La observación</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Amereida</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Historia</a>
+            <a class='btn btn-md transparente-blanco' href='#'>La observación</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Amereida</a>
           </div>
         </div>
       </div>

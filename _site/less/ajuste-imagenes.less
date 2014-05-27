@@ -69,7 +69,7 @@
     }
 }
 
-.centrada {
+.centrado-vertical {
     bottom: -35%;
     position: absolute;
 }
@@ -112,6 +112,11 @@
 .marco-imagen {
     position: absolute;
     bottom: -45%;
+
+    &.lg {
+        bottom: -75%;
+        padding: 0;
+    }
 }
 
 
@@ -150,6 +155,8 @@
     }
 
     .prev-imagen {
+    position: relative;
+    overflow: hidden;
 
         &.sm {
             height: auto;
@@ -174,8 +181,7 @@
 
         &.franja{
             img {
-                width: 150%;
-                min-width: 720px; 
+                width: 236%;
             }
         }
     }
@@ -188,7 +194,7 @@
 
             img{
             height: auto;
-            width: 150%;
+            width: 160%;
             }
         }
     }
@@ -200,7 +206,7 @@
 }
 
     .centrada {
-        bottom: -10%;
+        bottom: 0%;
         position: absolute;
     }
 
@@ -503,10 +509,5 @@
             padding: 0;
         }
     }
-
-    .marco-imagen {
-    position: absolute;
-    bottom: -75%;
-}
 
 }

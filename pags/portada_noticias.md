@@ -13,7 +13,7 @@ subtitle: Portada de noticias
 <div class="item active">
 	<div class='noticia grande'>
 		<div class='noticia-imagen'>
-			<img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
+			<img class='marco-imagen lg' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
 		</div>
 		<div class='texto-noticia grande'>
             <div class='contenedor-texto'>
@@ -28,7 +28,7 @@ subtitle: Portada de noticias
 <div class="item">
 		<div class='noticia grande'>
 			<div class='noticia-imagen'>
-				<img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
+				<img class='marco-imagen lg' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
 			</div>
 			<div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
@@ -43,7 +43,7 @@ subtitle: Portada de noticias
 <div class="item">
  		<div class='noticia grande'>
 			<div class='noticia-imagen'>
-				<img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
+				<img class='marco-imagen lg' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
 			</div>
 			<div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
@@ -58,7 +58,7 @@ subtitle: Portada de noticias
 <div class="item">
  		<div class='noticia grande'>
 			<div class='noticia-imagen'>
-				<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
+				<img class='marco-imagen lg' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
 			</div>
 			<div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
