@@ -3,6 +3,7 @@ layout: enunciado
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 subtitle: Diseño Gráfico
 ---
+
 <div class='fila'>
 	<div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
 		<nav id='menu-fixed'>

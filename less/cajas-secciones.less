@@ -44,16 +44,28 @@
     display: inline-block;
 
     p {
-        font-size: @cuerpo * .9;
+        font-size: @cuerpo * 0.9;
         padding: 0;
-        line-height: @interlinea * .9;
+        line-height: @interlinea;
         font-family: @sans;
-        max-height: 100px;
+        max-height: 92px;
         overflow: hidden;
     }
 
     &.listado {
         width: 55%;
+    }
+
+    &.historia {
+
+    p{  
+        font-size: @cuerpo * 0.95;
+        padding: 0;
+        line-height: @interlinea * 0.95;
+        font-family: @sans;
+        max-height: 170px;
+        overflow: hidden;
+    }
     }
 }
 
@@ -263,6 +275,10 @@
             width: 100%
         }
 
+        &.historia {
+            width: 55%;
+        }
+
         h2 {
             margin: 0;
             color: @pizarra;
@@ -329,6 +345,10 @@
             width: 100%
         }
 
+        &.historia {
+            width: 55%;
+        }
+
         h2 {
             margin: 0;
             color: @pizarra;
@@ -350,7 +370,7 @@
             padding: 0;
             line-height: @interlinea * .9;
             font-family: @sans;
-            max-height: 100px;
+            max-height: 97px;
             overflow: hidden;
         }
     }
