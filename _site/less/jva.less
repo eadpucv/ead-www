@@ -275,57 +275,27 @@
 //Efectos hover en colecciones
 
 .vista-catalogo img {
-    -webkit-transition: all 0.3s ease-in-out;
-   -moz-transition: all 0.3s ease-in-out;
-   -o-transition: all 0.3s ease-in-out;
-   -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 .vista-catalogo .mask {
     background-color: rgba(95, 29, 25, 1);
-    -webkit-transform: translateX(-300px);
-   -moz-transform: translateX(-300px);
-   -o-transform: translateX(-300px);
-   -ms-transform: translateX(-300px);
     transform: translateX(-300px);
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-   filter: alpha(opacity=100);
     opacity: 1;
-    -webkit-transition: all 0.3s ease-in-out;
-   -moz-transition: all 0.3s ease-in-out;
-   -o-transition: all 0.3s ease-in-out;
-   -ms-transition: all 0.3s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
-.vista-catalogo p{
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0); 
+.vista-catalogo p{ 
     opacity: 0;
     color: #333;
-   -webkit-transition: all 0.2s linear;
-   -moz-transition: all 0.2s linear;
-   -o-transition: all 0.2s linear;
-   -ms-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 .vista-catalogo:hover .mask {
-   -webkit-transform: translateX(0px);
-   -moz-transform: translateX(0px);
-   -o-transform: translateX(0px);
-   -ms-transform: translateX(0px);
     transform: translateX(0px);
 }
 .vista-catalogo:hover img {
-    -webkit-transform: translateX(300px);
-   -moz-transform: translateX(300px);
-   -o-transform: translateX(300px);
-   -ms-transform: translateX(300px);
-    transform: translateX(300px);
-    transition-delay: 0.1s;
+    transform: translateX(300px)
+    ;transition-delay: 0.1s;
 }
 .vista-catalogo:hover p{
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
     opacity: 1;
     transition-delay: 0.4s;
 }
