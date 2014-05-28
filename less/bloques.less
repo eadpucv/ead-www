@@ -130,12 +130,8 @@
     &.docente {
         margin: 10px 0;
         display: inline-block;
-        background-color: #F5F5F5;
-        border: 1px solid #E3E3E3;
-        border-radius: 4px;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
         width: 100%;
-        min-height: @cuadratin * 5;
+        min-height: @cuadratin * 10;
     }
 
     &.info-academica {
@@ -258,8 +254,32 @@
             }
 
             .seguir-leyendo {
-                top: -32px; 
+                top: -33px; 
             }
+
+            &.info-docencia {
+                border-top: 20px solid darken(@gris, 5%);
+                height: 230px;
+                padding-top: 20px;
+
+                h5 {
+                    font-weight: 200;
+                    margin-bottom: 25px;
+                }
+
+                .seguir-leyendo {
+                    right: 10%;
+                }
+
+                &:hover {
+                    border-top: 20px solid @rojo-claro;
+                    .transition(.3s ease all);
+
+                    h6 {
+                        color: fade(@negro, 90);
+                    }
+        }
+        }
     }
 
     &:hover {
@@ -828,6 +848,7 @@ hr {
 
         &.docente {
             padding: 10px;
+            margin-bottom: 15px;
         }
     }
 
@@ -919,6 +940,34 @@ hr {
             .seguir-leyendo {
                 top: 25px; 
             }
+
+            &.info-docencia {
+                border-top: 40px solid @gris;
+                height: 250px;
+                padding-top: 10px;
+
+                h6 {
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: fade(@negro, 90);
+                    font-weight: 200;
+                }
+
+            .seguir-leyendo {
+                display: block;
+                font-size: 14px;
+                right: 5%;
+                top: -43px;
+            }
+
+            &:hover {
+                border-top: 40px solid @gris;
+
+                h6 {
+                    color: fade(@negro, 90);
+                }
+        }
+        }
     }
         
         &:hover {
@@ -1035,8 +1084,6 @@ hr {
         }
 
         &:hover {
-            //border-top: 30px solid #D94D3F;
-            //border-top: 30px solid #D13F32;
             border-left: none;
             border-top: none;
             padding-left: 0px;
@@ -1274,9 +1321,30 @@ hr {
                 border-top: 0px;
             }
 
-            .seguir-leyendo {
-                top: -32px; 
+            .seguir-leyendo {;
+                top: -32px;
             }
+
+            &.info-docencia {
+                border-top: 30px solid @gris;
+                height: 250px;
+                padding-top: 10px;
+
+                .seguir-leyendo {
+                    display: block;
+                    top: -27px;
+                    left: 48%;
+                }
+
+                &:hover {
+                    border-top: 30px solid @rojo-claro;
+                    .transition(.3s ease all);
+
+                    h6 {
+                        color: fade(@negro, 90);
+                    }
+        }
+        }
     }
         
         &:hover {
