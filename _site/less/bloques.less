@@ -48,6 +48,9 @@
     &.sm {
         height: @cuadratin * 8;
 
+        &:hover {
+            padding-top: 8px;
+        }
     }
 
     &.md {
@@ -64,6 +67,10 @@
             overflow: hidden;
         }
 
+        h3 {
+            line-height: 28px;
+        }
+
         p {
             max-height: 110px;
             display: block;
@@ -72,6 +79,21 @@
 
         &.portada {
             padding: 0;
+            height: 290px;
+
+            h3 {
+                display: inline-block;
+                line-height: 28px;
+                width: 66%;
+            }
+
+            .entry-details {
+                margin-left: 33%;
+            }
+
+            .extracto {
+                margin-left: 33%;
+            }
         }
     }
 
@@ -164,6 +186,26 @@
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
         min-height: @cuadratin * 5;
     }
+
+    &.publicacion {
+        padding:15px;
+        margin: 7.5px 0;
+        display: inline-block;
+        border: 1px solid @blanco;
+        border-radius: 4px;
+
+        p {
+            padding: 5px 0 10px 0;
+            font-size: 16px;
+            font-family: @sans;
+            line-height: 19.5px;
+        }
+
+        &:hover {
+            background-color: lighten(@gris-claro, 8%);
+            .transition(.3s ease all);
+        }
+    }
 }
 
 .referencia-cita {
@@ -213,7 +255,6 @@
     padding-top: 2px;
     margin-top: -20px;
     float: left;
-    z-index: 10;
 
     .seguir-leyendo {
         right: 35px;
@@ -262,7 +303,7 @@
     }
 
     &.portada {
-        margin-top: 10px;
+        margin-top: 20px;
         height: 415px;
         width: 100%;
 
@@ -494,7 +535,8 @@
 // Para lograr separar bien los contenidos y mantener un órden de blancos y lectura:
 
 .bloque {
-    margin: 0 auto;
+    margin: 15px auto;
+    width: 100%;
 
     &.mapa {
         width: 100%;
@@ -786,6 +828,10 @@ hr {
             p {
                 padding: none;
             }
+
+            &:hover {
+                padding-top: 0;
+            }
         }
 
         &.noticias-recientes {
@@ -811,10 +857,28 @@ hr {
             }
 
             p {
-                max-height: 110px;
+                max-height: 115px;
                 padding: 0 0 0 2px;
                 font-size: @cuerpo;
                 line-height: @cuerpo * 1.45;
+            }
+
+            &.portada {
+                margin:0 0 40px 0;
+                
+                h3 {
+                    display: inline-block;
+                    line-height: 28px;
+                    width: 64%;
+                }
+
+                .entry-details {
+                    margin-left: 36%;
+                }
+
+                .extracto {
+                    margin-left: 36%;
+                }
             }
         }
 
@@ -1206,7 +1270,32 @@ hr {
 
     .pagina {
 
+        &.sm {
+            &:hover {
+                padding-top: 0;
+            }
+        }
+
         //  Clases extendidas
+
+        &.evento {
+            &.portada {
+
+                h3 {
+                    display: inline-block;
+                    line-height: 28px;
+                    width: 70%;
+                }
+
+                .entry-details {
+                    margin-left: 30%;
+                }
+
+                .extracto {
+                    margin-left: 30%;
+                }
+            }
+        }
 
         &.noticias-recientes {
 
@@ -1503,7 +1592,8 @@ hr {
     }
 
     .alto-sm {
-        height: 275px;
+        height: auto;
+        display: inline-block;
         margin: 0 0 30px 0;
     }
     
@@ -1531,6 +1621,30 @@ hr {
 
             p {
                 max-height: 110px;
+            }
+
+            &.portada {
+                height: 290px;
+                margin-bottom: 20px;
+
+                p {
+                    max-height: 92px;
+                    overflow: hidden; 
+                }
+
+                h3 {
+                    display: inline-block;
+                    line-height: 28px;
+                    width: 55%;
+                }
+
+                .entry-details {
+                    margin-left: 45%;
+                }
+
+                .extracto {
+                    margin-left: 0%;
+                }
             }
         }
 
@@ -1566,6 +1680,14 @@ hr {
             .carrera {
                 bottom: 0px;
                 max-height: 330px;
+            }
+
+            .pagina {
+                &.evento {
+                    &.portada {
+                        padding-top: 8px;
+                    }
+                }
             }
         }
     }
