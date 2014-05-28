@@ -46,26 +46,27 @@
 
 #menu-fixed {
     position: fixed;
+    width: auto;
 
-    a {
-        margin: 10px 0;
-        color: @gris-oscuro;
-        font-size: 15px;
-        padding: 0px 5px 0px 0;
-        border-right:2px solid @blanco;
-        text-align: right;
-    }
+        .ancla-fixed {
+            margin: 10px 0;
+            color: @gris-oscuro;
+            font-size: 15px;
+            padding: 0px 5px 0px 0;
+            border-right:2px solid @blanco;
+            text-align: right;
+        }
 
-    .active a {
-        color: @rojo-claro;
-        border-right:2px solid @rojo-claro;
-        .transition(.3s ease all);
+        .active .ancla-fixed {
+            color: @rojo-claro;
+            border-right:2px solid @rojo-claro;
+            .transition(.3s ease all);
 
-        &:hover {
-            cursor: pointer;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
-}
 
 // Comentarios
 
@@ -116,6 +117,79 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     padding: 20px;
     margin: 20px 0 0 0;
+}
+
+// Calendario
+
+.em-calendar {
+    padding: 0;
+    border:none;
+    margin-bottom: 0;
+    width: 220px;
+
+    td {
+        padding-left: 0;
+        text-align: center;
+        padding: 5px 0;
+
+        p {
+            font-family: @sans;
+            color: @gris;
+            margin: 0;
+            display: inline-block;
+            font-weight: 300;
+            min-width: 28px;
+        }
+
+        a {
+            background-color: fade(@gris-oscuro, 60%);
+            color: @blanco;
+            font-weight: 300;
+            display: inline-block;
+            min-width: 28px;
+        }
+    }
+}
+
+// Eventos y portada de eventos
+
+
+.dato-evento {
+    border-left: 4px solid fade(@pizarra-claro, 20%);
+    float: left;
+    height: 75px;
+    padding: 8px 5px 10px;
+    margin: 0 20px 0 0;
+    position: relative;
+    top: 0;
+    width: 75px;
+
+    .dia {
+        font-family: @sans;
+        font-weight: 200;
+        margin: 0;
+        padding: 4px;
+        float: center;
+        color:@pizarra-claro;
+        font-size: 27.8px;
+        line-height: 25px;
+        letter-spacing: 2px;  
+    }
+
+
+    &.portada {
+        width: 250px;
+        padding: 20px 0;
+        margin: 0;
+        height: 90px;
+
+        .dia {
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+    }
 }
 
 
@@ -205,6 +279,44 @@
         }
     }
 
+    .dato-evento {
+        border-left: 4px solid fade(@pizarra-claro, 20%);
+        float: left;
+        height: 75px;
+        padding: 8px 5px 10px;
+        margin: 0 20px 0 0;
+        position: relative;
+        top: 0;
+        width: 75px;
+
+        .dia {
+            font-family: @sans;
+            font-weight: 100;
+            font-size: @cuerpo * 1.3;
+            margin: 0;
+            padding: 0;
+            float: center;
+            color:@pizarra-claro;
+            line-height: 25px;
+            letter-spacing: 2px;  
+        }
+
+
+        &.portada {
+            margin: 0;
+            padding: 20px 13px;
+            width: 36%;
+            height: 180px;
+
+            .dia {
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
 
 
 }
@@ -222,6 +334,47 @@
         }
     }
 
+    // eventos
+
+    .dato-evento {
+        border-left: 4px solid fade(@pizarra-claro, 20%);
+        float: left;
+        height: 75px;
+        padding: 8px 5px 10px;
+        margin: 0 20px 0 0;
+        position: relative;
+        top: 0;
+        width: 75px;
+
+        .dia {
+            font-family: @sans;
+            font-weight: 200;
+            margin: 0;
+            padding: 0;
+            float: center;
+            color:@pizarra-claro;
+            font-size: 27.8px;
+            line-height: 25px;
+            letter-spacing: 2px;  
+        }
+
+
+        &.portada {
+            height: 90px;
+            margin: 0;
+            padding: 11px 0;
+            width: 30%;
+
+
+            .dia {
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
 
 }
 
@@ -231,7 +384,10 @@
 
     #menu-fixed {
         position: fixed;
-        max-width: 15vw;
+
+        .ancla-fixed {
+            width: 15vw;
+        }
     }
 
     // Cajas de docentes
@@ -279,6 +435,52 @@
 
     .bloque-comentario {
         padding-left: 0;
+    }
+
+    // calendario 
+
+    .em-calendar {
+    width: 19.5vw;
+    }
+
+    // eventos
+
+    .dato-evento {
+        border-left: 4px solid fade(@pizarra-claro, 20%);
+        float: left;
+        height: 75px;
+        padding: 8px 5px 10px;
+        margin: 0 20px 0 0;
+        position: relative;
+        top: 0;
+        width: 75px;
+
+        .dia {
+            font-family: @sans;
+            font-weight: 200;
+            margin: 0;
+            padding: 0;
+            float: center;
+            color:@pizarra-claro;
+            font-size: 27.8px;
+            line-height: 25px;
+            letter-spacing: 2px;  
+        }
+
+
+        &.portada {
+            width: 45%;
+            padding: 20px 0;
+            margin: 0;
+            height: 60px;
+
+            .dia {
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 0;
+                margin-bottom: 15px;
+            }
+        }
     }
 
 }

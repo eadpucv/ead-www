@@ -31,7 +31,7 @@
 
 .pagina {
     
-    padding: 20px;
+    padding: 0 20px;
 
     //  Tamaños
 
@@ -47,6 +47,7 @@
 
     &.sm {
         height: @cuadratin * 8;
+
     }
 
     &.md {
@@ -67,6 +68,10 @@
             max-height: 110px;
             display: block;
             overflow: hidden;
+        }
+
+        &.portada {
+            padding: 0;
         }
     }
 
@@ -148,6 +153,17 @@
         width: 100%;
         height: 245px;
     }
+
+    &.calendario {
+        padding: 5px;
+        margin: 0;
+        display: inline-block;
+        background-color: #F5F5F5;
+        border: 1px solid #E3E3E3;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+        min-height: @cuadratin * 5;
+    }
 }
 
 .referencia-cita {
@@ -197,9 +213,11 @@
     padding-top: 2px;
     margin-top: -20px;
     float: left;
+    z-index: 10;
 
     .seguir-leyendo {
         right: 35px;
+        display: none;
         top: -10px;    
         }
 
@@ -221,6 +239,7 @@
     }
 
     &.categoria {
+        margin-top: 0;
 
         h6 {
             font-size: 14px;
@@ -242,44 +261,47 @@
         }
     }
 
-        &.portada {
-            margin-top: 10px;
-            height: 415px;
-            width: 100%;
+    &.portada {
+        margin-top: 10px;
+        height: 415px;
+        width: 100%;
 
-            p {
-                max-height: 91px;
-                overflow: hidden;
-            }
+        p {
+            max-height: 91px;
+            overflow: hidden;
+        }
 
-            &:hover {
-                border-top: 20px solid @rojo-claro;
-                .transition(.3s ease all);
-            }
+        &:hover {
+            border-top: 20px solid @rojo-claro;
+            .transition(.3s ease all);
+        }
 
-            .seguir-leyendo {
-                top: -32px; 
-            }
+        .seguir-leyendo {
+            top: -32px; 
+        }
     }
 
     &:hover {
+        .seguir-leyendo {
+            display: block;
+        }
 
         .evento{
-        border-top: 25px solid fade(@gris-oscuro, 80);
-        .transition(.2s ease all);
+            border-top: 25px solid fade(@gris-oscuro, 80);
+            .transition(.2s ease all);
 
-        h6 {
-            color: fade(@negro, 70);
+            h6 {
+                color: fade(@negro, 70);
+            }
         }
-    }
         .carrera {
-           bottom: 0px;
-           max-height: 240px;
+               bottom: 0px;
+               max-height: 240px;
 
-        h6 {
-            color: @rojo-claro;
+            h6 {
+                color: @rojo-claro;
+            }
         }
-    }
 
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
@@ -288,6 +310,16 @@
                 -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
                 -moz-transition: opacity .5s linear, opacity 0.2s linear; 
                 -o-transition: opacity .5s linear, opacity 0.2s linear;
+            }
+        }
+
+        // Extensión extrema
+
+        .pagina {
+            &.evento {
+                &.portada {
+                    padding-top: 20px;
+                }
             }
         }
     }
@@ -332,6 +364,7 @@
     position: relative;
     
         &:hover {
+            padding-top: 2px;
             border-top: 25px solid @rojo-claro;
             .transition(.3s ease all);
 
@@ -349,29 +382,6 @@
         max-height: 85px;
         overflow: hidden;
     }
-}
-
-.fecha-evento {
-    margin: 0 14px 0px 0;
-    width: @cuadratin * 2;
-    border-left: 5px solid fade(@pizarra-claro, 20%);
-    float: left;
-    height: 75px;
-    padding: 8px 5px 10px;
-    border-left: 4px solid fade(@pizarra-claro, 20%);
-
-    .dia {
-        font-family: @sans;
-        font-weight: 200;
-        margin: 0;
-        padding: 4px;
-        float: center;
-        color:@pizarra-claro;
-        font-size: @cuerpo * 1.3;
-        line-height: 25px;
-        letter-spacing: 2px;  
-    }
-
 }
 
 .pie-de-foto {
@@ -681,6 +691,7 @@ hr {
 .landing {
     padding: 60px 0;
     background-color: @blanco;
+
     h1 {
         font-size: @cuerpo * 10;
         color: @rojo-claro;
@@ -691,7 +702,7 @@ hr {
 
 .fondo-landing {
     width: 100%;
-    height: 1024px;
+    height: 1108px;
     overflow: hidden;
     position: absolute;
     z-index: -1;
@@ -751,6 +762,10 @@ hr {
         width: 90%;
     }
 
+    .alto-sm {
+        height: auto;
+        margin: 15px 0;
+    }
 
     .alto-md {
         height: auto;
@@ -801,14 +816,6 @@ hr {
                 font-size: @cuerpo;
                 line-height: @cuerpo * 1.45;
             }
-
-            .fecha-evento {
-                .dia {
-                    padding: 0px 0px 0px 0px !important;
-                    font-size: @cuerpo * 1.3;
-                    font-weight: 100;
-                }
-            }
         }
 
         &.carrera {
@@ -828,6 +835,10 @@ hr {
 
         &.docente {
             padding: 10px;
+        }
+
+        &.portada {
+            height: auto;
         }
     }
 
@@ -855,6 +866,7 @@ hr {
         }
 
     .bloque-enlace {
+        margin-top: 0;
         border-top: 0px;
         max-height: 100%;
 
@@ -922,6 +934,10 @@ hr {
     }
         
         &:hover {
+
+            .seguir-leyendo {
+                display: none;
+            }
             .evento {
                 border-top: none;
             }
@@ -929,6 +945,14 @@ hr {
             .carrera {
                 bottom: 0px;
                 max-height: 250px;
+            }
+
+            .pagina {
+                &.evento {
+                    &.portada {
+                        padding-top: 0;
+                    }
+                }
             }
         }
     }
@@ -1128,20 +1152,20 @@ hr {
     // Landing index giornata
 
     .landing {
-    padding: 60px 0;
-    h1 {
-        font-size: 22vw;
-        margin: 0;
-        padding: 60px 0 0 0;
+        padding: 60px 0;
+        h1 {
+            font-size: 22vw;
+            margin: 0;
+            padding: 60px 0 0 0;
+        }
     }
-}
 
     .fondo-landing {
         width: 100%;
-        height: 1234px;
+        height: 1300px;
 
         img {
-            width: 321%;
+            width: 353%;
         }
     }
 
@@ -1215,6 +1239,7 @@ hr {
     }
 
     .bloque-enlace {
+        margin-top: 0;
         border-top: 0px;
         max-height: 410px;
 
@@ -1288,6 +1313,14 @@ hr {
             .carrera {
                 bottom: 0px;
                 max-height: 100px;
+            }
+
+            .pagina {
+                &.evento {
+                    &.portada {
+                        padding-top: 0;
+                    }
+                }
             }
         }
     }
@@ -1452,10 +1485,10 @@ hr {
 
     .fondo-landing {
         width: 100%;
-        height: 1024px;
+        height: 1085px;
 
         img {
-            width: 160%;
+            width: 162%;
         }
     }
 
@@ -1467,6 +1500,11 @@ hr {
 
     .alto-lg {
         height: 500px;
+    }
+
+    .alto-sm {
+        height: 275px;
+        margin: 0 0 30px 0;
     }
     
     .cita-carousel {
@@ -1493,12 +1531,6 @@ hr {
 
             p {
                 max-height: 110px;
-            }
-
-            .fecha-evento {
-                .dia {
-                    padding: 0px 0px 0px 0px !important;
-                }
             }
         }
 

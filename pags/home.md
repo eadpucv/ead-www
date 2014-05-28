@@ -93,7 +93,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>09 may</p> 
               </div>  
               <h6 class='rojo-claro'>Revalidación y Captura Fotográfica – TNE 2014 </h6> 
@@ -105,7 +105,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>28 abr</p> 
               </div>  
               <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6> 
@@ -117,7 +117,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>13 abr</p> 
               </div>  
               <h6 class='rojo-claro'>De la hipótesis al Diseño: "Aproximaciones, casos y obras”</h6> 
@@ -129,7 +129,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>01 ago</p> 
               </div>  
               <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D) de locos y más querubines del cielo de rocas mutiladas y más y más</h6> 

@@ -7,12 +7,12 @@ subtitle: Diseño Gráfico
 	<div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
 		<nav id='menu-fixed'>
 	  		<ul class="nav nav-stacked affix-top" data-spy="affix" data-offset-top="25">
-	    		<li><a data-scroll href='#estudiar'>Estudiar Diseño Gráfico en la e[ad]</a></li>
-	    		<li><a data-scroll href='#perfil'>Concepción perfil del egresado</a></li>
-	    		<li><a data-scroll href='#competencias'>Competencias fundamentales</a></li>
-	    		<li><a data-scroll href='#objetivos'>Objetivos educacionales</a></li>
-	    		<li><a data-scroll href='#malla'>Malla Curricular</a></li>
-	    		<li><a data-scroll href='#profesores'>Profesores de Diseño Gráfico</a></li>
+	    		<li><a class='ancla-fixed' data-scroll href='#estudiar'>Estudiar Diseño Gráfico en la e[ad]</a></li>
+	    		<li><a class='ancla-fixed' data-scroll href='#perfil'>Concepción perfil del egresado</a></li>
+	    		<li><a class='ancla-fixed' data-scroll href='#competencias'>Competencias fundamentales</a></li>
+	    		<li><a class='ancla-fixed' data-scroll href='#objetivos'>Objetivos educacionales</a></li>
+	    		<li><a class='ancla-fixed' data-scroll href='#malla'>Malla Curricular</a></li>
+	    		<li><a class='ancla-fixed' data-scroll href='#profesores'>Profesores de Diseño Gráfico</a></li>
 	  		</ul>
   		</nav>
 	</div>
