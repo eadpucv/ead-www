@@ -1,7 +1,7 @@
 ---
 layout: portada
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
-subtitle: Portada de noticias
+subtitle: Noticias
 ---
 
 

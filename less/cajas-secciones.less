@@ -14,6 +14,11 @@
     .ancho-maximo {
         width: 100%;
     }
+
+    &.listado {
+        width: 140px;
+        height: 140px;
+    }
 }
 
 .datos-docente {
@@ -27,6 +32,10 @@
         color: @pizarra;
         padding: 0;
     }
+
+    &.listado {
+        width: 55%;
+    }
 }
 
 .resena-docente {
@@ -35,38 +44,60 @@
     display: inline-block;
 
     p {
-        font-size: @cuerpo * .9;
+        font-size: @cuerpo * 0.9;
         padding: 0;
-        line-height: @interlinea * .9;
+        line-height: @interlinea;
         font-family: @sans;
-        max-height: 100px;
+        max-height: 92px;
         overflow: hidden;
+    }
+
+    &.listado {
+        width: 55%;
+    }
+
+    &.historia {
+
+    p{  
+        font-size: @cuerpo * 0.95;
+        padding: 0;
+        line-height: @interlinea * 0.95;
+        font-family: @sans;
+        max-height: 170px;
+        overflow: hidden;
+    }
     }
 }
 
 #menu-fixed {
-    position: fixed;
-    width: auto;
 
-        .ancla-fixed {
-            margin: 10px 0;
-            color: @gris-oscuro;
-            font-size: 15px;
-            padding: 0px 5px 0px 0;
-            border-right:2px solid @blanco;
-            text-align: right;
-        }
+    .ancla-fixed {
+        margin: 10px 0;
+        color: @gris-oscuro;
+        font-size: 15px;
+        padding: 0px 5px 0px 0;
+        border-right:2px solid @blanco;
+        text-align: right;
+    }
 
-        .active .ancla-fixed {
-            color: @rojo-claro;
-            border-right:2px solid @rojo-claro;
-            .transition(.3s ease all);
+    .active .ancla-fixed {
+        color: @rojo-claro;
+        border-right:2px solid @rojo-claro;
+        .transition(.3s ease all);
 
-            &:hover {
-                cursor: pointer;
-            }
+        &:hover {
+            cursor: pointer;
         }
     }
+}
+
+#nav {
+    position: relative;
+}
+#nav.affix {
+    position: fixed;
+    top: 5px;
+}
 
 // Comentarios
 
@@ -147,6 +178,11 @@
             font-weight: 300;
             display: inline-block;
             min-width: 28px;
+
+            &:hover {
+                background-color: @gris-oscuro;
+                .transition(.3s ease all);
+            }
         }
     }
 }
@@ -252,6 +288,11 @@
         margin: 0 auto;
         float: none;
 
+        &.listado {
+            width: 170px;
+            height: 170px;
+        }
+
         .ancho-maximo {
             width: 100%;
         }
@@ -265,6 +306,10 @@
         min-height: @cuadratin * 2;
         display: inline-block;
 
+        &.listado {
+            width: 100%;
+        }
+
         h2 {
             margin: 0;
             color: @pizarra;
@@ -277,6 +322,10 @@
         width: 100%;
         padding: 0 10px;
         display: inline-block;
+
+        &.listado {
+            width: 100%;
+        }
 
         p {
             font-size: @cuerpo * .9;
@@ -338,6 +387,11 @@
     
     .imagen-docente {
 
+        &.listado {
+            margin: 0 auto;
+            float: left;
+        }
+
         .ancho-maximo {
             width: 100%;
         }
@@ -384,38 +438,19 @@
         }
     }
 
-
-}
-
-// Medium screen / desktop
-
-@media (min-width: @screen-md) and (max-width: @screen-md-max){
-
-    #menu-fixed {
-        position: fixed;
-
-        .ancla-fixed {
-            width: 15vw;
-        }
-    }
-
-    // Cajas de docentes
-
-    .imagen-docente {
-        width: 160px;
-        height: 160px;
-        margin:0 20px 0 0;
-
-        .ancho-maximo {
-            width: 100%;
-        }
-    }
-
-    .datos-docente {
+        .datos-docente {
         width: 59%;
         margin: 5px 0;
         min-height: @cuadratin * 2;
         display: inline-block;
+
+        &.listado {
+            width: 100%
+        }
+
+        &.historia {
+            width: 55%;
+        }
 
         h2 {
             margin: 0;
@@ -429,12 +464,87 @@
         width: 59%;
         display: inline-block;
 
+        &.listado {
+            width: 100%
+        }
+
         p {
             font-size: @cuerpo * .9;
             padding: 0;
             line-height: @interlinea * .9;
             font-family: @sans;
             max-height: 100px;
+            overflow: hidden;
+        }
+    }
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+    #menu-fixed {
+
+        .ancla-fixed {
+            width: 15vw;
+        }
+    }
+
+    // Cajas de docentes
+
+    .imagen-docente {
+        width: 160px;
+        height: 160px;
+        margin:0 20px 0 0;
+
+        &.listado {
+            margin: 0 auto;
+            float: none;
+            width: 170px;
+            height: 170px;
+        }
+
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
+
+    .datos-docente {
+        width: 59%;
+        margin: 5px 0;
+        min-height: @cuadratin * 2;
+        display: inline-block;
+
+        &.listado {
+            width: 100%
+        }
+
+        &.historia {
+            width: 55%;
+        }
+
+        h2 {
+            margin: 0;
+            color: @pizarra;
+            padding: 0;
+        }
+    }
+
+    .resena-docente {
+        margin: 5px 0;
+        width: 59%;
+        display: inline-block;
+
+        &.listado {
+            width: 100%
+        }
+
+        p {
+            font-size: @cuerpo * .9;
+            padding: 0;
+            line-height: @interlinea * .9;
+            font-family: @sans;
+            max-height: 97px;
             overflow: hidden;
         }
     }

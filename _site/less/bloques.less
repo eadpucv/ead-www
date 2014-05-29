@@ -78,8 +78,8 @@
         }
 
         &.portada {
-            padding: 0;
-            height: 290px;
+            padding: 10px 0 0 0;
+            height: 200px;
 
             h3 {
                 display: inline-block;
@@ -155,14 +155,9 @@
     }
 
     &.docente {
-        margin: 10px 0;
         display: inline-block;
-        background-color: #F5F5F5;
-        border: 1px solid #E3E3E3;
-        border-radius: 4px;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
         width: 100%;
-        min-height: @cuadratin * 5;
+        min-height: @cuadratin * 10;
     }
 
     &.info-academica {
@@ -259,7 +254,7 @@
     .seguir-leyendo {
         right: 35px;
         display: none;
-        top: -10px;    
+        top: -8px;    
         }
 
     &.oficio {
@@ -317,8 +312,51 @@
             .transition(.3s ease all);
         }
 
+
         .seguir-leyendo {
-            top: -32px; 
+            top: -33px; 
+        }
+
+            &.info-docencia {
+                border-top: 20px solid darken(@gris, 5%);
+                height: 250px;
+                padding-top: 20px;
+
+                h5 {
+                    font-weight: 200;
+                    margin-bottom: 25px;
+                }
+
+                h6 {
+                    font-weight: 200;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                .seguir-leyendo {
+                    right: 10%;
+                    font-size: 12px;
+                }
+
+                &:hover {
+                    border-top: 20px solid @rojo-claro;
+                    .transition(.3s ease all);
+
+                    h6 {
+                        color: fade(@negro, 90);
+                    }
+                }
+            }
+        &.evento {
+            margin-top: 0;
+            height: auto;
+
+            &:hover {
+                border-top: 20px solid @gris;
+                .transition(.3s ease all);
+            }
         }
     }
 
@@ -359,7 +397,7 @@
         .pagina {
             &.evento {
                 &.portada {
-                    padding-top: 20px;
+                    border:none;
                 }
             }
         }
@@ -600,13 +638,13 @@ footer {
     }
 
     p {
-        margin: 0 0 7.5px 0;
+        margin: 0;
         font-size: 13px;
     }
 }
 
 .escuela {
-    margin: 0;
+    margin: 21px 0 0;
     font-family: @sans;
 
     p, span {
@@ -899,6 +937,7 @@ hr {
 
         &.docente {
             padding: 10px;
+            margin-bottom: 15px;
         }
 
         &.portada {
@@ -995,6 +1034,34 @@ hr {
             .seguir-leyendo {
                 top: 25px; 
             }
+
+            &.info-docencia {
+                border-top: 40px solid @gris;
+                height: 250px;
+                padding-top: 10px;
+
+                h6 {
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: fade(@negro, 90);
+                    font-weight: 200;
+                }
+
+            .seguir-leyendo {
+                display: block;
+                font-size: 14px;
+                right: 5%;
+                top: -43px;
+            }
+
+            &:hover {
+                border-top: 40px solid @gris;
+
+                h6 {
+                    color: fade(@negro, 90);
+                }
+        }
+        }
     }
         
         &:hover {
@@ -1123,8 +1190,6 @@ hr {
         }
 
         &:hover {
-            //border-top: 30px solid #D94D3F;
-            //border-top: 30px solid #D13F32;
             border-left: none;
             border-top: none;
             padding-left: 0px;
@@ -1280,6 +1345,7 @@ hr {
 
         &.evento {
             &.portada {
+                height: auto;
 
                 h3 {
                     display: inline-block;
@@ -1388,10 +1454,31 @@ hr {
                 border-top: 0px;
             }
 
-            .seguir-leyendo {
-                top: -32px; 
+            .seguir-leyendo {;
+                top: -32px;
             }
-    }
+
+            &.info-docencia {
+                border-top: 30px solid @gris;
+                height: 250px;
+                padding-top: 10px;
+
+                .seguir-leyendo {
+                    display: block;
+                    top: -27px;
+                    left: 48%;
+                }
+
+                &:hover {
+                    border-top: 30px solid @rojo-claro;
+                    .transition(.3s ease all);
+
+                    h6 {
+                        color: fade(@negro, 90);
+                    }
+                }
+            }
+        }
         
         &:hover {
 
@@ -1402,14 +1489,6 @@ hr {
             .carrera {
                 bottom: 0px;
                 max-height: 100px;
-            }
-
-            .pagina {
-                &.evento {
-                    &.portada {
-                        padding-top: 0;
-                    }
-                }
             }
         }
     }
@@ -1624,8 +1703,8 @@ hr {
             }
 
             &.portada {
-                height: 290px;
-                margin-bottom: 20px;
+                height: auto;
+                margin-bottom: 0;
 
                 p {
                     max-height: 92px;
@@ -1680,14 +1759,6 @@ hr {
             .carrera {
                 bottom: 0px;
                 max-height: 330px;
-            }
-
-            .pagina {
-                &.evento {
-                    &.portada {
-                        padding-top: 8px;
-                    }
-                }
             }
         }
     }

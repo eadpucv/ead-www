@@ -1,8 +1,10 @@
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	letter-spacing: .5px;
 	color: #797977;
+	font-weight: 200;
 }
 
 /*
@@ -20,7 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 */
-
 
 .categoria-noticias-titulo {
     color: fade(@rojo-claro, 70);
@@ -112,18 +113,18 @@ h1, h2, h3, h4, h5, h6 {
 .entry-title {
 	color: @blanco;
     margin: 0;
-    line-height: 40px;
     
 		&.especifico {
-			font-size: 30px;
-			letter-spacing: 1.2px;
-			font-weight: 300;
-    	}
+			//text-transform: uppercase;
+			font-weight: 200;
+			font-size: 26px;
+			letter-spacing: 3px;
+		}
 
     	&.generico {
-    		font-size: 25px;
+    		font-size: 18px;
     		text-transform: uppercase;
-    		letter-spacing: 4px;
+    		letter-spacing: 8px;
     		font-weight: 300;
     	}
 }
@@ -161,6 +162,16 @@ h1, h2, h3, h4, h5, h6 {
 			font-size: 16px;
 		}
 	}
+}
+
+.historia {
+
+	.subtitulo, h1 {
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		text-align: center;
+	}
+
 }
 
 // Extra small screen / wide desktop

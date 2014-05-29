@@ -5,20 +5,22 @@ subtitle: Taller de amereida
 ---
 <div class='fila'>
 	<div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
-		<nav id='menu-fixed'>
-	  		<ul class="nav nav-stacked affix-top" data-spy="affix" data-offset-top="25">
-	    		<li><a class='ancla-fixed' data-scroll href='#taller'>El taller</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#contenido-extensibles'>Contenidos Extensibles</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#contenidos'>Contenidos del taller</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#estrategias'>Estrategias de Enseñanza</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#criterios'>Criterios de Evaluación</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#estructura'>Estructura de Competencias</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#bibliografia'>Bibliografía</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#plan'>Plan de Asignatura</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#enlaces'>Enlaces</a></li>
-	    		<li><a class='ancla-fixed' data-scroll href='#publicaciones'>Publicaciones</a></li>
-	  		</ul>
-  		</nav>
+		<div class='menu-affix' id='menu-fixed'>
+      		<div data-spy="affix" data-offset-top="270" data-offset-bottom='500'>
+		  		<ul class="nav">
+		    		<li><a class='ancla-fixed' data-scroll href='#taller'>El taller</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#contenido-extensibles'>Contenidos Extensibles</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#contenidos'>Contenidos del taller</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#estrategias'>Estrategias de Enseñanza</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#criterios'>Criterios de Evaluación</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#estructura'>Estructura de Competencias</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#bibliografia'>Bibliografía</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#plan'>Plan de Asignatura</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#enlaces'>Enlaces</a></li>
+		    		<li><a class='ancla-fixed' data-scroll href='#publicaciones'>Publicaciones</a></li>
+		  		</ul>
+		  	</div>
+		</div>
 	</div>
 	<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
 		<div class='bloque'>
