@@ -199,12 +199,28 @@
     margin-top:5px;
     margin-left:5px;
 }
-.linea-seccion{
-    height:1px;
-    width:80px;
-    float: left;
-    margin:10px;
-    position:relative;
+.linea-seccion h6:before, .seccion h6:after{
+    height: 2px;
+    top: -3px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid rgba(43, 44, 42, 0.1);
+    content: "";
+}
+.linea-seccion h6 {
+    color: #C1C2C2;
+    font-size: 13px;
+    letter-spacing: 4px;
+    position: relative;
+    padding: 0px 45px;
+    display: inline;
+    font-weight: 200
+}
+.linea-seccion {
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    padding: 8px 0px 4px;
 }
 .cont-ico-ver{
     width:20px;
