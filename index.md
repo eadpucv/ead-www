@@ -6,31 +6,17 @@ title: Giornata Maquetas
   <h1>Maquetas Nuevas</h1>
   <li><h4>Páginas</h4>
     <ul><a href="pags/home">Home</a></ul>
-<<<<<<< HEAD
     <ul><a href="pags/historia">pagina-historia</a></ul>
     <ul><a href="pags/articulo-agenda">pagina-articulo-agenda</a></ul>
     <ul><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
     <ul><a href="pags/portada-agenda">portada-agenda</a></ul>
     <ul><a href="pags/home-archivo">Portada del Archivo JVA</a></ul>
-    <ul><a href="pags/portada-catalogo">Portada Catálogo AHJVA</a></ul>
-    <ul><a href="pags/categoria-catalogo">Categorias catálogo AHJVA</a></ul>
-    <ul><a href="pags/album-catalogo">Álbum catálogo AHJVA</a></ul>
-    <ul><a href="pags/reseña-ahjva">Página reseña AHJVA</a></ul>
-=======
->>>>>>> 803d513da7f52b35684b5f125c04579ad363f794
-    <ul><a href="pags/portada_noticias">Portada Noticias (Falta ajustar las columnas)</a></ul>
-    <ul><a href="pags/">Portada Eventos (Aún no se diseña)</a></ul>
-    <ul><a href="pags/">Portada Información de docencia - Cuerpo Docente (Aún no se diseña)</a></ul>
-    <ul><a href="pags/">Listado - Cuerpo Docente (Aún no se diseña)</a></ul>
-    <ul><a href="pags/">Enunciado - Página standard (Aún no se diseña)</a></ul>
-    <ul><a href="pags/">Enunciado + Post - Contenido estático + entradas actualizables (Aún no se diseña)</a></ul>
-    <ul><a href="pags/">Resultados de búsqueda (Aún no se diseña)</a></ul>
   </li>
 </nav>
 <nav style='margin: 100px'>
   <li><h4>Entradas</h4>
-    <ul><a href="pags/publicacion">Post: Publicación</a></ul>
-    <ul><a href="pags/evento">Post: Evento</a></ul>
+    <ul><a href="pags/articulo-carrera-grafico">pagina-articulo-carrera</a></ul>
+    <ul><a href="pags/portada_noticias">portada-noticias</a></ul>
   </li>
 </nav>
 <nav style='margin: 100px'>

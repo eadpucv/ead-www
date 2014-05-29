@@ -63,6 +63,21 @@
     margin:0 0 @cuadratin / 1.8 0;
 }
 
+.breadcrumbs {
+    font-family: @tipografia-referencias;
+    font-size: @cuerpo-nav * .85;
+
+    &.fondo-oscuro {
+        a {
+            color: @blanco;
+
+            &:hover {
+                color: @rojo-claro;
+            }
+        }
+    }
+}
+
 .titulo-prev {
     h6 {
         font-size: @cuerpo * 1.1;
@@ -104,6 +119,21 @@
         font-size: @cuerpo * .8;
         line-height: @interlinea * .9;
     }
+}
+
+.datos-publicacion {
+    font-family: @sans;
+    font-size: @cuerpo-nav / 1.3;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias-publicacion {
+    font-family: @sans;
+    font-size: @cuerpo-nav * .8;
+    color: @gris-oscuro;
+    margin: 0;
+    padding: 0;
 }
 
 h5,h6 {
@@ -197,6 +227,45 @@ h2 {
     color: @blanco;
 }
 
+.dia-evento {
+    font-family: @sans;
+    margin: @cuadratin / 1.3 @cuadratin-tercio;
+    padding: 0;
+    font-size: @cuerpo * 4;
+    color: @gris;
+
+    &.md {
+        margin: @cuadratin / 1.3 0;
+        padding: 0;
+        font-size: @cuerpo * 3;
+    }
+}
+
+
+.sitio-relacionado {
+    font-size: @cuerpo-nav / 1.1;
+    list-style: none;
+    text-decoration: none;
+
+    ul, li {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: @blanco;
+        &:hover {
+            color: @rojo-claro;
+            cursor: pointer;
+            text-decoration: none;
+            float: left;
+            padding: 0;
+            margin: 0;
+            }
+    }
+}
+
 .enlace-rapido-ead {
     font-family: @sans;
     font-size:@cuerpo-nav *.75;
@@ -215,41 +284,6 @@ h2 {
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
-
-.logo-ead {
-    color: #2B2C2A;
-    font-family: 'Source Sans Pro';
-    font-size: 14.4px;
-    font-weight: 300;
-    margin: 30px 0 0 0;
-    letter-spacing: 1px;
-    line-height: 16px;
-    text-align: center;
-    width: 100%;
-
-
-.bajas {
-    font-size: @cuerpo * .9;
-    color: @gris-oscuro;
-    margin:4px 0px 0 0;
-    //padding: 0 20%;
-    text-align: center;
-    width: 80%; 
-  }
-
-    &.marca {
-    font-size: @cuerpo * 2.2;
-    text-align: center;
-    letter-spacing: -1px;
-    font-family: @sans;
-    color: @rojo-claro;
-    text-transform: lowercase;
-    margin: 30px 0 0 0;
-    padding: 0;
-    font-weight: 200;
-  }
-}
-
 
     h5,h6 {
 
