@@ -5,7 +5,7 @@ subtitle: Cuerpo docente
 ---
 
 
-<h5><a href='#' class='categoria-noticias-titulo'>Profesores</a></h5>
+<h5><a href='#' class='categoria-titulo cuerpo-docente'>Profesores</a></h5>
 
 <div class='fila'>
 
@@ -148,7 +148,7 @@ subtitle: Cuerpo docente
 </div><!-- fin de fila -->
 
 
-<h5><a href='#' class='categoria-noticias-titulo'>Ayudantes</a></h5>
+<h5><a href='#' class='categoria-titulo cuerpo-docente'>Ayudantes</a></h5>
 
 <div class='fila'>
 
@@ -222,7 +222,7 @@ subtitle: Cuerpo docente
 
 </div><!-- fin de fila -->
 
-<h5><a href='#' class='categoria-noticias-titulo'>Staff</a></h5>
+<h5><a href='#' class='categoria-titulo cuerpo-docente'>Staff</a></h5>
 
 <div class='fila'>
 
