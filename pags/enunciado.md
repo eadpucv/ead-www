@@ -3,18 +3,21 @@ layout: enunciado
 title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 subtitle: Diseño Gráfico
 ---
+
 <div class='fila'>
 	<div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
-		<nav id='menu-fixed'>
-	  		<ul class="nav nav-stacked affix-top" data-spy="affix" data-offset-top="25">
-	    		<li><a data-scroll href='#estudiar'>Estudiar Diseño Gráfico en la e[ad]</a></li>
-	    		<li><a data-scroll href='#perfil'>Concepción perfil del egresado</a></li>
-	    		<li><a data-scroll href='#competencias'>Competencias fundamentales</a></li>
-	    		<li><a data-scroll href='#objetivos'>Objetivos educacionales</a></li>
-	    		<li><a data-scroll href='#malla'>Malla Curricular</a></li>
-	    		<li><a data-scroll href='#profesores'>Profesores de Diseño Gráfico</a></li>
-	  		</ul>
-  		</nav>
+		<div class='menu-affix' id='menu-fixed'>
+      		<div data-spy="affix" data-offset-top="270" data-offset-bottom='500'>
+	  			<ul class="nav">
+	    			<li><a class='ancla-fixed' data-scroll href='#estudiar'>Estudiar Diseño Gráfico en la e[ad]</a></li>
+	    			<li><a class='ancla-fixed' data-scroll href='#perfil'>Concepción perfil del egresado</a></li>
+	    			<li><a class='ancla-fixed' data-scroll href='#competencias'>Competencias fundamentales</a></li>
+	    			<li><a class='ancla-fixed' data-scroll href='#objetivos'>Objetivos educacionales</a></li>
+	    			<li><a class='ancla-fixed' data-scroll href='#malla'>Malla Curricular</a></li>
+	    			<li><a class='ancla-fixed' data-scroll href='#profesores'>Profesores de Diseño Gráfico</a></li>
+	  			</ul>
+	  		</div>
+	  	</div>
 	</div>
 	<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
 		<div class='bloque'>

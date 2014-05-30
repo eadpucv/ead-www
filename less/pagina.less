@@ -14,6 +14,10 @@ body{
   background-color: fade(@gris-claro, 70);
 }
 
+.fondo-oscuro {
+    background: @negro;
+}
+
 .pag-ancho-total {
     .container();
     margin: 0 auto;
@@ -27,6 +31,11 @@ body{
     &.header {
         padding: 5px 0 5px 0;
     }
+}
+
+.wrap-footer {
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
 }
 
 
@@ -63,7 +72,7 @@ body{
 @media(max-width: @screen-xs-max){
 
     // Ajuste de página 
-    .wrap, .contenedor-sin-relleno {
+    .wrap, .contenedor-sin-relleno, .wrap-footer {
     width: 90%;
     }
 }
@@ -73,7 +82,7 @@ body{
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
     // Ajuste de página 
-    .wrap, .contenedor-sin-relleno {
+    .wrap, .contenedor-sin-relleno, .wrap-footer {
     width: 90%;
     }
 }
@@ -83,7 +92,7 @@ body{
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
     // Ajuste de página 
-    .wrap, .contenedor-sin-relleno {
+    .wrap, .contenedor-sin-relleno, .wrap-footer {
     width: 90%;
     }
 }
@@ -93,7 +102,7 @@ body{
 @media (min-width: @screen-lg){
 
     // ajuste de página
-    .wrap {
+    .wrap, .wrap-footer {
         max-width: 1366px;
     }
 }
