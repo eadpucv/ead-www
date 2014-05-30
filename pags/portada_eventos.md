@@ -208,7 +208,7 @@ subtitle: Eventos
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
         <a href='#' class='bloque-enlace portada evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-          <div class='pagina sm evento portada'>
+          <div class='pagina evento portada'>
               <div class='dato-evento portada'> 
                 <p class='dia centrado'>14 may - 23 may</p> 
               </div>  
@@ -221,7 +221,7 @@ subtitle: Eventos
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
         <a href='#' class='bloque-enlace portada evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-          <div class='pagina sm evento portada'>
+          <div class='pagina evento portada'>
               <div class='dato-evento portada'> 
                 <p class='dia centrado'>14 may - 23 may</p> 
               </div>  
@@ -234,7 +234,7 @@ subtitle: Eventos
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
         <a href='#' class='bloque-enlace portada evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-          <div class='pagina sm evento portada'>
+          <div class='pagina evento portada'>
               <div class='dato-evento portada'> 
                 <p class='dia centrado'>11 may</p> 
               </div>  

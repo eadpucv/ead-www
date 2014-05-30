@@ -134,5 +134,5 @@ subtitle: Información académica
 </div>
 
 <div class='centrado extendido'>
-<a class='btn btn-md btn-transparente gris cargar-mas'>ver más</a>
+<a class='btn btn-md btn-transparente gris cargar-mas'><i class="icn icn-caron-abajo icn-lg"></i> </a>
 </div>

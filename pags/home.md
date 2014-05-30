@@ -90,7 +90,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     <div class='fila'><!-- sección eventos superior--> 
     <!-- nombre de seccion -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='enlace-evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='dato-evento'> 
@@ -102,7 +102,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </a>
       </div> <!-- fin evento  1 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento  2 -->
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='enlace-evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='dato-evento'> 
@@ -114,7 +114,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </a>
       </div><!-- fin evento  2 -->
       <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='enlace-evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='dato-evento'> 
@@ -126,7 +126,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </a>
       </div><!-- fin evento  3 -->
       <div class='col-lg-3 oculto-md col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
-        <a href='#' class='bloque-enlace'>
+        <a href='#' class='enlace-evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
               <div class='dato-evento'> 
@@ -369,8 +369,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             </div>
             <div class='pagina md carrera'>
-              <a href='#'><h6>arquitectura</h6></a>
-              <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
+              <a href='#'><h6 class='categoria-oficio'>arquitectura</h6></a>
+              <h6 class='titulo'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h6>
               <aside class='blanco entry-details'>Publicado el 11 de marzo, 2014</aside>
               <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. una memoria de éste; un espacio socio-cultural, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. </p>
             </div>
@@ -387,8 +387,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             </div>
             <div class='pagina md carrera'>
-              <a href='#'><h6>diseño gráfico</h6></a>
-              <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
+              <a href='#'><h6 class='categoria-oficio'>diseño gráfico</h6></a>
+              <h6 class='titulo'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h6>
               <aside class='blanco entry-details'>Publicado el 9 de mayo, 2014</aside>
               <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
             </div>
@@ -405,8 +405,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             </div>
             <div class='pagina md carrera'>
-              <a href='#'><h6>diseño industrial</h6></a>
-              <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
+              <a href='#'><h6 class='categoria-oficio'>diseño industrial</h6></a>
+              <h6 class='titulo'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h6>
               <aside class='blanco entry-details'>Publicado el 25 de marzo, 2014</aside>
               <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
             </div>

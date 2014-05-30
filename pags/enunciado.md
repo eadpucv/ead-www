@@ -35,7 +35,7 @@ subtitle: Diseño Gráfico
 				<div class="item active">
 					<div class='noticia grande'>
 						<div class='noticia-imagen'>
-							<img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2012/02/acto-3.jpg'>
+							<img class='marco-imagen carousel-widget' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2012/02/acto-3.jpg'>
 						</div>
 						<div class='texto-noticia grande'>
 				            <div class='contenedor-texto'>
@@ -50,7 +50,7 @@ subtitle: Diseño Gráfico
 				<div class="item">
 						<div class='noticia grande'>
 							<div class='noticia-imagen'>
-								<img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/dibujo-portada.jpg'>
+								<img class='marco-imagen carousel-widget' alt="Second slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/dibujo-portada.jpg'>
 							</div>
 							<div class='texto-noticia grande'>
 				                <div class='contenedor-texto'>
@@ -65,7 +65,7 @@ subtitle: Diseño Gráfico
 				<div class="item">
 				 		<div class='noticia grande'>
 							<div class='noticia-imagen'>
-								<img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_lang_02.jpg'>
+								<img class='marco-imagen carousel-widget' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_lang_02.jpg'>
 							</div>
 							<div class='texto-noticia grande'>
 				                <div class='contenedor-texto'>
@@ -80,7 +80,7 @@ subtitle: Diseño Gráfico
 				<div class="item">
 				 		<div class='noticia grande'>
 							<div class='noticia-imagen'>
-								<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_mc_04.jpg'>
+								<img class='marco-imagen carousel-widget' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2008/07/expo_mc_04.jpg'>
 							</div>
 							<div class='texto-noticia grande'>
 				                <div class='contenedor-texto'>
@@ -95,7 +95,7 @@ subtitle: Diseño Gráfico
 				<div class="item">
 				 		<div class='noticia grande'>
 							<div class='noticia-imagen'>
-								<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://proyectos.ead.pucv.cl/baobab/Carpeta/images/bucle_infinito.png'>
+								<img class='marco-imagen carousel-widget' alt="Fourth slide" title="Noticia Destacada" src='http://proyectos.ead.pucv.cl/baobab/Carpeta/images/bucle_infinito.png'>
 							</div>
 							<div class='texto-noticia grande'>
 				                <div class='contenedor-texto'>
