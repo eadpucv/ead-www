@@ -22,17 +22,30 @@ background-color: @blanco;
 }
 */
 
-.categoria-noticias-titulo {
-    color: fade(@rojo-claro, 70);
+.categoria-titulo {
+color: fade(@rojo-claro, 75);
     font-weight: 300;
-    font-size: @cuerpo * 0.95;
+    font-size: @cuerpo * 0.99;
     text-transform: uppercase;
+    display: inline-block;
+
+&.noticias {
     letter-spacing: 1px;
 
         &:hover {
             color: @rojo-claro;
             .transition(.3s ease all);
+        }
+    }
 
+    &.cuerpo-docente {
+letter-spacing: 1px;
+margin-bottom: 30px;
+
+&:hover {
+            color: @rojo-claro;
+            .transition(.3s ease all);
+    }
     }
 }
 
@@ -123,7 +136,7 @@ letter-spacing: 3px;
      &.generico {
      font-size: 18px;
      text-transform: uppercase;
-     letter-spacing: 8px;
+     letter-spacing: 7px;
      font-weight: 300;
      }
 }
@@ -170,7 +183,6 @@ text-transform: uppercase;
 letter-spacing: 3px;
 text-align: center;
 }
-
 }
 
 // Extra small screen / wide desktop
@@ -194,6 +206,21 @@ color: @blanco;
 font-size: 30px;
 margin: 0 0 10px 0;
 line-height: 35px;
+    
+&.especifico {
+text-align: center;
+font-weight: 200;
+font-size: 22px;
+letter-spacing: 2px;
+}
+
+     &.generico {
+     font-size: 16px;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-weight: 300;
+     }
 }
 
 
@@ -212,20 +239,30 @@ line-height: 35px;
     }
 }
 
-.categoria-noticias-titulo {
-    color: fade(@rojo-claro, 70);
+.categoria-titulo {
+color: fade(@rojo-claro, 75);
     font-weight: 300;
-    font-size: @cuerpo * 1.1;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    display: inline-block;
+
+&.noticias {
+    letter-spacing: 1.5px;
 
         &:hover {
-            color: @rojo-claro;
-            .transition(.3s ease all);
+            color: none;
+        }
+    }
 
+    &.cuerpo-docente {
+letter-spacing: 1.5px;
+margin-bottom: 30px;
+
+&:hover {
+            color: none;
+    }
     }
 }
-
 }
 
 // Small screen / wide desktop
@@ -241,7 +278,51 @@ width: 19vw;
 }
 }
 }
-}   
+
+.entry-title {
+    
+&.especifico {
+//text-transform: uppercase;
+font-weight: 200;
+font-size: 24px;
+letter-spacing: 3px;
+}
+
+     &.generico {
+     font-size: 18px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     font-weight: 300;
+     }
+}
+
+
+.categoria-titulo {
+color: fade(@rojo-claro, 75);
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+
+&.noticias {
+    letter-spacing: 1.5px;
+
+        &:hover {
+            color: none;
+        }
+    }
+
+    &.cuerpo-docente {
+letter-spacing: 1.5px;
+margin-bottom: 30px;
+
+&:hover {
+            color: none;
+    }
+    }
+}
+
+}
 
 // Medium screen / wide desktop
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
@@ -257,3 +338,4 @@ width: 19vw;
 }
 }
 }
+

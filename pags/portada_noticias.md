@@ -13,7 +13,7 @@ subtitle: Noticias
 <div class="item active">
     <div class='noticia grande'>
         <div class='noticia-imagen'>
-            <img class='marco-imagen lg' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
+            <img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
         </div>
         <div class='texto-noticia grande'>
             <div class='contenedor-texto'>
@@ -28,7 +28,7 @@ subtitle: Noticias
 <div class="item">
         <div class='noticia grande'>
             <div class='noticia-imagen'>
-                <img class='marco-imagen lg' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
+                <img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
             </div>
             <div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
@@ -43,7 +43,7 @@ subtitle: Noticias
 <div class="item">
         <div class='noticia grande'>
             <div class='noticia-imagen'>
-                <img class='marco-imagen lg' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
+                <img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
             </div>
             <div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
@@ -58,7 +58,7 @@ subtitle: Noticias
 <div class="item">
         <div class='noticia grande'>
             <div class='noticia-imagen'>
-                <img class='marco-imagen lg' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
+                <img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
             </div>
             <div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
@@ -88,7 +88,7 @@ subtitle: Noticias
 <!-- Categoría Arquitectura, Magister, amereida -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='{{ site.baseurl }}/pags/categoria_noticias' class='categoria-noticias-titulo'>Arquitectura</a></h5>
+<h5><a href='{{ site.baseurl }}/pags/categoria_noticias' class='categoria-titulo noticias'>Arquitectura</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -140,7 +140,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Diseño gráfico</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Diseño gráfico</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -192,7 +192,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Diseño industrial</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Diseño industrial</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -251,7 +251,7 @@ subtitle: Noticias
 <!-- Categoría Arquitectura, Magister, amereida -->
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Arquitectura</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Arquitectura</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -303,7 +303,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Diseño gráfico</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Diseño gráfico</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -364,7 +364,7 @@ subtitle: Noticias
 <!-- Categoría Arquitectura, Magister, amereida -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Arquitectura</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Arquitectura</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -417,7 +417,7 @@ subtitle: Noticias
 
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Amereida</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Amereida</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -469,7 +469,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Estudiantes</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Estudiantes</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -528,7 +528,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Diseño industrial</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Diseño industrial</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -579,7 +579,7 @@ subtitle: Noticias
 
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Arquitectura</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Arquitectura</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -640,7 +640,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Carreras</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Carreras</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -692,7 +692,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Archivo histórico JVA</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Archivo histórico JVA</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -744,7 +744,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Seminarios</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Seminarios</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -802,7 +802,7 @@ subtitle: Noticias
 <div class='fila'>
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Amereida</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Amereida</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -854,7 +854,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Estudiantes</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Estudiantes</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -915,7 +915,7 @@ subtitle: Noticias
 <div class='fila'>
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Carreras</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Carreras</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -967,7 +967,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Archivo histórico JVA</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Archivo histórico JVA</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
@@ -1029,7 +1029,7 @@ subtitle: Noticias
 <!-- Categoría -->
 <div class='oculto-lg col-md-6 col-sm-6 oculto-xs'>
 
-<h5><a href='#' class='categoria-noticias-titulo'>Seminarios</a></h5>
+<h5><a href='#' class='categoria-titulo noticias'>Seminarios</a></h5>
 
 <div class='noticia-chica'> <!-- noticia 1 -->
 <a href='#' class='bloque-enlace portada'>
