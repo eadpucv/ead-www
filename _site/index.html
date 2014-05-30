@@ -3,71 +3,74 @@
 	<head>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Giornata Maquetas</title>
+  <title>Gamma Maquetas</title>
   <link href='/css/giornata.css' rel='stylesheet'>
   <link rel='icon' type='image/x-icon' href='img/favicon.ico' />
   <link rel='apple-touch-icon-precomposed' sizes='114x114' href='/img/favicon-114.png'>
   <link rel='apple-touch-icon-precomposed' sizes='72x72' href='/img/favicon-72.png'>
   <link rel='apple-touch-icon-precomposed' href='/img/favicon-57.png'>
   <script src="/js/jquery.js"></script>
+  <script src="/js/scrollspy.js"></script>
   <script src="/js/carousel.js"></script>
   <script src="/js/transition.js"></script>
   <script src="/js/dropdown.js"></script>
   <script src="/js/smooth-scroll.js"></script>
   <script src="/js/affix.js"></script>
   <script src="/js/collapse.js"></script>
+  <script src="/js/nav.js"></script>
 </head>
 	<body lang='ES_es' class='fondo-gris-claro'>
 
-		<div class='fila landing margen-inferior'>
-  			<div class='col-lg-24 fondo-pizarra'>
+		<!--<div class='fila landing margen-inferior'>
+  			<div class='col-lg-12 fondo-pizarra'>
     			<h1 class='blanco centrado'>Giornata</h1>
     			<p class='centrado grande blanco'>Maquetas navegables para el sitio ead.pucv.cl</p>
     			<p class='centrado chico gris-claro'>Este repositorio está en <a href='https://github.com/eadpucv/giornata.git'>GitHub</a> y depende de <a href='http://eadpucv.github.io/pyxis/'>Pyxis Framework</a> & <a href='http://eadpucv.github.io/stampa/'>Stampa</a></p>
   			</div>
+		</div>-->
+			<div class='landing centrado'>
+				<h1>Gamma</h1>
+				<p class='gris'>Diseño front-end para el sitio de la Escuela de Arquitecuta y Diseño e[ad], de la PUCV para luego convertirlo a un tema de wordpress.</p>
+				<p class='gris'>Maquetas diseñadas con:</p>
+                <p class='rojo'><a href='http://eadpucv.github.io/pyxis/'><span class='pyxis gruesa rojo-claro'>Pyxis</span> <span class='pyxis fino gris'>framework</span></a> & <a href='http://eadpucv.github.io/stampa/'><span class='pyxis naranja-opuesto grues'>Stampa</span></a></p>
+			</div>
+		<div class='fondo-landing'>
+			<img class='imagen-landing' src="/img/landing.jpg">
+			<!-- para insertar un video o música, luego borraré esto <iframe frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/4kvT0dywaF8?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1">
+			</iframe> -->
 		</div>
-
-	    <div class='pag'>
-	        <p><nav style='margin: 100px'>
-  <h1>Maquetas Nuevas</h1>
-  <li><h4>Páginas</h4>
-    <ul><a href="pags/home">Home</a></ul>
-    <ul><a href="pags/historia">pagina-historia</a></ul>
-    <ul><a href="pags/articulo-agenda">pagina-articulo-agenda</a></ul>
-    <ul><a href="pags/resultado-de-busqueda">pagina-resultado-busqueda</a></ul>
-    <ul><a href="pags/portada-agenda">portada-agenda</a></ul>
-    <ul><a href="pags/home-archivo">Portada del Archivo JVA</a></ul>
-  </li>
-</nav>
-<nav style='margin: 100px'>
-  <li><h4>Entradas</h4>
-    <ul><a href="pags/articulo-carrera-grafico">pagina-articulo-carrera</a></ul>
-    <ul><a href="pags/portada_noticias">portada-noticias</a></ul>
-  </li>
-</nav>
-<nav style='margin: 100px'></p>
-
-<h4>Maquetas Previas</h4>
+	    	<div class='wrap'>
+	        	<h1 class='blanco'>Maquetas Navegables</h1>
 
 
-<h6>Post </h6>
+<h2 class='blanco'>Páginas</h2>
 
 
-<p><li><a href="pags_antiguas/home" class='chico'>Home</a></li>
-<li><a href="pags_antiguas/historia" class='chico'>pagina-historia</a></li>
-<li><a href="pags_antiguas/articulo-agenda" class='chico'>pagina-articulo-agenda</a></li>
-<li><a href="pags_antiguas/resultado-de-busqueda" class='chico'>pagina-resultado-busqueda</a></li>
-<li><a href="pags_antiguas/portada-agenda" class='chico'>portada-agenda</a></li>
-</nav>
-<nav style='margin: 100px'></p>
+<ul>
+  <li><a class='btn btn-md transparente-blanco' href="pags/home">Home <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/resena_introductora">Reseña introductora<i class="icn icn-visto icn-md burdeo-opuesto"></i></a><li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/portada_noticias">Portada Noticias <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/categoria_noticias">Portada Noticias por categoría <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/portada_eventos">Portada Eventos <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/enunciado">Enunciado<i class="icn icn-visto burdeo-opuesto icn-md"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/enunciado-post">Enunciado + Post<i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/informacion_academica">Portada Información de docencia <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/listado-cuerpo-docente">Listado - Cuerpo Docente <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/resultado-busqueda">Resultados de búsqueda <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/home-archivo">Home archivo histórico <i class="icn icn-vineta icn-md"></i></a><li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/meta-busqueda.html">Resultados meta-búsqueda <i class="icn icn-vineta icn-md"></i></a><li>
+</ul>
 
-<h6>Variables</h6>
+
+<h2 class='blanco'>Entradas</h2>
 
 
-<p><li><a href="pags_antiguas/articulo-carrera-grafico" class='chico'>pagina-articulo-carrera</a></li>
-<li><a href="pags_antiguas/portada-noticias" class='chico'>portada-noticias</a></li>
-</nav></p>
+<ul>
+  <li><a class='btn btn-md transparente-blanco' href="pags/publicacion">Post: Publicación <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+  <li><a class='btn btn-md transparente-blanco' href="pags/evento">Post: Evento <i class="icn icn-visto icn-md burdeo-opuesto"></i></a></li>
+</ul>
 
-	    </div>
+
+	    	</div>
 	</body>
 </html>
