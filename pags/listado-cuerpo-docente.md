@@ -194,7 +194,7 @@ subtitle: Cuerpo docente
 	</div>
 	<div class='datos-docente listado'>
 		<h2><a href='#'>Macarena Álamos R</a></h2>
-		<h6>Diseñador Gráfico</h6>
+		<h6>Diseñadora Gráfica</h6>
 	</div>
 	<div class='resena-docente listado'>
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
@@ -210,8 +210,8 @@ subtitle: Cuerpo docente
 		<img class='ancho-maximo' src='{{ site.baseurl }}/img/ayudante4.jpg'>
 	</div>
 	<div class='datos-docente listado'>
-		<h2><a href='#'>Ursulita Exss</a></h2>
-		<h6>Diseñador Gráfico</h6>
+		<h2><a href='#'>Ursula Exss</a></h2>
+		<h6>Arquitecta</h6>
 	</div>
 	<div class='resena-docente listado'>
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>
@@ -234,7 +234,7 @@ subtitle: Cuerpo docente
 	</div>
 	<div class='datos-docente listado'>
 		<h2><a href='#'>Francesca Cambiaso</a></h2>
-		<h6>Diseñadora Gráfica</h6>
+		<h6>Periodista</h6>
 	</div>
 	<div class='resena-docente listado'>
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus turpis odio, fermentum eget diam ut, posuere tincidunt risus. Duis posuere ligula non ipsum posuere tempus. Donec enim massa, hendrerit vel odio id, consectetur porttitor erat. Curabitur volutpat sapien sit amet enim euismod fermentum. Phasellus pretium aliquam risus at ornare. Ut fringilla, risus adipiscing tempor hendrerit, turpis nulla feugiat metus, nec dignissim dolor ipsum a quam. Nunc ipsum lectus, vehicula quis odio non, eleifend facilisis diam. Donec rhoncus ultrices porttitor. Maecenas non fringilla felis, eu lobortis ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec a orci consectetur, luctus lectus id, imperdiet arcu. Suspendisse condimentum pretium nulla quis aliquam. Quisque eu leo vitae nisl sodales rutrum. Duis fermentum ligula velit, ullamcorper vulputate erat ornare vel. Maecenas placerat vel nisl et suscipit.</p>

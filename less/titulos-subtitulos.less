@@ -24,16 +24,17 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 .categoria-noticias-titulo {
-    color: fade(@rojo-claro, 70);
+    color: fade(@rojo-claro, 75);
     font-weight: 300;
-    font-size: @cuerpo * 0.95;
+    font-size: @cuerpo * 0.99;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: 30px;
+    display: inline-block;
 
         &:hover {
             color: @rojo-claro;
             .transition(.3s ease all);
-
     }
 }
 
@@ -124,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     	&.generico {
     		font-size: 18px;
     		text-transform: uppercase;
-    		letter-spacing: 8px;
+    		letter-spacing: 7px;
     		font-weight: 300;
     	}
 }
@@ -171,7 +172,6 @@ h1, h2, h3, h4, h5, h6 {
 		letter-spacing: 3px;
 		text-align: center;
 	}
-
 }
 
 // Extra small screen / wide desktop
@@ -195,7 +195,22 @@ h1, h2, h3, h4, h5, h6 {
 	    font-size: 30px;
 	    margin: 0 0 10px 0;
 	    line-height: 35px;
-	}
+    
+		&.especifico {
+			text-align: center;
+			font-weight: 200;
+			font-size: 22px;
+			letter-spacing: 2px;
+		}
+
+    	&.generico {
+    		font-size: 16px;
+    		text-align: center;
+    		text-transform: uppercase;
+    		letter-spacing: 3px;
+    		font-weight: 300;
+    	}
+}
 
 
 .texto-noticia {
@@ -215,15 +230,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .categoria-noticias-titulo {
     color: fade(@rojo-claro, 70);
-    font-weight: 300;
-    font-size: @cuerpo * 1.1;
+    font-weight: 400;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 
         &:hover {
-            color: @rojo-claro;
-            .transition(.3s ease all);
-
+            color: none;
     }
 }
 
@@ -242,7 +255,37 @@ h1, h2, h3, h4, h5, h6 {
 			}
 		}
 	}
-}	
+
+	.entry-title {
+    
+		&.especifico {
+			//text-transform: uppercase;
+			font-weight: 200;
+			font-size: 24px;
+			letter-spacing: 3px;
+		}
+
+    	&.generico {
+    		font-size: 18px;
+    		text-transform: uppercase;
+    		letter-spacing: 4px;
+    		font-weight: 300;
+    	}
+}
+
+		.categoria-noticias-titulo {
+		    color: fade(@rojo-claro, 70);
+		    font-weight: 400;
+		    font-size: 14px;
+		    text-transform: uppercase;
+		    letter-spacing: 1.5px;
+
+		        &:hover {
+		            color: none;
+    }
+}
+
+}
 
 // Medium screen / wide desktop
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
