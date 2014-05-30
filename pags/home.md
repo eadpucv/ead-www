@@ -215,7 +215,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar Área Industrial/Arquitectónica Diseño, proyección, construcción y montaje. Domo travesía fue el primer proyecto[...]</p>
         </a>
       </div><!-- fin noticia 5 -->
-      <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 6 -->
+      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 6 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='seguir-leyendo-cuadro'>
@@ -229,7 +229,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <p>Después del incendio que afecto a los cerros de Valparaíso, un lugar de encuentro, de aprendizaje. La convocatoria es abierta a todos quienes deseen participar. y con el equipamiento que la e[ad] posee para las travesías [...]</p>
         </a>
       </div><!-- fin noticia 7 -->
-      <div class='col-lg-3 oculto-md oculto-sm col-xs-12 alto-md'> <!-- noticia 7 -->
+      <div class='col-lg-3 oculto-md col-sm-6 col-xs-12 alto-md'> <!-- noticia 7 -->
         <a href='#' class='enlace-noticia'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <div class='seguir-leyendo-cuadro'>
@@ -383,9 +383,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
             <!-- seguir leyendo -->
             <a href='#'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
-            <div class='seguir-leyendo-cuadro'>
+            <a class='#'><div class='seguir-leyendo-cuadro'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-            </div>
+            </div></a>
             <div class='pagina md carrera'>
               <a href='#'><h6 class='categoria-oficio'>diseño gráfico</h6></a>
               <h6 class='titulo'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h6>
@@ -401,9 +401,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </div>
             <!-- seguir leyendo -->
             <a href='#'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
-            <a><div class='seguir-leyendo-cuadro'></a>
+            <a class='#'><div class='seguir-leyendo-cuadro'>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-            </div>
+            </div></a>
             <div class='pagina md carrera'>
               <a href='#'><h6 class='categoria-oficio'>diseño industrial</h6></a>
               <h6 class='titulo'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h6>
@@ -414,7 +414,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div>
       </div>
     </div>
-  </div>
+  </div> <!-- fin wrap ancho total-->
   <div class='wrap'>
     <div class='seccion'>
       <h3>
@@ -425,9 +425,6 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
   			<div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace categoria'>
-              <div class='seguir-leyendo-cuadro'>
-              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>magíster arquitectura y diseño</h6>
               <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
@@ -437,35 +434,26 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace categoria'>
-              <div class='seguir-leyendo-cuadro'>
-              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
-              <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+              <aside class='entry-details'>Publicado el 14 de abril, 2014</aside>
               <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos Hay un control permanente. Viene Sanidad y controla cómo estamos operando, qué hay de menú, cómo han operado las cosas, cómo está funcionando el baño, todo el tema de la higiene… No nos recomiendan mucho tener cosas frescas, por la manipulación de los alimentos, pero tomamos todas las medidas de precaución</p>
           </a>
         </div> <!-- fin noticia de categoria 5 -->
-      </div>
+      </div>  <!-- fin columna 1 -->
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>  <!-- noticia de categoria 7 -->
         <div class='categoria'>
           <a href='#' class='bloque-enlace categoria'>
-              <div class='seguir-leyendo-cuadro'>
-              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>archivo histórico josé vial armstrong</h6>
               <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
-              <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
+              <aside class='entry-details'>Publicado el 2 de enero, 2014</aside>
               <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014La jornada parte a las 9:00 de la mañana, y termina a las 16:00, cuando ya tenemos la cocina lavada y dispuesta para el otro día. Es una jornada larga. Lo más largo es la preparación y cuando llega mucha gente.  Se ha ido armando una red de contactos, de personas que ayudan </p>
           </a>
         </div>  <!-- fin noticia de categoria 7 -->
         <div class='categoria'>  <!-- noticia de categoria 9 -->
           <a href='#' class='bloque-enlace categoria'>
-              <div class='seguir-leyendo-cuadro'>
-              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>bolsa de trabajo</h6>
               <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
@@ -475,13 +463,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             </p>
           </a>
         </div>  <!-- fin noticia de categoria 9 -->
-      </div>
+      </div>  <!-- fin columna 2 -->
       <div class='col-lg-4 oculto-md oculto-sm oculto-xs'>
         <div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace categoria'>
-            <div class='seguir-leyendo-cuadro'>
-            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-            </div>
             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
             <h6>magíster arquitectura y diseño</h6>
             <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
@@ -491,17 +476,14 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         </div> <!-- fin noticia de categoria 4 -->
         <div class='categoria'> <!-- noticia de categoria 5  -->
           <a href='#' class='bloque-enlace categoria'>
-              <div class='seguir-leyendo-cuadro'>
-              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-              </div>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>taller de amereida</h6>
               <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
-              <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
+              <aside class='entry-details'>Publicado el 14 de abril, 2014</aside>
               <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos ay un control permanente. Viene Sanidad y controla cómo estamos operando, qué hay de menú, cómo han operado las cosas, cómo está funcionando el baño, todo el tema de la higiene… No nos recomiendan mucho tener cosas frescas, por la manipulación de los alimentos, pero tomamos todas las medidas de precaución, con alcohol en las manos, guantes… </p>
           </a>
         </div> <!-- fin noticia de categoria 5 -->
-      </div>
+      </div> <!-- fin columna 3 -->
     </div>
   </div> <!-- wrap -->
-</div> <!-- fin wrap ancho total-->
+</div>

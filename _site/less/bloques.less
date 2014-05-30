@@ -159,6 +159,10 @@
         display: inline-block;
         width: 100%;
         height: @cuadratin * 9;
+
+        &.historia {
+            margin-bottom: 30px;
+        }
     }
 
     &.info-academica {
@@ -932,6 +936,10 @@ hr {
             padding: 10px;
             margin-bottom: 15px;
             height: @cuadratin * 14;
+
+            &.historia {
+                height: auto;
+            }
         }
 
         &.portada {
@@ -1385,6 +1393,10 @@ hr {
 
         &.docente {
             height: @cuadratin * 13.5;
+
+            &.historia {
+                height: auto;
+            }
         }
     }
 
@@ -1410,19 +1422,13 @@ hr {
             border-top: none;
 
             h6 {
-                padding-left: 60px;
                 font-size: 16px;
             }
 
             h5 {
-                padding-left: 60px;
                 font-size: 23px;
                 line-height: @cuerpo * 1.65;
                 font-weight: 200;
-            }
-
-            .entry-details {
-                padding-left: 60px;
             }
 
             .seguir-leyendo-cuadro {
@@ -1615,6 +1621,15 @@ hr {
         width: 85%;
     }
 
+    .enlaces-postulante {
+    padding: 0 15px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 30%;
+    }
+
     // Footer
 
     .escuela {
@@ -1751,6 +1766,10 @@ hr {
 
         &.docente {
             height: @cuadratin * 14.5;
+
+            &.historia {
+                height: auto;
+            }
         }
 
         &.carrera {
@@ -1841,8 +1860,6 @@ hr {
             margin-right: 5px;
         }
     }
-
-
 }
 
 // Large screen / wide desktop
