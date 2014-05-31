@@ -1,5 +1,5 @@
 ---
-layout: reseña-ahjva
+layout: resena-ahjva
 title: Archivo Histórico JVA
 ---
 <!-- Carousel -->
