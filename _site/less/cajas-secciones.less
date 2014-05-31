@@ -1,190 +1,486 @@
-// Cajas de contenido específico + tipografías + elementos
-.navegacion {
-    margin: 46px 0 0 0;
-    padding: 0 0 0 72px;
-    float: right;
-    display: inline-block;
-    width: 960px;
+// Cajas de contenido específico
 
+// Cajas de docentes
+
+.imagen-docente {
+    display: block;
+    margin: 5px 20px 0 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+
+    .ancho-maximo {
+        width: 100%;
+    }
+
+    &.listado {
+        width: 140px;
+        height: 140px;
+    }
 }
 
+.datos-docente {
+    width: 65%;
+    margin: 5px 0;
+    min-height: @cuadratin * 2;
+    display: inline-block;
 
-.caja-publicacion-prev {
-
-    h6 {
-        margin:0;
-        line-height: 22px;
-    }
-
-    .titulo-prev {
-        padding: @cuadratin * .25 0 0 0;
-
-        &.xs {
-            width: 100%;
-            float: left;
-            padding: @cuadratin * .5 0 @cuadratin * .25;
-        }
-
-        &.md {
-            margin: @cuadratin * .25 0 0 0;
-            min-height: auto;
-            padding: 0;
-            position: relative;
-
-            h6 {
-                margin: 0;
-                padding: 0;
-                font-weight: 200;
-            }
-        }
-    }
-
-    // Ajustes según el tamaños de la caja
-
-    &.por-oficio {
-        margin: 0 0 @cuadratin * .25 0;
+    h2 {
+        margin-bottom: 0;
+        color: @pizarra;
         padding: 0;
     }
 
-    &.por-categoria {
+    &.listado {
+        width: 55%;
+    }
+}
 
-        .lectura-prev{
-            padding: 0 @cuadratin / 2;
-            display: block;
-            height: @cuadratin * 14.25;
+.resena-docente {
+    margin: 5px 0;
+    width: 65%;
+    display: inline-block;
 
-            h5 {
-                margin: @cuadratin / 2 0 0 0;
+    p {
+        font-size: @cuerpo * 0.9;
+        padding: 0;
+        line-height: @interlinea;
+        font-family: @sans;
+        max-height: 92px;
+        overflow: hidden;
+    }
+
+    &.listado {
+        width: 55%;
+    }
+
+    &.historia {
+
+    p{
+        font-size: @cuerpo * 0.95;
+        padding: 0;
+        line-height: @interlinea * 0.95;
+        font-family: @sans;
+        max-height: 170px;
+        overflow: hidden;
+    }
+    }
+}
+
+#menu-fixed {
+
+    .ancla-fixed {
+        margin: 10px 0;
+        color: @gris-oscuro;
+        font-size: 15px;
+        padding: 0px 5px 0px 0;
+        border-right:2px solid @blanco;
+        text-align: right;
+    }
+
+    .active .ancla-fixed {
+        color: @rojo-claro;
+        border-right:2px solid @rojo-claro;
+        .transition(.3s ease all);
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+#nav {
+    position: relative;
+}
+#nav.affix {
+    position: fixed;
+    top: 5px;
+}
+
+// Comentarios
+
+.fondo-comentarios {
+    background-color: @blanco-gris;
+}
+
+.contenido-comentario {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.imagen-usuario {
+        float: left;
+        margin: 0 20px 0 0;
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+        border-radius: 70px;
+
+            img {
+            width: 120%;
+            height: auto;
+        }
+}
+
+.bloque-comentario {
+    padding-left: 160px;
+}
+
+.comentario {
+    display: inline-block;
+    padding: 10px;
+
+    p {
+        margin: 5px 0 15px 0;
+        color: @negro-claro;
+    }
+
+}
+
+.comentar {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+// Calendario
+
+.em-calendar {
+    padding: 0;
+    border:none;
+    margin-bottom: 0;
+    width: 220px;
+
+    td {
+        padding-left: 0;
+        text-align: center;
+        padding: 5px 0;
+
+        p {
+            font-family: @sans;
+            color: @gris;
+            margin: 0;
+            display: inline-block;
+            font-weight: 300;
+            min-width: 28px;
+        }
+
+        a {
+            background-color: fade(@gris-oscuro, 60%);
+            color: @blanco;
+            font-weight: 300;
+            display: inline-block;
+            min-width: 28px;
+
+            &:hover {
+                background-color: @gris-oscuro;
+                .transition(.3s ease all);
+            }
+        }
+    }
+}
+
+// Eventos y portada de eventos
+
+
+.dato-evento {
+    border-left: 4px solid fade(@pizarra-claro, 20%);
+    float: left;
+    height: 75px;
+    padding: 8px 5px 10px;
+    margin: 0 20px 0 0;
+    position: relative;
+    top: 0;
+    width: 75px;
+
+    .dia {
+        font-family: @sans;
+        font-weight: 200;
+        margin: 0;
+        padding: 4px;
+        float: center;
+        color:@pizarra-claro;
+        font-size: 27.8px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+
+    &.portada {
+        width: 250px;
+        padding: 20px 0;
+        margin: 0;
+        height: 70px;
+
+        .dia {
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+// Bloque publicación genérico
+
+.bloque-publicacion {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+    // Comentarios
+
+
+    .contenido-comentario {
+        margin-top: 30px;
+        border: none;
+        border-bottom: 1px solid @gris-claro;
+        box-shadow: none;
+        padding: 0 0 20px 0;
+    }
+
+    .bloque-comentario {
+        padding-left: 160px;
+    }
+
+    .comentario {
+        padding: 0px;
+
+        p {
+            margin: 5px 0 15px 0;
+            color: @negro-claro;
+        }
+    }
+
+    .comentar {
+        border: none;
+        box-shadow:none;
+        padding: 0px;
+        margin: 20px 0 0 0;
+    }
+
+    // Comentario
+
+    .imagen-usuario {
+        display: none;
+    }
+
+    .bloque-comentario {
+        padding: 0;
+    }
+
+    .imagen-docente {
+        display: block;
+        margin: 0 auto;
+        float: none;
+
+        &.listado {
+            width: 170px;
+            height: 170px;
+        }
+
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
+
+    .datos-docente {
+        text-align: center;
+        width: 100%;
+        margin: 5px 0;
+        padding: 0 10px;
+        min-height: @cuadratin * 2;
+        display: inline-block;
+
+        &.listado {
+            width: 100%;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 25px;
+            margin-top: 15px;
+            color: @pizarra;
+            padding: 0;
+        }
+
+        h6 {
+            font-size: 17px;
+        }
+    }
+
+    .resena-docente {
+        margin: 5px 0;
+        width: 100%;
+        padding: 0 10px;
+        display: inline-block;
+
+        &.listado {
+            width: 100%;
+        }
+
+        p {
+            font-size: @cuerpo * .9;
+            padding: 0;
+            line-height: @interlinea * .9;
+            font-family: @sans;
+            max-height: 120px;
+            overflow: hidden;
+        }
+    }
+
+    .dato-evento {
+        border-left: 4px solid fade(@pizarra-claro, 20%);
+        float: left;
+        height: 75px;
+        padding: 8px 5px 10px;
+        margin: 0 20px 0 0;
+        position: relative;
+        top: 0;
+        width: 75px;
+
+        .dia {
+            font-family: @sans;
+            font-weight: 100;
+            font-size: @cuerpo * 1.3;
+            margin: 0;
+            padding: 0;
+            float: center;
+            color:@pizarra-claro;
+            line-height: 25px;
+            letter-spacing: 2px;
+        }
+
+
+        &.portada {
+            margin: 0;
+            padding: 20px 13px;
+            width: 36%;
+            height: 70px;
+
+            .dia {
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 0;
+                margin-bottom: 15px;
             }
         }
     }
 
-}
 
-.lectura-prev {
-    padding: 0;
-    position: relative;
-    height: 100%;
-
-    &.xs {
-         padding: 0 @cuadratin / 2;
-         height: @cuadratin * 5.7;
-    }
-    
-    &.sm {
-        padding: 0 @cuadratin / 2;
-        display: block;
-        height: @cuadratin * 7.1;
-    }
-
-    &.md {
-        position: relative;
-        margin: 0;
-        width: 695px;
-        padding: 0 @cuadratin;
-        height: 100%;
-        display: inline-block;
-
-        h6 {
-            margin: 0;
-            padding: 0;
-        }
-
-        h4 {
-            margin: @cuadratin / 2 0 0 0;
-            padding: 0;
-        }
-
-        .nombre-seccion {
-            margin:@cuadratin-tercio 0;
-        }
-    }
-}
-
-.leer-mas {
-    position: absolute;
-    color: @rojo-opuesto;
-    bottom: 10px;
-    right: @cuadratin / 2;
-}
-
-.categorias-publicacion {
-    bottom: @cuadratin / 2;
-    position: absolute;
-}
-
-// bloque meta (borrar, sujeto a los cambios de simon)
-
-.menu-meta {
-    height: @cuadratin;
-    background-color: @negro;
-}
-
-// estilos de cajas
-
-.borde-izquierdo {
-    border-left: 2px solid;
-}
-
-.borde-derecho {
-    border-right: 2px solid;
-}
-
-// Extra small screen / phone
-@media(max-width: @screen-xs-max){
 
 }
 
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+    
+    // Cajas de docentes
+    
+    .imagen-docente {
 
-    .caja-publicacion-prev{
-        .titulo-prev {
+        &.listado {
+            margin: 0 auto;
+            float: left;
+        }
 
-            &.xs {
-                width: 74%;
-                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
-            }
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
 
-            &.md {
-                margin: @cuadratin * .25 0 0 0;
+    // eventos
+
+    .dato-evento {
+        border-left: 4px solid fade(@pizarra-claro, 20%);
+        float: left;
+        height: 75px;
+        padding: 8px 5px 10px;
+        margin: 0 20px 0 0;
+        position: relative;
+        top: 0;
+        width: 75px;
+
+        .dia {
+            font-family: @sans;
+            font-weight: 200;
+            margin: 0;
+            padding: 0;
+            float: center;
+            color:@pizarra-claro;
+            font-size: 27.8px;
+            line-height: 25px;
+            letter-spacing: 2px;
+        }
+
+
+        &.portada {
+            height: 60px;
+            margin: 0;
+            padding: 11px 0;
+            width: 30%;
+
+
+            .dia {
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 0;
+                margin-bottom: 15px;
             }
         }
     }
 
-    .lectura-prev {
+        .datos-docente {
+        width: 59%;
+        margin: 5px 0;
+        min-height: @cuadratin * 2;
+        display: inline-block;
 
-        &.xs {
-             padding: 0 @cuadratin * .5;
-             height: @cuadratin * 7.12;
+        &.listado {
+            width: 100%
         }
 
-        &.sm {
-            padding: 0 @cuadratin * .75;
+        &.historia {
+            width: 55%;
         }
 
-        &.md {
-            position: relative;
-            margin: 0;
-            width: 68%;
-            height: 100%;
-            display: inline-block;
-            padding: 0 @cuadratin* .75;
+        h2 {
+            margin-top: 15px;
+            color: @pizarra;
+            padding: 0;
+        }
+    }
 
-            h6 {
-                margin: 0;
-                padding: 0;
-            }
+    .resena-docente {
+        margin: 5px 0;
+        width: 59%;
+        display: inline-block;
 
-            h4 {
-                margin: @cuadratin / 2 0 0 0;
-                padding: 0;
-            }
+        &.listado {
+            width: 100%
+        }
 
-            .nombre-seccion {
-                margin:@cuadratin-tercio 0;
-            }
+        p {
+            font-size: @cuerpo * .9;
+            padding: 0;
+            line-height: @interlinea * .9;
+            font-family: @sans;
+            max-height: 100px;
+            overflow: hidden;
         }
     }
 }
@@ -193,107 +489,127 @@
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
-    .logo{
-        margin: @cuadratin * .25 0 0 0;
-        max-width: 320px;
+    #menu-fixed {
+
+        .ancla-fixed {
+            width: 15vw;
+        }
     }
 
-    .navegacion {
-        margin: @cuadratin / 2 0;
-        padding: 0;
+    // Cajas de docentes
+
+    .imagen-docente {
+        width: 160px;
+        height: 160px;
+        margin:0 20px 0 0;
+
+        &.listado {
+            margin: 0 auto;
+            float: none;
+            width: 170px;
+            height: 170px;
+        }
+
+        .ancho-maximo {
+            width: 100%;
+        }
+    }
+
+    .datos-docente {
+        width: 59%;
+        margin: 5px 0;
+        min-height: @cuadratin * 2;
+        display: inline-block;
+
+        &.listado {
+            width: 100%
+        }
+
+        &.historia {
+            width: 55%;
+        }
+
+        h2 {
+            margin-top: 15px;
+            color: @pizarra;
+            padding: 0;
+        }
+    }
+
+    .resena-docente {
+        margin: 5px 0;
+        width: 59%;
+        display: inline-block;
+
+        &.listado {
+            width: 100%
+        }
+
+        p {
+            font-size: @cuerpo * .9;
+            padding: 0;
+            line-height: @interlinea * .9;
+            font-family: @sans;
+            max-height: 80px;
+            overflow: hidden;
+        }
+    }
+
+
+    // comentarios
+
+    .bloque-comentario {
+        padding-left: 0;
+    }
+
+    // calendario
+
+    .em-calendar {
+    width: 19.5vw;
+    }
+
+    // eventos
+
+    .dato-evento {
+        border-left: 4px solid fade(@pizarra-claro, 20%);
         float: left;
-        width: 100%;
+        height: 75px;
+        padding: 8px 5px 10px;
+        margin: 0 20px 0 0;
+        position: relative;
+        top: 0;
+        width: 75px;
 
-    }
-
-    .wrap-carousel {
-        max-width: 100%;
-    }
-
-    .caja-publicacion-prev{
-        .titulo-prev {
-
-            &.xs {
-                width: 70%;
-                padding: @cuadratin * .5 0 @cuadratin * .25 0; 
-            }
-
-            &.md {
-                margin: @cuadratin * .25 0 0 0;
-            }
-        }
-    }
-
-    .lectura-prev {
-
-        &.xs {
-             padding: 0 @cuadratin * .5;
-             height: @cuadratin * 7.12;
-        }
-
-        &.sm {
-            padding: 0 @cuadratin * .75;
-        }
-
-        &.md {
-            position: relative;
+        .dia {
+            font-family: @sans;
+            font-weight: 200;
             margin: 0;
-            width: 65%;
-            height: 100%;
-            display: inline-block;
-            padding: 0 @cuadratin* .75;
-
-            h6 {
-                margin: 0;
-                padding: 0;
-            }
-
-            h4 {
-                margin: @cuadratin / 2 0 0 0;
-                padding: 0;
-            }
-
-            .nombre-seccion {
-                margin:@cuadratin-tercio 0;
-            }
-        }
-    }
-
-    .enlaces-aside {
-
-        li {
-            line-height: @interlinea-nav *.9;
-            margin: 0 0 10px 0;
-
-            a {
-                font-size: @cuerpo * .9;
-                font-weight: 300;
-                line-height: ;
-            }
+            padding: 0;
+            float: center;
+            color:@pizarra-claro;
+            font-size: 27.8px;
+            line-height: 25px;
+            letter-spacing: 2px;
         }
 
-        &.postulante {
-            
-            ul {
-                margin: 0 0 @cuadratin-tercio;
-                padding: 0 0 @cuadratin @cuadratin;
-            }
 
-            li {
-                padding: 4px @cuadratin * .5;
-                margin: 0 0 @cuadratin * .25 0;
-                font-size: @cuerpo * .9;
+        &.portada {
+            width: 45%;
+            padding: 20px 0;
+            margin: 0;
+            height: 60px;
+
+            .dia {
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 0;
+                margin-bottom: 15px;
             }
         }
     }
 
 }
 
-    .fondo-ruido {
-        background-color: @gris-blanco;
-        background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
-        border: none;
-    }
 
 // Large screen / wide desktop
 

@@ -196,7 +196,7 @@ title: Giornata Maquetas - Portada de Agenda
     </a>
   </div> <!-- fin noticia uno -->
   <div class='fila margen-inferior'> <!-- noticia dos -->
-    <a href='{{ site.baseurl }}/pags/articulo-agenda'>
+    <a href='/pags/articulo-agenda'>
       <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24 caja-articulo-agenda-ead'>
         <div class='col-lg-4 oculto-md col-xs-6'>
           <p class='dia-evento'>21</p>

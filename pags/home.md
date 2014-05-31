@@ -93,7 +93,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>09 may</p> 
               </div>  
               <h6 class='rojo-claro'>Revalidación y Captura Fotográfica – TNE 2014 </h6> 
@@ -105,7 +105,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>28 abr</p> 
               </div>  
               <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6> 
@@ -117,7 +117,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>13 abr</p> 
               </div>  
               <h6 class='rojo-claro'>De la hipótesis al Diseño: "Aproximaciones, casos y obras”</h6> 
@@ -129,7 +129,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
         <a href='#' class='bloque-enlace'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
           <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
+              <div class='dato-evento'> 
                 <p class='dia centrado'>01 ago</p> 
               </div>  
               <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D) de locos y más querubines del cielo de rocas mutiladas y más y más</h6> 
@@ -247,7 +247,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
-  	</div> <!-- fin sección noticias inferior -->
+    </div> <!-- fin sección noticias inferior -->
   </div> <!-- fin wrap -->
 </div>
 <!-- Carousel de Contenido para el postulante -->
@@ -269,9 +269,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/admn.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Vías de ingreso</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Becas y financiamiento</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Aranceles</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Vías de ingreso</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Becas y financiamiento</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Aranceles</a>
           </div>
         </div>
       </div>
@@ -285,10 +285,10 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/carreras.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Arquitectura</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Diseño Gráfico</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Diseño Industrial</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Magíster de Arquitectura y Diseño</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Arquitectura</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Diseño Gráfico</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Diseño Industrial</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Magíster de Arquitectura y Diseño</a>
           </div>
         </div>
       </div>
@@ -304,8 +304,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/campus.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Casa de estudio</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Ciudad Abierta</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Casa de estudio</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Ciudad Abierta</a>
           </div>
         </div>
       </div>
@@ -319,8 +319,8 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/docentes.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Profesores</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Ayudantes</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Profesores</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Ayudantes</a>
           </div>
         </div>
       </div>
@@ -334,9 +334,9 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
             <img class='altura-maxima sm' src='{{ site.baseurl }}/img/escuelaoficio.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Historia</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>La observación</a>
-            <a class='btn btn-md btn-transparente-blanco' href='#'>Amereida</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Historia</a>
+            <a class='btn btn-md transparente-blanco' href='#'>La observación</a>
+            <a class='btn btn-md transparente-blanco' href='#'>Amereida</a>
           </div>
         </div>
       </div>
@@ -423,7 +423,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
-  			<div class='categoria'> <!-- noticia de categoria 4  -->
+        <div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace categoria'>
               <div class='seguir-leyendo-cuadro'>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>

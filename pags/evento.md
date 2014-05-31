@@ -30,3 +30,6 @@ subtitle: Convocatoria Concurso de Ideas y Relatos
 		</div>
 	</article> 
 </div>
+<div class='bloque mapa'><!-- si es que el evento posee un geopunto, localizando el evento, se mostrará esto -->
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.9822146965153!2d-71.61406989259028!3d-33.05693506597166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0e737fbaa19%3A0x88466b69c43426f5!2sEl+Vergel+40!5e0!3m2!1ses-419!2scl!4v1400801395756" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+</div>
