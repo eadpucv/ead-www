@@ -7,11 +7,32 @@ Estilos Gráficos de la Pantalla de resultados de la Meta-búsqueda
 .wrap{
 
 	&.metabusqueda{
-		padding: 40px 100px 40px 100px;
+		margin: 0 auto;
+		padding: 40px 60px 0px 60px;
+
+		&.inferior{
+			padding: 0px 60px 0px 60px;
+			}
 		}
+
 	}
 
 .fila{
+
+	&.linea{
+		padding: 0px 0px 3px 0px;
+		border-bottom: 1px solid @gris;
+		}
+
+	&.contenido{
+		padding: 40px 0px 0px 0px;
+	}
+
+	&.paginas{
+		padding: 10px 0px 30px 0px;
+		border-top: 1px solid @gris;
+		height: auto;
+	}
 }
 
 .titularbusqueda{
@@ -20,53 +41,117 @@ Estilos Gráficos de la Pantalla de resultados de la Meta-búsqueda
 	border-bottom: 1px solid @gris;
 	}
 
-.logobusqueda{
-	display: inline-block;
-	margin: 0 auto;
-	padding: 0px 20px 0px 0px;
+p.logo-ead-marca {
+
+&.mediano{
+	padding: 0px 7px 0px 0px;
 	float: left;
-
-		p.logo-ead-marca {
-
-			&.mediano{
-			font-size: 20px;
-			font-weight: 200;
-			}
-
-		}
+	font-size: 16px;
+	font-weight: 300;
 	}
 
+}
+
 .titulo-metabusqueda{
-	display: inline-block;
 	padding:0;
 	margin: 0 auto;
+	float: left;
 
-	p.titulo-busqueda{
-		font-size: 24px;
+	h2.titulo-busqueda{
+		display: inline;
+		font-size: 20px;
 		font-family: @sans;
 		padding: 0;
 		margin: 0;
+		font-variant: small-caps;
+		color: @gris-oscuro;
+		letter-spacing: 1.9px;
 		}
 
-	span.contenido{
+	span.destacado{
+		display: inline;
 		color: @rojo-claro;
 		font-weight: 300;
 		}
 
 	}
 
-.contenido{
-	padding: 30px 0px;
+i.web{
+	padding: 0px 7px 0px 0px;
+	}
+
+i.input{
+	padding: 0px 4px 0px 4px;
+	}
+
+.resultado{
+	float: left;
+	height: 130px;
+	width: 490px;
+	border-left: 2px solid @rojo-claro;
+	margin: 0px 0px 60px 25px;
+	padding: 0 40px 0px 20px; 
+	overflow: hidden;
+	}
+
+.subtitulo{
+	position:relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	}
+
+a.enlace{
+	text-decoration: none;
+	margin: 0 auto;
+	font-family: @sans;
+
+	&.subtitulo{
+		font-size: 18px;
+		font-weight: 300;
+		color: fade(@negro,80%);
+		line-height: 21px;
+		padding: 0px 0px 4px 0px;
+		}
+
+	&.sitioweb{
+		padding: 30px 0px 0px 0px;
+		font-size: 15px;
+		font-weight: 200;
+		color: fade(@negro,80%);
+		}
+
+	&.marcador{
+		padding: 0px 15px 0px 15px;
+		font-size: 13px;
+		color: fade(@negro,80%);
+		text-transform: uppercase;
+		float: right;
+		}
+
+	&:hover{
+		color: @rojo-claro;
+		}
+
+	}
+
+.marcadores{
+	padding: 0px center;
+	display: inline-block;
+	position: center auto;
+	width: auto;
+	float: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+p.descripcion{
+	margin: 0 auto;
+	font-family: @sans;
+	padding: 0;
+	display: block;
+	padding: 7px 0px 0px 0px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 200;
+	color: @negro-claro;
+	}
