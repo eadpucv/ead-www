@@ -5,7 +5,7 @@ subtitle: Eventos
 ---
 
 <div class='fila'>
-	<div class='col-lg-3 col-md-4 oculto-sm oculto-xs cf'>
+  <div class='col-lg-3 col-md-4 oculto-sm oculto-xs cf'>
     <div class='menu-affix'>
       <div data-spy="affix" data-offset-top="270" data-offset-bottom='500'>
         <div class="pagina calendario">
@@ -137,9 +137,9 @@ subtitle: Eventos
         </div>
       </div>
     </div>
-	</div>
-	<div class='col-lg-9 col-md-8 col-sm-12 col-xs-12'>
-		<div class='fila'>
+  </div>
+  <div class='col-lg-9 col-md-8 col-sm-12 col-xs-12'>
+    <div class='fila'>
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
         <a href='#' class='bloque-enlace portada evento'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -244,6 +244,6 @@ subtitle: Eventos
           </div>
         </a>
       </div>
-		</div>
-	</div>
+    </div>
+  </div>
 </div>

@@ -247,7 +247,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
-  	</div> <!-- fin sección noticias inferior -->
+    </div> <!-- fin sección noticias inferior -->
   </div> <!-- fin wrap -->
 </div>
 <!-- Carousel de Contenido para el postulante -->
@@ -423,7 +423,7 @@ title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica
     </div>
     <div class='fila'> <!-- fila noticias categorizadas -->
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
-  			<div class='categoria'> <!-- noticia de categoria 4  -->
+        <div class='categoria'> <!-- noticia de categoria 4  -->
           <a href='#' class='bloque-enlace categoria'>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>magíster arquitectura y diseño</h6>

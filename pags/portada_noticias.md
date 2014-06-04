@@ -11,64 +11,64 @@ subtitle: Noticias
 <div class="carousel-inner">
 
 <div class="item active">
-	<div class='noticia grande'>
-		<div class='noticia-imagen'>
-			<img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
-		</div>
-		<div class='texto-noticia grande'>
+    <div class='noticia grande'>
+        <div class='noticia-imagen'>
+            <img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
+        </div>
+        <div class='texto-noticia grande'>
             <div class='contenedor-texto'>
-			<h2><a href='#'>Convocatoria Concurso de Ideas y Relatos</a></h2>
-			<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. [...]</p>
+            <h2><a href='#'>Convocatoria Concurso de Ideas y Relatos</a></h2>
+            <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. [...]</p>
             </div>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>  <!-- fin de item -->
 
 <div class="item">
-		<div class='noticia grande'>
-			<div class='noticia-imagen'>
-				<img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
-			</div>
-			<div class='texto-noticia grande'>
+        <div class='noticia grande'>
+            <div class='noticia-imagen'>
+                <img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
+            </div>
+            <div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
-				<h2><a href='#'>Diplomado en Maderas, Laminados y Mobiliario</a></h2>
-				<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+                <h2><a href='#'>Diplomado en Maderas, Laminados y Mobiliario</a></h2>
+                <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
                 </div>
-			</div>
-		</div>
-	</div>  <!-- fin de item -->
+            </div>
+        </div>
+    </div>  <!-- fin de item -->
 
 <div class="item">
- 		<div class='noticia grande'>
-			<div class='noticia-imagen'>
-				<img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
-			</div>
-			<div class='texto-noticia grande'>
+        <div class='noticia grande'>
+            <div class='noticia-imagen'>
+                <img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
+            </div>
+            <div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
-				<h2><a href='#'>Destacados diseñadores participan en seminario sobre investigación y diseño</a></h2>
-				<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+                <h2><a href='#'>Destacados diseñadores participan en seminario sobre investigación y diseño</a></h2>
+                <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
                 </div>
-			</div>
-		</div>
-	</div>  <!-- fin de item -->
+            </div>
+        </div>
+    </div>  <!-- fin de item -->
 
 <div class="item">
- 		<div class='noticia grande'>
-			<div class='noticia-imagen'>
-				<img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
-			</div>
-			<div class='texto-noticia grande'>
+        <div class='noticia grande'>
+            <div class='noticia-imagen'>
+                <img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
+            </div>
+            <div class='texto-noticia grande'>
                 <div class='contenedor-texto'>
-				<h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
-				<aside class="entry-details">Publicado el 24 de abril, 2014</aside>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+                <h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
+                <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
                 </div>
-			</div>
-		</div>
-	</div>  <!-- fin de item -->
+            </div>
+        </div>
+    </div>  <!-- fin de item -->
 </div>
 
 <!-- Controles -->
@@ -1082,8 +1082,3 @@ subtitle: Noticias
 </div><!-- Fin de contenedor de noticias -->
 
 <!-- FIN CONTENEDOR DUO NOTICIAS -->
-
-
-
-
-

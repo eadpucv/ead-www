@@ -562,4 +562,3 @@ subtitle: Diseño Gráfico
 <script>
 $('.enunciado').scrollspy({ target: '#menu-fixed' })
 </script>
-

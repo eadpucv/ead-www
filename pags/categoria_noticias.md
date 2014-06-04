@@ -186,9 +186,3 @@ subtitle: Arquitectura
 <a class='btn btn-md btn-transparente-negro cargar-mas'>ver más</a>
 </div>
 
-
-
-
-
-
-
