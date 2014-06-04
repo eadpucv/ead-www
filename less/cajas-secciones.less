@@ -240,6 +240,21 @@
     float: left;
 }
 
+// Enlace del carousel 
+
+.enlace-carousel {
+
+    &:hover {
+        .cita-carousel {
+            background-color: fade(@blanco, 99%);
+            -webkit-transition: background-color .5s linear, background-color 0.2s linear;
+            -moz-transition: background-color .5s linear, background-color 0.2s linear;
+            -o-transition: background-color .5s linear, background-color 0.2s linear;
+            transition: background-color .5s linear, background-color 0.2s linear;
+        }
+    }
+}
+
 
 
 // Extra small screen / phone
