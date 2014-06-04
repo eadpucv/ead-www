@@ -180,26 +180,36 @@ font-family: @sans;
 
 
 .h-entry {
-width: 100%;
+	width: 100%;
 
-p {
-margin: 0 auto;
-padding: 0 0 40px 0;
-font-size: @cuerpo;
-line-height: 29px;
-}
+	h2 {
+		margin-bottom: 30px;
+	}
 
-span {
-margin: 0;
-font-family: inherit;
-display: inline;
-}
+	h6 {
+		margin-bottom: 15px;
+	}
 
-li {
+	p {
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+		font-size: @cuerpo;
+		line-height: 29px;
+	}
+
+	span {
+		margin: 0;
+		font-family: inherit;
+		display: inline;
+	}
+
+	li {
         margin: 15px 0;
         padding: 0 0 0 20px;
-        font-size: inherit;
+        font-size: 16px;
         list-style: none;
+        font-family: @sans;
+        color: @pizarra-claro;
 
          a {
             font-weight: 200;
@@ -233,12 +243,12 @@ padding-left: 30px;
 }
 
 .e-content, .p-summary, .p-name {
-width: 75%;
-margin: 30px auto;
+	width: 70%;
+	margin: 0 auto;
 
-&.enunciado {
-width: 100%;
-}
+    &.enunciado {
+        width: 100%;
+    }
 }
 
 
@@ -272,7 +282,6 @@ color: @gris-oscuro;
 // Comentarios
 
 .usuario {
-color: @gris-oscuro;
     font-size: 20px;
     font-weight: 200;
 }

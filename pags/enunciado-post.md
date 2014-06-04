@@ -89,8 +89,10 @@ subtitle: Taller de amereida
 					</div>
 					<div id='enlaces' class='bloque'>
 						<h2 class='rojo-claro'>Enlaces</h2>
-						<p><a href='https://soundcloud.com/archivo-jose-vial-a'><i class="icn icn-soundcloud icn-md"></i> registros de audio en el Archivo de la Palabra en SoundCloud</a></p>
-						<p><a href='http://vimeo.com/escuela'><i class="icn icn-vimeo icn-md"></i> registros en vídeo en los álbumes de la Escuela en Vimeo</a></p>
+						<ul>
+							<li><a href='https://soundcloud.com/archivo-jose-vial-a'><i class="icn icn-soundcloud icn-md"></i> registros de audio en el Archivo de la Palabra en SoundCloud</a>
+							<li><a href='http://vimeo.com/escuela'><i class="icn icn-vimeo icn-md"></i> registros en vídeo en los álbumes de la Escuela en Vimeo</a></li>
+						</ul>
 					</div>
 					<div id='publicaciones' class='bloque'>
 						<h2 class='rojo-claro'>Publicaciones</h2>
