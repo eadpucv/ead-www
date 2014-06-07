@@ -881,8 +881,8 @@ font-size: 5.6vmin;
         margin: 0;
 }
 
-
     // Ajuste de página
+
     .wrap {
         width: 90%;
     }
@@ -896,7 +896,6 @@ font-size: 5.6vmin;
         height: auto;
         margin: 15px 0;
     }
-
     .pagina {
 
         // Clases extendidas
@@ -995,7 +994,6 @@ font-size: 5.6vmin;
             height: auto;
         }
     }
-
   
     .seguir-leyendo {
         display: inline-block;
@@ -1346,20 +1344,21 @@ font-size: 5.6vmin;
     // Landing index giornata
 
     .landing {
-        padding: 60px 0;
+        padding: 30px 0;
         h1 {
             font-size: 22vw;
             margin: 0;
             padding: 60px 0 0 0;
         }
     }
-}
 
 .fondo-ruido {
     background-color: @gris-blanco;
     background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
     border: none;
 }
+}
+
 
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
@@ -1558,188 +1557,9 @@ font-size: 5.6vmin;
             }
         }
     }
-
-    .seguir-leyendo {
-        display: inline-block;
-        position: absolute;
-        font-size: 12px;
-        color: @blanco;
-        font-family: @sans;
-        text-transform: uppercase;
-        font-weight: 300;
-        z-index: 12;
-        left: 360px;
-        top: 14px;
-        letter-spacing: 3px;
-        padding: 0;
-        margin: 0;
-        right: auto;
-        display: none;
-
-    &.ver-mas {
-        position: absolute;
-        font-weight: 100;
-        right: auto;
-        left: 20px;
-        top: 16px;
-        font-family: @sans;
-        color: @blanco;
-        font-size: 30px;
-        display: none;
-        }
-    }
-
-    .seguir-leyendo-cuadro {
-        width: 50px;
-        height: 50px;
-        background-color: @rojo-claro;
-        position: absolute;
-        right: 0;
-        z-index: 10;
-        display: block;
-
-            .seguir-leyendo {
-            display: inline-block;
-            position: absolute;
-            font-size: 12px;
-            color: @blanco;
-            font-family: @sans;
-            text-transform: uppercase;
-            font-weight: 300;
-            z-index: 12;
-            left: 360px;
-            top: 14px;
-            letter-spacing: 3px;
-            padding: 0;
-            margin: 0;
-            right: auto;
-            display: none;
-
-            &.ver-mas {
-                position: absolute;
-                font-weight: 100;
-                right: auto;
-                left: 20px;
-                top: 16px;
-                font-family: @sans;
-                color: @blanco;
-                font-size: 30px;
-                display: block;
-                }
-        }
-    }
-
-    .referencia-cita {
-        width: 100%;
-        float: left;
-        margin: 0;
-        border-left: none;
-
-        h6 {
-            width: 90%;
-        }
-
-        i {
-            font-size: 27px;
-            margin: 0 7.5% 0 0;
-        }
-    }
-
-    .categoria {
-
-        .seguir-leyendo {
-        right: 35px;
-        top: -32px;
-        }
-
-        &:hover {
-            //border-top: 30px solid #D94D3F;
-            //border-top: 30px solid #D13F32;
-            border-left: none;
-            border-top: none;
-            padding-left: 0px;
-        }
-    }
-
-    .licencia {
-        margin: 10px 0 0 0;
-    }
-
-    // Franja postulante
-
-    .wrap-postulante {
-        width: 85%;
-    }
-
-    .enlaces-postulante {
-    padding: 0 15px;
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    right: 0;
-    top: 30%;
-    }
-
-    // Footer
-
-    .escuela {
-        margin: 0 0 30px 0;
-    }
-
-    .sitio-relacionado {
-        max-width: 60%;
-
-        p {
-            font-size: 13.8px;
-        }
-
-        i {
-            font-size: @cuerpo;
-            margin-right: 5px;
-        }
-    }
-
-    .enlace-noticia {
-        &:hover {
-            padding: 0px;
-            border-top: none;
-        }
-    }
-
-    .enlace-evento {
-    display: inline-block;
-    position: relative;
-
-        &:hover {
-            padding: 0px;
-            border-top: none;
-            .transition(.3s ease all);
-
-        h6 {
-            color: auto;
-            }  
-        }
 }
 
-    // Aside 
 
-    .aside {
-        margin: 30px 0;
-        padding: 20px;
-        background-color: lighten(@gris-claro, 8%);
-    }
-
-
-    .bloque-aside {
-        margin: 50px 0;
-
-        &.sm {
-            min-height: @cuadratin * 8;
-        }
-    }
-}
-
-// Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
