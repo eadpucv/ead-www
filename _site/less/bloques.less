@@ -767,11 +767,11 @@ hr {
 
 .landing {
     padding: 60px 0;
-    background-color: @blanco;
+    background-color: darken(@negro-oscuro, 10);
 
     h1 {
         font-size: @cuerpo * 10;
-        color: @rojo-claro;
+        color: @blanco;
         margin: 0;
         padding: 60px 0 0 0;
     }
@@ -779,7 +779,6 @@ hr {
 
 .fondo-landing {
     width: 100%;
-    height: 1190px;
     overflow: hidden;
     position: absolute;
     z-index: -1;
@@ -787,6 +786,35 @@ hr {
     img {
         width: 1950px;
     }
+
+}
+
+.mama {
+        text-align: left;
+        color: @blanco;
+        padding: 15px;
+        display: block;
+        border: 1px solid @blanco;
+        border-radius: 2px;
+        margin: 5px 0 0 0;
+        width: 70vmin;
+
+        &:hover{
+            background-color: @blanco;
+            .transition(.3s ease all);
+        }
+}
+
+.abuela {
+        margin-bottom: 15px;
+
+        h1 {
+        font-size: 25px;
+        }
+
+        h3 {
+        font-size: 18px;
+        }
 }
 
 .imagen-landing {
@@ -796,6 +824,27 @@ hr {
 
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
+
+    .mama {
+        text-align: left;
+        color: @blanco;
+        padding: 15px;
+        display: block;
+        border: 1px solid @blanco;
+        border-radius: 2px;
+        margin: 5px 0 0 0;
+        width: 70vmin;
+        font-size: 4.3vmin;
+
+        &:hover{
+            background-color: @blanco;
+            .transition(.3s ease all);
+        }
+}
+
+.abuela {
+font-size: 5.6vmin; 
+}
 
     .logo{
         margin: 0 auto;
@@ -1315,6 +1364,7 @@ hr {
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
+
     .alto-lg {
         height: 550px;
     }
@@ -1692,6 +1742,7 @@ hr {
 // Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
+
 
     .alto-lg {
         height: 500px;
