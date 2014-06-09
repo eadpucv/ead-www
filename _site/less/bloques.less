@@ -520,7 +520,6 @@
 
 .wrap-postulante {
     position: relative;
-    width: 1366px;
     margin: 0 auto;
     padding: 0px 0;
     height: 370px;
@@ -767,11 +766,11 @@ hr {
 
 .landing {
     padding: 60px 0;
-    background-color: darken(@negro-oscuro, 10);
+    background-color: @blanco;
 
     h1 {
         font-size: @cuerpo * 10;
-        color: @blanco;
+        color: @rojo-claro;
         margin: 0;
         padding: 60px 0 0 0;
     }
@@ -1558,6 +1557,171 @@ font-size: 5.6vmin;
             }
         }
     }
+
+    .seguir-leyendo {
+        font-size: 12px;
+        font-weight: 300;
+        z-index: 12;
+        left: 360px;
+        top: 14px;
+        letter-spacing: 3px;
+        padding: 0;
+        margin: 0;
+        right: auto;
+        display: none;
+
+    &.ver-mas {
+        position: absolute;
+        font-weight: 100;
+        right: auto;
+        left: 20px;
+        top: 16px;
+        font-size: 30px;
+        display: none;
+        }
+    }
+
+    .seguir-leyendo-cuadro {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 0;
+        z-index: 10;
+        display: block;
+
+            .seguir-leyendo {
+            position: absolute;
+            font-size: 12px;
+            font-weight: 300;
+            z-index: 12;
+            left: 360px;
+            top: 14px;
+            letter-spacing: 3px;
+            padding: 0;
+            margin: 0;
+            right: auto;
+            display: none;
+
+            &.ver-mas {
+                position: absolute;
+                font-weight: 100;
+                right: auto;
+                left: 20px;
+                top: 16px;
+                font-size: 30px;
+                display: block;
+                }
+        }
+    }
+
+    .referencia-cita {
+        width: 100%;
+        float: left;
+        margin: 0;
+        border-left: none;
+
+        h6 {
+            width: 90%;
+        }
+
+        i {
+            font-size: 27px;
+            margin: 0 7.5% 0 0;
+        }
+    }
+
+    .categoria {
+
+        .seguir-leyendo {
+        right: 35px;
+        top: -32px;
+        }
+
+        &:hover {
+            border-left: none;
+            border-top: none;
+            padding-left: 0px;
+        }
+    }
+
+    .licencia {
+        margin: 10px 0 0 0;
+    }
+
+    // Franja postulante
+
+    .wrap-postulante {
+        width: 85%;
+    }
+
+    .enlaces-postulante {
+    padding: 0 15px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 30%;
+    }
+
+    // Footer
+
+    .escuela {
+        margin: 0 0 30px 0;
+    }
+
+    .sitio-relacionado {
+        max-width: 60%;
+
+        p {
+            font-size: 13.8px;
+        }
+
+        i {
+            font-size: @cuerpo;
+            margin-right: 5px;
+        }
+    }
+
+    .enlace-noticia {
+        &:hover {
+            padding: 0px;
+            border-top: none;
+        }
+    }
+
+    .enlace-evento {
+    display: inline-block;
+    position: relative;
+
+        &:hover {
+            padding: 0px;
+            border-top: none;
+            .transition(.3s ease all);
+
+        h6 {
+            color: auto;
+            }  
+        }
+}
+
+    // Aside 
+
+    .aside {
+        margin: 30px 0;
+        padding: 20px;
+        background-color: lighten(@gris-claro, 8%);
+    }
+
+
+    .bloque-aside {
+        margin: 50px 0;
+
+        &.sm {
+            min-height: @cuadratin * 8;
+        }
+    }
+
+
 }
 
 
