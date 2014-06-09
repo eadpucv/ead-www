@@ -5,3 +5,9 @@ _site/pags/reseña-ahjva/index.html
 _site/img/img-archivo/diseñograf3.jpg
 
 *.jpg
+
+*.html
+
+_site/pags/reseña_ahjva/index.html
+
+img/img-archivo/diseñograf3.jpg
