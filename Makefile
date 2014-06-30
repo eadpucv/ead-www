@@ -6,7 +6,7 @@ server:
 	jekyll server --watch --baseurl=
 
 less:
-	lessc less/giornata.less css/giornata.css --clean-css
+	lessc less/giornata.less ../../style.css --clean-css
 
 css: less
 
