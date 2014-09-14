@@ -7,4 +7,4 @@ pygments: true
 permalink: pretty
 baseurl: "http://eadpucv.github.io/gamma"
 project:
-    name: Giornata
+    name: Gamma
