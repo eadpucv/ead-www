@@ -5,6 +5,6 @@ lsi: false
 markdown: rdiscount
 pygments: true
 permalink: pretty
-baseurl: "http://eadpucv.github.io/giornata"
+baseurl: "http://eadpucv.github.io/gamma"
 project:
     name: Giornata
