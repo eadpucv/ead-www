@@ -6,9 +6,6 @@ server:
 	jekyll server --watch --baseurl=
 
 less:
-	lessc less/giornata.less css/giornata.css --clean-css
+	lessc less/pyxis.less css/pyxis.css --clean-css
 
 css: less
-
-dist: 
-	cp -R bower_components/stampa/fonts .

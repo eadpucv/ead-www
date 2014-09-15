@@ -1,501 +1,473 @@
 ---
-layout: home
-title: e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
+layout: inicio
+title: Giornata Maquetas
 ---
-<div class='container-lg alto-lg'>
-  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
-    <ol class="carousel-indicators"> 
-      <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
-      <li data-slide-to="1" data-target="#carousel-example-generic"></li> 
-      <li data-slide-to="2" data-target="#carousel-example-generic"></li> 
-      <li data-slide-to="3" data-target="#carousel-example-generic"></li> 
-    </ol> 
-    <div class="carousel-inner"> 
-      <div class="item active imagen-carousel"> <!-- 1er slide -->
-        <img class='altura-maxima' alt="First slide" src="{{ site.baseurl }}/img/noticia-categoria-2.jpg" title="Noticia Destacada"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-noticias icn-lg"></i> e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-noticias icn-md"></i> Los Ojos del Gato & El Retoque Inacabado</h1> 
-            <p>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão.</p><span class='derecha'>Francesca Cambiaso</span>
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 2do slide -->
-        <img class='altura-maxima' alt="Second slide" src="{{ site.baseurl }}/img/travesia-portada.jpg" title="Travesía Destadada"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-travesia icn-md"></i> Travesía Tarabuco  - Bolivia, 2013 </h1>
-            <p>Las travesías son viajes poéticos por América que realiza anualmente la e[ad] Escuela de Arquitectura y Diseño PUCV a partir del año 1984. Estos viajes son integrados por los alumnos y profesores de Arquitectura, Diseño Gráfico y Diseño Industrial. Este sitio corresponde al registro de dichos viajes por el continente e invita a todos quienes han participado a colaborar en esta bitácora colectiva.</p><span class='derecha'>Sylvia Arriagada</span> 
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 3er slide -->
-        <img class='altura-maxima' alt="Third slide" src="{{ site.baseurl }}/img/historia.jpg" title="Historia de la Escuela"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>  
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-travesia icn-md"></i> Aula Neumática, 1984</h1> 
-            <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='derecha'>Alberto Cruz</span> 
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 4to slide -->
-        <img class='altura-maxima' alt="Fourth slide" src="{{ site.baseurl }}/img/croquis.jpg" title="Observación de la semana"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-xs cita-carousel'> 
-            <h1><i class="icn icn-ojo icn-md"></i> Observación "La Alcoba"</h1> 
-            <p>La Alcoba en la Ciudad Abierta.<br>
-            Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados), los que se aumentan con unos muros contenedores que reciben a la mayoría de los muebles.<br>
-            Lo edificado construye el exterior levantándose, reconstruye la arena como un libre paso sin interrumpir la extensión.</p> <span class='derecha'>David Jolly</span> 
-          </div>
-        </div> 
-      </div>    
-    </div>
-  </div>
-</div>
-<div class='fondo-pizarra-oscuro'>
-  <div class='wrap'>
-    <div class='fila'>
-      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
-        <div class='pagina info-docencia xs'>
-          <div class='referencia-cita'>
-            <i class="izquierda gris icn icn-anuncio icn-lg"></i>
-            <h6>Clases de Geografía suspendida.</h6>
-            <p class='datos-publicacion gris'>7 de mayo, 2014</p>
-          </div>
-          <p class='cita'>Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles 14 de mayo, a las 15:30 horas, en Francia esquina Brasil, Valparaíso.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class='fondo-blanco'>
-  <div class='wrap'>
-  <div class='seccion'>
-      <h3>
-        <i class="icn icn-calendario icn-lg"></i> Eventos
-      </h3>
-  </div>
-    <div class='fila'><!-- sección eventos superior--> 
-    <!-- nombre de seccion -->
-      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 1 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
-                <p class='dia centrado'>09 may</p> 
-              </div>  
-              <h6 class='rojo-claro'>Revalidación y Captura Fotográfica – TNE 2014 </h6> 
-              <p>Revalidación y Captura Fotográfica – Tarjeta Nacional Estudiantil TNE 2014 Los alumnos matriculados podrán reformular su tarjeta de manera formal en Hoy miércoles 7 de mayo se suspende clases de Geografía del gran Valparaíso, por motivos de fuerza mayor. La próxima clase será el miércoles [...]</p> 
-          </div>
-        </a>
-      </div> <!-- fin evento  1 -->
-      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento  2 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
-                <p class='dia centrado'>28 abr</p> 
-              </div>  
-              <h6 class='rojo-claro'>Invitación a comunidad e[ad]: construcción de ladrillos</h6> 
-              <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a la institución se debe constatar un fondo Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato y El Retoque Inacabado [...]</p> 
-          </div>
-        </a>
-      </div><!-- fin evento  2 -->
-      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
-                <p class='dia centrado'>13 abr</p> 
-              </div>  
-              <h6 class='rojo-claro'>De la hipótesis al Diseño: "Aproximaciones, casos y obras”</h6> 
-              <p>La Escuela de Arquitectura y Diseño de la PUCV invita a estudiantes y docentes de Diseño a las preferencias tendrán el agrado de comentar la manera Después del incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías, el profesor Ricardo Lang y sus alumnos del Taller [...]</p> 
-          </div>
-        </a>
-      </div><!-- fin evento  3 -->
-      <div class='col-lg-3 oculto-md col-sm-6 col-xs-12 alto-sm'> <!-- evento 3 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm evento'>
-              <div class='fecha-evento'> 
-                <p class='dia centrado'>01 ago</p> 
-              </div>  
-              <h6 class='rojo-claro'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D) de locos y más querubines del cielo de rocas mutiladas y más y más</h6> 
-              <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de nuestro querido alumno Francisco Movilidad Estudiantil, para aquellos alumnos que están considerando la posibilidad de un intercambio en el extranjero.  [...]</p> 
-          </div>
-        </a>
-      </div><!-- fin evento  3 -->
-    </div>
-    <div class='seccion'>
-      <h3>
-        <i class="icn icn-noticias icn-lg"></i> Noticias
-      </h3>
-    </div>
-    <div class='fila'> <!-- sección noticias inferior -->
-      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
-            <div class='prev-imagen sm'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-1.jpg'>
-            </div>
-            <h6 class='rojo-claro'>Exposición de Sergio Baeriswyl en la e[ad]</h6>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Se extiende la invitación a la exposición de Sergio Barriswyl, ex alumno e[ad], arquitecto y Premio Nacional de Urbanismo 2014, quien, en el [...]</p>
-          </div>
-        </a>
-      </div><!-- fin noticia 1 -->
-      <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 2 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
-            <div class='prev-imagen sm'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-2.jpg'>
-            </div>
-            <h6 class='rojo-claro'>Charla de Movilidad Estudiantil el martes 13 de mayo</h6>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>El Comité de Túneles y Espacios Subterráneos de Chile (CTES) invita a los estudiantes de Arquitectura a participar [...]</p>
-          </div>
-        </a>
-      </div><!-- fin noticia 2 -->
-      <div class='col-lg-3 col-md-4 oculto-sm col-xs-12 alto-md'> <!-- noticia 3 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina md noticias-recientes'>
-            <div class='prev-imagen sm'>
-              <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-prev-3.jpg'>
-            </div>
-            <h6 class='rojo-claro'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</h6>
-            <p class='datos-publicacion'>Publicado el 24 de abril, 2014</p>
-            <p>Después del incendio que afecto a los cerros de Valparaíso, y con el equipamiento que la e[ad] posee para las travesías [...]</p>
-          </div>
-        </a>
-      </div><!-- fin noticia 3 -->
-  		<div class='col-lg-3 oculto-md oculto-sm oculto-xs alto-md'>
-      <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-  	</div> <!-- fin sección noticias inferior -->
-  </div> <!-- fin wrap -->
-</div>
 
-<div class='wrap'>
-      <div class='seccion'>
-      <h3>
-        <i class="icn icn-noticias icn-lg"></i> Enlaces para el postulante
-      </h3>
+<!-- CAROUSEL LG -->
+<!-- imagenes-destacadas-ead -->
+<div class='col-lg-24 oculto-md oculto-sm oculto-xs imagenes-destacadas-ead-lg ver'>
+<!-- datos de carousel-lg -->
+<div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
+            <!-- Indicadores de carousel lg -->
+            <ol class="carousel-indicators">
+              <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
+              <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
+              <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+            </ol> 
+<!-- fin datos de carousel-lg -->
+<div class="carousel-inner">
+<div class="item altura-maxima-lg">
+    	<img class='excedente-vertical-lg' alt="First slide" src="{{ site.baseurl }}/img/noticia-destacada.jpg">
+      <!-- descripción-carousel-lg -->
+		  <div class='wrap fondo-damasco-claro'> 
+		    <div class='fila'>
+          <div class='col-lg-5 col-lg-offset-14 margen-derecho oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+            <h3 class='beige-claro grueso col-lg-offset-14 margen-izquierdo grande margen-superior-md'>Noticias</h3>
+            <div class='fila'>
+              <div class='col-md-21'>
+                <p class='margen-izquierdo grande blanco'>"la Escuela tiene una filosofía única, que permite crear un nexo para entender el proceso creativo y fertilizarlo para los alumnos, creando un terreno fecundo para la creatividad”</p>
+                <span class='blanco derecha'>Dra. Carol Edwards</span>
+              </div>
+            </div>
+          </div>  <!-- fin de col imágenes-destacadas-descripcion-ead --> 
+        </div>  <!-- fin de fila-->      
+      </div>  <!-- fin de wrap carousel -->
+  </div>  <!-- fin de item -->
+  <div class="item active altura-maxima-lg">
+    <img class='excedente-vertical-lg' alt="Second slide" src="{{ site.baseurl }}/img/agenda-destacada.jpg">
+    <!-- descripción-carousel-lg -->
+    <div class='wrap fondo-damasco-claro'>
+      <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+        <h3 class='beige-claro margen-izquierdo grande margen-superior-md'>Día Abierto 2013</h3>
+        <div class='fila'>
+          <div class='col-md-21'>
+          <p class='margen-izquierdo blanco grande'>“Presentamos la escuela en su propio lenguaje, en el lenguaje de cada uno de los oficios; en el lenguaje de la forma. Cada uno hace una interpretación de lo que ve y construye un cuerpo que luego es parte de una exposición colectiva y pública”</p>
+          <span class='blanco derecha'>Juan Carlos Jeldes</span>
+          </div>  
+        </div>  <!-- fin de fila -->
+      </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
+    </div> <!-- fin de wrap carousel -->
+  </div> <!-- fin de item -->
+  <div class="item altura-maxima-lg">
+    <img class='excedente-vertical-lg' alt="Third slide" src="{{ site.baseurl }}/img/alberto.jpg">
+    <!-- descripción-lg -->
+    <div class='wrap fondo-damasco-c'>
+      <div class='col-lg-5 col-lg-offset-14 oculto-md oculto-sm oculto-xs imagenes-destacadas-descripcion-ead ver'> 
+        <h3 class='beige-claro margen-izquierdo grande margen-superior-md'>Historia</h3>
+        <div class='fila'>
+          <div class='col-md-21'>
+            <p class='margen-izquierdo blanco grande'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+            <span class='blanco derecha'>Alberto Cruz</span>
+          </div>
+        </div>  
+      </div>  <!-- fin de col imagenes-destacadas-descripcion-ead -->
+    </div>  <!-- fin de wrap carousel --> 
+  </div>  <!-- fin de item -->
+</div>  <!-- fin Carousel inner -->
+</div>  <!-- fin Carousel -->
+</div>  <!-- fin de imàgenes-destacadas-ead -->
+
+<!-- CAROUSEL-MD & SM -->
+<div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-ead ver'>
+<div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
+    <ol class="carousel-indicators">
+      <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
+      <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
+      <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item altura-maxima">
+        <img class='excedente-vertical' alt="First slide" src="{{ site.baseurl }}/img/noticias.jpg">
+        <!-- descripción-carousel-md & sm -->
+        <div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
+          <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'> 
+            <h3 class='rojo-claro fina margen-superior-s'>Noticias</h3>
+          </div>
+          <div class='fila'>
+            <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'>
+              <p class='grande fina sans blanco'>"En el marco de la exposición Desvíos de la Deriva. Experiencias, Travesías y Morfologías, organizada por el Museo Nacional Centro de Arte Reina Sofía, en la ciudad de Madrid, España"</p>
+              <span class='blanco derecha'>Claudio Girola</span>
+            </div>
+          </div>  <!-- fin de fila -->
+        </div>  <!-- fin  de imagenes-destacadas-descrpcion-ead-sm -->
+      </div>  <!-- fin de item -->          
+      <div class="item active altura-maxima">
+        <img class='excedente-vertical' alt="Second slide" src="{{ site.baseurl }}/img/torneo.jpg">
+        <!-- descripción-carousel-md & sm -->
+        <div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
+          <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'>  
+            <h3 class='rojo-claro fina margen-superior-s'>Agenda</h3>
+          </div>
+          <div class='fila'>
+            <div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+              <p class='blanco grande fina sans'>"No vamos a llegar a ninguna conclusión. Vamos a mostrar, a exponer los naipes del juego, porque en lo abierto se comprende o se muestra mejor lo que no tiene fin."</p>
+              <span class='blanco derecha'>Miguel Eyquem</span>
+            </div>
+          </div>  <!-- fin de fila -->
+        </div>  <!-- fin  de imagenes-destacadas-descrpcion-ead-sm -->           
+      </div>  <!-- fin de item -->
+      <div class="item altura-maxima">
+        <img class='excedente-vertical' alt="Third slide" src="{{ site.baseurl }}/img/alberto.jpg">
+        <!-- descripción-carousel-md & sm -->
+        <div class='oculto-lg col-md-24 col-sm-24 oculto-xs imagenes-destacadas-descripcion-ead-sm ver'>
+          <div class='col-md-22 col-md-offset-1 col-sm-23 col-sm-offset-1'> 
+            <h3 class='rojo-claro fina margen-superior-s'>Historia</h3>
+              </div>
+              <div class='fila'>
+                <div class='col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+                  <p class='blanco grande fina sans'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+                  <span class='blanco derecha'>Alberto Cruz</span>
+                </div>
+              </div>
+        </div>  <!-- fin  de imagenes-destacadas-descrpcion-ead-sm --> 
+      </div>  <!-- fin de item -->
+    </div> <!-- fin de Carousel inner -->
+</div> <!-- fin de Carousel -->
+</div> <!-- fin de Carousel md & sm -->
+
+<!-- CAROUSEL-XS -->
+<div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-ead-xs ver'>
+<div data-ride="carousel" class="carousel slide col-md-24" id="carousel-example-generic">
+  <ol class="carousel-indicators">
+    <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
+    <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
+    <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+  </ol>
+    <div class="carousel-inner">
+    <!-- descripción-carousel-xs -->
+    <div class="item altura-maxima-xs">
+      <img class='excedente-vertical-xs' alt="First slide" src="{{ site.baseurl }}/img/noticias.jpg">
+      <div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
+        <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
+          <h3 class='rojo-claro'>Noticias</h3>
+        </div>
+        <div class='fila'>
+          <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 ver'>
+            <p class='blanco chica fina sans'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+            <span class='blanco derecha'>Alberto Cruz</span>
+          </div>
+          </div>
+      </div>
     </div>
-    <!--
-  <div class='fila'> 
-	  <div class='col-lg-12 col-md-12 oculto-sm oculto-xs alto-sm'>
+    <!-- descripción-carousel-xs -->
+    <div class="item active altura-maxima-xs">
+      <img class='excedente-vertical-xs' alt="Second slide" src="{{ site.baseurl }}/img/torneo.jpg">
+        <div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
+          <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
+            <h3 class='rojo-claro'>Agenda</h3>
+          </div>
+          <div class='fila'>
+            <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 ver'>
+              <p class='blanco chica fina sans'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+              <span class='blanco derecha'>Alberto Cruz</span>
+          </div>
+          </div>              
+        </div>
+    </div>
+    <!-- descripción-carousel-xs -->
+    <div class="item altura-maxima-xs">
+      <img class='excedente-vertical-xs' alt="Third slide" src="{{ site.baseurl }}/img/travesia3.jpg">
+    <div class='oculto-lg oculto-md oculto-sm col-xs-24 imagenes-destacadas-descripcion-ead-sm ver'>
+        <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 col-md-offset-1 col-sm-23 col-sm-offset-1'>
+          <h3 class='rojo-claro'>Historia</h3>
+        </div>
       <div class='fila'>
-        <div class='col-lg-2 col-sm-4 col-xs-12'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Futuro alumno</h6>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-12'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Admisión</h6>
-          <ul>
-            <a href='#'><li>Vías de ingreso</li></a>
-            <a href='#'><li>Becas y financiamiento</li></a>
-            <a href='#'><li>Aranceles</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Carreras y Posgrados</h6>
-          <ul>
-            <a href='#'><li>Arquitectura</li></a>
-            <a href='#'><li>Diseño Gráfico</li></a>
-            <a href='#'><li>Diseño Industrial</li></a>
-            <a href='#'><li>Magíster Náutico y marítimo</li></a>
-            <a href='#'><li>Magíster Ciudad y Territorio</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Campus</h6>
-          <ul>
-            <a href='#'><li>Casa de estudio</li></a>
-            <a href='#'><li>Ciudad Abierta</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>Cuerpo Docente</h6>
-          <ul>
-            <a href='#'><li>Profesores</li></a>
-            <a href='#'><li>Ayudantes</li></a>
-          </ul>
-        </div>
-        </div>
-        <div class='col-lg-2 col-sm-4 col-xs-6'>
-          <div class='pagina postulante'>
-          <h6 class='fino'>La Escuela y el oficio</h6>
-          <ul>
-            <a href='#'><li>Historia</li></a>
-            <a href='#'><li>La observación</li></a>
-            <a href='#'><li>Amereida</li></a>
-          </ul>
-        </div>
+        <div class='oculto-lg oculto-md oculto-sm col-xs-22 col-xs-offset-1 ver'>
+          <p class='blanco chica fina sans'>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p>
+          <span class='blanco derecha'>Alberto Cruz</span>
         </div>
       </div>
-	  </div> -->
-  </div>
-</div>
+      </div>  <!-- fin  de imagenes-destacadas-descrpcion-ead-sm --> 
+      </div>  <!-- fin de item -->
+    </div>  <!-- fin carousel inner -->
+</div>  <!-- fin de Carousel -->
+</div>  <!-- fin de Carousel xs -->
 
-<div class='fondo-blanco'>
-      <div class='wrap-ancho-maximo'>
-          <div class='col-lg-12'>
-    <div class='fila'>
-        <div class='seccion'>
-          <h3>
-            <i class="icn icn-noticias icn-lg"></i> noticias por carrera
-          </h3>
-        </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace oficio'>
-          <div class='prev-imagen md'>
-            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-1.jpg'>
-          </div>
-          <div class='pagina md carrera'>
-            <h6 class='fino gris'>arquitectura</h6>
-            <h4 class='blanco'>Arquitectura 5to Año décima etapa: Utilización de tecnologías en Moldajes Flexibles</h4>
-            <p class='blanco datos-publicacion'>Publicado el 11 de marzo, 2014</p>
-            <p class='blanco'>Taller de 5to año 10ª etapa trabajará elementos lineales con la tecnología del Hormigón en la aplicación de Moldajes Flexibles; tecnología que se ha venido desarrollando hace algunos años en la Ciudad Abierta. </p>
-          </div>
-        </a>
-      </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace oficio'>
-          <div class='prev-imagen md'>
-            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-2.jpg'>
-          </div>
-          <div class='pagina md carrera'>
-            <h6 class='fino gris'>diseño gráfico</h6>
-            <h4 class='blanco'>e[ad] presentó libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”</h4>
-            <p class='blanco datos-publicacion'>Publicado el 9 de mayo, 2014</p>
-            <p class='blanco'>El jueves 8 de mayo se llevó a cabo en la Escuela de Arquitectura y Diseño la inauguración de la exposición de grabados del poeta panameño Edison Simons, y el lanzamiento del libro “Los Ojos del Gato & El Retoque Inacabado -Memorial de Edison Simons”, del escritor brasileño Gerardo Mello Mourão, quien narra la vida del poeta entrelazada con el fundamento poético de la Escuela. </p>
-          </div>
-        </a>
-      </div>
-      <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 bloque alto-md'>
-        <a href='#' class='bloque-enlace oficio'>
-          <div class='prev-imagen md'>
-            <img class='ancho-maximo' src='{{ site.baseurl }}/img/noticia-categoria-3.jpg'>
-          </div>
-          <div class='pagina md carrera'>
-            <h6 class='fino gris'>diseño industrial</h6>
-            <h4 class='blanco'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h4>
-            <p class='blanco datos-publicacion'>Publicado el 25 de marzo, 2014</p>
-            <p class='blanco'>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron los alumnos del taller de 4º año de Diseño Industrial. La exposición estará abierta a público desde el 28 de marzo hasta el 15 de junio.  </p>
-          </div>
-        </a>
-      </div>
-            </div>
-    </div>
-  </div>
+<!-- CONTENIDO DE LA HOME -->                                   
+<div class='col-lg-24 col-md-24'>
   <div class='wrap'>
-          <div class='seccion'>
-        <h3>
-          <i class="icn icn-noticias icn-lg"></i> noticias por categorías
-        </h3>
-      </div>
-    <div class='fila'> <!-- fila noticias categorizadas -->
-			<div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 4  -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>magíster arquitectura y diseño</h6>
-            <h5 class='rojo-claro'>Concursos de Innovación y Emprendimiento 2014</h5>
-            <p class='datos-publicacion'>Publicado el 21 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
-          </div>
-        </a>
-      </div> <!-- fin noticia de categoria 4 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'> <!-- noticia de categoria 5  -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>taller de amereida</h6>
-            <h5 class='rojo-claro'>Entrega Taller de Amereida Trim. I 2014</h5>
-            <p class='datos-publicacion'>Publicado el 14 de abril, 2014</p>
-            <p>La Dirección de Innovación y Emprendimiento invita a la comunidad PUCV a participar en los Concursos de Innovación y Emprendimiento 2014. En este certamen pueden participar alumnos de pregrado y posgrado, académicos</p>
-          </div>
-        </a>
-      </div> <!-- fin noticia de categoria 5 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 6 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>ediciones e[ad]</h6>
-            <h5 class='rojo-claro'>Carta de Alemania</h5>
-            <p class='datos-publicacion'>Publicado el 2010</p>
-            <p>Jaime Reyes Gil
-            Colección HeteroGenios
-            Ediciones e[ad] | Taller de Investigaciones Gráficas
-            70 páginas
-            Viña del Mar</p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 6 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 7 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>archivo histórico josé vial armstrong</h6>
-            <h5 class='rojo-claro'>Dos proyectos asociados a la e[ad] seleccionados para los Fondos de Cultura 2014</h5>
-            <p class='datos-publicacion'>Publicado el 2 de enero, 2014</p>
-            <p>En el mes de diciembre, el Consejo Nacional de la Cultura y las Artes dio a conocer los resultados de las postulaciones a los Fondos de Cultura 2014 </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 7 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 8 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>investigación</h6>
-            <h5 class='rojo-claro'>Poética Universitaria, las metáforas de Godofredo Iommi</h5>
-            <p class='datos-publicacion'>Publicado el 2014</p>
-            <p>Definición del Problema
-            En 1972, la Escuela de Arquitectura y Diseño PUCV formula un planteamiento original acerca de la concepción de la poesía, el arte y los oficios, declarando que: “Nos parece que la condición humana es poética, vale decir que por ella. </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 8 -->
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 alto-sm'>  <!-- noticia de categoria 9 -->
-        <a href='#' class='bloque-enlace'>
-          <div class='pagina sm categoria'>
-            <h6>bolsa de trabajo</h6>
-            <h5 class='rojo-claro'>Ayudantes de Biblioteca</h5>
-            <p class='datos-publicacion'>Publicado el 7 de marzo, 2014</p>
-            <p>Se necesita alumnos de cursos superiores (3er año en adelante) que tengan poca carga académica para ayudantía en Biblioteca de 5 horas semanales.
-            Interesados dirigirse a la Biblioteca y hablar con Sandra Navarrete, hasta el 15 de marzo.
-          </p>
-          </div>
-        </a>
-      </div>  <!-- fin noticia de categoria 9 -->
-    </div>
     <div class='fila'>
-      <div class='oculto-lg oculto-md col-sm-12 col-xs-12 fondo-gris'>
-        <div class='fila'>
-          <div class='col-sm-4 col-xs-12'>
-            <div class='ver alto-xs'>
-              admisión
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              carreras
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 4
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 5
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              campus
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              cuerpo docente
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-        </div>
-        <div class='fila'>
-          <div class='col-sm-4'>
-            <div class='ver alto-xs'>
-              escuela & oficio 
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 1
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 2
-            </div>
-          </div>
-          <div class='col-sm-8 col-xs-6'>
-            <div class='ver'>
-              enlace 3
-            </div>
-          </div>
-        </div>
-      </div> <!-- fin contenido para el postulante 2-->
-    </div> <!-- fin fila enlaces responsive -->
-  </div> <!-- wrap -->
-</div> <!-- fin wrap ancho total-->
 
+<!-- AGENDA -->
+      <div class='col-md-5 col-md-offset-1 oculto-sm oculto-xs margen-superior'>
+        <h2 class='gris'>AGENDA <span class='ico-documento ico-md'></span></h2><hr>
+        <div class='fila margen-inferior'>
+          <a href='#'>
+            <div class='col-lg-24 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
+              <div class='col-lg-22'>
+                <h4 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h4>
+                <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+        <div class='fila margen-inferior'>
+          <a href='#'>
+            <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
+              <div class='col-lg-22'>
+                <h4 class='rojo'>Pruebas de matemáticas</h4>
+                <p>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+        <div class='fila margen-inferior'>
+          <a href='#'>
+            <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
+              <div class='col-lg-22'>
+                <h4 class='rojo'>Último período de Matrícula en Línea – 1er semestre 2014</h4>
+                <p>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl, debes tener los cursos preinscritos [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+        <div class='fila margen-inferior'>
+          <a href='#'>
+            <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
+              <div class='col-lg-22'>
+                <h4 class='rojo'>Retiro de agendas 2014</h4>
+                <p>Todos los alumnos de curso superior matriculados, pueden retirar agendas 2014 en secretaría de docencia [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+        <div class='fila margen-inferior'>
+          <a href='#'>
+            <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
+              <div class='col-lg-22'>
+                <h4 class='rojo'>Clases de El hombre y los juegos</h4>
+                <p>Lunes 10 de marzo, a las 17:20 horas, se inicia el curso de El Hombre y los Juegos, Profesor Carlos Navarrete, en Gimnasio, Sausalito [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+        <div class='fila margen-inferior'>
+          <a href='#'>
+            <div class='col-lg-22 col-lg-offset-1 col-md-22 caja-articulo-agenda-ead'>
+              <div class='col-lg-22'>
+                <h4 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos de adobe</h4>
+                <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño, a participar en el proceso de construcción comunitaria [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div> <!-- fin de agenda -->
 
+<!-- NOTICIAS -->      
+     <div class='col-md-9 col-md-offset-1 col-sm-14 col-sm-offset-1 col-xs-22 col-xs-offset-1 margen-superior'>
+        <h2 class='gris'>NOTICIAS <span class='ico-corchetes ico-md'></span></h2><hr>
 
+<!--  noticia 1 -->
+      <div class='fila margen-inferior'>
+        <a href='#'>
+          <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 caja-noticia-ead'>
+            <div class='fila'>
+              <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 margen-superior-s foto-noticia-ead'>
+                <img class='excedente-foto-noticia' src='http://www.ead.pucv.cl/wp-content/archivos/2014/04/imagen-ead-2.jpg'>
+              </div>
+              <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-0 margen-superior-xs texto-noticia-ead'>
+                <h1 class='rojo fina'>Charla “Arquitectura contemporánea en patrimonio: investigar, aprehender, intervenir”</h1>
+                <p class='datos-publicacion'>Publicado el <a href='#'>1 de abril, 2014</a></p>
+                <p>Este jueves 3 de abril a las 12:00 en la Sala de Primer Año de Arquitectura, Pablo Millán, arquitecto por la Universidad de Sevilla estará compartiendo [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div><!-- fin de noticia 1 -->
+      <hr>  
+<!--  noticia 2 -->
+      <div class='fila margen-inferior'>
+        <a href='#'>
+          <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 caja-noticia-ead'>
+            <div class='fila'>
+              <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 margen-superior-s foto-noticia-ead'>
+                <img class='excedente-foto-noticia' src='http://www.ead.pucv.cl/wp-content/archivos/2014/03/DSC_1602.jpg'>
+              </div>
+              <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-0 margen-superior-xs texto-noticia-ead'>
+                <h1 class='rojo fina'>Decana de la Facultad de Artes Visuales y Escénicas de Texas Tech University y reconocido arquitecto alemán visitan la Ciudad Abierta</h1>
+                <p class='datos-publicacion'>Publicado el <a href='#'>27 de marzo, 2014</a></p>
+                <p>Este miércoles 26 de marzo la e[ad] recibió en la Ciudad Abierta a la Dra. Carol Edwards, decana de la Facultad de Artes Visuales y Escénicas de la [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>  <!-- fin de noticia 2 -->
+      <hr>
+<!--  noticia 3 -->
+      <div class='fila margen-inferior'>
+        <a href='#'>
+          <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 caja-noticia-ead'>
+            <div class='fila'>
+              <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 margen-superior-s foto-noticia-ead'>
+                <img class='excedente-foto-noticia' src='http://www.ead.pucv.cl/wp-content/archivos/2014/03/MG_4539.jpg'>
+              </div>
+              <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-0 margen-superior-xs texto-noticia-ead'>
+                <h1 class='rojo fina'>Taller de 4º año de Diseño Industrial participa en exposición del escultor chileno Patrick Steeger</h1>
+                <p class='datos-publicacion'>Publicado el <a href='#'>25 de marzo, 2014</a></p>
+                <p>Este jueves 27 de marzo a las 19:30 en el Museo de Arte Contemporáneo, en Santiago, se inaugurará la exposición “Uso y Abuso”, del artista Patrick Steeger, en la que participaron [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>  <!-- fin de noticia 3 -->
+      <hr>
+<!--  noticia 4 -->
+      <div class='fila margen-inferior'>
+        <a href='#'>
+          <div class='col-lg-24 col-md-24 col-sm-20 col-sm-offset-0 caja-noticia-ead'>
+            <div class='fila'>
+              <div class='col-lg-9 col-lg-offset-1 col-md-17 col-md-offset-4 col-sm-22 col-sm-offset-1 col-xs-21 col-xs-offset-2 margen-superior-s foto-noticia-ead'>
+                <img class='excedente-foto-noticia' src='http://www.ead.pucv.cl/wp-content/archivos/2014/03/DSC_1454.jpg'>
+              </div>
+              <div class='col-lg-12 col-md-22 col-sm-22 col-sm-offset-1 col-xs-22 col-xs-offset-0 margen-superior-xs texto-noticia-ead'>
+                <h1 class='rojo fina'>Diseñador Mario Fernando Uribe dictó charla sobre diseño de información en la e[ad]</h1>
+                <p class='datos-publicacion'>Publicado el <a href='#'>24 de marzo, 2014</a></p>
+                <p>La e[ad] recibió el pasado viernes 21 de marzo a Mario Fernando Uribe, diseñador visual, docente e investigador del área del diseño de información, quien expuso su charla titulada [...]</p>
+                <span class='derecha ico-cruz ico-lg'></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>  <!-- fin de noticia 4 -->
+      <hr>
+    </div><!-- FIN DE NOTICIAS -->
+
+<!-- ASIDE XS  -->
+    <div class='oculto-lg oculto-md col-sm-8 col-sm-offset-0 col-xs-22 col-xs-offset-1 margen-superior'>
+      <div class='fila'>
+        <h2 class='gris'>ENLACES <span class='ico-enlace ico-md'></span></h2>
+        <hr>
+  <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24'><!-- aside -->
+    <div class='fila'> <!-- agenda -->
+      <h5 class='rojo-claro fino altas'>Más artículos de agenda</h5>
+      <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+        <ul class='enlace-aside'>
+          <li><a href='#'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</a></li>
+          <li><a href='#'>Retiro de agendas 2014.</a></li>
+          <li><a href='#'>Planificación cursos de Matemáticas Escuela de Arquitectura y Diseño.</a></li>
+          <li><a href='#'>Inicio de clases cursos superiores – Primer Trimestre 2014</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class='fila margen-superior'> <!-- info de docencia -->
+      <h5 class='rojo-claro fino altas'>Más artículos de Información de Docencia</h5>
+      <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 margen-superior-xs'>
+        <ul class='enlace-aside'>
+          <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
+          <li><a href='#'>Al término del 3º trimestre 2013, se recuerda a los alumnos lo siguiente:</a></li>
+          <li><a href='#'>Asignación de Profesores para Título 1</a></li>
+          <li><a href='#'>Para finalizar el 2º trim. correctamente e iniciar el 3º trim. 2013, recuerda:</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class='fila margen-superior'> <!-- Redes sociales -->
+      <h5 class='rojo-claro fino altas'>eadpucv en twitter</h5>
+      <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1 margen-superior-xs'>
+        <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+    <hr>
+    <div class='fila margen-superior'> <!-- compartir -->
+      <h5 class='rojo-claro fino altas'>Comparte <span class='ico-compartir ico-md'></span></h5>
+      <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 margen-superior-xs'>
+          Íconos, Twitter, facebook, etc
+      </div>
+    </div>
+  </div>
+</div> <!-- fin fila enlaces -->
+    <!-- Agenda sm -->
+    <div class='oculto-lg oculto-md col-sm-14 col-sm-offset-1 col-xs-22 col-xs-offset-1 ver margen-superior'>
+      <h2 class='gris'>AGENDA</h2><hr>
+      <div class='col-md-22 articulo-agenda-ead'>
+        <h4 class='rojo'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</h4>
+        <p>Mañana miércoles 26 de marzo a las 19:00 hrs.en la Catedral de Valparaíso, se realizará una misa en memoria de Francisco [...]</p>
+      </div>
+      <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
+        <h4 class='rojo'>Pruebas de matemáticas.</h4>
+        <p>Las pruebas de matemáticas se tomaran el jueves 27 de marzo y NO el martes 25 de marzo.</p>
+      </div>
+      <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
+        <h4 class='rojo'>Último período de Matrícula en Línea – 1er semestre 2014</h4>
+        <p>Entre los días viernes 21 y viernes 28 de marzo de 2014. Ingresar a Matrícula en Línea, www.pucv.cl</p>
+      </div>
+      <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
+        <h4 class='rojo'>Retiro de agendas 2014.</h4>
+        <p>Todos los alumnos de curso superior matriculados, pueden retirar agendas 2014  en secretaría de docencia e[ad].</p>
+      </div>
+      <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
+        <h4 class='rojo'>Clases de El hombre y los juegos.</h4>
+        <p>Lunes 10 de marzo, a las 17:20 horas, se inicia el curso de El Hombre y los Juegos, Profesor Carlos Navarrete, en Gimnasio, Sausalito.</p>
+      </div>
+      <div class='col-md-22 articulo-agenda-ead margen-superior-s'>
+        <h4 class='rojo'>Invitación a comunidad e[ad]: construcción de ladrillos de adobe </h4>
+        <p>Se extiende la convocatoria a la comunidad de la Escuela de Arquitectura y Diseño.</p>
+      </div>
+    </div>
+    </div> <!--fin aside xs -->
+
+<!-- ASIDE LG -->
+       <div class='col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-0 oculto-sm oculto-xs margen-superior'>
+        <h2 class='gris'>ENLACES <span class='ico-enlace ico-md'></span></h2>
+        <hr>
+        <div class='col-lg-24 col-md-24 col-sm-24 col-xs-24'><!-- aside -->
+          <div class='fila'> <!-- agenda -->
+            <h5 class='rojo-claro fino altas'>Más artículos de agenda</h5>
+            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1'>
+              <ul class='enlace-aside'>
+                <li><a href='#'>Misa en memoria de Francisco Vásquez Valdovinos (Q.E.P.D)</a></li>
+                <li><a href='#'>Retiro de agendas 2014.</a></li>
+                <li><a href='#'>Planificación cursos de Matemáticas Escuela de Arquitectura y Diseño.</a></li>
+                <li><a href='#'>Inicio de clases cursos superiores – Primer Trimestre 2014</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class='fila margen-superior'> <!-- info de docencia -->
+            <h5 class='rojo-claro fino altas'>Más artículos de Información de Docencia</h5>
+            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 margen-superior-xs'>
+              <ul class='enlace-aside'>
+                <li><a href='#'>Asignación Profesores Título 1 – Primer Trimestre 2014</a></li>
+                <li><a href='#'>Al término del 3º trimestre 2013, se recuerda a los alumnos lo siguiente:</a></li>
+                <li><a href='#'>Asignación de Profesores para Título 1</a></li>
+                <li><a href='#'>Para finalizar el 2º trim. correctamente e iniciar el 3º trim. 2013, recuerda:</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class='fila margen-superior'> <!-- Redes sociales -->
+            <h5 class='rojo-claro fino altas'>eadpucv en twitter</h5>
+            <div class='col-lg-24 col-lg-offset-0 col-md-22 col-md-offset-1 margen-superior-xs'>
+              <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+          </div>
+          <hr>
+          <div class='fila margen-superior'> <!-- compartir -->
+            <h5 class='rojo-claro fino altas'>Comparte <span class='ico-compartir ico-md'></span></h5>
+            <div class='col-lg-22 col-lg-offset-2 col-md-22 col-md-offset-1 margen-superior-xs'>
+                Íconos, Twitter, facebook, etc
+            </div>
+          </div>
+        </div>
+      </div> <!-- fin col aside -->
+        </div>  <!-- fin ASIDE LG -->
+</div>  <!-- fin fila contenido -->
+</div>  <!-- fin de wrap -->
+</div>  <!-- Inicio contenido de Home -->

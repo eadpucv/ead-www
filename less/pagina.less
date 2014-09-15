@@ -4,90 +4,61 @@ Contenedores y reglas generales
 
 */
 
-// ajuste de página
 
-body{
-  //background: url('../img/noise-textura.png');
-  //background: fade(@negro, 95);
+*{
+	.transition(.2s ease all);
 }
 
-.pag-ancho-total {
-    .container();
-    margin: 0 auto;
-    width: 100%;
+.pag{
+	//.container();
+	margin: 0 auto;
+	background-color: darken(@blanco, 3%);
+	padding: @cuadratin;
 }
 
-.wrap {
-    margin: 0 auto;
-    padding: 30px 0 30px 0;
-
-    &.header {
-        padding: 5px 0 5px 0;
-    }
-
-    &.footer {
-        padding: 10px 0 0 0;
-    }
+.contenido{
+	margin-bottom: 3 * @cuadratin;
 }
 
 
-.wrap-ancho-maximo {
-    width: 100%;
-    padding: 30px 0 0 0;
-}
 
-.wrap-dropdown {
-    width: 1024px;
-    float: right;
-}
-
-.wrap-carousel {
-    max-width: 1366px;
-    margin: 0 auto;
-}
-
-.contenedor-lg {
-    .container();
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-// Extra small screen / phone
-@media(max-width: @screen-xs-max){
-
-    // Ajuste de página 
-    .wrap {
-    width: 90%;
-    }
-}
-
-
-// Small screen / tablet
-@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
-
-    // Ajuste de página 
-    .wrap {
-    width: 90%;
-    }
-}
-
-// Medium screen / desktop
-
-@media (min-width: @screen-md) and (max-width: @screen-md-max){
-
-    // Ajuste de página 
-    .wrap {
-    width: 90%;
-    }
-}
-
-// Large screen / wide desktop
-
-@media (min-width: @screen-lg){
-
-    // ajuste de página
-    .wrap {
-        max-width: 1366px;
-    }
+footer{
+	margin: 0 auto;
+	padding-top: @cuadratin;
+	line-height: @interlinea * .7;
+	
+	p{
+		padding-top: @cuerpo; 
+		font-size: @cuerpo*.7;
+		letter-spacing: inherit;
+		text-align: center;
+		
+		img{
+			display: inline-block;
+			margin-bottom: -4px;
+		}
+	}
+	
+	address{
+		font-size: @cuerpo * .7;
+		line-height: inherit;
+		text-align: center;
+	}
+	
+	nav{
+		border: none;
+		line-height: inherit;
+		text-align: center;
+		ul{
+			li{
+				margin-left: @cuadratin;
+				a{
+					font-size: @cuerpo * .7;
+					padding: 4px 10px 4px 10px;
+					text-transform: none;
+					.border-radius(4px);
+				}
+			}
+		}
+	}
 }

@@ -16,16 +16,23 @@
   > .item {
     display: none;
     position: relative;
-    .transition(.6s ease-in-out left);
+    .transition(.5s ease-in-out left);
 
     // Account for jankitude on images
-    //> img,
-    //> a > img {
+    > img,
+    > a > img {
       //&:extend(.img-responsive);
-      //line-height: 1;
-      //width: 100%;
-      //overflow: hidden;
-    //}
+      line-height: 1;
+      width: 100%;
+      overflow: hidden;
+
+      &.excedente-vertical {
+      line-height: 1;
+      width: 140%;
+      overflow: hidden;
+    }
+
+    }
   }
 
   > .active,
@@ -82,18 +89,12 @@
 
   // Set gradients for backgrounds
   &.left {
-    top: 250px;
-    #gradient > .horizontal(@gris; @gris-oscuro);
-    width: @cuadratin * 2;
-    height: @cuadratin * 3; 
+    #gradient > .horizontal(@rojo; @oliva);
   }
   &.right {
-    top: 250px;
     left: auto;
     right: 0;
-    #gradient > .horizontal(@gris-oscuro; @gris);
-    width: @cuadratin * 2;
-    height: @cuadratin * 3;
+    #gradient > .horizontal(@rojo; @oliva);
   }
 
   // Hover/focus state
@@ -129,28 +130,18 @@
     height: 20px;
     margin-top: -10px;
     margin-left: -10px;
+    font-family: serif;
   }
 
   .icon-prev {
     &:before {
-        font-family: 'Stampa';
-        content: "\e602";
+      content: '\2039';// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
     }
   }
   .icon-next {
     &:before {
-        font-family: 'Stampa';
-        content: "\e601";
+      content: '\203a';// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
     }
-  }
-  .icn-nav-der,
-  .icn-nav-izq {
-      position: absolute;
-      top: 27px;
-      width: 40px;
-      height: 40px;
-      font-size: @cuerpo * 2.2;
-      right: 10px;
   }
 }
 
@@ -161,6 +152,7 @@
 
 .carousel-indicators {
   position: absolute;
+  bottom: 10px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -244,81 +236,6 @@
 
   // Move up the indicators
   .carousel-indicators {
-    bottom: 80px;
+    bottom: 20px;
   }
-}
-
-
-// Responsive
-
-// ----------
-
-// Extra small screen / phone
-@media(max-width: @screen-xs-max){
-  .carousel-inner {
-  > .item {
-    .transition(.6s ease-in-out left);
-    > img,
-    > a > img {
-      //&:extend(.img-responsive);
-
-      &.altura-maxima {
-      line-height: 1;
-      width: 175%;
-      overflow: hidden;
-      }
-    }
-  }
-}
-}
-
-
-// Small screen / tablet
-@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
-
-}
-
-// Medium screen / desktop
-
-@media (min-width: @screen-md) and (max-width: @screen-md-max){
-
-.carousel-inner {
-  > .item {
-    .transition(.6s ease-in-out left);
-    > img,
-    > a > img {
-      //&:extend(.img-responsive);
-
-      &.altura-maxima {
-      line-height: 1;
-      width: 140%;
-      overflow: hidden;
-      }
-    }
-  }
-}
-
-}
-
-// Large screen / wide desktop
-
-@media (min-width: @screen-lg){
-
-
-.carousel-inner {
-  > .item {
-    .transition(.6s ease-in-out left);
-    > img,
-    > a > img {
-      //&:extend(.img-responsive);
-
-      &.altura-maxima {
-      line-height: 1;
-      width: 100%;
-      overflow: hidden;
-      }
-    }
-  }
-}
-
 }
